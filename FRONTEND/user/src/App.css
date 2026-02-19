@@ -1,0 +1,13 @@
+/* ROOT APP CONTAINER */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* REMOVE VITE DEMO STYLES */
+.logo,
+.read-the-docs,
+.card {
+  display: none !important;
+}

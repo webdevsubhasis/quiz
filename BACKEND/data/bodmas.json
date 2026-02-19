@@ -1,0 +1,655 @@
+{
+  "category": "BODMAS",
+  "questions": [
+    {
+      "id": "clean1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2+2)^2 - 3",
+      "options": [
+        "13",
+        "18",
+        "12",
+        "15"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a(16) + 2^2 - 6",
+      "options": [
+        "-3",
+        "0",
+        "2",
+        "1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2+2)^2 - 8",
+      "options": [
+        "8",
+        "13",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3+7)*(\u221a(4)-1)",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "7"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5+2)*(\u221a(16)-9)",
+      "options": [
+        "-28",
+        "-35",
+        "-33",
+        "-40"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5+2)*(\u221a(100)-9)",
+      "options": [
+        "9",
+        "5",
+        "10",
+        "7"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3+9)*(\u221a(36)-9)",
+      "options": [
+        "-36",
+        "-35",
+        "-39",
+        "-41"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6+5)*7 + \u221a(16)",
+      "options": [
+        "86",
+        "81",
+        "88",
+        "76"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 6^2 + (5*4-11)",
+      "options": [
+        "40",
+        "44",
+        "45",
+        "42"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 3^3 - \u221a(49)*2",
+      "options": [
+        "12",
+        "10",
+        "20",
+        "13"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6^2 + 10^2)/2",
+      "options": [
+        "70",
+        "63",
+        "66",
+        "68"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (4+6)^2 - 6",
+      "options": [
+        "96",
+        "101",
+        "94",
+        "97"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a(64) + 5^2 - 4",
+      "options": [
+        "32",
+        "27",
+        "29",
+        "30"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2+8)*10 + \u221a(81)",
+      "options": [
+        "107",
+        "109",
+        "116",
+        "112"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (8+9^2)/2",
+      "options": [
+        "41.5",
+        "45.5",
+        "44.5",
+        "43.5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (4+8)^2 - 8",
+      "options": [
+        "136",
+        "141",
+        "135",
+        "134"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (7^2 + 12^2)/1",
+      "options": [
+        "198",
+        "193",
+        "191",
+        "188"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (12+3^2)/2",
+      "options": [
+        "13.5",
+        "7.5",
+        "10.5",
+        "5.5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2+8^2)/4",
+      "options": [
+        "17.5",
+        "16.5",
+        "13.5",
+        "18.5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 4^3 - \u221a(16)*5",
+      "options": [
+        "51",
+        "42",
+        "44",
+        "49"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6^3 - 10^2)/2",
+      "options": [
+        "58",
+        "53",
+        "60",
+        "57"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3+5)^2 - 3",
+      "options": [
+        "56",
+        "61",
+        "66",
+        "60"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a(36) + 8^2 - 5",
+      "options": [
+        "67",
+        "65",
+        "60",
+        "72"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (4+12)^2 - 9",
+      "options": [
+        "244",
+        "249",
+        "247",
+        "250"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a(36) + 11^2 - 12",
+      "options": [
+        "110",
+        "115",
+        "117",
+        "118"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (9^3 - 6^2)/2",
+      "options": [
+        "346.5",
+        "344.5",
+        "341.5",
+        "348.5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (11^2 + 9^2)/1",
+      "options": [
+        "204",
+        "209",
+        "203",
+        "202"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2+11)*(\u221a(36)-4)",
+      "options": [
+        "29",
+        "28",
+        "26",
+        "25"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3^3 - 2^2)/2",
+      "options": [
+        "18.5",
+        "11.5",
+        "9.5",
+        "6.5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (12^3 - 2^2)/4",
+      "options": [
+        "430",
+        "433",
+        "428",
+        "431"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3^3 - 5^2)/1",
+      "options": [
+        "2",
+        "3",
+        "0",
+        "-1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 12^2 + (10*5-8)",
+      "options": [
+        "188",
+        "186",
+        "191",
+        "187"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 4^2 + (6*7-6)",
+      "options": [
+        "59",
+        "49",
+        "52",
+        "54"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3+11)^2/2",
+      "options": [
+        "98",
+        "103",
+        "100",
+        "96"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a(81) + 8^2 - 3",
+      "options": [
+        "70",
+        "67",
+        "72",
+        "71"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5+5)^2/1",
+      "options": [
+        "95",
+        "99",
+        "107",
+        "100"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 9^3 - \u221a(100)*9",
+      "options": [
+        "637",
+        "642",
+        "639",
+        "636"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5+9)^2 - 3",
+      "options": [
+        "200",
+        "190",
+        "193",
+        "196"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (11+11)^2/2",
+      "options": [
+        "240",
+        "239",
+        "244",
+        "242"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2+4)*9 + \u221a(9)",
+      "options": [
+        "60",
+        "57",
+        "59",
+        "52"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 6^3 - \u221a(36)*8",
+      "options": [
+        "167",
+        "168",
+        "165",
+        "170"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 8^3 - \u221a(81)*6",
+      "options": [
+        "459",
+        "458",
+        "453",
+        "455"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (12+8)^2 - 6",
+      "options": [
+        "389",
+        "396",
+        "394",
+        "397"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6+8)*12 + \u221a(4)",
+      "options": [
+        "168",
+        "170",
+        "175",
+        "172"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (7+6)*(\u221a(49)-8)",
+      "options": [
+        "-14",
+        "-13",
+        "-18",
+        "-16"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (7+7)*11 + \u221a(25)",
+      "options": [
+        "166",
+        "154",
+        "156",
+        "159"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clean47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (10+8)^2/1",
+      "options": [
+        "325",
+        "324",
+        "329",
+        "322"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clean48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (11^2 + 2^2)/2",
+      "options": [
+        "60.5",
+        "65.5",
+        "62.5",
+        "64.5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clean49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3+7)*11 + \u221a(81)",
+      "options": [
+        "119",
+        "116",
+        "126",
+        "114"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clean50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 12^3 - \u221a(9)*4",
+      "options": [
+        "1716",
+        "1718",
+        "1714",
+        "1719"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

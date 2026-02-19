@@ -1,0 +1,730 @@
+{
+  "category": "Javascript",
+  "questions": [
+    {
+      "id": "jsp1",
+      "type": "mcq",
+      "title": "Which type of language is JavaScript?",
+      "options": [
+        "Compiled",
+        "Interpreted",
+        "Machine",
+        "Assembly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp2",
+      "type": "mcq",
+      "title": "Which company developed JavaScript?",
+      "options": [
+        "Microsoft",
+        "Netscape",
+        "Google",
+        "Oracle"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp3",
+      "type": "mcq",
+      "title": "Inside which HTML tag do we put JavaScript?",
+      "options": [
+        "<javascript>",
+        "<js>",
+        "<script>",
+        "<code>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp4",
+      "type": "mcq",
+      "title": "Which symbol is used for comments in JavaScript?",
+      "options": [
+        "//",
+        "/* */",
+        "#",
+        "<!-- -->"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp5",
+      "type": "mcq",
+      "title": "Which method is used to print messages in the browser console?",
+      "options": [
+        "console.print()",
+        "console.write()",
+        "console.log()",
+        "print()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp6",
+      "type": "mcq",
+      "title": "Which data type is NOT primitive in JavaScript?",
+      "options": [
+        "Number",
+        "String",
+        "Object",
+        "Boolean"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp7",
+      "type": "mcq",
+      "title": "Which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let & const"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "jsp8",
+      "type": "mcq",
+      "title": "Which function converts JSON to object?",
+      "options": [
+        "JSON.convert()",
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.object()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp9",
+      "type": "mcq",
+      "title": "Which operator checks both value and type?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp10",
+      "type": "mcq",
+      "title": "Which method joins array elements into a string?",
+      "options": [
+        "join()",
+        "concat()",
+        "push()",
+        "map()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp11",
+      "type": "mcq",
+      "title": "What is the default value of an uninitialized variable?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "false"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp12",
+      "type": "mcq",
+      "title": "What will typeof null return?",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "string"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp13",
+      "type": "mcq",
+      "title": "Which is not an array method?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "execute()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "jsp14",
+      "type": "mcq",
+      "title": "Which loop is best for iterating arrays?",
+      "options": [
+        "for",
+        "while",
+        "for...of",
+        "switch"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp15",
+      "type": "mcq",
+      "title": "Which of the following is used for asynchronous programming?",
+      "options": [
+        "Promises",
+        "Callbacks",
+        "Async/Await",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "jsp16",
+      "type": "mcq",
+      "title": "What does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Method",
+        "Digital Ordinance Model",
+        "Document Oriented Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp17",
+      "type": "mcq",
+      "title": "Which event runs when a button is clicked?",
+      "options": [
+        "onhover",
+        "onclick",
+        "onpress",
+        "onselect"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp18",
+      "type": "mcq",
+      "title": "Which method removes the last array element?",
+      "options": [
+        "pop()",
+        "shift()",
+        "remove()",
+        "delete"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp19",
+      "type": "mcq",
+      "title": "What does NaN stand for?",
+      "options": [
+        "Not a Null",
+        "Not a Number",
+        "Number and Name",
+        "New as Name"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp20",
+      "type": "mcq",
+      "title": "Which operator is used for exponentiation?",
+      "options": [
+        "^",
+        "**",
+        "exp()",
+        "power()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp21",
+      "type": "mcq",
+      "title": "Which statement stops a loop?",
+      "options": [
+        "stop",
+        "end",
+        "break",
+        "halt"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp22",
+      "type": "mcq",
+      "title": "Which keyword declares a constant variable?",
+      "options": [
+        "let",
+        "var",
+        "const",
+        "static"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp23",
+      "type": "mcq",
+      "title": "Which of the following is truthy?",
+      "options": [
+        "0",
+        "null",
+        "undefined",
+        "[]"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "jsp24",
+      "type": "mcq",
+      "title": "What is the smallest unit of data in JS?",
+      "options": [
+        "Variable",
+        "Object",
+        "Primitive",
+        "Function"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "jsp25",
+      "type": "mcq",
+      "title": "Which method converts number to string?",
+      "options": [
+        "string()",
+        "toString()",
+        "convert()",
+        "parse()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp26",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(5 + '5');",
+        "language": "javascript"
+      },
+      "options": [
+        "10",
+        "'55'",
+        "Error",
+        "0"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp27",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(5 == '5');",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp28",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(5 === '5');",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp29",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "let a;\nconsole.log(a);",
+        "language": "javascript"
+      },
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp30",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(typeof NaN);",
+        "language": "javascript"
+      },
+      "options": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp31",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log([] == []);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp32",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(typeof []);",
+        "language": "javascript"
+      },
+      "options": [
+        "object",
+        "array",
+        "list",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp33",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(1 < 2 < 3);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp34",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(3 > 2 > 1);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp35",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log('5' - 2);",
+        "language": "javascript"
+      },
+      "options": [
+        "3",
+        "'52'",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp36",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log('5' + 2);",
+        "language": "javascript"
+      },
+      "options": [
+        "52",
+        "7",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp37",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "let x = 10;\nconsole.log(x++);",
+        "language": "javascript"
+      },
+      "options": [
+        "9",
+        "10",
+        "11",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp38",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "let x = 10;\nconsole.log(++x);",
+        "language": "javascript"
+      },
+      "options": [
+        "10",
+        "11",
+        "12",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp39",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(typeof null);",
+        "language": "javascript"
+      },
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp40",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log([1,2] + [3,4]);",
+        "language": "javascript"
+      },
+      "options": [
+        "[1,2,3,4]",
+        "'1,23,4'",
+        "'1,2' + '3,4'",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp41",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(!!null);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp42",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(!!'hello');",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp43",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(typeof function(){});",
+        "language": "javascript"
+      },
+      "options": [
+        "object",
+        "function",
+        "method",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "jsp44",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "let a = [1, 2, 3];\na.length = 1;\nconsole.log(a);",
+        "language": "javascript"
+      },
+      "options": [
+        "[1]",
+        "[1,2]",
+        "[1,2,3]",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp45",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log('10' > 2);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp46",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log([] == 0);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp47",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log('' == 0);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp48",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log([1] == 1);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp49",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log(typeof NaN === 'number');",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "jsp50",
+      "language": "javascript",
+      "type": "output",
+      "title": "What is the output of the following code?",
+      "code": {
+        "content": "console.log([] === []);",
+        "language": "javascript"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

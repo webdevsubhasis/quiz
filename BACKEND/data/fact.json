@@ -1,0 +1,664 @@
+{
+  "category": "FACT",
+  "questions": [
+    {
+      "id": "fact1",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is accounting?",
+      "options": [
+        "Recording of financial transactions",
+        "Preparation of software",
+        "Auditing only",
+        "Budget planning"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact2",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which accounting concept assumes business and owner are separate?",
+      "options": [
+        "Money Measurement",
+        "Business Entity",
+        "Going Concern",
+        "Matching Concept"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact3",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is a transaction?",
+      "options": [
+        "Any business activity",
+        "Financial event measurable in money",
+        "Personal activity",
+        "Future event"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact4",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which book records day-to-day transactions?",
+      "options": [
+        "Ledger",
+        "Journal",
+        "Trial Balance",
+        "Balance Sheet"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact5",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account is debited when cash is received?",
+      "options": [
+        "Capital Account",
+        "Cash Account",
+        "Sales Account",
+        "Purchase Account"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "fact6",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account is credited when goods are sold?",
+      "options": [
+        "Purchase Account",
+        "Cash Account",
+        "Sales Account",
+        "Expense Account"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact7",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is capital in accounting?",
+      "options": [
+        "Loan taken",
+        "Owner’s investment",
+        "Business profit",
+        "Business expense"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact8",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account records personal expenses of owner?",
+      "options": [
+        "Capital Account",
+        "Drawings Account",
+        "Expense Account",
+        "Income Account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact9",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is a ledger?",
+      "options": [
+        "Book of original entry",
+        "Book of final accounts",
+        "Book containing all accounts",
+        "Book of cash only"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact10",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which side of account records debit?",
+      "options": [
+        "Right side",
+        "Left side",
+        "Both sides",
+        "None"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "fact11",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is trial balance?",
+      "options": [
+        "Statement of profit",
+        "Statement showing debit and credit balances",
+        "Statement of assets",
+        "Statement of liabilities"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact12",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account shows business income?",
+      "options": [
+        "Expense Account",
+        "Income Account",
+        "Asset Account",
+        "Liability Account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact13",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is depreciation?",
+      "options": [
+        "Increase in asset value",
+        "Decrease in asset value",
+        "Asset purchase",
+        "Asset sale"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact14",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which asset is a current asset?",
+      "options": [
+        "Building",
+        "Machinery",
+        "Cash",
+        "Furniture"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact15",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which liability is long-term?",
+      "options": [
+        "Creditors",
+        "Outstanding expenses",
+        "Bank loan",
+        "Bills payable"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "fact16",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is gross profit?",
+      "options": [
+        "Sales – Purchases",
+        "Sales – Cost of goods sold",
+        "Net profit – Expenses",
+        "Income – Drawings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact17",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which statement shows profit or loss?",
+      "options": [
+        "Balance Sheet",
+        "Trial Balance",
+        "Profit and Loss Account",
+        "Cash Book"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact18",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is net profit?",
+      "options": [
+        "Gross profit – Expenses",
+        "Income + Expenses",
+        "Sales – Purchases",
+        "Assets – Liabilities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact19",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which statement shows financial position?",
+      "options": [
+        "Trading Account",
+        "Profit and Loss Account",
+        "Balance Sheet",
+        "Cash Book"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact20",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What are assets?",
+      "options": [
+        "Business obligations",
+        "Business expenses",
+        "Resources owned by business",
+        "Business losses"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "fact21",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What are liabilities?",
+      "options": [
+        "Business income",
+        "Business assets",
+        "Business obligations",
+        "Business profit"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact22",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which accounting concept assumes business will continue?",
+      "options": [
+        "Going Concern",
+        "Matching",
+        "Prudence",
+        "Cost Concept"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact23",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which concept records expenses in same period as income?",
+      "options": [
+        "Cost Concept",
+        "Matching Concept",
+        "Money Measurement",
+        "Going Concern"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact24",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is cash book?",
+      "options": [
+        "Ledger account",
+        "Journal record",
+        "Record of cash transactions",
+        "Record of credit transactions"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact25",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which is not a type of cash book?",
+      "options": [
+        "Single column",
+        "Double column",
+        "Triple column",
+        "Four column"
+      ],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "fact26",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is bank reconciliation statement?",
+      "options": [
+        "Match bank balance with cash book",
+        "Calculate profit",
+        "Prepare balance sheet",
+        "Record expenses"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact27",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which software is commonly used in accounting?",
+      "options": [
+        "MS Word",
+        "Tally",
+        "Photoshop",
+        "PowerPoint"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact28",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is GST?",
+      "options": [
+        "Goods and Service Tax",
+        "General Sales Tax",
+        "Government Service Tax",
+        "Gross Sales Tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact29",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which tax is indirect tax?",
+      "options": [
+        "Income Tax",
+        "Professional Tax",
+        "GST",
+        "Wealth Tax"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact30",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is input GST?",
+      "options": [
+        "GST paid on purchases",
+        "GST collected on sales",
+        "GST refunded",
+        "GST penalty"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "fact31",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is output GST?",
+      "options": [
+        "GST paid on purchases",
+        "GST collected on sales",
+        "GST credit",
+        "GST penalty"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact32",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which return is filed monthly under GST?",
+      "options": [
+        "GSTR-1",
+        "GSTR-3B",
+        "GSTR-9",
+        "GSTR-10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact33",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is voucher?",
+      "options": [
+        "Proof of transaction",
+        "Ledger account",
+        "Balance sheet",
+        "Trial balance"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact34",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which voucher records cash receipt?",
+      "options": [
+        "Payment voucher",
+        "Receipt voucher",
+        "Journal voucher",
+        "Contra voucher"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact35",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which voucher records cash deposit in bank?",
+      "options": [
+        "Payment voucher",
+        "Receipt voucher",
+        "Contra voucher",
+        "Journal voucher"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "fact36",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is stock?",
+      "options": [
+        "Unsold goods",
+        "Sold goods",
+        "Purchased goods",
+        "Returned goods"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact37",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which method is used to calculate depreciation?",
+      "options": [
+        "Straight Line Method",
+        "Cash Method",
+        "Accrual Method",
+        "Matching Method"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact38",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is accrual basis of accounting?",
+      "options": [
+        "Record when cash received",
+        "Record when earned or incurred",
+        "Record only expenses",
+        "Record only income"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact39",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account records unpaid expenses?",
+      "options": [
+        "Prepaid expenses",
+        "Outstanding expenses",
+        "Income account",
+        "Capital account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact40",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account records advance payment?",
+      "options": [
+        "Outstanding expenses",
+        "Prepaid expenses",
+        "Capital account",
+        "Income account"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "fact41",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is bank overdraft?",
+      "options": [
+        "Positive bank balance",
+        "Negative bank balance",
+        "Loan from supplier",
+        "Cash balance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact42",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which statement is prepared last?",
+      "options": [
+        "Trading Account",
+        "Profit and Loss Account",
+        "Trial Balance",
+        "Balance Sheet"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fact43",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is audit?",
+      "options": [
+        "Recording transactions",
+        "Checking accuracy of accounts",
+        "Preparing vouchers",
+        "Paying tax"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact44",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which document shows amount payable to suppliers?",
+      "options": [
+        "Debtors list",
+        "Creditors list",
+        "Stock register",
+        "Cash book"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact45",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is salary?",
+      "options": [
+        "Business income",
+        "Business expense",
+        "Asset",
+        "Liability"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "fact46",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is commission received?",
+      "options": [
+        "Expense",
+        "Income",
+        "Liability",
+        "Asset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact47",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which account records loss?",
+      "options": [
+        "Balance Sheet",
+        "Trading Account",
+        "Profit and Loss Account",
+        "Cash Book"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fact48",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is discount allowed?",
+      "options": [
+        "Expense",
+        "Income",
+        "Asset",
+        "Liability"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fact49",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "What is discount received?",
+      "options": [
+        "Expense",
+        "Income",
+        "Asset",
+        "Liability"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fact50",
+      "language": "financial accounting",
+      "type": "mcq",
+      "title": "Which course mainly focuses on accounting software like Tally?",
+      "options": [
+        "DFAS",
+        "DCA",
+        "ADCA",
+        "PGDCA"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

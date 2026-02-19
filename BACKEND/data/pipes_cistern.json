@@ -1,0 +1,405 @@
+{
+  "category": "Pipes & Cistern",
+  "questions": [
+    {
+      "id": "pc1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills a tank in 12 min and pipe B in 18 min. Both are opened together for 4 min and then B is closed. How much more time will A take to fill the tank?",
+      "options": ["5 min", "4 min", "6 min", "8 min"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipes A and B can fill a tank in 20 min and 30 min respectively. Pipe C empties it in 60 min. If all three are opened together, in how much time will tank be filled?",
+      "options": ["15 min", "12 min", "10 min", "20 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc3",
+      "language": "math",
+      "type": "mcq",
+      "title": "A tank is filled by a pipe in 10 min but due to a leak it takes 12 min. The leak alone can empty the tank in:",
+      "options": ["50 min", "40 min", "60 min", "30 min"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes can fill a tank in 18 min and 24 min respectively. If both open together, time to fill tank is:",
+      "options": ["9 min", "10.8 min", "12 min", "8 min"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 8 hr and B in 12 hr. Both work together for 2 hr then B stops. Total time to fill tank:",
+      "options": ["6 hr", "7 hr", "5 hr", "8 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 6 hr and pipe B empties in 8 hr. Tank initially empty. If both opened together, tank fills in:",
+      "options": ["24 hr", "20 hr", "18 hr", "12 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Three pipes fill tank in 15, 20 and 30 min. All open together. Time to fill tank:",
+      "options": ["6 min", "10 min", "8 min", "7.5 min"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "pc8",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 9 hr. After every hour it remains closed for 30 min. Effective time to fill tank:",
+      "options": ["12 hr", "13.5 hr", "15 hr", "18 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc9",
+      "language": "math",
+      "type": "mcq",
+      "title": "A cistern can be filled in 4 hr by A and 6 hr by B. If opened together, fraction filled in 1 hr:",
+      "options": ["5/12", "1/3", "1/2", "7/12"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A is twice as fast as B and together fill tank in 9 min. Time taken by B alone:",
+      "options": ["27 min", "18 min", "36 min", "12 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills a tank in 16 min and pipe B in 24 min. Both are opened together for 4 min and then A is closed. How much more time will B take to fill the tank?",
+      "options": ["12 min", "14 min", "10 min", "8 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill a tank in 12 min and 18 min while a leak empties it in 36 min. All opened together. Time to fill tank:",
+      "options": ["9 min", "10 min", "8 min", "12 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 20 hr. After 5 hr pipe B is opened and together they fill tank in next 5 hr. Time taken by B alone:",
+      "options": ["20 hr", "15 hr", "25 hr", "10 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc14",
+      "language": "math",
+      "type": "mcq",
+      "title": "A tank can be filled by A in 8 hr and by B in 12 hr. Both run together for 2 hr and then B is closed. Remaining tank is filled by A in:",
+      "options": ["3 hr", "4 hr", "2 hr", "5 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 6 hr, pipe B in 9 hr and pipe C empties it in 18 hr. All open together for 3 hr then C closed. Remaining tank fills in:",
+      "options": ["3 hr", "2 hr", "4 hr", "1 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe fills tank in 10 min. Due to leak tank fills in 12 min. After filling, if pipe closed, leak empties tank in:",
+      "options": ["60 min", "50 min", "40 min", "30 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes A and B fill tank in 5 hr and 20 hr respectively. Fraction of tank filled in 1 hr when both open:",
+      "options": ["1/4", "1/5", "3/20", "2/5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc18",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 15 hr but after every hour it is closed for 20 min. Effective filling time:",
+      "options": ["20 hr", "18 hr", "17 hr", "16 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank twice as fast as B. Together they fill tank in 6 hr. Time taken by A alone:",
+      "options": ["9 hr", "12 hr", "18 hr", "15 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Three pipes fill tank in 12 hr, 15 hr and 20 hr respectively. All open together for 2 hr then fastest pipe closed. Remaining tank fills in:",
+      "options": ["4 hr", "5 hr", "6 hr", "3 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 14 hr and pipe B in 21 hr. Both opened together for 7 hr and then B is closed. Remaining tank filled by A in:",
+      "options": ["3 hr", "4 hr", "5 hr", "2 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill a tank in 9 hr and 12 hr respectively. They work alternately each hour starting with faster pipe. Tank fills in:",
+      "options": ["10 hr", "11 hr", "9 hr", "12 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 5 hr and pipe B empties it in 10 hr. Both opened together. Tank gets filled in:",
+      "options": ["10 hr", "8 hr", "6 hr", "12 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc24",
+      "language": "math",
+      "type": "mcq",
+      "title": "A tank is half filled by pipe A in 3 hr. Pipe B alone fills full tank in 8 hr. Both together fill tank in:",
+      "options": ["4 hr", "5 hr", "6 hr", "3 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 18 min and pipe B in 27 min. Both open together but B is closed after 6 min. Remaining tank filled in:",
+      "options": ["9 min", "10 min", "8 min", "7 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Three pipes fill tank in 6 hr, 8 hr and 12 hr. All opened together but slowest closed after 2 hr. Remaining tank fills in:",
+      "options": ["3 hr", "4 hr", "2 hr", "5 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe fills tank in 10 hr. After every 2 hr it remains closed for 1 hr. Effective filling time:",
+      "options": ["15 hr", "14 hr", "12 hr", "13 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes A and B fill tank in ratio 2:3 speeds. Together they fill tank in 10 hr. Time taken by slower pipe alone:",
+      "options": ["25 hr", "20 hr", "30 hr", "15 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 12 hr. After 3 hr pipe B is opened and tank fills in next 4 hr. Time taken by B alone:",
+      "options": ["12 hr", "10 hr", "8 hr", "15 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc30",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 20 min but due to leakage takes 24 min. The leak alone empties tank in:",
+      "options": ["120 min", "100 min", "80 min", "90 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 4 hr and B in 6 hr. Both opened for 1 hr then closed for 1 hr repeatedly. Tank fills in:",
+      "options": ["8 hr", "7 hr", "6 hr", "9 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc32",
+      "language": "math",
+      "type": "mcq",
+      "title": "A tank can be filled in 10 hr by A and 15 hr by B. If tank initially 1/3 full, both pipes will fill it in:",
+      "options": ["4 hr", "5 hr", "6 hr", "3 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank 3 times faster than B. Together they fill tank in 8 hr. Time taken by B alone:",
+      "options": ["32 hr", "24 hr", "16 hr", "20 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe fills tank in 9 hr. Leak reduces net rate by 1/3. Effective filling time:",
+      "options": ["13.5 hr", "12 hr", "15 hr", "10 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 16 hr and B in 24 hr. Both open for 8 hr then A closed. Remaining tank fills in:",
+      "options": ["6 hr", "8 hr", "10 hr", "4 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Three pipes fill tank in 12, 15 and 20 hr. All opened but middle pipe closed after 3 hr. Remaining tank fills in:",
+      "options": ["4 hr", "5 hr", "3 hr", "6 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 6 hr and pipe B empties in 9 hr. When both opened together, fraction filled in 1 hr:",
+      "options": ["1/18", "1/9", "1/12", "1/15"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc38",
+      "language": "math",
+      "type": "mcq",
+      "title": "A tank filled by A in 5 hr and by B in 10 hr. Both opened together for 2 hr then B closed. Remaining filled in:",
+      "options": ["2 hr", "3 hr", "4 hr", "1 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe fills tank in 18 hr but after half tank filled speed becomes half. Total filling time:",
+      "options": ["27 hr", "30 hr", "24 hr", "21 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill tank in 7 hr and 14 hr respectively. Both open together for 2 hr, then slower closed. Remaining fills in:",
+      "options": ["3 hr", "4 hr", "2 hr", "5 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 12 hr. Pipe B fills in 18 hr. After every hour B remains closed for 30 min. Total filling time:",
+      "options": ["8 hr", "9 hr", "10 hr", "11 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc42",
+      "language": "math",
+      "type": "mcq",
+      "title": "A fills tank in 10 hr, B in 15 hr and C empties in 30 hr. All opened together but C closed after half tank filled. Total filling time:",
+      "options": ["5 hr", "6 hr", "7 hr", "8 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 6 hr and B in 8 hr. They are opened alternately every hour starting with A. Tank fills in:",
+      "options": ["7 hr", "6.5 hr", "8 hr", "7.5 hr"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "pc44",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 20 hr. After half tank speed becomes 60% of original. Total filling time:",
+      "options": ["26 hr", "28 hr", "30 hr", "24 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "pc45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill tank in 9 hr and 12 hr. Leak removes 1/8 tank per hr. All open together. Tank filled in:",
+      "options": ["18 hr", "12 hr", "15 hr", "10 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe A fills tank in 5 hr. Pipe B fills twice as fast as A for first half, then becomes half speed. Total fill time:",
+      "options": ["3 hr", "4 hr", "4.5 hr", "5 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc47",
+      "language": "math",
+      "type": "mcq",
+      "title": "A fills tank in 16 hr and B in 24 hr. Both open for 4 hr then B closed for 2 hr repeatedly. Total fill time:",
+      "options": ["10 hr", "11 hr", "12 hr", "13 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Three pipes fill tank in 12 hr, 15 hr and 20 hr. After every 2 hr fastest pipe closed for 1 hr. Total filling time:",
+      "options": ["6 hr", "7 hr", "8 hr", "9 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pc49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Pipe fills tank in 9 hr but leak starts after 3 hr and empties full tank in 18 hr. Total fill time:",
+      "options": ["12 hr", "11 hr", "13 hr", "14 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pc50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill tank in ratio 3:5 speeds. Faster pipe works only 75% of time. Slower alone takes 20 hr. Total filling time:",
+      "options": ["10 hr", "11 hr", "12 hr", "9 hr"],
+      "correctAnswer": 0
+    }
+  ]
+}

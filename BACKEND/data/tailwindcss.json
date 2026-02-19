@@ -1,0 +1,659 @@
+{
+  "category": "Tailwind CSS",
+  "questions": [
+    {
+      "id": "t1",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "What is Tailwind CSS?",
+      "options": [
+        "A JavaScript framework",
+        "A utility-first CSS framework",
+        "A backend framework",
+        "A CSS preprocessor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t2",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which command installs Tailwind CSS using npm?",
+      "options": [
+        "npm install tailwind",
+        "npm install tailwindcss",
+        "npm add tailwind",
+        "npm setup tailwind"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t3",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which file is used to configure Tailwind?",
+      "options": [
+        "tailwind.json",
+        "tailwind.config.js",
+        "config.tailwind.js",
+        "tailwind.setup.js"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t4",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which directive injects Tailwind base styles?",
+      "options": [
+        "@tailwind base",
+        "@tailwind components",
+        "@tailwind utilities",
+        "@import tailwind"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t5",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class makes text center aligned?",
+      "options": [
+        "align-center",
+        "text-center",
+        "center-text",
+        "text-middle"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t6",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class adds padding of 1rem?",
+      "options": [
+        "p-2",
+        "p-3",
+        "p-4",
+        "p-1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "t7",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which utility controls margin?",
+      "options": [
+        "p-4",
+        "m-4",
+        "space-4",
+        "gap-4"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t8",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets display to flex?",
+      "options": [
+        "flexbox",
+        "display-flex",
+        "flex",
+        "d-flex"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "t9",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class aligns items vertically in flex?",
+      "options": [
+        "items-center",
+        "justify-center",
+        "align-center",
+        "content-center"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t10",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class aligns items horizontally in flex?",
+      "options": [
+        "items-center",
+        "justify-center",
+        "flex-center",
+        "content-middle"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "t11",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class makes text bold?",
+      "options": [
+        "font-bold",
+        "text-bold",
+        "fw-bold",
+        "bold-text"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t12",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets font size to large?",
+      "options": [
+        "text-lg",
+        "text-large",
+        "font-lg",
+        "text-big"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t13",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class makes background color blue?",
+      "options": [
+        "bg-blue",
+        "bg-blue-500",
+        "bg-primary",
+        "background-blue"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t14",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class makes text color white?",
+      "options": [
+        "text-white",
+        "text-light",
+        "font-white",
+        "color-white"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t15",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class applies border radius?",
+      "options": [
+        "rounded",
+        "radius",
+        "border-round",
+        "curve"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t16",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class creates a shadow?",
+      "options": [
+        "shadow",
+        "box-shadow",
+        "drop-shadow",
+        "shadow-md"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "t17",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets width to full?",
+      "options": [
+        "w-full",
+        "width-full",
+        "full-w",
+        "w-100"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t18",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets height to screen?",
+      "options": [
+        "h-screen",
+        "h-full",
+        "screen-h",
+        "vh-100"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t19",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class hides an element?",
+      "options": [
+        "hidden",
+        "d-none",
+        "invisible",
+        "hide"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t20",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class makes element invisible but keeps space?",
+      "options": [
+        "hidden",
+        "opacity-0",
+        "invisible",
+        "collapse"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "t21",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class enables hover state?",
+      "options": [
+        "hover:",
+        "focus:",
+        "active:",
+        "state:"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t22",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class adds transition effect?",
+      "options": [
+        "transition",
+        "animate",
+        "ease",
+        "motion"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t23",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class controls transition duration?",
+      "options": [
+        "duration-300",
+        "delay-300",
+        "time-300",
+        "speed-300"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t24",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class controls opacity?",
+      "options": [
+        "opacity-50",
+        "transparent-50",
+        "fade-50",
+        "alpha-50"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t25",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets z-index to 10?",
+      "options": [
+        "z-10",
+        "zindex-10",
+        "layer-10",
+        "index-10"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t26",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class creates a grid layout?",
+      "options": [
+        "grid",
+        "grid-layout",
+        "display-grid",
+        "d-grid"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t27",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets 2 columns in grid?",
+      "options": [
+        "grid-cols-2",
+        "grid-2",
+        "cols-2",
+        "grid-column-2"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t28",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets gap between grid items?",
+      "options": [
+        "gap-4",
+        "space-4",
+        "grid-gap",
+        "item-gap"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t29",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets background image cover?",
+      "options": [
+        "bg-cover",
+        "bg-full",
+        "bg-fit",
+        "bg-image"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t30",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class centers an element using margin?",
+      "options": [
+        "m-auto",
+        "mx-auto",
+        "center",
+        "auto-margin"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "t31",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets cursor to pointer?",
+      "options": [
+        "cursor-pointer",
+        "pointer",
+        "mouse-pointer",
+        "hand"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t32",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class disables text selection?",
+      "options": [
+        "select-none",
+        "no-select",
+        "disable-select",
+        "text-lock"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t33",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class truncates text with ellipsis?",
+      "options": [
+        "truncate",
+        "text-ellipsis",
+        "overflow-text",
+        "text-cut"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t34",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets overflow hidden?",
+      "options": [
+        "overflow-hidden",
+        "hidden-overflow",
+        "clip",
+        "no-overflow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t35",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets position relative?",
+      "options": [
+        "relative",
+        "position-relative",
+        "pos-relative",
+        "rel"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t36",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets position absolute?",
+      "options": [
+        "absolute",
+        "position-absolute",
+        "pos-abs",
+        "abs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t37",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sticks element to top?",
+      "options": [
+        "sticky top-0",
+        "fixed top",
+        "position-top",
+        "float-top"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t38",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class rotates an element 45 degrees?",
+      "options": [
+        "rotate-45",
+        "transform-45",
+        "spin-45",
+        "angle-45"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t39",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class scales element to 110%?",
+      "options": [
+        "scale-110",
+        "zoom-110",
+        "resize-110",
+        "grow-110"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t40",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class adds ring outline?",
+      "options": [
+        "ring",
+        "outline",
+        "border-ring",
+        "focus-ring"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "t41",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which variant applies styles on focus?",
+      "options": [
+        "focus:",
+        "hover:",
+        "active:",
+        "target:"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t42",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which variant applies styles on dark mode?",
+      "options": [
+        "dark:",
+        "night:",
+        "theme-dark:",
+        "mode-dark:"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t43",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which file defines custom colors?",
+      "options": [
+        "style.css",
+        "tailwind.config.js",
+        "colors.css",
+        "theme.js"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "t44",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class enables smooth scrolling?",
+      "options": [
+        "scroll-smooth",
+        "smooth-scroll",
+        "scrolling",
+        "scroll-auto"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t45",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class disables pointer events?",
+      "options": [
+        "pointer-events-none",
+        "no-pointer",
+        "disable-pointer",
+        "pointer-off"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t46",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets min height to screen?",
+      "options": [
+        "min-h-screen",
+        "h-min-screen",
+        "screen-min-h",
+        "min-height-screen"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t47",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which class sets max width to large?",
+      "options": [
+        "max-w-lg",
+        "w-max-lg",
+        "width-lg",
+        "max-lg"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t48",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which utility sets aspect ratio?",
+      "options": [
+        "aspect-video",
+        "ratio-video",
+        "aspect-16-9",
+        "video-ratio"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "t49",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Which Tailwind version introduced JIT by default?",
+      "options": [
+        "v1",
+        "v2",
+        "v3",
+        "v4"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "t50",
+      "language": "tailwindcss",
+      "type": "mcq",
+      "title": "Tailwind CSS is best suited for?",
+      "options": [
+        "Backend APIs",
+        "Utility-first UI design",
+        "Database management",
+        "Server configuration"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

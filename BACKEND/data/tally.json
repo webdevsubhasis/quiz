@@ -1,0 +1,629 @@
+{
+  "category": "Tally",
+  "questions": [
+    {
+      "id": "tal1",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Tally?",
+      "options": [
+        "Accounting software",
+        "Operating system",
+        "Database software",
+        "Web browser"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal2",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which company develops Tally software?",
+      "options": [
+        "Microsoft",
+        "Oracle",
+        "Tally Solutions",
+        "Google"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal3",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which key is used to create a company in Tally?",
+      "options": ["F1", "Alt + F1", "Alt + F3", "Ctrl + N"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal4",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which option is used to create ledger in Tally?",
+      "options": [
+        "Accounts Info → Ledgers → Create",
+        "Gateway of Tally → Display",
+        "Inventory Info → Stock Item",
+        "Voucher Entry"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal5",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is a ledger in Tally?",
+      "options": [
+        "Summary of accounts",
+        "Individual account record",
+        "Voucher type",
+        "Stock report"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tal6",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which group is Cash Account created under?",
+      "options": [
+        "Current Assets",
+        "Fixed Assets",
+        "Capital Account",
+        "Current Liabilities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal7",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which group is Capital Account created under?",
+      "options": [
+        "Current Liabilities",
+        "Capital Account",
+        "Indirect Income",
+        "Indirect Expense"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal8",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher is used for cash payment?",
+      "options": [
+        "Receipt Voucher",
+        "Payment Voucher",
+        "Journal Voucher",
+        "Contra Voucher"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal9",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher is used for cash receipt?",
+      "options": [
+        "Receipt Voucher",
+        "Payment Voucher",
+        "Sales Voucher",
+        "Journal Voucher"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal10",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher is used for non-cash transactions?",
+      "options": [
+        "Receipt",
+        "Payment",
+        "Journal",
+        "Contra"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tal11",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher records cash deposit into bank?",
+      "options": [
+        "Payment Voucher",
+        "Receipt Voucher",
+        "Contra Voucher",
+        "Journal Voucher"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal12",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which key is used to select voucher type?",
+      "options": ["F2", "F4", "F7", "F8"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal13",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher is used for credit sales?",
+      "options": [
+        "Receipt Voucher",
+        "Sales Voucher",
+        "Payment Voucher",
+        "Journal Voucher"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal14",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher is used for credit purchase?",
+      "options": [
+        "Purchase Voucher",
+        "Payment Voucher",
+        "Journal Voucher",
+        "Contra Voucher"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal15",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which group does Purchase Account belong to?",
+      "options": [
+        "Direct Expenses",
+        "Indirect Expenses",
+        "Current Assets",
+        "Capital Account"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tal16",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which group does Sales Account belong to?",
+      "options": [
+        "Direct Income",
+        "Indirect Income",
+        "Capital Account",
+        "Current Liabilities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal17",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Trial Balance in Tally?",
+      "options": [
+        "List of vouchers",
+        "Summary of debit and credit balances",
+        "Profit statement",
+        "Stock report"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal18",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which report shows profit or loss?",
+      "options": [
+        "Balance Sheet",
+        "Trial Balance",
+        "Profit & Loss Account",
+        "Ledger"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal19",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which report shows financial position?",
+      "options": [
+        "Trial Balance",
+        "Profit & Loss Account",
+        "Balance Sheet",
+        "Cash Book"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal20",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which feature is used to enable GST in Tally?",
+      "options": [
+        "Inventory Features",
+        "Accounting Features",
+        "Statutory & Taxation",
+        "Company Info"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tal21",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What does GST stand for?",
+      "options": [
+        "Goods and Service Tax",
+        "General Sales Tax",
+        "Government Sales Tax",
+        "Gross Service Tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal22",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which GST is charged within a state?",
+      "options": ["IGST", "CGST", "SGST", "CGST and SGST both"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "tal23",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which GST is charged between states?",
+      "options": ["CGST", "SGST", "IGST", "VAT"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal24",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Input GST?",
+      "options": [
+        "GST paid on purchases",
+        "GST collected on sales",
+        "GST penalty",
+        "GST refund"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal25",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Output GST?",
+      "options": [
+        "GST paid on purchases",
+        "GST collected on sales",
+        "GST credit",
+        "GST refund"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tal26",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which return is filed monthly in GST?",
+      "options": ["GSTR-1", "GSTR-3B", "GSTR-9", "GSTR-10"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal27",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which feature is used to maintain stock in Tally?",
+      "options": [
+        "Accounting Features",
+        "Inventory Features",
+        "Statutory Features",
+        "Display Features"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal28",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Stock Item?",
+      "options": [
+        "Type of voucher",
+        "Item bought or sold",
+        "Ledger account",
+        "Tax category"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal29",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which report shows stock balance?",
+      "options": [
+        "Stock Summary",
+        "Trial Balance",
+        "Balance Sheet",
+        "Profit & Loss"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal30",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which method calculates depreciation automatically?",
+      "options": [
+        "Voucher Entry",
+        "Fixed Asset Register",
+        "Depreciation Feature",
+        "Inventory Feature"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tal31",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which shortcut key displays Balance Sheet?",
+      "options": ["B", "P", "T", "S"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal32",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which shortcut key displays Profit & Loss Account?",
+      "options": ["B", "P", "T", "L"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal33",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Cost Centre?",
+      "options": [
+        "Expense control unit",
+        "Ledger group",
+        "Voucher type",
+        "Stock category"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal34",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Cost Category?",
+      "options": [
+        "Group of cost centres",
+        "Group of ledgers",
+        "Type of voucher",
+        "Tax group"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal35",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which feature is used for budgeting?",
+      "options": [
+        "Cost Centres",
+        "Budgets",
+        "Inventory",
+        "GST"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tal36",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is Bank Reconciliation Statement?",
+      "options": [
+        "Match bank book with cash book",
+        "Prepare balance sheet",
+        "Calculate profit",
+        "Record vouchers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal37",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which report shows outstanding receivables?",
+      "options": [
+        "Payables",
+        "Receivables",
+        "Ledger",
+        "Trial Balance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal38",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which report shows amount payable to suppliers?",
+      "options": [
+        "Receivables",
+        "Payables",
+        "Stock Summary",
+        "Cash Book"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal39",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is voucher?",
+      "options": [
+        "Proof of transaction",
+        "Ledger account",
+        "Group",
+        "Stock item"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal40",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which voucher is used for salary payment?",
+      "options": [
+        "Payment Voucher",
+        "Journal Voucher",
+        "Receipt Voucher",
+        "Contra Voucher"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tal41",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which account records salary expense?",
+      "options": [
+        "Indirect Expense",
+        "Direct Expense",
+        "Current Asset",
+        "Liability"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal42",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is opening balance?",
+      "options": [
+        "Closing balance of previous year",
+        "Current year profit",
+        "Cash receipt",
+        "Capital introduced"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal43",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which account records drawings?",
+      "options": [
+        "Capital Account",
+        "Drawings Account",
+        "Expense Account",
+        "Income Account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal44",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which report shows all voucher entries?",
+      "options": [
+        "Day Book",
+        "Ledger",
+        "Trial Balance",
+        "Balance Sheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal45",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is TDS?",
+      "options": [
+        "Tax Deducted at Source",
+        "Total Deduction System",
+        "Tax Deposit Scheme",
+        "Total Direct Sale"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tal46",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which feature enables TDS in Tally?",
+      "options": [
+        "Accounting Features",
+        "Inventory Features",
+        "Statutory & Taxation",
+        "Company Info"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "tal47",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is interest calculation in Tally used for?",
+      "options": [
+        "Calculate interest on outstanding",
+        "Calculate GST",
+        "Calculate profit",
+        "Calculate stock"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal48",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which version replaced Tally ERP 9?",
+      "options": [
+        "Tally 7.2",
+        "Tally Prime",
+        "Tally 6.3",
+        "Tally GST"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "tal49",
+      "language": "tally",
+      "type": "mcq",
+      "title": "What is data backup in Tally?",
+      "options": [
+        "Copy of company data",
+        "Deleting data",
+        "Updating software",
+        "Exporting voucher"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "tal50",
+      "language": "tally",
+      "type": "mcq",
+      "title": "Which course mainly focuses on Tally and GST?",
+      "options": [
+        "DFAS",
+        "DCA",
+        "ADCA",
+        "PGDCA"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

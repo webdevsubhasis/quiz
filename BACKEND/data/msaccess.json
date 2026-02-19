@@ -1,0 +1,605 @@
+{
+    "category": "MS-ACCESS",
+    "questions": [
+        {
+            "id": 1,
+            "type": "mcq",
+            "title": "Which file extension is used for Microsoft Access databases?",
+            "options": [
+                ".mdb",
+                ".accdb",
+                ".dbf",
+                ".mdf"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 2,
+            "type": "mcq",
+            "title": "Which object in MS Access stores data?",
+            "options": [
+                "Form",
+                "Table",
+                "Query",
+                "Report"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 3,
+            "type": "mcq",
+            "title": "What is a primary key?",
+            "options": [
+                "A field with duplicate values",
+                "A field that uniquely identifies each record",
+                "A field used only for sorting",
+                "A field used for calculations"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 4,
+            "type": "mcq",
+            "title": "Which object is used to ask questions and retrieve specific data?",
+            "options": [
+                "Form",
+                "Query",
+                "Macro",
+                "Module"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 5,
+            "type": "mcq",
+            "title": "Which view allows entering data into a table?",
+            "options": [
+                "Design View",
+                "Datasheet View",
+                "SQL View",
+                "Layout View"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 6,
+            "type": "mcq",
+            "title": "Which of the following is NOT a valid data type in MS Access?",
+            "options": [
+                "Short Text",
+                "AutoNumber",
+                "Logical",
+                "Currency"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 7,
+            "type": "mcq",
+            "title": "AutoNumber data type is used for:",
+            "options": [
+                "Generating sequential numbers",
+                "Storing names",
+                "Storing dates",
+                "Storing long text"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "type": "mcq",
+            "title": "Which key enforces uniqueness in a table?",
+            "options": [
+                "Foreign Key",
+                "Primary Key",
+                "Composite Key",
+                "Secondary Key"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 9,
+            "type": "mcq",
+            "title": "Which Access object prints formatted data?",
+            "options": [
+                "Form",
+                "Report",
+                "Query",
+                "Table"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 10,
+            "type": "mcq",
+            "title": "What is used to join tables?",
+            "options": [
+                "Primary Key",
+                "Relationships",
+                "Forms",
+                "Macros"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 11,
+            "type": "mcq",
+            "title": "Which of the following is NOT an Access object?",
+            "options": [
+                "Table",
+                "Slide",
+                "Query",
+                "Macro"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 12,
+            "type": "mcq",
+            "title": "Which SQL command deletes records?",
+            "options": [
+                "SELECT",
+                "UPDATE",
+                "DELETE",
+                "INSERT"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 13,
+            "type": "mcq",
+            "title": "Which data type stores Yes/No values?",
+            "options": [
+                "Text",
+                "Boolean",
+                "Attachment",
+                "AutoNumber"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 14,
+            "type": "mcq",
+            "title": "Which object automates tasks?",
+            "options": [
+                "Forms",
+                "Reports",
+                "Macros",
+                "Tables"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 15,
+            "type": "mcq",
+            "title": "Which view creates table structure?",
+            "options": [
+                "Form View",
+                "Design View",
+                "Layout View",
+                "Datasheet View"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 16,
+            "type": "mcq",
+            "title": "Which tool searches inside a table?",
+            "options": [
+                "Sorting",
+                "Navigation Pane",
+                "Find command",
+                "Relationships"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 17,
+            "type": "mcq",
+            "title": "Most common database relationship?",
+            "options": [
+                "One-to-one",
+                "One-to-many",
+                "Many-to-many",
+                "Self-relationship"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 18,
+            "type": "mcq",
+            "title": "Which type stores large text?",
+            "options": [
+                "Short Text",
+                "Long Text",
+                "Number",
+                "Byte"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 19,
+            "type": "mcq",
+            "title": "Which key moves to next field?",
+            "options": [
+                "Shift",
+                "Tab",
+                "Ctrl",
+                "Alt"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 20,
+            "type": "mcq",
+            "title": "Which is NOT a query type?",
+            "options": [
+                "Select",
+                "Update",
+                "Make-Table",
+                "Record"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 21,
+            "type": "mcq",
+            "title": "Which field property forces required data?",
+            "options": [
+                "Validation Rule",
+                "Required",
+                "Default Value",
+                "Indexed"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 22,
+            "type": "mcq",
+            "title": "Which tab creates a new table?",
+            "options": [
+                "Create",
+                "Home",
+                "External Data",
+                "Database Tools"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 23,
+            "type": "mcq",
+            "title": "Which feature prevents invalid data entry?",
+            "options": [
+                "Relationships",
+                "Input Mask",
+                "Forms",
+                "Macros"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 24,
+            "type": "mcq",
+            "title": "Which object filters data based on criteria?",
+            "options": [
+                "Query",
+                "Form",
+                "Report",
+                "Macro"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 25,
+            "type": "mcq",
+            "title": "Shortcut key to save database?",
+            "options": [
+                "Ctrl + S",
+                "Ctrl + A",
+                "Ctrl + D",
+                "Ctrl + N"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 26,
+            "type": "mcq",
+            "title": "Which window manages table relationships?",
+            "options": [
+                "Property Sheet",
+                "Relationship Window",
+                "Macro Builder",
+                "Query Wizard"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 27,
+            "type": "mcq",
+            "title": "Which is a valid join type?",
+            "options": [
+                "Left Join",
+                "Inner Join",
+                "Right Join",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 28,
+            "type": "mcq",
+            "title": "Which field stores images/files?",
+            "options": [
+                "OLE Object",
+                "Attachment",
+                "Memo",
+                "Hyperlink"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 29,
+            "type": "mcq",
+            "title": "Which function counts records?",
+            "options": [
+                "SUM()",
+                "COUNT()",
+                "AVG()",
+                "MIN()"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 30,
+            "type": "mcq",
+            "title": "Which object groups and prints data?",
+            "options": [
+                "Form",
+                "Query",
+                "Report",
+                "Macro"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 31,
+            "type": "mcq",
+            "title": "Which view supports writing SQL manually?",
+            "options": [
+                "Design View",
+                "SQL View",
+                "Form View",
+                "Layout View"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 32,
+            "type": "mcq",
+            "title": "Which query returns unique records?",
+            "options": [
+                "Crosstab",
+                "SELECT DISTINCT",
+                "Append",
+                "Delete"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 33,
+            "type": "mcq",
+            "title": "Which SQL command adds a record?",
+            "options": [
+                "INSERT INTO",
+                "UPDATE",
+                "DELETE",
+                "SELECT"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "type": "mcq",
+            "title": "Which property auto-fills a value?",
+            "options": [
+                "Validation Rule",
+                "Default Value",
+                "Required",
+                "Caption"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 35,
+            "type": "mcq",
+            "title": "Which object is best for user data entry?",
+            "options": [
+                "Report",
+                "Form",
+                "Table",
+                "Query"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 36,
+            "type": "mcq",
+            "title": "Which of these chart types exist in Access?",
+            "options": [
+                "Pie",
+                "Bar",
+                "Line",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 37,
+            "type": "mcq",
+            "title": "Which is NOT a form control?",
+            "options": [
+                "Combo Box",
+                "List Box",
+                "Navigation Form",
+                "Chart Box"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 38,
+            "type": "mcq",
+            "title": "Which button removes a record permanently?",
+            "options": [
+                "Cut",
+                "Delete Record",
+                "Backspace",
+                "Clear"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 39,
+            "type": "mcq",
+            "title": "Which tab imports external data?",
+            "options": [
+                "External Data",
+                "Create",
+                "Home",
+                "Fields"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 40,
+            "type": "mcq",
+            "title": "Which SQL command modifies records?",
+            "options": [
+                "UPDATE",
+                "INSERT",
+                "DELETE",
+                "SELECT"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 41,
+            "type": "mcq",
+            "title": "Which form view edits layout visually?",
+            "options": [
+                "Form View",
+                "Layout View",
+                "SQL View",
+                "Datasheet View"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 42,
+            "type": "mcq",
+            "title": "Which is a calculated control?",
+            "options": [
+                "Text Box",
+                "Label",
+                "Bound Control",
+                "=SUM(Price)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 43,
+            "type": "mcq",
+            "title": "Which property sorts query output?",
+            "options": [
+                "Criteria",
+                "Sort",
+                "Field",
+                "Table"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 44,
+            "type": "mcq",
+            "title": "Which join returns matching records only?",
+            "options": [
+                "Left Join",
+                "Right Join",
+                "Inner Join",
+                "Outer Join"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 45,
+            "type": "mcq",
+            "title": "Which button refreshes table data?",
+            "options": [
+                "Reload",
+                "Refresh All",
+                "Synchronize",
+                "Reset"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 46,
+            "type": "mcq",
+            "title": "Which type stores clickable links?",
+            "options": [
+                "Text",
+                "Memo",
+                "Hyperlink",
+                "Attachment"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 47,
+            "type": "mcq",
+            "title": "Which tool repairs damaged database files?",
+            "options": [
+                "Macro",
+                "Database Tools",
+                "External Data",
+                "View"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 48,
+            "type": "mcq",
+            "title": "Shortcut to close database window?",
+            "options": [
+                "Ctrl + Q",
+                "Ctrl + F4",
+                "Alt + F4",
+                "Ctrl + X"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 49,
+            "type": "mcq",
+            "title": "Which query summarizes data?",
+            "options": [
+                "Select",
+                "Aggregate",
+                "Append",
+                "Crosstab"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 50,
+            "type": "mcq",
+            "title": "Which feature detects relationship errors?",
+            "options": [
+                "Error Checker",
+                "Relationship Report",
+                "Data Inspector",
+                "Table Analyzer"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

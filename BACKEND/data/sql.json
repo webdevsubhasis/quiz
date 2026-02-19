@@ -1,0 +1,454 @@
+{
+  "category": "SQL",
+  "questions": [
+    {
+      "id": "sql1",
+      "language": "sql",
+      "type": "mcq",
+      "title": "What does SQL stand for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Sequential Query Language",
+        "Standard Query List"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sql2",
+      "language": "sql",
+      "type": "mcq",
+      "title": "SQL is used to?",
+      "options": [
+        "Design websites",
+        "Manage databases",
+        "Write operating systems",
+        "Create graphics"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql3",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command is used to retrieve data?",
+      "options": ["GET", "SELECT", "FETCH", "SHOW"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql4",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command is used to insert data?",
+      "options": ["ADD", "INSERT", "UPDATE", "PUT"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql5",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command is used to delete data?",
+      "options": ["REMOVE", "DELETE", "DROP", "CLEAR"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "sql6",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command is used to update data?",
+      "options": ["MODIFY", "CHANGE", "UPDATE", "SET"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql7",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which clause is used to filter records?",
+      "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql8",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which clause is used to sort records?",
+      "options": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql9",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL clause groups rows?",
+      "options": ["ORDER BY", "GROUP BY", "WHERE", "JOIN"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql10",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which clause is used with GROUP BY?",
+      "options": ["WHERE", "HAVING", "ORDER BY", "LIMIT"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "sql11",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which symbol is used for wildcard in SQL?",
+      "options": ["*", "%", "#", "&"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql12",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which operator checks a range?",
+      "options": ["IN", "LIKE", "BETWEEN", "ANY"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql13",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which operator is used to check multiple values?",
+      "options": ["ANY", "IN", "ALL", "EXISTS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql14",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL function counts rows?",
+      "options": ["SUM()", "COUNT()", "AVG()", "MAX()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql15",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL function returns maximum value?",
+      "options": ["MAX()", "MIN()", "TOP()", "HIGH()"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "sql16",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL function returns minimum value?",
+      "options": ["LOW()", "MIN()", "SMALL()", "LEAST()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql17",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL function calculates average?",
+      "options": ["MEAN()", "AVG()", "SUM()", "COUNT()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql18",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL function adds values?",
+      "options": ["ADD()", "SUM()", "TOTAL()", "PLUS()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql19",
+      "language": "sql",
+      "type": "mcq",
+      "title": "What is a primary key?",
+      "options": [
+        "A key that can be NULL",
+        "A unique identifier",
+        "A duplicate key",
+        "A foreign key"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql20",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Primary key can contain?",
+      "options": [
+        "Duplicate values",
+        "NULL values",
+        "Unique values only",
+        "Multiple NULLs"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "sql21",
+      "language": "sql",
+      "type": "mcq",
+      "title": "What is a foreign key?",
+      "options": [
+        "Primary key of same table",
+        "Key referencing another table",
+        "Duplicate key",
+        "Composite key"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql22",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which constraint prevents NULL values?",
+      "options": ["UNIQUE", "PRIMARY KEY", "NOT NULL", "CHECK"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql23",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which constraint ensures unique values?",
+      "options": ["NOT NULL", "CHECK", "UNIQUE", "DEFAULT"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql24",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which constraint enforces rules on values?",
+      "options": ["DEFAULT", "CHECK", "UNIQUE", "INDEX"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql25",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which constraint sets default value?",
+      "options": ["DEFAULT", "CHECK", "NOT NULL", "UNIQUE"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "sql26",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command creates a table?",
+      "options": ["MAKE", "CREATE", "BUILD", "NEW"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql27",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command deletes a table permanently?",
+      "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql28",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which command removes all rows but keeps structure?",
+      "options": ["DELETE", "DROP", "TRUNCATE", "CLEAR"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql29",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command modifies table structure?",
+      "options": ["UPDATE", "ALTER", "MODIFY", "CHANGE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql30",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which keyword is used to combine tables?",
+      "options": ["UNION", "JOIN", "MERGE", "LINK"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "sql31",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which JOIN returns all matching records?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql32",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which JOIN returns all records from left table?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "CROSS JOIN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sql33",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which JOIN returns all records from right table?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "NATURAL JOIN"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql34",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which JOIN returns all records from both tables?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "sql35",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL statement combines result sets?",
+      "options": ["JOIN", "UNION", "MERGE", "LINK"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "sql36",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which keyword removes duplicate rows?",
+      "options": ["DISTINCT", "UNIQUE", "FILTER", "REMOVE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sql37",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which keyword limits number of rows?",
+      "options": ["LIMIT", "TOP", "ROWNUM", "All of these"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "sql38",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL statement is DDL?",
+      "options": ["SELECT", "INSERT", "CREATE", "UPDATE"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql39",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL statement is DML?",
+      "options": ["DROP", "ALTER", "INSERT", "CREATE"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql40",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL statement controls permissions?",
+      "options": ["DML", "DDL", "DCL", "TCL"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "sql41",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which command is used to give permission?",
+      "options": ["ALLOW", "GRANT", "PERMIT", "ACCESS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql42",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which command removes permission?",
+      "options": ["DENY", "REMOVE", "REVOKE", "CANCEL"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql43",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL command saves changes permanently?",
+      "options": ["SAVE", "COMMIT", "END", "APPLY"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql44",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which command undoes changes?",
+      "options": ["UNDO", "ROLLBACK", "REVERT", "CANCEL"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sql45",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL category includes COMMIT?",
+      "options": ["DDL", "DML", "TCL", "DCL"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "sql46",
+      "language": "sql",
+      "type": "mcq",
+      "title": "What is a view?",
+      "options": [
+        "Virtual table",
+        "Physical table",
+        "Index",
+        "Trigger"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sql47",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL object runs automatically?",
+      "options": ["View", "Index", "Trigger", "Procedure"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql48",
+      "language": "sql",
+      "type": "mcq",
+      "title": "Which SQL object improves query speed?",
+      "options": ["View", "Trigger", "Index", "Procedure"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sql49",
+      "language": "sql",
+      "type": "mcq",
+      "title": "SQL is mainly used in?",
+      "options": [
+        "Database management",
+        "Web design",
+        "OS development",
+        "Game design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sql50",
+      "language": "sql",
+      "type": "mcq",
+      "title": "SQL works with?",
+      "options": [
+        "Tables",
+        "Files",
+        "Images",
+        "Networks"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

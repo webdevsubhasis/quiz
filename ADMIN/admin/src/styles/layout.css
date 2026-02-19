@@ -1,0 +1,43 @@
+/* layout.css - main layout with sidebar + main area */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--bg-light), #fff);
+}
+.sidebar {
+  width: 260px;
+  padding: 20px;
+  background: linear-gradient(180deg, #071028 0%, #041221 100%);
+  color: #fff;
+}
+.main {
+  flex: 1;
+  padding: 20px;
+  background: none;
+  min-height: 100vh;
+}
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.widget {
+  padding: 18px;
+  border-radius: 12px;
+  text-align: left;
+}
+@media (max-width: 1000px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sidebar {
+    display: none;
+  }
+  .layout {
+    display: block;
+  }
+}

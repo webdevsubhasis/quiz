@@ -1,0 +1,405 @@
+{
+  "category": "Boats & Streams",
+  "questions": [
+    {
+      "id": "bs1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 12 km/h and stream 3 km/h. Time to travel 45 km upstream?",
+      "options": ["5 hr", "4 hr", "6 hr", "3 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Downstream speed 18 km/h and upstream 10 km/h. Speed of current?",
+      "options": ["8", "5", "3", "4"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "bs3",
+      "language": "math",
+      "type": "mcq",
+      "title": "A boat covers 30 km upstream in 5 hr and downstream in 3 hr. Find stream speed.",
+      "options": ["12 km/h", "3 km/h", "2 km/h", "4 km/h"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bs4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed in still water 15 km/h, stream 5 km/h. Time for 80 km round trip?",
+      "options": ["15 hr", "10 hr", "12 hr", "9 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bs5",
+      "language": "math",
+      "type": "mcq",
+      "title": "A man rows 24 km downstream in 2 hr. If stream speed 4 km/h, boat speed?",
+      "options": ["8", "10", "12", "6"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Upstream speed 6 km/h, downstream 14 km/h. Boat speed?",
+      "options": ["20", "8", "10", "7"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bs7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat travels equal distances upstream and downstream in 8 hr and 4 hr. Ratio speed still water:stream?",
+      "options": ["3:1", "2:1", "4:1", "5:1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat takes 6 hr downstream and 10 hr upstream for same distance. If stream 2 km/h, boat speed?",
+      "options": ["16", "6", "8", "9"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bs9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat covers 36 km downstream in 3 hr. If current 3 km/h, upstream speed?",
+      "options": ["16", "7", "8", "6"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "bs10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 20 km/h, stream 4 km/h. Difference in time for 96 km up & down?",
+      "options": ["4 hr", "3 hr", "2 hr", "5 hr"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bs11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat travels 60 km downstream in 4 hr. Upstream time 10 hr. Boat speed?",
+      "options": ["20", "12", "10", "8"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bs12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Stream speed 3 km/h. Boat covers 48 km upstream in 6 hr. Still water speed?",
+      "options": ["11", "12", "13", "10"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat takes 2 hr more upstream than downstream for 30 km. If stream 2 km/h, boat speed?",
+      "options": ["18", "9", "8", "7"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bs14",
+      "language": "math",
+      "type": "mcq",
+      "title": "A swimmer swims 5 km downstream in 1 hr. Current 1 km/h. Still water speed?",
+      "options": ["4", "5", "6", "3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 16 km/h, stream 4 km/h. Total time for 40 km upstream & 40 km downstream?",
+      "options": ["10 hr", "5.83 hr", "7.13 hr", "8 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bs16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat takes 5 hr downstream and 9 hr upstream for same distance. Find current speed if boat speed 8 km/h.",
+      "options": ["2", "3", "1", "4"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat covers 72 km upstream in 12 hr and downstream in 6 hr. Current speed?",
+      "options": ["8", "4", "3", "2"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bs18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 9 km/h in still water, stream 1 km/h. Time to cover 40 km downstream?",
+      "options": ["14 hr", "4 hr", "3 hr", "6 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bs19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Distance between two points 48 km. Boat takes 3 hr downstream & 6 hr upstream. Stream speed?",
+      "options": ["4", "5", "3", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat travels 90 km upstream in 10 hr and downstream in 6 hr. Boat speed?",
+      "options": ["12", "10", "11", "13"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs21",
+      "language": "math",
+      "type": "mcq",
+      "title": "A man rows to a place and back in 8 hr in still water. Stream 2 km/h increases total time to 10 hr. Boat speed?",
+      "options": ["18", "7", "9", "8"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "bs22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 14 km/h, stream 2 km/h. Time difference for 48 km upstream & downstream?",
+      "options": ["2 hr", "1 hr", "3 hr", "4 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs23",
+      "language": "math",
+      "type": "mcq",
+      "title": "A swimmer swims against current 2 km in 1 hr and with current 4 km in 1 hr. Stream speed?",
+      "options": ["10", "2", "0.5", "1"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "bs24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat travels 20 km upstream in 4 hr and downstream in 2 hr. Still water speed?",
+      "options": ["7.5", "8", "6", "9"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bs25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed double the current speed. If downstream speed 18 km/h, upstream speed?",
+      "options": ["5", "6", "8", "10"],
+      "correctAnswer": 1
+    }, 
+  {
+    "id": "bs26",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed 18 km/h, stream 3 km/h. Time to travel 84 km upstream?",
+    "options": ["7 hr", "6 hr", "8 hr", "5 hr"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs27",
+    "language": "math",
+    "type": "mcq",
+    "title": "Downstream 22 km/h and upstream 14 km/h. Speed of current?",
+    "options": ["9", "3", "4", "2"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "bs28",
+    "language": "math",
+    "type": "mcq",
+    "title": "A boat covers 40 km upstream in 8 hr and downstream in 4 hr. Stream speed?",
+    "options": ["4.5 km/h", "3 km/h", "2 km/h", "2.5 km/h"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "bs29",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed in still water 20 km/h, stream 4 km/h. Time for 120 km round trip?",
+    "options": ["10 hr", "8 hr", "12 hr", "9 hr"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs30",
+    "language": "math",
+    "type": "mcq",
+    "title": "A man rows 30 km downstream in 2 hr. If stream speed 5 km/h, boat speed?",
+    "options": ["20", "10", "15", "8"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "bs31",
+    "language": "math",
+    "type": "mcq",
+    "title": "Upstream speed 8 km/h, downstream 20 km/h. Boat speed?",
+    "options": ["14", "12", "13", "10"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs32",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat travels equal distances upstream & downstream in 9 hr and 3 hr. Ratio still water:stream?",
+    "options": ["2:1", "3:1", "4:1", "5:1"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs33",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat takes 5 hr downstream and 9 hr upstream for same distance. If stream 2 km/h, boat speed?",
+    "options": ["5.5", "7.5", "7", "9.5"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "bs34",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat covers 48 km downstream in 3 hr. If current 4 km/h, upstream speed?",
+    "options": ["8", "10", "12", "6"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs35",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed 24 km/h, stream 6 km/h. Difference in time for 120 km up & down?",
+    "options": ["15 hr", "4.47 hr", "6 hr", "2.67 hr"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "bs36",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat travels 72 km downstream in 4 hr. Upstream time 12 hr. Boat speed?",
+    "options": ["18", "12", "15", "10"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "bs37",
+    "language": "math",
+    "type": "mcq",
+    "title": "Stream speed 4 km/h. Boat covers 60 km upstream in 10 hr. Still water speed?",
+    "options": ["10", "9", "8", "12"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs38",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat takes 3 hours more upstream than downstream for 36 km. If stream 3 km/h, boat speed?",
+    "options": ["19", "8", "10", "9"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "bs39",
+    "language": "math",
+    "type": "mcq",
+    "title": "A swimmer swims 6 km downstream in 1 hr. Current 2 km/h. Still water speed?",
+    "options": ["4", "5", "6", "3"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs40",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed 18 km/h, stream 3 km/h. Total time for 54 km upstream & downstream?",
+    "options": ["6.17 hr", "5.37 hr", "7.27 hr", "8 hr"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs41",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat takes 6 hr downstream and 10 hr upstream for same distance. Current speed if boat speed 12 km/h?",
+    "options": ["12", "3", "2", "1"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "bs42",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat covers 96 km upstream in 12 hr and downstream in 6 hr. Current speed?",
+    "options": ["4", "5", "3", "2"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs43",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed 12 km/h in still water, stream 2 km/h. Time to cover 60 km downstream?",
+    "options": ["5 hr", "4 hr", "6 hr", "3 hr"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs44",
+    "language": "math",
+    "type": "mcq",
+    "title": "Distance 72 km. Boat takes 4 hr downstream & 9 hr upstream. Stream speed?",
+    "options": ["15", "14", "13", "5"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "bs45",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat travels 120 km upstream in 12 hr and downstream in 8 hr. Boat speed?",
+    "options": ["12", "13", "14", "10"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs46",
+    "language": "math",
+    "type": "mcq",
+    "title": "A man rows to a place and back in 6 hr in still water. Stream 2 km/h increases total time to 8 hr. Boat speed?",
+    "options": ["16", "6", "17", "18"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "bs47",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed 16 km/h, stream 4 km/h. Time difference for 64 km upstream & downstream?",
+    "options": ["4.44 hr", "3.33 hr", "2.13 hr", "5 hr"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "bs48",
+    "language": "math",
+    "type": "mcq",
+    "title": "A swimmer swims against current 3 km in 1 hr and with current 7 km in 1 hr. Stream speed?",
+    "options": ["12", "10", "3", "2"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "bs49",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat travels 24 km upstream in 6 hr and downstream in 2 hr. Still water speed?",
+    "options": ["8", "7", "6", "9"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "bs50",
+    "language": "math",
+    "type": "mcq",
+    "title": "Boat speed double the current speed. If downstream speed 24 km/h, upstream speed?",
+    "options": ["8", "12", "10", "6"],
+    "correctAnswer": 0
+  }
+]
+}

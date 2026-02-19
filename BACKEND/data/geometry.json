@@ -1,0 +1,408 @@
+{
+  "category": "Geometry",
+  "questions": [
+    {
+      "id": "geo1",
+      "language": "math",
+      "type": "mcq",
+      "title": "In triangle ABC, angles are in ratio 2:3:4. Largest angle?",
+      "options": ["80°", "60°", "100°", "90°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo2",
+      "language": "math",
+      "type": "mcq",
+      "title": "If two angles of a triangle are 45° and 65°, third angle?",
+      "options": ["80°", "60°", "70°", "75°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of interior angles of a decagon?",
+      "options": ["3600°", "1440°", "1260°", "900°"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "geo4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Exterior angle of regular pentagon?",
+      "options": ["72°", "60°", "90°", "108°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between tangent and radius at point of contact?",
+      "options": ["60°", "45°", "90°", "30°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo6",
+      "language": "math",
+      "type": "mcq",
+      "title": "A triangle with sides 3,4,5 is",
+      "options": ["Right angled", "Equilateral", "Obtuse", "Isosceles"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle in semicircle equals",
+      "options": ["120°", "60°", "45°", "90°"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "geo8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Number of diagonals in hexagon?",
+      "options": ["9", "6", "12", "15"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of exterior angles of any polygon?",
+      "options": ["36°", "360°", "540°", "720°"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "geo10",
+      "language": "math",
+      "type": "mcq",
+      "title": "If chord equals radius, angle at center is",
+      "options": ["60°", "90°", "45°", "120°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Triangle angles 30°,60°,90°. Hypotenuse 10. Shortest side?",
+      "options": ["50", "10", "5", "4"],
+      "correctAnswer":2
+    },
+    {
+      "id": "geo12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Perpendicular from center to chord bisects it — theorem name?",
+      "options": ["Circle theorem", "Thales theorem", "Pythagoras", "Similarity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angles opposite equal sides are",
+      "options": ["Equal", "Complementary", "Supplementary", "Right"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo14",
+      "language": "math",
+      "type": "mcq",
+      "title": "In parallelogram diagonals",
+      "options": ["Bisect each other", "Equal", "Perpendicular", "None"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angles of cyclic quadrilateral sum to",
+      "options": ["720°", "360°", "180°", "270°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Median of triangle divides it into area ratio",
+      "options": ["1:2", "2:1", "3:3", "4:1"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Centroid divides median in ratio",
+      "options": ["2:1", "1:2", "3:2", "1:3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle subtended by diameter in circle",
+      "options": ["90°", "180°", "60°", "45°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Interior angle of regular hexagon?",
+      "options": ["150°", "108°", "135°", "120°"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "geo20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Area ratio similar triangles sides 2:3",
+      "options": ["4:9", "2:3", "3:2", "8:27"],
+      "correctAnswer": 0
+    },
+  
+    {
+      "id": "geo21",
+      "language": "math",
+      "type": "mcq",
+      "title": "In triangle ABC, AB = AC and ∠BAC = 40°. Each base angle equals?",
+      "options": ["70°", "60°", "65°", "80°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two chords intersect inside circle forming vertical angles 50°. Opposite arcs sum equals?",
+      "options": ["100°", "200°", "150°", "120°"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "geo23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Exterior angle of triangle equals sum of interior opposite angles. If 40° and 65°, exterior angle?",
+      "options": ["105°", "115°", "95°", "125°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo24",
+      "language": "math",
+      "type": "mcq",
+      "title": "In cyclic quadrilateral ABCD, ∠A=75° and ∠C=?",
+      "options": ["150°", "95°", "105°", "120°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between two tangents from external point equals 60°. Central angle subtended?",
+      "options": ["120°", "60°", "180°", "90°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of angles in triangle equals interior angle sum of polygon sides n= ? if sum=540°",
+      "options": ["8", "5", "7", "4"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "geo27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Chord subtends 80° at center. Angle at circumference?",
+      "options": ["40°", "80°", "20°", "60°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo28",
+      "language": "math",
+      "type": "mcq",
+      "title": "In equilateral triangle side a, altitude equals?",
+      "options": ["a√2/2", "a/2", "a√3/2", "a√3"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Diagonals of rhombus perpendicular. If diagonals 6 & 8, side length?",
+      "options": ["8", "7", "6", "5"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "geo30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Triangle sides 7,24,25 type?",
+      "options": ["Right triangle", "Obtuse", "Acute", "Isosceles"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Number of diagonals in polygon =35. Sides?",
+      "options": ["20", "9", "10", "8"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Area ratio of equilateral triangles sides 5 and 7",
+      "options": ["25:49", "5:7", "10:14", "7:5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two similar triangles perimeter ratio 3:5. Area ratio?",
+      "options": ["9:5", "9:25", "6:10", "27:125"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "geo34",
+      "language": "math",
+      "type": "mcq",
+      "title": "In right triangle, median to hypotenuse equals?",
+      "options": ["Half hypotenuse", "Hypotenuse", "Altitude", "Twice hypotenuse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Interior angle regular octagon?",
+      "options": ["150°", "120°", "140°", "135°"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "geo36",
+      "language": "math",
+      "type": "mcq",
+      "title": "If sum interior angles = 900°, polygon sides?",
+      "options": ["7", "8", "6", "9"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Radius of circumcircle of right triangle equals?",
+      "options": ["Half hypotenuse", "Hypotenuse", "Altitude", "One side"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle in major segment equals?",
+      "options": ["Supplement of minor angle", "Equal angle", "Half central angle", "Twice"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Rectangle diagonal 10 and side 6. Other side?",
+      "options": ["6", "7", "8", "5"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo40",
+      "language": "math",
+      "type": "mcq",
+      "title": "In isosceles triangle vertex angle 20°, base angle?",
+      "options": ["80°", "70°", "75°", "85°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Parallel lines cut by transversal alternate angles are",
+      "options": ["Equal", "Supplementary", "Complementary", "Right"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between diagonals of square?",
+      "options": ["0°", "45°", "60°", "90°"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "geo43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Triangle area with base 10 height 6?",
+      "options": ["30", "60", "15", "20"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo44",
+      "language": "math",
+      "type": "mcq",
+      "title": "In equilateral triangle all angles",
+      "options": ["90°", "105°", "60°", "120°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo45",
+      "language": "math",
+      "type": "mcq",
+      "title": "If radius doubles, circle area becomes",
+      "options": ["4 times", "2 times", "8 times", "3 times"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Triangle perimeter 30 with sides equal. Each side?",
+      "options": ["30", "15", "10", "20"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "geo47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Opposite sides of parallelogram are",
+      "options": ["Equal", "Perpendicular", "Unequal", "Parallel only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Interior angle regular triangle",
+      "options": ["60°", "120°", "90°", "45°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Number of diagonals in square?",
+      "options": ["2", "4", "6", "8"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "geo50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum angles around a point",
+      "options": ["360°", "180°", "270°", "90°"],
+      "correctAnswer": 0
+    }
+  ]
+}
+
+  

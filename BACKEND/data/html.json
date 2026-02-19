@@ -1,0 +1,370 @@
+{
+  "category": "Html",
+  "questions": [
+    {
+      "id": "h1",
+      "type": "mcq",
+      "title": "Which tag is used for a paragraph in HTML?",
+      "options": ["<para>", "<p>", "<text>", "<pg>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h2",
+      "type": "mcq",
+      "title": "Which attribute specifies an image source?",
+      "options": ["href", "source", "src", "img"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h3",
+      "type": "mcq",
+      "title": "Which tag defines the largest heading?",
+      "options": ["<h6>", "<heading>", "<h1>", "<head>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h4",
+      "type": "mcq",
+      "title": "Which tag is used to insert a line break?",
+      "options": ["<lb>", "<break>", "<br>", "<hr>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h5",
+      "type": "mcq",
+      "title": "HTML stands for?",
+      "options": [
+        "Hyperlinks Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language",
+        "Hyper Transfer Markup Logic"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h6",
+      "type": "mcq",
+      "title": "Which tag is used for creating a hyperlink?",
+      "options": ["<a>", "<link>", "<href>", "<hyper>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h7",
+      "type": "mcq",
+      "title": "Which tag is used to display an image?",
+      "options": ["<img>", "<image>", "<pic>", "<src>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h8",
+      "type": "mcq",
+      "title": "Which HTML5 element is used for navigation links?",
+      "options": ["<navigate>", "<nav>", "<links>", "<menu>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h9",
+      "type": "mcq",
+      "title": "Which tag defines a horizontal line?",
+      "options": ["<line>", "<hr>", "<hl>", "<horizontal>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h10",
+      "type": "mcq",
+      "title": "Which element represents an independent piece of content?",
+      "options": ["<part>", "<section>", "<article>", "<aside>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h11",
+      "type": "mcq",
+      "title": "Which tag is used for bold text?",
+      "options": ["<strong>", "<bold>", "<b>", "<heavy>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h12",
+      "type": "mcq",
+      "title": "Which tag defines emphasized text?",
+      "options": ["<emp>", "<i>", "<italic>", "<em>"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "h13",
+      "type": "mcq",
+      "title": "Which tag displays a table?",
+      "options": ["<tbl>", "<table>", "<t>", "<grid>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h14",
+      "type": "mcq",
+      "title": "Which tag defines a table row?",
+      "options": ["<tr>", "<td>", "<row>", "<th>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h15",
+      "type": "mcq",
+      "title": "Which tag defines a table cell?",
+      "options": ["<cell>", "<td>", "<tc>", "<tr>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h16",
+      "type": "mcq",
+      "title": "Which tag defines table header?",
+      "options": ["<th>", "<header>", "<thead>", "<hd>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h17",
+      "type": "mcq",
+      "title": "Which attribute defines alternative text for images?",
+      "options": ["alt", "title", "description", "label"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h18",
+      "type": "mcq",
+      "title": "Which HTML5 element is used for a footer?",
+      "options": ["<bottom>", "<end>", "<footer>", "<foot>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h19",
+      "type": "mcq",
+      "title": "Which tag defines a list item?",
+      "options": ["<li>", "<item>", "<ul>", "<list>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h20",
+      "type": "mcq",
+      "title": "Which element creates an unordered list?",
+      "options": ["<ol>", "<ul>", "<list>", "<li>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h21",
+      "type": "mcq",
+      "title": "Which element creates an ordered list?",
+      "options": ["<ul>", "<numbers>", "<list>", "<ol>"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "h22",
+      "type": "mcq",
+      "title": "Which tag defines input controls?",
+      "options": ["<input>", "<textbox>", "<ctrl>", "<form-input>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h23",
+      "type": "mcq",
+      "title": "Which tag defines a form?",
+      "options": ["<forms>", "<input-group>", "<form>", "<entry>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h24",
+      "type": "mcq",
+      "title": "Placeholder attribute is used in?",
+      "options": ["<option>", "<textarea>", "<input>", "Both textarea & input"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "h25",
+      "type": "mcq",
+      "title": "Which type is used for email input?",
+      "options": ["text", "mail", "email", "input-email"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h26",
+      "type": "mcq",
+      "title": "Which tag is used for video?",
+      "options": ["<media>", "<movie>", "<video>", "<vid>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h27",
+      "type": "mcq",
+      "title": "Which tag is used for audio?",
+      "options": ["<sound>", "<audio>", "<voice>", "<media>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h28",
+      "type": "mcq",
+      "title": "Which tag defines a dropdown list?",
+      "options": ["<select>", "<dropdown>", "<options>", "<choose>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h29",
+      "type": "mcq",
+      "title": "Which tag defines options inside a dropdown?",
+      "options": ["<item>", "<option>", "<select-item>", "<choose>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h30",
+      "type": "mcq",
+      "title": "Which HTML element is used for a progress bar?",
+      "options": ["<process>", "<progress>", "<loader>", "<meter>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h31",
+      "type": "mcq",
+      "title": "Which element is used to create a checkbox?",
+      "options": [
+        "input type='check'",
+        "<checkbox>",
+        "<input type='checkbox'>",
+        "<input-checkbox>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h32",
+      "type": "mcq",
+      "title": "Which HTMl5 element defines important text?",
+      "options": ["<important>", "<b>", "<strong>", "<em>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h33",
+      "type": "mcq",
+      "title": "Which tag is used to group block-level elements?",
+      "options": ["<group>", "<div>", "<section>", "<block>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h34",
+      "type": "mcq",
+      "title": "Which tag is used for inline grouping?",
+      "options": ["<inline>", "<span>", "<sp>", "<small>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h35",
+      "type": "mcq",
+      "title": "Which element provides additional information when hovered?",
+      "options": ["hover", "desc", "title", "alt"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h36",
+      "type": "mcq",
+      "title": "Which HTML attribute is used for inline styling?",
+      "options": ["styles", "style", "css", "design"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h37",
+      "type": "mcq",
+      "title": "Which tag is used for main content?",
+      "options": ["<body>", "<main>", "<section>", "<primary>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h38",
+      "type": "mcq",
+      "title": "Which API allows drawing graphics?",
+      "options": ["Canvas API", "Graphics API", "HTMLPaint", "DrawJS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h39",
+      "type": "mcq",
+      "title": "Which element is used for drawing using JavaScript?",
+      "options": ["<paint>", "<canvas>", "<draw>", "<graphic>"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "h40",
+      "type": "mcq",
+      "title": "Which tag is used for metadata?",
+      "options": ["<meta>", "<info>", "<data>", "<description>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h41",
+      "type": "mcq",
+      "title": "Which tag sets the page title?",
+      "options": ["<title>", "<head>", "<meta-title>", "<header>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h42",
+      "type": "mcq",
+      "title": "Which element defines a sidebar?",
+      "options": ["<side>", "<leftbar>", "<aside>", "<sidenav>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h43",
+      "type": "mcq",
+      "title": "Which element defines a header?",
+      "options": ["<header>", "<top>", "<heading>", "<head>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h44",
+      "type": "mcq",
+      "title": "Which tag is used for marking up time?",
+      "options": ["<clock>", "<date>", "<time>", "<timestamp>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h45",
+      "type": "mcq",
+      "title": "Which tag is used for figure description?",
+      "options": ["<figcaption>", "<caption>", "<description>", "<label>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h46",
+      "type": "mcq",
+      "title": "Which tag defines a figure?",
+      "options": ["<art>", "<fig>", "<figure>", "<image-block>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h47",
+      "type": "mcq",
+      "title": "Which attribute is required in the <img> tag?",
+      "options": ["src", "href", "link", "ref"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "h48",
+      "type": "mcq",
+      "title": "Which element defines client-side scripts?",
+      "options": ["<js>", "<javascript>", "<script>", "<code>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "h49",
+      "type": "mcq",
+      "title": "Which element is used for search input?",
+      "options": [
+        "<input type='text'>",
+        "<search>",
+        "<find>",
+        "<input type='search'>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "h50",
+      "type": "mcq",
+      "title": "Which attribute is used to disable an input?",
+      "options": ["stop", "disable", "disabled", "readonly"],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "category": "EXPRESS",
+  "questions": [
+    {
+      "id": "ex1",
+      "language": "express",
+      "type": "mcq",
+      "title": "Express.js is built on top of which technology?",
+      "options": [
+        "Django",
+        "Node.js",
+        "Laravel",
+        "Flask"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex2",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which command installs Express Generator globally?",
+      "options": [
+        "npm install -g express-generator",
+        "npm install express -g",
+        "node install express",
+        "install express"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex3",
+      "language": "express",
+      "type": "mcq",
+      "title": "Express is used to build ____. ",
+      "options": [
+        "Operating systems",
+        "Server-side applications",
+        "Mobile apps",
+        "Front-end UI"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex4",
+      "language": "express",
+      "type": "mcq",
+      "title": "What does app.get() do?",
+      "options": [
+        "Handles POST request",
+        "Handles GET request",
+        "Creates a database",
+        "Starts server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex5",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which method starts the Express server?",
+      "options": [
+        "app.start()",
+        "app.listen()",
+        "express()",
+        "app.begin()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex6",
+      "language": "express",
+      "type": "mcq",
+      "title": "app.use() is used for ____.",
+      "options": [
+        "Define routes",
+        "Register middleware",
+        "Connect database",
+        "Stop server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex7",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which one is a built-in middleware?",
+      "options": [
+        "express.json()",
+        "express.render()",
+        "express.http()",
+        "express.file()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex8",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which middleware parses URL encoded data?",
+      "options": [
+        "express.urlencoded()",
+        "express.raw()",
+        "express.static()",
+        "url.parse()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex9",
+      "language": "express",
+      "type": "mcq",
+      "title": "What does express.static() do?",
+      "options": [
+        "Serves static files",
+        "Creates routes",
+        "Adds DB connection",
+        "Stops middleware"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex10",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which HTTP method is used to update existing data?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "TRACE"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex11",
+      "language": "express",
+      "type": "mcq",
+      "title": "Express router is created using:",
+      "options": [
+        "express.Route()",
+        "express.Router()",
+        "express.createRouter()",
+        "app.NewRouter()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex12",
+      "language": "express",
+      "type": "mcq",
+      "title": "What is middleware?",
+      "options": [
+        "Function run between request & response",
+        "Function that deletes data",
+        "Function that restarts server",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex13",
+      "language": "express",
+      "type": "mcq",
+      "title": "404 error is handled using which middleware?",
+      "options": [
+        "Global error handler",
+        "NotFoundRouter",
+        "Default handler",
+        "ClientErrorMiddleware"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex14",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which status code indicates success?",
+      "options": [
+        "404",
+        "200",
+        "500",
+        "403"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex15",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which status means 'Server error'?",
+      "options": [
+        "200",
+        "304",
+        "500",
+        "201"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex16",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which method sends JSON response?",
+      "options": [
+        "res.sendFile()",
+        "res.json()",
+        "res.html()",
+        "res.render()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex17",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which command initializes Node project?",
+      "options": [
+        "npm init",
+        "node init",
+        "express init",
+        "npm start"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex18",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which Express feature supports template engines?",
+      "options": [
+        "app.view()",
+        "app.set()",
+        "app.engine()",
+        "app.route()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex19",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which template engine is commonly used with Express?",
+      "options": [
+        "EJS",
+        "Jinja",
+        "Thymeleaf",
+        "Handlebars"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ex20",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which object contains route parameters?",
+      "options": [
+        "req.query",
+        "req.params",
+        "req.body",
+        "req.files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex21",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which object contains form data?",
+      "options": [
+        "req.body",
+        "req.forms",
+        "req.data",
+        "req.input"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex22",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which middleware is required to parse JSON?",
+      "options": [
+        "express.urlencoded()",
+        "express.static()",
+        "express.json()",
+        "express.cookie()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex23",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which library is commonly used with Express for MongoDB?",
+      "options": [
+        "Mongoose",
+        "Sequelize",
+        "SQLite",
+        "PostgresSQL"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex24",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which method is used to redirect?",
+      "options": [
+        "res.redirect()",
+        "res.go()",
+        "res.transfer()",
+        "res.path()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex25",
+      "language": "express",
+      "type": "mcq",
+      "title": "To send a file you use:",
+      "options": [
+        "res.send()",
+        "res.file()",
+        "res.sendFile()",
+        "res.static()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex26",
+      "language": "express",
+      "type": "mcq",
+      "title": "Route parameters are prefixed with:",
+      "options": [
+        "%",
+        "$",
+        ":",
+        "@@"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex27",
+      "language": "express",
+      "type": "mcq",
+      "title": "Express is:",
+      "options": [
+        "Synchronous",
+        "Asynchronous",
+        "Blocking",
+        "Compiler"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex28",
+      "language": "express",
+      "type": "mcq",
+      "title": "What does next() do?",
+      "options": [
+        "Stops middleware",
+        "Moves to next middleware",
+        "Ends request",
+        "Starts server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex29",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which command installs Express locally?",
+      "options": [
+        "npm install express",
+        "express install",
+        "install express",
+        "node add express"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex30",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which port is commonly used in Express examples?",
+      "options": [
+        "80",
+        "3000",
+        "5000",
+        "8000"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex31",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which is NOT an HTTP method?",
+      "options": [
+        "GET",
+        "POST",
+        "PATCH",
+        "FETCH"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ex32",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which Express method groups routes?",
+      "options": [
+        "app.route()",
+        "app.group()",
+        "app.bind()",
+        "app.merge()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex33",
+      "language": "express",
+      "type": "mcq",
+      "title": "req.query values come from:",
+      "options": [
+        "URL parameters",
+        "Search query ?a=1",
+        "Cookies",
+        "Headers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex34",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which middleware handles errors?",
+      "options": [
+        "four-argument function",
+        "two-argument function",
+        "one-argument function",
+        "async function only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex35",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which Express function renders a template?",
+      "options": [
+        "res.sendHTML()",
+        "res.html()",
+        "res.render()",
+        "res.template()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex36",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which module is required to create Express app?",
+      "options": [
+        "require('http')",
+        "require('fs')",
+        "require('express')",
+        "require('path')"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex37",
+      "language": "express",
+      "type": "mcq",
+      "title": "CORS middleware is used for:",
+      "options": [
+        "Security",
+        "Cross-origin requests",
+        "Speed",
+        "Cookies"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex38",
+      "language": "express",
+      "type": "mcq",
+      "title": "Helmet middleware is used for:",
+      "options": [
+        "Security headers",
+        "Logging",
+        "Routing",
+        "Testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex39",
+      "language": "express",
+      "type": "mcq",
+      "title": "Morgan is used for:",
+      "options": [
+        "File upload",
+        "Logging HTTP requests",
+        "Authentication",
+        "Database"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex40",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which library is used for authentication?",
+      "options": [
+        "Passport.js",
+        "Bcrypt",
+        "Morgan",
+        "Axios"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex41",
+      "language": "express",
+      "type": "mcq",
+      "title": "Express runs on:",
+      "options": [
+        "Browser",
+        "Node.js runtime",
+        "Java JVM",
+        "PHP server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex42",
+      "language": "express",
+      "type": "mcq",
+      "title": "What do we export using module.exports?",
+      "options": [
+        "Routes",
+        "Views",
+        "Static files",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex43",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which function handles unmatched routes?",
+      "options": [
+        "404 middleware",
+        "NoRoute()",
+        "RouteError()",
+        "NotFound()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex44",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which is used for environment variables?",
+      "options": [
+        "dotenv",
+        "express-env",
+        "config.json",
+        "env.js"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex45",
+      "language": "express",
+      "type": "mcq",
+      "title": "Which Express method chains route actions?",
+      "options": [
+        "app.chain()",
+        "app.methods()",
+        "router.route()",
+        "router.bind()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ex46",
+      "language": "express",
+      "type": "mcq",
+      "title": "To get headers from user request:",
+      "options": [
+        "req.headers",
+        "req.h",
+        "req.get()",
+        "headers.get()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex47",
+      "language": "express",
+      "type": "mcq",
+      "title": "Cookie parser middleware is:",
+      "options": [
+        "cookieParser()",
+        "express.cookie()",
+        "cookie()",
+        "http.cookie()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ex48",
+      "language": "express",
+      "type": "mcq",
+      "title": "How to define a POST route?",
+      "options": [
+        "app.submit()",
+        "app.post()",
+        "app.send()",
+        "app.create()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex49",
+      "language": "express",
+      "type": "mcq",
+      "title": "res.status() is used to:",
+      "options": [
+        "Send response",
+        "Set status code",
+        "Set cookies",
+        "Clear cache"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ex50",
+      "language": "express",
+      "type": "mcq",
+      "title": "Express is classified as a ____ framework.",
+      "options": [
+        "Full-stack",
+        "Back-end",
+        "Minimalist web",
+        "CSS"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

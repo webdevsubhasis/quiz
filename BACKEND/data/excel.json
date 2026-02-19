@@ -1,0 +1,655 @@
+{
+  "category": "MS Excel",
+  "questions": [
+    {
+      "id": "e1",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which symbol starts a formula?",
+      "options": [
+        "=",
+        "+",
+        "#",
+        "@"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e2",
+      "language": "excel",
+      "type": "mcq",
+      "title": "SUM() function is used for?",
+      "options": [
+        "Addition",
+        "Division",
+        "Sorting",
+        "Filtering"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e3",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which key edits a cell?",
+      "options": [
+        "F2",
+        "F4",
+        "F6",
+        "F9"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e4",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Cell reference A1 is?",
+      "options": [
+        "Relative",
+        "Absolute",
+        "Mixed",
+        "Fixed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e5",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Absolute reference is?",
+      "options": [
+        "$A$1",
+        "A$1",
+        "$A1",
+        "AA1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e6",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Shortcut for AutoSum?",
+      "options": [
+        "Alt+=",
+        "Shift+=",
+        "Ctrl+=",
+        "Alt+S"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e7",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Excel file extension?",
+      "options": [
+        ".xlsx",
+        ".docx",
+        ".pptx",
+        ".xlsm"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e8",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which chart shows trends over time?",
+      "options": [
+        "Line",
+        "Pie",
+        "Bar",
+        "Doughnut"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e9",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Shortcut to copy?",
+      "options": [
+        "Ctrl+C",
+        "Ctrl+X",
+        "Ctrl+V",
+        "Ctrl+D"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e10",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Merge cells found in?",
+      "options": [
+        "Home",
+        "Insert",
+        "Review",
+        "Data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e11",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function counts numeric values only?",
+      "options": [
+        "COUNT",
+        "COUNTA",
+        "COUNTIF",
+        "SUM"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e12",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function counts non-empty cells?",
+      "options": [
+        "COUNT",
+        "COUNTA",
+        "COUNTBLANK",
+        "COUNTIFS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e13",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function returns the average?",
+      "options": [
+        "MEAN",
+        "AVERAGE",
+        "AVG",
+        "SUM"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e14",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function finds maximum value?",
+      "options": [
+        "MAX",
+        "LARGE",
+        "TOP",
+        "HIGH"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e15",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function finds minimum value?",
+      "options": [
+        "LOW",
+        "SMALL",
+        "MIN",
+        "BOTTOM"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "e16",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which chart shows proportional data?",
+      "options": [
+        "Pie chart",
+        "Line chart",
+        "Bar chart",
+        "Area chart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e17",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which key selects the entire sheet?",
+      "options": [
+        "Ctrl+A",
+        "Ctrl+S",
+        "Ctrl+Shift+A",
+        "Shift+S"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e18",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Freeze Panes option is in which tab?",
+      "options": [
+        "View",
+        "Home",
+        "Insert",
+        "Data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e19",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Shortcut to paste?",
+      "options": [
+        "Ctrl+P",
+        "Ctrl+V",
+        "Ctrl+Shift+V",
+        "Ctrl+S"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e20",
+      "language": "excel",
+      "type": "mcq",
+      "title": "What is a workbook?",
+      "options": [
+        "A single worksheet",
+        "A file containing sheets",
+        "A function",
+        "A formula"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e21",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which is NOT a valid chart type?",
+      "options": [
+        "Pie",
+        "Column",
+        "Scatter",
+        "Text"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "e22",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Concatenate function joins?",
+      "options": [
+        "Words",
+        "Numbers",
+        "Cells",
+        "All of these"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "e23",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Shortcut to cut?",
+      "options": [
+        "Ctrl+X",
+        "Ctrl+C",
+        "Ctrl+V",
+        "Ctrl+Shift+X"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e24",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function returns current date?",
+      "options": [
+        "DATE()",
+        "TODAY()",
+        "NOW()",
+        "CURDATE()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e25",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function returns current time?",
+      "options": [
+        "TIME()",
+        "NOW()",
+        "CLOCK()",
+        "CURRENT()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e26",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function counts blank cells?",
+      "options": [
+        "COUNTEMPTY",
+        "COUNT",
+        "COUNTBLANK",
+        "BLANKCOUNT"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "e27",
+      "language": "excel",
+      "type": "mcq",
+      "title": "IF function is used for?",
+      "options": [
+        "Logic test",
+        "Math",
+        "Sorting",
+        "Filtering"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e28",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which operator is used for multiplication?",
+      "options": [
+        "*",
+        "x",
+        "mul",
+        "%"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e29",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which operator is for division?",
+      "options": [
+        "/",
+        "\\",
+        "%",
+        "_"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e30",
+      "language": "excel",
+      "type": "mcq",
+      "title": "AutoFill handle appears at?",
+      "options": [
+        "Top-left",
+        "Bottom-right",
+        "Top-right",
+        "Bottom-left"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e31",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which shortcut undoes last action?",
+      "options": [
+        "Ctrl+U",
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+Shift+Z"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e32",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which shortcut redoes action?",
+      "options": [
+        "Ctrl+Y",
+        "Ctrl+R",
+        "Ctrl+Shift+Y",
+        "Ctrl+W"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e33",
+      "language": "excel",
+      "type": "mcq",
+      "title": "What is the intersection of a row and column?",
+      "options": [
+        "Cell",
+        "Sheet",
+        "Box",
+        "Block"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e34",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which key inserts a new sheet?",
+      "options": [
+        "Shift+F11",
+        "Ctrl+Shift+N",
+        "Alt+N",
+        "Ctrl+I"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e35",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which tab contains Sort & Filter?",
+      "options": [
+        "Data",
+        "Home",
+        "Insert",
+        "Review"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e36",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Shortcut to open Find dialog?",
+      "options": [
+        "Ctrl+F",
+        "Ctrl+Shift+F",
+        "Ctrl+H",
+        "Ctrl+D"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e37",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which shows cell formula?",
+      "options": [
+        "Name bar",
+        "Formula bar",
+        "Title bar",
+        "Status bar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e38",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function rounds numbers?",
+      "options": [
+        "ROUND()",
+        "CUT()",
+        "DECIMAL()",
+        "LIMIT()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e39",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which key edits active cell?",
+      "options": [
+        "F2",
+        "F3",
+        "F4",
+        "F9"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e40",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which chart compares categories?",
+      "options": [
+        "Bar chart",
+        "Pie chart",
+        "Line chart",
+        "Donut chart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e41",
+      "language": "excel",
+      "type": "mcq",
+      "title": "MAX() returns?",
+      "options": [
+        "Smallest value",
+        "Largest value",
+        "Median",
+        "Count"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e42",
+      "language": "excel",
+      "type": "mcq",
+      "title": "MIN() returns?",
+      "options": [
+        "Minimum",
+        "Maximum",
+        "Average",
+        "Sum"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e43",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function counts cells based on condition?",
+      "options": [
+        "COUNTIF",
+        "COUNT",
+        "COUNTIFS",
+        "SUMIF"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e44",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function adds values based on condition?",
+      "options": [
+        "SUM()",
+        "SUMIF()",
+        "SUMALL()",
+        "SUM+IF"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e45",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Mixed reference example?",
+      "options": [
+        "A$1",
+        "$A1",
+        "Both",
+        "None"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "e46",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which shortcut opens Save As?",
+      "options": [
+        "F12",
+        "Ctrl+S",
+        "Ctrl+Shift+S",
+        "Alt+S"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e47",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which function returns number of characters?",
+      "options": [
+        "LEN()",
+        "CHAR()",
+        "SIZE()",
+        "COUNT()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e48",
+      "language": "excel",
+      "type": "mcq",
+      "title": "TRIM() function removes?",
+      "options": [
+        "All spaces",
+        "Extra spaces",
+        "Start spaces",
+        "End spaces"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "e49",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which feature splits one column into multiple?",
+      "options": [
+        "Text to Columns",
+        "Split",
+        "Divide",
+        "Cell Break"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "e50",
+      "language": "excel",
+      "type": "mcq",
+      "title": "Which file type supports macros?",
+      "options": [
+        ".xlsm",
+        ".xlsx",
+        ".xls",
+        ".csv"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

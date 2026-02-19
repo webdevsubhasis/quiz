@@ -1,0 +1,569 @@
+{
+  "category": "GST",
+  "questions": [
+    {
+      "id": "gs1",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What does GST stand for?",
+      "options": [
+        "Goods and Service Tax",
+        "General Sales Tax",
+        "Government Service Tax",
+        "Gross Sales Tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs2",
+      "language": "gst",
+      "type": "mcq",
+      "title": "GST is an example of which type of tax?",
+      "options": [
+        "Direct tax",
+        "Indirect tax",
+        "Wealth tax",
+        "Professional tax"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs3",
+      "language": "gst",
+      "type": "mcq",
+      "title": "GST was implemented in India from which date?",
+      "options": [
+        "1 April 2016",
+        "1 July 2017",
+        "1 April 2018",
+        "1 January 2017"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs4",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which GST is charged on intra-state supply?",
+      "options": ["IGST", "CGST & SGST", "VAT", "Custom Duty"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs5",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which GST is charged on inter-state supply?",
+      "options": ["CGST", "SGST", "IGST", "VAT"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "gs6",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is CGST?",
+      "options": [
+        "Central Goods and Service Tax",
+        "Common Goods and Service Tax",
+        "Central Government Sales Tax",
+        "Common Government Sales Tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs7",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is SGST?",
+      "options": [
+        "State Goods and Service Tax",
+        "Special Goods and Service Tax",
+        "Sales Goods and Service Tax",
+        "Standard Goods and Service Tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs8",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is IGST?",
+      "options": [
+        "Integrated Goods and Service Tax",
+        "Internal Goods and Service Tax",
+        "Indian Goods and Service Tax",
+        "Inter Goods and Sales Tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs9",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Who is required to register under GST?",
+      "options": [
+        "Every individual",
+        "Business exceeding threshold limit",
+        "Only government offices",
+        "Only salaried employees"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs10",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is the GST registration number called?",
+      "options": ["PAN", "CIN", "GSTIN", "TIN"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "gs11",
+      "language": "gst",
+      "type": "mcq",
+      "title": "How many digits are there in GSTIN?",
+      "options": ["10", "12", "15", "18"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gs12",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which tax was replaced by GST?",
+      "options": [
+        "Income Tax",
+        "Service Tax",
+        "Professional Tax",
+        "Road Tax"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs13",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is Input Tax Credit (ITC)?",
+      "options": [
+        "Tax paid on sales",
+        "Tax paid on purchases",
+        "Penalty under GST",
+        "Refund under GST"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs14",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is Output GST?",
+      "options": [
+        "GST paid on purchases",
+        "GST collected on sales",
+        "GST refund",
+        "GST penalty"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs15",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which document is issued for supply of goods?",
+      "options": [
+        "Debit Note",
+        "Credit Note",
+        "Tax Invoice",
+        "Delivery Challan"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "gs16",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is HSN?",
+      "options": [
+        "Harmonized System of Nomenclature",
+        "High Sales Number",
+        "Harmonized Sales Network",
+        "High Service Number"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs17",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is SAC?",
+      "options": [
+        "Service Accounting Code",
+        "Sales Accounting Code",
+        "Standard Accounting Code",
+        "Service Access Code"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs18",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which return is filed monthly under GST?",
+      "options": ["GSTR-1", "GSTR-3B", "GSTR-9", "GSTR-10"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs19",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which return shows outward supplies?",
+      "options": ["GSTR-1", "GSTR-2", "GSTR-3B", "GSTR-9"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs20",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which return is annual GST return?",
+      "options": ["GSTR-1", "GSTR-3B", "GSTR-9", "GSTR-10"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "gs21",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is reverse charge mechanism?",
+      "options": [
+        "Seller pays GST",
+        "Buyer pays GST",
+        "GST exemption",
+        "GST refund"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs22",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which supply is exempt under GST?",
+      "options": [
+        "Taxable supply",
+        "Exempt supply",
+        "Zero-rated supply",
+        "Composite supply"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs23",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Export of goods under GST is treated as?",
+      "options": [
+        "Taxable supply",
+        "Exempt supply",
+        "Zero-rated supply",
+        "Nil-rated supply"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gs24",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which tax rate slab does NOT exist in GST?",
+      "options": ["5%", "12%", "18%", "25%"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "gs25",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which body governs GST in India?",
+      "options": ["GST Council", "RBI", "SEBI", "CBDT"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "gs26",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is composition scheme?",
+      "options": [
+        "Scheme for small taxpayers",
+        "Scheme for exporters",
+        "Scheme for importers",
+        "Scheme for salaried persons"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs27",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Can composition dealers claim ITC?",
+      "options": ["Yes", "No", "Sometimes", "Only on services"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs28",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which form is used for GST registration?",
+      "options": ["GST REG-01", "GST RFD-01", "GST CMP-02", "GST PMT-06"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs29",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is GST portal URL?",
+      "options": [
+        "www.incometax.gov.in",
+        "www.gst.gov.in",
+        "www.mca.gov.in",
+        "www.rbi.org.in"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs30",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is e-invoicing?",
+      "options": [
+        "Electronic generation of invoices",
+        "Handwritten invoice",
+        "Manual billing",
+        "Cash memo"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "gs31",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which document is issued for sales return?",
+      "options": ["Debit Note", "Credit Note", "Invoice", "Challan"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs32",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which document is issued for purchase return?",
+      "options": ["Debit Note", "Credit Note", "Invoice", "Voucher"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs33",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which tax is not subsumed under GST?",
+      "options": ["VAT", "Service Tax", "Custom Duty", "Excise Duty"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gs34",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is place of supply?",
+      "options": [
+        "Place where supplier is registered",
+        "Place where goods/services are supplied",
+        "Place of manufacturing",
+        "Place of billing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs35",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which supply involves multiple goods/services naturally bundled?",
+      "options": [
+        "Composite supply",
+        "Mixed supply",
+        "Exempt supply",
+        "Zero-rated supply"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "gs36",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which supply involves multiple independent goods/services?",
+      "options": [
+        "Composite supply",
+        "Mixed supply",
+        "Nil-rated supply",
+        "Exempt supply"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs37",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is nil-rated supply?",
+      "options": [
+        "Supply taxed at 0%",
+        "Supply exempted fully",
+        "Supply under GST",
+        "Supply without invoice"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs38",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which tax is levied on import of goods?",
+      "options": ["CGST", "SGST", "IGST", "VAT"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gs39",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is GST refund?",
+      "options": [
+        "Excess GST paid returned",
+        "GST penalty",
+        "GST collection",
+        "GST payment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs40",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which return is filed for GST cancellation?",
+      "options": ["GSTR-1", "GSTR-3B", "GSTR-9", "GSTR-10"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "gs41",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is late fee under GST?",
+      "options": [
+        "Penalty for late filing of returns",
+        "Interest on loan",
+        "GST refund",
+        "GST exemption"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs42",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which tax credit is not allowed?",
+      "options": [
+        "Blocked credit",
+        "Input tax credit",
+        "Eligible credit",
+        "Refund credit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs43",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is GST audit?",
+      "options": [
+        "Verification of GST records",
+        "GST payment",
+        "GST registration",
+        "GST refund"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs44",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which form is used to claim GST refund?",
+      "options": ["GST RFD-01", "GST REG-01", "GST CMP-02", "GST PMT-06"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs45",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is threshold limit for GST registration (general states)?",
+      "options": [
+        "₹10 lakh",
+        "₹20 lakh",
+        "₹40 lakh",
+        "₹50 lakh"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gs46",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which supply is taxable at 0% rate?",
+      "options": [
+        "Zero-rated supply",
+        "Exempt supply",
+        "Nil supply",
+        "Mixed supply"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs47",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which return is filed by composition dealers?",
+      "options": ["GSTR-1", "GSTR-4", "GSTR-9", "GSTR-10"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs48",
+      "language": "gst",
+      "type": "mcq",
+      "title": "What is GST challan used for?",
+      "options": [
+        "Payment of GST",
+        "Filing return",
+        "Registration",
+        "Refund claim"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gs49",
+      "language": "gst",
+      "type": "mcq",
+      "title": "Which interest is charged for late GST payment?",
+      "options": ["12%", "18%", "24%", "36%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gs50",
+      "language": "gst",
+      "type": "mcq",
+      "title": "GST under DFAS mainly focuses on?",
+      "options": [
+        "Practical tax compliance",
+        "Only theory",
+        "Manual taxation",
+        "Non-commercial tax"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

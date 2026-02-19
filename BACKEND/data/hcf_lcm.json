@@ -1,0 +1,655 @@
+{
+  "category": "HCF & LCM",
+  "questions": [
+    {
+      "id": "hl1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 248 and 58.",
+      "options": [
+        2,
+        8,
+        24,
+        50
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 126 and 52.",
+      "options": [
+        3304,
+        3276,
+        3240,
+        3239
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 179 and 252.",
+      "options": [
+        45108,
+        45067,
+        45120,
+        45126
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 63 and 199.",
+      "options": [
+        12551,
+        12516,
+        12537,
+        12525
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 226 and 140.",
+      "options": [
+        15802,
+        15773,
+        15787,
+        15820
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl6",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 180 and 205 is multiplied by their LCM, what is the result?",
+      "options": [
+        36900,
+        36939,
+        36933,
+        36878
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 15 and 253.",
+      "options": [
+        3769,
+        3764,
+        3795,
+        3840
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 173 and 34.",
+      "options": [
+        5930,
+        5887,
+        5843,
+        5882
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 192 and 251.",
+      "options": [
+        48192,
+        48233,
+        48212,
+        48189
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 224 and 179.",
+      "options": [
+        40064,
+        40062,
+        40096,
+        40051
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl11",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 117 and 132 is multiplied by their LCM, what is the result?",
+      "options": [
+        15440,
+        15441,
+        15425,
+        15444
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl12",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 69 and 184 is multiplied by their LCM, what is the result?",
+      "options": [
+        12736,
+        12703,
+        12734,
+        12696
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 87 and 292.",
+      "options": [
+        25358,
+        25384,
+        25376,
+        25404
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 112 and 207.",
+      "options": [
+        23135,
+        23182,
+        23194,
+        23184
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 18 and 290.",
+      "options": [
+        2626,
+        2656,
+        2610,
+        2575
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl16",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 146 and 138 is multiplied by their LCM, what is the result?",
+      "options": [
+        20141,
+        20148,
+        20111,
+        20168
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl17",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 227 and 242 is multiplied by their LCM, what is the result?",
+      "options": [
+        54962,
+        54916,
+        54907,
+        54934
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 166 and 299.",
+      "options": [
+        13,
+        5,
+        1,
+        27
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 52 and 114.",
+      "options": [
+        2954,
+        2919,
+        2964,
+        2967
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl20",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 190 and 84 is multiplied by their LCM, what is the result?",
+      "options": [
+        15964,
+        15918,
+        16007,
+        15960
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl21",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 28 and 54 is multiplied by their LCM, what is the result?",
+      "options": [
+        1522,
+        1511,
+        1464,
+        1512
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 71 and 96.",
+      "options": [
+        6848,
+        6782,
+        6816,
+        6802
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl23",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 105 and 35 is multiplied by their LCM, what is the result?",
+      "options": [
+        3675,
+        3702,
+        3695,
+        3724
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 189 and 297.",
+      "options": [
+        39,
+        59,
+        27,
+        32
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 225 and 79.",
+      "options": [
+        33,
+        18,
+        39,
+        1
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 13 and 241.",
+      "options": [
+        3133,
+        3136,
+        3148,
+        3153
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 152 and 216.",
+      "options": [
+        16,
+        3,
+        8,
+        10
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 114 and 163.",
+      "options": [
+        1,
+        43,
+        9,
+        20
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl29",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 33 and 222 is multiplied by their LCM, what is the result?",
+      "options": [
+        7341,
+        7315,
+        7351,
+        7326
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 213 and 99.",
+      "options": [
+        6986,
+        7052,
+        7050,
+        7029
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl31",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 23 and 51 is multiplied by their LCM, what is the result?",
+      "options": [
+        1165,
+        1136,
+        1173,
+        1130
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl32",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 48 and 152 is multiplied by their LCM, what is the result?",
+      "options": [
+        7255,
+        7289,
+        7325,
+        7296
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl33",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 198 and 78 is multiplied by their LCM, what is the result?",
+      "options": [
+        15486,
+        15411,
+        15422,
+        15444
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "hl34",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 147 and 134 is multiplied by their LCM, what is the result?",
+      "options": [
+        19701,
+        19747,
+        19698,
+        19679
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 101 and 233.",
+      "options": [
+        23494,
+        23523,
+        23533,
+        23520
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 34 and 114.",
+      "options": [
+        2,
+        46,
+        44,
+        32
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 179 and 27.",
+      "options": [
+        4783,
+        4833,
+        4800,
+        4851
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl38",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 95 and 98 is multiplied by their LCM, what is the result?",
+      "options": [
+        9279,
+        9310,
+        9324,
+        9297
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl39",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 15 and 233 is multiplied by their LCM, what is the result?",
+      "options": [
+        3480,
+        3495,
+        3451,
+        3460
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 237 and 259.",
+      "options": [
+        61365,
+        61383,
+        61377,
+        61409
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 16 and 193.",
+      "options": [
+        31,
+        1,
+        15,
+        46
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 242 and 234.",
+      "options": [
+        28,
+        2,
+        27,
+        23
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 220 and 258.",
+      "options": [
+        2,
+        12,
+        29,
+        49
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 28 and 82.",
+      "options": [
+        3,
+        2,
+        31,
+        35
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the LCM of 111 and 172.",
+      "options": [
+        19092,
+        19138,
+        19115,
+        19067
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl46",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 15 and 221 is multiplied by their LCM, what is the result?",
+      "options": [
+        3315,
+        3309,
+        3304,
+        3305
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "hl47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 248 and 57.",
+      "options": [
+        51,
+        1,
+        11,
+        36
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl48",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 239 and 15 is multiplied by their LCM, what is the result?",
+      "options": [
+        3629,
+        3585,
+        3549,
+        3548
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "hl49",
+      "language": "math",
+      "type": "mcq",
+      "title": "If HCF of 65 and 104 is multiplied by their LCM, what is the result?",
+      "options": [
+        6810,
+        6725,
+        6760,
+        6716
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "hl50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find the HCF of 142 and 98.",
+      "options": [
+        28,
+        2,
+        17,
+        50
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

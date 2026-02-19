@@ -1,0 +1,406 @@
+{
+  "category": "Algebra",
+  "questions": [
+    {
+      "id": "alg1",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + 1/x = 3, find x² + 1/x²",
+      "options": ["7", "5", "9", "4"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg2",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a + b = 6 and ab = 8, find a² + b²",
+      "options": ["20", "16", "24", "28"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: 2x − 5 = |x − 3|",
+      "options": ["x=2", "x=8", "x=2 or 8", "No solution"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg4",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x − y = 4 and xy = 5, find x² + y²",
+      "options": ["26", "21", "18", "24"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg5",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + y = 5 and x³ + y³ = 35, find xy",
+      "options": ["5", "4", "6", "3"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: √(x+5) + √(x−4) = 5",
+      "options": ["x=5", "x=4", "x=20", "x=9"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "alg7",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a² + b² + c² = 49 and ab + bc + ca = 24, find a+b+c",
+      "options": ["7", "-7", "±7", "5"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: x² − 7x + 12 = 0",
+      "options": ["3,4", "2,6", "1,12", "−3,−4"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg9",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + y = 8 and x² + y² = 40, find xy",
+      "options": ["12", "10", "8", "6"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: log₂(x−1) = 3",
+      "options": ["-9", "7", "8", "9"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "alg11",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + 1/x = 4, find x³ + 1/x³",
+      "options": ["52", "50", "56", "60"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: x² + 4x + 4 = 0",
+      "options": ["2", "-2", "0", "-4"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg13",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a − b = 3 and a³ − b³ = 63, find ab",
+      "options": ["6", "5", "4", "7"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: 3^(x+1) = 81",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg15",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x² + 1/x² = 18, find x + 1/x",
+      "options": ["±4", "±5", "±3", "±6"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg16",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + y = 6 and x³ + y³ = 90, find xy",
+      "options": ["-6", "9", "6", "5"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: |2x − 7| = 5",
+      "options": ["x=6 or 1", "x=6 only", "x=1 only", "No solution"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg18",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x − 1/x = 2, find x² + 1/x²",
+      "options": ["-6", "5", "8", "6"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "alg19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: √(2x+3) = x − 1",
+      "options": ["3", "5", "4", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg20",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a + b + c = 0, prove value of a³ + b³ + c³ − 3abc equals",
+      "options": ["0", "1", "3abc", "(a+b+c)(a²+b²+c²−ab−bc−ca)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: 5^(x−1) = 1/25",
+      "options": ["-1", "1", "-2", "2"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg22",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + 1/x = 5, find x⁴ + 1/x⁴",
+      "options": ["527", "625", "527 or 625", "575"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve system: x + y = 7 and x − y = 1",
+      "options": ["x=4,y=3", "x=3,y=4", "x=5,y=2", "x=2,y=5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find x: log₃(81x) = 5",
+      "options": ["-1", "1", "9", "27"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg25",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x² + y² = 25 and xy = 12, find |x − y|",
+      "options": ["1", "5", "7", "3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: 2^(x+2) = 32",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg27",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a + b = 10 and ab = 21, find a²b²",
+      "options": ["441", "210", "100", "121"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve inequality: x² − 9 < 0",
+      "options": ["-3<x<3", "x>3", "x<-3", "All real x"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg29",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + y = 4 and xy = 3, find x⁴ + y⁴",
+      "options": ["92", "98", "65", "82"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "alg30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: √(x+9) − √x = 3",
+      "options": ["0", "9", "4", "16"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg31",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + 1/x = 6, find x² + 1/x²",
+      "options": ["-34", "32", "34", "30"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: 3^(2x) = 81",
+      "options": ["2", "3", "4", "1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg33",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x − y = 2 and xy = 8, find x² + y²",
+      "options": ["30", "16", "18", "20"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "alg34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find x: log₂(x) + log₂(4) = 5",
+      "options": ["8", "4", "16", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg35",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x² + 1/x² = 50, find x + 1/x",
+      "options": ["±9", "±5", "±6", "±7"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "alg36",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + 1/x = 2cosθ, find x² + 1/x²",
+      "options": ["2cos2θ + 2", "4cos²θ − 2", "2cos2θ", "4cos²θ"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: √(x+√(x+√x)) = 2",
+      "options": ["x=1", "x=4", "x=2", "x=3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg38",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a+b+c=6 and ab+bc+ca=11, find a²+b²+c²",
+      "options": ["-14", "12", "10", "14"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "alg39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: |x−3| + |x+3| = 10",
+      "options": ["x=±5", "x=±7", "x=±4", "x=±2"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg40",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x² − 5x + 1 = 0, find x³ + 1/x³",
+      "options": ["122", "123", "124", "126"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve functional equation: f(x+y)=f(x)+f(y), f(1)=3, find f(5)",
+      "options": ["-15", "15", "8", "12"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg42",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x + y + z = 0 and x³ + y³ + z³ = 3xyz, then xyz equals",
+      "options": ["Any real", "0", "1", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: 2^(x) + 2^(−x) = 5",
+      "options": ["±2", "±3", "±1", "±4"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg44",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x+y=3 and x²+y²=13, find x³+y³",
+      "options": ["-36", "36", "18", "24"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: √(x+5) + √(9−x) = 6",
+      "options": ["4", "5", "0", "3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg46",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a/b + b/a = 5, find a²/b² + b²/a²",
+      "options": ["33", "21", "23", "27"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "alg47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: (x−2)^(x−2)=1",
+      "options": ["x=3 or 1", "x=2", "x=0", "x=4"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg48",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x+1/x=7, find x⁵+1/x⁵",
+      "options": ["16807", "16107", "17007", "16800"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "alg49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solve: log₃(x−1)+log₃(x−2)=1",
+      "options": ["3", "4", "5", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "alg50",
+      "language": "math",
+      "type": "mcq",
+      "title": "If x²+px+1=0 has equal roots, find p",
+      "options": ["±2", "±1", "0", "±4"],
+      "correctAnswer": 0
+    }
+  ]
+}

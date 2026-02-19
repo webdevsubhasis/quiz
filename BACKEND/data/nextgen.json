@@ -1,0 +1,579 @@
+{
+  "category": "NEXT-GEN",
+  "questions": [
+    {
+      "id": "ng1",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is NEXT-GEN accounting?",
+      "options": [
+        "Traditional manual accounting",
+        "Accounting using modern software and automation",
+        "Only taxation work",
+        "Only auditing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ng2",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which software is commonly used in NEXT-GEN accounting?",
+      "options": ["Tally Prime", "MS Paint", "Photoshop", "Notepad"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng3",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Cloud accounting mainly helps in?",
+      "options": [
+        "Offline data entry",
+        "Remote access to accounts",
+        "Manual bookkeeping",
+        "Paper-based accounting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ng4",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which is an example of cloud accounting software?",
+      "options": ["Tally on Cloud", "MS Word", "Excel Viewer", "Paint"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng5",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is automation in accounting?",
+      "options": [
+        "Manual voucher entry",
+        "Automatic processing of transactions",
+        "Paper filing",
+        "Physical ledger writing"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ng6",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which technology reduces human error in accounting?",
+      "options": ["Automation", "Manual checking", "Paper audit", "Cash book"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng7",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is digital bookkeeping?",
+      "options": [
+        "Recording transactions electronically",
+        "Recording transactions manually",
+        "Storing bills in files",
+        "Physical stock counting"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng8",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature allows real-time financial reports?",
+      "options": [
+        "Cloud accounting",
+        "Manual ledger",
+        "Offline register",
+        "Paper journal"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng9",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which tax system is integrated in modern accounting software in India?",
+      "options": ["VAT", "Service Tax", "GST", "Sales Tax"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ng10",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What does e-invoicing mean?",
+      "options": [
+        "Handwritten invoice",
+        "Electronically generated invoice",
+        "Verbal invoice",
+        "Printed-only invoice"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ng11",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which platform is used for GST return filing?",
+      "options": ["GST Portal", "Income Tax Portal", "MCA Portal", "EPFO Portal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng12",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is digital payment?",
+      "options": [
+        "Cash payment",
+        "Online fund transfer",
+        "Cheque payment",
+        "Barter system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ng13",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which is a digital payment method?",
+      "options": ["UPI", "Cash", "Coin", "Voucher"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng14",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is bank reconciliation automation?",
+      "options": [
+        "Manual bank matching",
+        "Automatic matching of bank entries",
+        "Closing bank account",
+        "Opening bank account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ng15",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature helps detect duplicate entries?",
+      "options": ["Validation rules", "Manual checking", "Ledger book", "Cash book"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng16",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is MIS reporting?",
+      "options": [
+        "Management Information System reports",
+        "Manual Income Summary",
+        "Monthly Invoice Sheet",
+        "Machine Input System"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng17",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which report helps management decision-making?",
+      "options": ["MIS Report", "Cash Voucher", "Journal Entry", "Day Book"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng18",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is data analytics in accounting?",
+      "options": [
+        "Analyzing financial data digitally",
+        "Manual calculation",
+        "Paper audit",
+        "Ledger posting"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng19",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which skill is essential for NEXT-GEN accountants?",
+      "options": [
+        "Software knowledge",
+        "Handwriting speed",
+        "Paper filing",
+        "Manual tallying"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng20",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is dashboard in accounting software?",
+      "options": [
+        "Visual summary of financial data",
+        "Ledger account",
+        "Voucher type",
+        "Tax rule"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng21",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature improves data security?",
+      "options": ["User access control", "Open access", "Guest login", "Shared password"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng22",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is role-based access?",
+      "options": [
+        "Access based on job role",
+        "Same access for all users",
+        "No access control",
+        "Temporary access"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng23",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature helps in compliance management?",
+      "options": [
+        "Automated tax calculation",
+        "Manual tax entry",
+        "Paper returns",
+        "Offline ledger"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng24",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is paperless accounting?",
+      "options": [
+        "Digital record keeping",
+        "Manual files",
+        "Physical vouchers",
+        "Printed ledgers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng25",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature allows backup of accounting data?",
+      "options": ["Auto backup", "Delete option", "Format option", "Shutdown"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng26",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is real-time accounting?",
+      "options": [
+        "Immediate data update",
+        "Monthly update",
+        "Yearly update",
+        "Manual update"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng27",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which system integrates accounting and inventory?",
+      "options": [
+        "ERP system",
+        "Manual system",
+        "Paper system",
+        "Offline register"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng28",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is ERP?",
+      "options": [
+        "Enterprise Resource Planning",
+        "Electronic Record Program",
+        "Easy Revenue Process",
+        "Enterprise Revenue Plan"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng29",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which accounting task can AI assist with?",
+      "options": [
+        "Invoice processing",
+        "Manual filing",
+        "Paper stamping",
+        "Ledger writing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng30",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is financial forecasting?",
+      "options": [
+        "Predicting future financial performance",
+        "Recording past data",
+        "Auditing accounts",
+        "Closing books"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng31",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which report shows future cash position?",
+      "options": [
+        "Cash Flow Forecast",
+        "Trial Balance",
+        "Ledger",
+        "Day Book"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng32",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is compliance automation?",
+      "options": [
+        "Automatic compliance checks",
+        "Manual compliance",
+        "Paper audit",
+        "Offline verification"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng33",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which technology ensures secure data storage?",
+      "options": ["Encryption", "Plain text", "Open files", "Public sharing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng34",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is digital audit trail?",
+      "options": [
+        "Electronic record of changes",
+        "Paper audit",
+        "Manual checking",
+        "Physical verification"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng35",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature helps track changes in data?",
+      "options": ["Audit trail", "Ledger", "Voucher", "Stock item"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng36",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is digital compliance?",
+      "options": [
+        "Online adherence to laws",
+        "Manual filing",
+        "Paper submission",
+        "Offline audit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng37",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which skill improves employability of DFAS students?",
+      "options": [
+        "Accounting software proficiency",
+        "Manual bookkeeping",
+        "Paper filing",
+        "Handwritten ledgers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng38",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is e-compliance?",
+      "options": [
+        "Electronic compliance filing",
+        "Manual compliance",
+        "Offline audit",
+        "Paper verification"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng39",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which tool helps visualize financial performance?",
+      "options": ["Charts and graphs", "Ledger book", "Voucher", "Cash book"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng40",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is digital transformation in accounting?",
+      "options": [
+        "Shift from manual to digital processes",
+        "Increase in paperwork",
+        "Manual audit",
+        "Ledger expansion"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng41",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which technology connects accounting systems online?",
+      "options": ["Internet", "Paper", "Ledger", "Register"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng42",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is mobile accounting?",
+      "options": [
+        "Managing accounts via mobile apps",
+        "Manual accounting",
+        "Paper accounting",
+        "Offline accounting"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng43",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which feature enables anytime-anywhere access?",
+      "options": ["Cloud-based system", "Desktop-only system", "Paper system", "Offline register"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng44",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is the main benefit of NEXT-GEN DFAS?",
+      "options": [
+        "Industry-ready accounting skills",
+        "Only theoretical knowledge",
+        "Manual bookkeeping",
+        "Paper-based learning"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng45",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which area is emphasized in NEXT-GEN accounting?",
+      "options": [
+        "Digital tools and compliance",
+        "Only manual entries",
+        "Paper records",
+        "Traditional registers"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "ng46",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is fintech?",
+      "options": [
+        "Financial technology",
+        "Final technology",
+        "File technology",
+        "Finance textbook"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng47",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which fintech service supports online payments?",
+      "options": ["Payment gateway", "Ledger book", "Voucher", "Invoice pad"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng48",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "What is digital documentation?",
+      "options": [
+        "Electronic storage of documents",
+        "Paper filing",
+        "Manual stamping",
+        "Physical records"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng49",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "Which technology helps predict financial trends?",
+      "options": ["Data analytics", "Manual review", "Paper audit", "Ledger posting"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ng50",
+      "language": "nextgen accounting",
+      "type": "mcq",
+      "title": "NEXT-GEN DFAS prepares students mainly for?",
+      "options": [
+        "Modern accounting jobs",
+        "Manual clerk jobs",
+        "Paper filing roles",
+        "Non-technical work"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

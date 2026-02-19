@@ -1,0 +1,464 @@
+{
+  "category": "Python Programming",
+  "questions": [
+    {
+      "id": "py1",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is Python?",
+      "options": [
+        "A low-level programming language",
+        "A high-level programming language",
+        "An assembly language",
+        "A markup language"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py2",
+      "language": "python",
+      "type": "mcq",
+      "title": "Who developed Python?",
+      "options": [
+        "Dennis Ritchie",
+        "James Gosling",
+        "Guido van Rossum",
+        "Bjarne Stroustrup"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py3",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which extension is used for Python files?",
+      "options": [".pt", ".py", ".pyt", ".python"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py4",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "fun", "define"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py5",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which symbol is used for comments in Python?",
+      "options": ["//", "#", "/* */", "--"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "py6",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which data type is used to store text?",
+      "options": ["int", "float", "str", "bool"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py7",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which data type stores True or False?",
+      "options": ["int", "str", "bool", "float"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py8",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which operator is used for exponentiation?",
+      "options": ["^", "**", "//", "%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py9",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function prints output to the console?",
+      "options": ["input()", "print()", "output()", "write()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py10",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function is used to take input from the user?",
+      "options": ["get()", "scan()", "input()", "read()"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "py11",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which loop is used to iterate over a sequence?",
+      "options": ["while", "for", "do-while", "loop"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py12",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to check a condition?",
+      "options": ["if", "for", "while", "check"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py13",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used for alternative condition?",
+      "options": ["elif", "else if", "otherwise", "elseif"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py14",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which statement is used to stop a loop?",
+      "options": ["stop", "exit", "break", "pass"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py15",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which statement skips the current iteration?",
+      "options": ["break", "stop", "continue", "pass"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "py16",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is a list in Python?",
+      "options": [
+        "Immutable collection",
+        "Mutable collection",
+        "Key-value pair",
+        "Fixed-size array"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py17",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which brackets are used for lists?",
+      "options": ["()", "{}", "[]", "<>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py18",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which data type is immutable?",
+      "options": ["list", "set", "dict", "tuple"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "py19",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which brackets are used for tuples?",
+      "options": ["[]", "{}", "()", "<>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py20",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which data type stores key-value pairs?",
+      "options": ["list", "tuple", "set", "dictionary"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "py21",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which brackets are used for dictionaries?",
+      "options": ["()", "[]", "{}", "<>"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py22",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is a set in Python?",
+      "options": [
+        "Ordered collection",
+        "Unordered collection of unique elements",
+        "Key-value pair",
+        "Immutable list"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py23",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function returns the length of an object?",
+      "options": ["size()", "length()", "len()", "count()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py24",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to create a class?",
+      "options": ["class", "struct", "object", "define"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py25",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is an object?",
+      "options": [
+        "Blueprint of class",
+        "Instance of a class",
+        "Function",
+        "Module"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "py26",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which method is called automatically when an object is created?",
+      "options": ["__init__", "__str__", "__main__", "__new__"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py27",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is inheritance?",
+      "options": [
+        "Reusing code from another class",
+        "Creating new objects",
+        "Deleting classes",
+        "Calling functions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py28",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used for inheritance?",
+      "options": ["inherits", "extends", "super", "class"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "py29",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to handle exceptions?",
+      "options": ["try", "catch", "error", "handle"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py30",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to catch exceptions?",
+      "options": ["except", "catch", "handle", "error"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "py31",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to raise an exception?",
+      "options": ["throw", "raise", "error", "exception"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py32",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which block executes whether exception occurs or not?",
+      "options": ["try", "except", "else", "finally"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "py33",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to import a module?",
+      "options": ["include", "using", "import", "require"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py34",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which module is used for mathematical operations?",
+      "options": ["math", "calc", "numbers", "random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py35",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which module is used to generate random numbers?",
+      "options": ["math", "random", "numbers", "os"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "py36",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function converts string to integer?",
+      "options": ["str()", "int()", "float()", "bool()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py37",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function converts integer to string?",
+      "options": ["int()", "str()", "chr()", "ord()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py38",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which operator is used for floor division?",
+      "options": ["/", "//", "%", "**"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py39",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to check membership?",
+      "options": ["in", "is", "has", "contains"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py40",
+      "language": "python",
+      "type": "mcq",
+      "title": "What does PEP stand for?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Python Easy Program",
+        "Programming Enhancement Plan",
+        "Python Execution Process"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "py41",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which PEP defines Python coding style?",
+      "options": ["PEP 7", "PEP 8", "PEP 20", "PEP 484"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py42",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is indentation in Python?",
+      "options": [
+        "Optional formatting",
+        "Mandatory block structure",
+        "Comment style",
+        "Loop structure"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py43",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function returns type of variable?",
+      "options": ["typeof()", "type()", "class()", "var()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py44",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to delete an object?",
+      "options": ["remove", "del", "delete", "free"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py45",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which function opens a file?",
+      "options": ["file()", "open()", "read()", "write()"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "py46",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which mode opens file for reading?",
+      "options": ["w", "a", "r", "x"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py47",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which mode opens file for writing?",
+      "options": ["r", "a", "w", "rb"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "py48",
+      "language": "python",
+      "type": "mcq",
+      "title": "Which keyword is used to create anonymous functions?",
+      "options": ["def", "lambda", "func", "anon"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "py49",
+      "language": "python",
+      "type": "mcq",
+      "title": "What is Python mainly used for?",
+      "options": [
+        "Web development, data science, automation",
+        "Only game development",
+        "Only mobile apps",
+        "Only system programming"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "py50",
+      "language": "python",
+      "type": "mcq",
+      "title": "Python is best described as?",
+      "options": [
+        "Compiled only language",
+        "Interpreted, high-level language",
+        "Low-level language",
+        "Assembly language"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

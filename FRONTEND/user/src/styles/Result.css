@@ -1,0 +1,208 @@
+/* =========================
+   ROOT
+========================= */
+.result-root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #020617, #000);
+  color: #fff;
+}
+
+/* =========================
+   GLASS CARD
+========================= */
+.glass {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 22px;
+  width: 420px;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================
+   TITLE & STATUS
+========================= */
+.result-title {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.subject-name {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.result-status {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.result-status.pass {
+  background: #22c55e;
+}
+
+.result-status.fail {
+  background: #ef4444;
+}
+
+/* =========================
+   SCORE RING
+========================= */
+.score-ring {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 12px;
+}
+
+.score-ring svg {
+  width: 120px;
+  height: 120px;
+  transform: rotate(-90deg);
+}
+
+.score-ring circle {
+  fill: none;
+  stroke-width: 10;
+  stroke: #1e293b;
+  stroke-dasharray: 327;
+}
+
+.score-ring circle:last-child {
+  stroke: #38bdf8;
+  transition: 1s;
+}
+
+.score-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-text span {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* =========================
+   STATS GRID  ✅ FIXED
+========================= */
+.result-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+  overflow-y: auto;          /* ✅ ALLOW SCROLL */
+  padding-right: 4px;        /* ✅ avoid scrollbar overlap */
+}
+
+.result-grid::-webkit-scrollbar {
+  width: 6px;
+}
+
+.result-grid::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+/* =========================
+   STAT CARD
+========================= */
+.stat-card {
+  background: #020617;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-card span {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.stat-card strong {
+  font-size: 16px;
+  margin-top: 2px;
+  display: block;
+}
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.result-actions button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #38bdf8;
+  font-weight: 600;
+}
+
+.result-actions button.secondary {
+  background: #1e293b;
+  color: #fff;
+}
+
+.result-actions button:hover {
+  opacity: 0.9;
+}
+
+/* =========================
+   PASS / FAIL EFFECTS
+========================= */
+.pass-anim .glass {
+  box-shadow:
+    0 0 25px rgba(34, 197, 94, 0.5),
+    0 0 60px rgba(34, 197, 94, 0.25);
+  animation: passGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes passGlow {
+  from {
+    box-shadow:
+      0 0 15px rgba(34, 197, 94, 0.4),
+      0 0 40px rgba(34, 197, 94, 0.2);
+  }
+  to {
+    box-shadow:
+      0 0 30px rgba(34, 197, 94, 0.8),
+      0 0 70px rgba(34, 197, 94, 0.4);
+  }
+}
+
+.fail-anim .glass {
+  animation: failShake 0.6s ease-in-out;
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+}
+
+@keyframes failShake {
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-6px); }
+  40%  { transform: translateX(6px); }
+  60%  { transform: translateX(-4px); }
+  80%  { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}

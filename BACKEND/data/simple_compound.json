@@ -1,0 +1,408 @@
+{
+  "category": "SI & CI Mixed",
+  "questions": [
+    {
+      "id": "sci1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum amounts to ₹5500 in 2 years at 10% CI. Find principal.",
+      "options": ["4575.75","4545.45","4550.50","4600"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹4000 at 5% for 2 years.",
+      "options": ["400","420","405","410"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "sci3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹3600 at 12% for 3 years.",
+      "options": ["1296","1300","1280","1320"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI and SI on ₹5000 for 2 years at 10%.",
+      "options": ["55","50","45","60"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹8000 at 8% CI for 1 year.",
+      "options": ["8640","8650","8600","8460"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci6",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 5 years at SI. Find rate.",
+      "options": ["30%","25%","15%","20%"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "sci7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹6000 at 10% for 3 years.",
+      "options": ["1986","1896","2086","2096"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount ₹9261 at 10% CI for 3 years. Find principal.",
+      "options": ["7200","7100","6900","7000"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "sci9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount if ₹5000 invested at 5% SI for 4 years.",
+      "options": ["6400","6000","6500","6200"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find difference between CI and SI on ₹2000 at 5% for 2 years.",
+      "options": ["15","10","5","20"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "sci11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹2400 at 5% for 3 years.",
+      "options": ["350","360","300","340"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹3000 at 10% CI for 2 years.",
+      "options": ["3630","3600","3300","3960"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Principal becomes ₹1331 in 3 years at 10% CI. Find principal.",
+      "options": ["900","1000","1100","950"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹2500 at 4% for 2 years.",
+      "options": ["204","200","208","210"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Rate when ₹500 becomes ₹600 in 4 years SI.",
+      "options": ["4%","6%","5%","8%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹4000 at 5% CI for 1 year.",
+      "options": ["4200","4150","4250","4100"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹1500 at 8% for 2 years.",
+      "options": ["260","240","250","230"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI & SI on ₹1000 for 2 years at 10%.",
+      "options": ["10","20","15","5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹2000 at 5% for 3 years.",
+      "options": ["315","320","310","330"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount ₹6050 after 2 years at 10% CI. Find principal.",
+      "options": ["5000","5050","4950","4900"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹7000 at 6% for 2 years.",
+      "options": ["800","820","840","860"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹1000 at 20% for 2 years.",
+      "options": ["400","420","440","480"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci23",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 8 years SI. Rate?",
+      "options": ["12.5%","10%","8%","15%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount on ₹2500 at 8% SI for 2 years.",
+      "options": ["2900","3000","2950","2850"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI and SI on ₹4000 at 5% for 2 years.",
+      "options": ["10","20","8","12"],
+      "correctAnswer": 0
+    },
+
+   
+    {
+      "id": "sci26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹1800 at 10% for 3 years.",
+      "options": ["520","560","540","500"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹5000 at 6% CI for 2 years.",
+      "options": ["5600","5636","5618","5620"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Principal becomes ₹1210 in 2 years at 10% CI. Find principal.",
+      "options": ["1100","1000","950","1050"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹3000 at 5% for 2 years.",
+      "options": ["315","300","305","290"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Rate when ₹800 becomes ₹1000 in 5 years SI.",
+      "options": ["6%","5%","8%","4%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹4500 at 8% CI for 1 year.",
+      "options": ["4860","4750","4900","4800"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹3200 at 7% for 2 years.",
+      "options": ["420","448","430","440"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI & SI on ₹2000 for 2 years at 10%.",
+      "options": ["10","15","20","40"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹4000 at 10% for 3 years.",
+      "options": ["1331","1300","1324","1310"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount ₹2662 after 3 years at 10% CI. Find principal.",
+      "options": ["2200","2100","2000","1900"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹9000 at 4% for 5 years.",
+      "options": ["1600","1900","1800","1700"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹1500 at 20% for 2 years.",
+      "options": ["600","660","540","720"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "sci38",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum triples in 10 years SI. Rate?",
+      "options": ["10%","20%","12%","15%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount on ₹6000 at 5% SI for 3 years.",
+      "options": ["6950","6900","6800","6750"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI and SI on ₹5000 at 4% for 2 years.",
+      "options": ["12","10","8","6"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "sci41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹2500 at 12% for 2 years.",
+      "options": ["550","600","650","500"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹3500 at 10% CI for 2 years.",
+      "options": ["4240","4235","4250","4220"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Principal becomes ₹1464 in 2 years at 10% CI. Find principal.",
+      "options": ["1200","1100","1400","1300"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "sci44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹5000 at 5% for 1 year.",
+      "options": ["260","250","240","300"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Rate when ₹1000 becomes ₹1200 in 4 years SI.",
+      "options": ["6%","5%","8%","4%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount on ₹2000 at 8% CI for 1 year.",
+      "options": ["2100","2160","2080","2200"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find SI on ₹4200 at 5% for 3 years.",
+      "options": ["600","630","700","650"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI & SI on ₹3000 for 2 years at 10%.",
+      "options": ["25","30","35","20"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find CI on ₹2500 at 4% for 3 years.",
+      "options": ["300","312.16","310","320"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "sci50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount ₹1331 after 3 years at 10% CI. Find principal.",
+      "options": ["1100","900","1000","1200"],
+      "correctAnswer": 2
+    }
+  ]
+}

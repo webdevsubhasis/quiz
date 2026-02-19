@@ -1,0 +1,475 @@
+{
+  "category": "Algorithms",
+  "questions": [
+    {
+      "id": "a1",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Time complexity of binary search?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a2",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Best-case complexity of quicksort?",
+      "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a3",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which algorithm uses divide and conquer?",
+      "options": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Insertion Sort",
+        "Selection Sort"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a4",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Worst-case time for linear search?",
+      "options": ["O(log n)", "O(n)", "O(n²)", "O(1)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a5",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which sorting is stable?",
+      "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Selection Sort"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a6",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which data structure is used in BFS?",
+      "options": ["Stack", "Queue", "Heap", "Graph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a7",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Dijkstra algorithm is used to find?",
+      "options": [
+        "MST",
+        "Shortest Path",
+        "Topological Order",
+        "Cycle Detection"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a8",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which algorithm always gives optimal MST?",
+      "options": ["Prim’s", "Kruskal’s", "Both", "None"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a9",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Time complexity of selection sort?",
+      "options": ["O(log n)", "O(n)", "O(n²)", "O(n log n)"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a10",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which is NOT a divide and conquer algorithm?",
+      "options": ["Merge Sort", "Quick Sort", "Binary Search", "Bubble Sort"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "a11",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Heap sort uses which data structure?",
+      "options": ["Tree", "Graph", "Heap", "Stack"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a12",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which is a greedy algorithm?",
+      "options": ["Dijkstra", "Prim", "Kruskal", "All"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "a13",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "In-order traversal is used in?",
+      "options": ["Graphs", "BST", "Heaps", "Arrays"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a14",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Topological sort works only on?",
+      "options": ["Trees", "Undirected Graphs", "DAG", "Complete Graph"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a15",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which algorithm finds MST?",
+      "options": ["DFS", "Dijkstra", "Prim", "Bellman-Ford"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a16",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "DFS uses which data structure?",
+      "options": ["Queue", "Stack", "Heap", "Graph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a17",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which sorting uses pivot?",
+      "options": ["Bubble", "Merge", "Quick", "Heap"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a18",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which algorithm handles negative weights?",
+      "options": ["Dijkstra", "Bellman-Ford", "Prim", "Kruskal"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a19",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Knapsack problem uses?",
+      "options": ["Greedy", "DP", "Both", "None"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "a20",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which algorithm is NOT greedy?",
+      "options": ["Dijkstra", "Prim", "Fractional Knapsack", "0/1 Knapsack"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "a21",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "BFS complexity?",
+      "options": ["O(V)", "O(V + E)", "O(E²)", "O(VE)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a22",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "The pivot is used in which algorithm?",
+      "options": ["Quick Sort", "Merge Sort", "Dijkstra", "Prim"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "a23",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which algorithm backtracks?",
+      "options": ["Dijkstra", "N-Queens", "BFS", "Heap Sort"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "a24",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which is the fastest average sorting algorithm?",
+      "options": [
+        "Quick Sort",
+        "Bubble Sort",
+        "Insertion Sort",
+        "Selection Sort"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "a25",
+      "language": "algorithms",
+      "type": "mcq",
+      "title": "Which is NOT a graph algorithm?",
+      "options": ["Prim", "Kruskal", "Heap Sort", "Dijkstra"],
+      "correctAnswer": 2
+    },
+      {
+        "id": "a26",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart symbol is specifically used to represent a delay or wait?",
+        "options": ["Oval", "Delay symbol", "Rectangle", "Diamond"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a27",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "What does an arrow in a flowchart indicate?",
+        "options": ["Processing", "Input", "Flow direction", "Output"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "a28",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart symbol is used for predefined processes or subroutines?",
+        "options": [
+          "Rectangle",
+          "Double-sided rectangle",
+          "Diamond",
+          "Parallelogram"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a29",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which type of flowchart focuses on the overall system workflow?",
+        "options": [
+          "Program flowchart",
+          "System flowchart",
+          "Algorithm chart",
+          "Logic diagram"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a30",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which symbol is used to represent data stored in a file?",
+        "options": ["Cylinder", "Rectangle", "Diamond", "Parallelogram"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a31",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart type is used to show the logic of a single program?",
+        "options": [
+          "System flowchart",
+          "Program flowchart",
+          "Data flow diagram",
+          "Block diagram"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a32",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart symbol represents manual input?",
+        "options": ["Trapezium", "Rectangle", "Diamond", "Oval"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a33",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "What is the maximum number of exit paths from a decision symbol?",
+        "options": ["One", "Two", "Three", "Unlimited"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a34",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart symbol is used to display printed output?",
+        "options": ["Parallelogram", "Document symbol", "Rectangle", "Diamond"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a35",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which of the following best reduces flowchart complexity?",
+        "options": [
+          "Using connectors",
+          "Using comments",
+          "Avoiding loops",
+          "Using more symbols"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a36",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart rule improves readability?",
+        "options": [
+          "Flow left to right",
+          "Random flow direction",
+          "Multiple starts",
+          "No connectors"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a37",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which symbol represents off-page continuation?",
+        "options": ["Circle", "Pentagon", "Oval", "Diamond"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a38",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart is best suited for debugging logic errors?",
+        "options": [
+          "System flowchart",
+          "Program flowchart",
+          "Data flow diagram",
+          "Network diagram"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a39",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which symbol shows real-time user interaction?",
+        "options": ["Manual input", "Decision", "Process", "Delay"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a40",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart error can cause infinite loops?",
+        "options": [
+          "Missing start",
+          "Incorrect decision logic",
+          "Extra connector",
+          "Missing output"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a41",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which symbol is used to represent magnetic tape storage?",
+        "options": ["Cylinder", "Parallelogram", "Tape symbol", "Rectangle"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "a42",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "What is the primary limitation of flowcharts?",
+        "options": [
+          "Hard to draw",
+          "Difficult to modify",
+          "Slow execution",
+          "Consumes memory"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a43",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart symbol represents logical AND/OR branching?",
+        "options": ["Decision", "Connector", "Process", "Input"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a44",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which symbol is used to show display output on a screen?",
+        "options": ["Document", "Display symbol", "Rectangle", "Oval"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a45",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart principle avoids crossing lines?",
+        "options": ["Modularity", "Clarity", "Consistency", "Efficiency"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a46",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart component ensures logical sequence?",
+        "options": ["Symbols", "Flow lines", "Connectors", "Annotations"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a47",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart type is used in hardware design?",
+        "options": [
+          "System flowchart",
+          "Program flowchart",
+          "Algorithm chart",
+          "Pseudo flowchart"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a48",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which symbol is used to represent data validation?",
+        "options": ["Decision", "Process", "Connector", "Delay"],
+        "correctAnswer": 0
+      },
+      {
+        "id": "a49",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which flowchart feature supports modular programming?",
+        "options": [
+          "Decision loops",
+          "Predefined process",
+          "Manual input",
+          "Delay"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "a50",
+        "language": "algorithms",
+        "type": "mcq",
+        "title": "Which of the following is NOT a benefit of flowcharts?",
+        "options": [
+          "Improved logic clarity",
+          "Easy maintenance",
+          "Automatic code generation",
+          "Better communication"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+}

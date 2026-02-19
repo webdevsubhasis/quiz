@@ -1,0 +1,45 @@
+/* base.css - fonts and base tokens */
+:root {
+    --bg-light: #f6f8fb;
+    --bg-dark: #071026;
+    --card: #ffffff;
+    --muted: #64748b;
+    --blue: #1e6fff;
+    --purple: #7b61ff;
+    --gold: #d4af37;
+    --flipblue: #0b74ff;
+    --glass: rgba(255, 255, 255, 0.06);
+}
+
+/* default theme attribute is set by theme.css */
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* small helper classes */
+.card-admin {
+    border-radius: 12px;
+    padding: 14px;
+    background: var(--card);
+    box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06);
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.page-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+/* forms.css - form controls custom */
+.form-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+.form-control,
+.form-select,
+textarea.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid rgba(2, 6, 23, 0.06);
+}
+.login-card {
+  width: 420px;
+}

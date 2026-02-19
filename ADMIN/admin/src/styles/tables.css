@@ -1,0 +1,20 @@
+/* tables.css - lists & tables */
+.table-admin {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-admin th,
+.table-admin td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(2, 6, 23, 0.04);
+}
+.table-admin th {
+  font-weight: 700;
+  color: var(--muted);
+  background: linear-gradient(
+    90deg,
+    rgba(123, 97, 255, 0.04),
+    rgba(11, 116, 255, 0.02)
+  );
+}

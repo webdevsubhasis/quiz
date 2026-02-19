@@ -1,0 +1,456 @@
+{
+  "category": "Ratio & Proportion",
+  "questions": [
+
+    {
+      "id": "rp1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum is divided between A and B in the ratio 3:5. If A gets 120, find total sum.",
+      "options": ["280","300","320","260"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp2",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum is divided in ratio 7:9. If B gets 162, find total sum.",
+      "options": ["270","288","300","280"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp3",
+      "language": "math",
+      "type": "mcq",
+      "title": "The ratio of ages of A and B is 4:5. After 10 years it becomes 5:6. Find present age of B.",
+      "options": ["45","50","55","40"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp4",
+      "language": "math",
+      "type": "mcq",
+      "title": "The ratio of ages of two persons is 2:3. After 12 years it becomes 3:4. Find present age of elder.",
+      "options": ["48","36","30","42"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk and water are mixed in ratio 5:3. If 16L water added, ratio becomes 5:4. Find original mixture.",
+      "options": ["112","128","136","120"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk and water in ratio 7:5. If 10L water added ratio becomes 7:6. Find mixture.",
+      "options": ["108","120","132","144"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp7",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 4000 and B 6000. Profit 2000. A's share?",
+      "options": ["900","800","1000","700"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp8",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 5000 and B 3000. Profit 1600. B share?",
+      "options": ["800","700","600","500"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp9",
+      "language": "math",
+      "type": "mcq",
+      "title": "12 men complete a work in 15 days. Men required in 9 days?",
+      "options": ["22","24","20","18"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp10",
+      "language": "math",
+      "type": "mcq",
+      "title": "8 workers complete a job in 24 days. Workers needed in 12 days?",
+      "options": ["18","14","16","20"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio A:B = 6:7 and B:C = 2:3. Find A:C.",
+      "options": ["6:7","5:7","4:7","7:9"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio A:B = 8:5 and B:C = 4:7. Find A:C.",
+      "options": ["28:35","40:35","32:35","24:35"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Divide ₹840 among A, B, C in ratio 2:3:7.",
+      "options": ["120","180","140","160"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Divide ₹1320 among A, B, C in ratio 3:5:8. Find B share.",
+      "options": ["420","412.5","375","440"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp15",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 5 pens cost same as 3 books and book costs ₹30, find price of pen.",
+      "options": ["15","12","18","20"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp16",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 12 men build wall in 20 days, days required by 8 men?",
+      "options": ["28","30","35","25"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp17",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B:C = 3:4:5 and total = 600. Find C.",
+      "options": ["260","240","250","270"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp18",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B:C = 2:3:4 total 540. Find A.",
+      "options": ["130","120","100","110"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Speed ratio 2:3 distance same. Time ratio?",
+      "options": ["2:3","4:9","3:2","9:4"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Speed ratio 5:8 distance same. Time ratio?",
+      "options": ["16:10","10:16","5:8","8:5"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "rp21",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum is divided in ratio 4:9. If A gets 160, find total sum.",
+      "options": ["500","520","540","480"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp22",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B = 7:11 and B:C = 5:9. Find A:C.",
+      "options": ["35:99","49:99","45:77","55:99"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp23",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests ₹8000 for 12 months and B ₹6000 for 8 months. Profit ₹3400. B share?",
+      "options": ["1200","1400","1500","1600"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp24",
+      "language": "math",
+      "type": "mcq",
+      "title": "15 men complete work in 12 days. Days required by 20 men?",
+      "options": ["10","9","8","11"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk:Water = 9:4. Add 20L water ratio becomes 9:5. Find original mixture.",
+      "options": ["240","260","280","220"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Divide ₹720 among A,B,C in ratio 2:5:9. Find C.",
+      "options": ["405","360","320","300"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Speed ratio 3:4. Time ratio for same distance?",
+      "options": ["3:4","4:3","9:16","16:9"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two numbers in ratio 5:7 sum 144. Smaller number?",
+      "options": ["60","70","72","84"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two numbers ratio 3:8 difference 50. Larger number?",
+      "options": ["80","70","120","100"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp30",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B:C = 4:6:10 total 1000. Find B.",
+      "options": ["300","250","200","350"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp31",
+      "language": "math",
+      "type": "mcq",
+      "title": "10 workers make 200 items in 5 days. 5 workers make in 10 days?",
+      "options": ["200","100","150","250"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp32",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B = 2:5 and B:C = 3:4. Find A:C.",
+      "options": ["6:20","3:10","2:4","4:15"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp33",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 4 pens cost same as 2 books. Book ₹40. Find pen price.",
+      "options": ["10","15","20","8"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Divide ₹960 in ratio 1:2:3:4. Largest share?",
+      "options": ["384","288","192","96"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Age ratio 6:7 after 5 yrs becomes 7:8. Present younger age?",
+      "options": ["30","35","25","40"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp36",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B = 11:9 sum 200. Find B.",
+      "options": ["90","110","100","80"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk water 2:3 add 10L water ratio 2:5. Initial mixture?",
+      "options": ["40","30","50","60"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp38",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 6 men earn ₹900 in 5 days. 4 men earn in 10 days?",
+      "options": ["1200","1500","1000","1800"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Speed ratio 7:5 distance same time ratio?",
+      "options": ["7:5","5:7","49:25","25:49"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Divide ₹840 among A:B = 4:3. B share?",
+      "options": ["360","480","420","300"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio 5:6 sum 121. Larger number?",
+      "options": ["60","66","55","72"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "rp42",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B:C = 3:5:7 total 450. Find A.",
+      "options": ["90","75","60","105"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp43",
+      "language": "math",
+      "type": "mcq",
+      "title": "12 men build wall 8 days. Days for 6 men?",
+      "options": ["14","12","16","10"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "rp44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio 8:3 difference 50. Smaller number?",
+      "options": ["30","40","20","25"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Divide ₹1000 in ratio 7:3. A share?",
+      "options": ["700","300","750","650"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Age ratio 2:3 after 10 yrs 3:4. Present younger age?",
+      "options": ["20","30","15","25"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk water 5:2 add 9L water ratio 5:3 initial mixture?",
+      "options": ["63","70","56","77"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp48",
+      "language": "math",
+      "type": "mcq",
+      "title": "15 workers make 300 items in 6 days. 10 workers in 9 days?",
+      "options": ["300","250","350","400"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio 9:11 sum 200. Smaller number?",
+      "options": ["90","99","110","88"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "rp50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Speed ratio 4:5 time ratio?",
+      "options": ["5:4","4:5","16:25","25:16"],
+      "correctAnswer": 0
+    }
+
+  ]
+}

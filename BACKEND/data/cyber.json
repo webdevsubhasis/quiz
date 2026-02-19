@@ -1,0 +1,547 @@
+{
+  "category": "Cyber Security",
+  "questions": [
+    {
+      "id": "csc1",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What does CIA triad stand for in cyber security?",
+      "options": [
+        "Confidentiality, Integrity, Availability",
+        "Control, Integrity, Authentication",
+        "Confidentiality, Identification, Access",
+        "Control, Information, Availability"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc2",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack uses fake emails to steal sensitive information?",
+      "options": ["Spoofing", "Phishing", "Sniffing", "Hijacking"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc3",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is malware?",
+      "options": [
+        "Hardware failure",
+        "Malicious software",
+        "Secure software",
+        "System update"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc4",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which malware replicates itself automatically?",
+      "options": ["Virus", "Trojan", "Worm", "Spyware"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "csc5",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is the main function of a firewall?",
+      "options": [
+        "Encrypt data",
+        "Filter network traffic",
+        "Remove viruses",
+        "Store passwords"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc6",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack floods a system with traffic?",
+      "options": ["MITM", "DDoS", "Phishing", "Brute force"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc7",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What does HTTPS ensure?",
+      "options": [
+        "Fast browsing",
+        "Encrypted communication",
+        "Public access",
+        "No authentication"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc8",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which password is the strongest?",
+      "options": ["admin123", "password", "A@9x#P2!", "123456"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "csc9",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is encryption?",
+      "options": [
+        "Deleting data",
+        "Compressing files",
+        "Converting data into unreadable form",
+        "Copying files"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "csc10",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which malware hides inside legitimate software?",
+      "options": ["Virus", "Worm", "Trojan Horse", "Adware"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "csc11",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is two-factor authentication?",
+      "options": [
+        "Two usernames",
+        "Password + another verification",
+        "Two passwords",
+        "Two emails"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc12",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which tool is used for network scanning?",
+      "options": ["Nmap", "Photoshop", "Excel", "Notepad"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc13",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What does VPN stand for?",
+      "options": [
+        "Virtual Private Network",
+        "Verified Public Network",
+        "Virtual Protected Node",
+        "Verified Private Node"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc14",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack intercepts communication between two parties?",
+      "options": [
+        "Phishing",
+        "DDoS",
+        "Man-in-the-middle",
+        "Spoofing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "csc15",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is SQL Injection?",
+      "options": [
+        "Database backup",
+        "Malicious SQL code execution",
+        "Database encryption",
+        "SQL optimization"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc16",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which malware records keystrokes?",
+      "options": ["Virus", "Keylogger", "Worm", "Adware"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc17",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is a brute force attack?",
+      "options": [
+        "Guessing passwords repeatedly",
+        "Encrypting files",
+        "Monitoring traffic",
+        "Blocking access"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc18",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which device filters incoming network packets?",
+      "options": ["Hub", "Switch", "Router", "Firewall"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "csc19",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is social engineering?",
+      "options": [
+        "Hardware attack",
+        "Psychological manipulation",
+        "Software testing",
+        "Network configuration"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc20",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which malware encrypts data for ransom?",
+      "options": ["Spyware", "Adware", "Ransomware", "Virus"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "csc21",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What does IDS stand for?",
+      "options": [
+        "Intrusion Detection System",
+        "Internal Defense Software",
+        "Internet Data Security",
+        "Integrated Defense System"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc22",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack alters DNS responses?",
+      "options": ["DNS Spoofing", "Phishing", "DDoS", "Trojan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc23",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is patch management?",
+      "options": [
+        "Network monitoring",
+        "Updating software to fix vulnerabilities",
+        "Encrypting files",
+        "Creating backups"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc24",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which protocol is secure?",
+      "options": ["HTTP", "FTP", "HTTPS", "TELNET"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "csc25",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is a zero-day vulnerability?",
+      "options": [
+        "Known vulnerability",
+        "Unknown vulnerability",
+        "Fixed vulnerability",
+        "Expired vulnerability"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "csc26",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack targets user passwords?",
+      "options": ["Brute force", "DDoS", "Sniffing", "Ping flood"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc27",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is data backup used for?",
+      "options": [
+        "Speed improvement",
+        "Data recovery",
+        "Encryption",
+        "Authentication"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc28",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which malware displays unwanted ads?",
+      "options": ["Spyware", "Adware", "Rootkit", "Worm"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc29",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is penetration testing?",
+      "options": [
+        "System hacking",
+        "Authorized security testing",
+        "Illegal access",
+        "Network blocking"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc30",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack captures network packets?",
+      "options": ["Sniffing", "Spoofing", "Phishing", "Flooding"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "csc31",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What does MFA stand for?",
+      "options": [
+        "Multi-Factor Authentication",
+        "Multiple File Access",
+        "Managed Firewall Access",
+        "Multi Form Authorization"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc32",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which malware hides deep in the system?",
+      "options": ["Virus", "Rootkit", "Spyware", "Adware"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "csc33",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is spoofing?",
+      "options": [
+        "Impersonating a trusted source",
+        "Encrypting data",
+        "Blocking traffic",
+        "Scanning network"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc34",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which protocol is used for secure email?",
+      "options": ["SMTP", "POP3", "IMAPS", "HTTP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "csc35",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is ethical hacking?",
+      "options": [
+        "Illegal hacking",
+        "Authorized hacking",
+        "Password cracking",
+        "Virus creation"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "csc36",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which security principle limits user access?",
+      "options": [
+        "Least privilege",
+        "Maximum access",
+        "Open access",
+        "Free access"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc37",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is a botnet?",
+      "options": [
+        "Network of infected computers",
+        "Secure network",
+        "Antivirus software",
+        "Firewall system"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc38",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack exploits software bugs?",
+      "options": ["Exploit attack", "Sniffing", "Phishing", "Flooding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc39",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is log monitoring?",
+      "options": [
+        "Tracking system activities",
+        "Deleting logs",
+        "Encrypting logs",
+        "Sharing logs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc40",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which technique protects stored passwords?",
+      "options": ["Hashing", "Plain text", "Encoding", "Copying"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "csc41",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is cyber forensics?",
+      "options": [
+        "Investigating cyber crimes",
+        "Creating malware",
+        "Network scanning",
+        "Firewall configuration"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc42",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack redirects users to fake websites?",
+      "options": ["Pharming", "Sniffing", "Flooding", "Keylogging"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc43",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is endpoint security?",
+      "options": [
+        "Securing user devices",
+        "Securing servers only",
+        "Securing databases",
+        "Securing routers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc44",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack targets login forms?",
+      "options": ["SQL Injection", "XSS", "CSRF", "Ping flood"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc45",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is XSS?",
+      "options": [
+        "Cross-Site Scripting",
+        "Cross System Security",
+        "Extended Secure Shell",
+        "Extra Safe Script"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "csc46",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack exploits user trust?",
+      "options": ["Social engineering", "DDoS", "Sniffing", "Scanning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc47",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is incident response?",
+      "options": [
+        "Handling security breaches",
+        "Preventing attacks",
+        "Encrypting data",
+        "Monitoring traffic"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc48",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which attack modifies data packets?",
+      "options": ["MITM", "DDoS", "Phishing", "Flooding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc49",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "What is data integrity?",
+      "options": [
+        "Accuracy and consistency of data",
+        "Speed of data",
+        "Encryption of data",
+        "Backup of data"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "csc50",
+      "language": "cybersecurity",
+      "type": "mcq",
+      "title": "Which practice helps recover data after cyber attacks?",
+      "options": ["Backup", "Firewall", "Encryption", "Authentication"],
+      "correctAnswer": 0
+    }
+  ]
+}

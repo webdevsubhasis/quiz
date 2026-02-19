@@ -1,0 +1,482 @@
+{
+  "category": "NODE",
+  "questions": [
+    {
+      "id": "node1",
+      "language": "node",
+      "type": "mcq",
+      "title": "What is Node.js?",
+      "options": [
+        "A programming language",
+        "A JavaScript runtime environment",
+        "A browser API",
+        "A Java compiler"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node2",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module is used to create a server in Node.js?",
+      "options": ["fs", "http", "url", "events"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node3",
+      "language": "node",
+      "type": "mcq",
+      "title": "Node.js is built on which engine?",
+      "options": ["SpiderMonkey", "JavaScriptCore", "V8", "Rhino"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node4",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which of the following is true about Node.js?",
+      "options": [
+        "Single-threaded",
+        "Multi-threaded",
+        "Supports only sync code",
+        "Runs only on Linux"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node5",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module allows working with the file system?",
+      "options": ["os", "path", "fs", "net"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node6",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which method is used to read environment variables?",
+      "options": ["env()", "getEnv()", "process.env", "system.env"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node7",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which keyword is used to import a module in CommonJS?",
+      "options": ["import", "require()", "include", "use"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node8",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which method sends data in an HTTP response?",
+      "options": ["req.send()", "res.write()", "res.input()", "req.write()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node9",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module is used to handle events in Node?",
+      "options": ["fs", "util", "events", "stream"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node10",
+      "language": "node",
+      "type": "mcq",
+      "title": "What does npm stand for?",
+      "options": [
+        "Node Package Manager",
+        "New Programming Method",
+        "Next Program Module",
+        "Node Project Maker"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "node11",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which file contains project metadata?",
+      "options": ["package.js", "node.json", "package.json", "config.json"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node12",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which command initializes a Node project?",
+      "options": ["node init", "npm init", "start npm", "node start"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node13",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which function is asynchronous?",
+      "options": [
+        "fs.readFile()",
+        "JSON.parse()",
+        "fs.existsSync()",
+        "Buffer.from()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node14",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which object represents the current module?",
+      "options": ["global", "module", "module.exports", "__module"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node15",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which method is used to create a buffer?",
+      "options": [
+        "Buffer.create()",
+        "new Buffer()",
+        "Buffer.from()",
+        "Buffer.build()"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "node16",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which statement is true about Node.js?",
+      "options": [
+        "It blocks during I/O",
+        "It supports non-blocking I/O",
+        "It has no package manager",
+        "It cannot use JavaScript"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node17",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which core module handles URLs?",
+      "options": ["http", "url", "query", "path"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node18",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module is needed for creating TCP servers?",
+      "options": ["net", "tcp", "stream", "sock"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node19",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which is NOT a Node.js global object?",
+      "options": ["Buffer", "console", "window", "process"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node20",
+      "language": "node",
+      "type": "mcq",
+      "title": "How do you stop a Node process?",
+      "options": ["stop()", "exit()", "process.exit()", "terminate()"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "node21",
+      "language": "node",
+      "type": "mcq",
+      "title": "What does res.end() do?",
+      "options": [
+        "Starts a response",
+        "Ends the response",
+        "Sends JSON",
+        "Writes status code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node22",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which is used to serve static files?",
+      "options": ["http.static", "fs.server", "express.static", "node.static"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node23",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which method parses JSON?",
+      "options": ["JSON.read()", "JSON.parse()", "fs.json()", "process.json()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node24",
+      "language": "node",
+      "type": "mcq",
+      "title": "What is middleware in Node.js?",
+      "options": [
+        "A type of server",
+        "A function that handles requests",
+        "A database layer",
+        "A router method"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node25",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which term describes Node’s architecture?",
+      "options": [
+        "Block-based",
+        "Multi-blocking",
+        "Event-driven",
+        "Thread-based"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node26",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which callback pattern is common in Node.js?",
+      "options": [
+        "callback(error, data)",
+        "callback(data)",
+        "callback()",
+        "callback(data, error)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node27",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module provides compression?",
+      "options": ["zip", "compress", "zlib", "gzip"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node28",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which is used for routing in Node.js?",
+      "options": ["router.js", "node-router", "express.Router()", "route.init"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node29",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which event fires when a stream ends?",
+      "options": ["finish", "end", "close", "done"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node30",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which keyword is used for async programming?",
+      "options": ["wait", "sleep", "async/await", "sync"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "node31",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which library allows connecting MongoDB with Node.js?",
+      "options": ["mongoose", "mongoClientJS", "dbjs", "sqlnode"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node32",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module allows child processes?",
+      "options": ["os", "cluster", "child_process", "spawn_module"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node33",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which is a valid stream type?",
+      "options": ["Read", "Write", "Duplex", "All of the above"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "node34",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which command installs dependencies?",
+      "options": ["npm install", "npm get", "npm start", "node install"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node35",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which extension is mandatory for Node modules?",
+      "options": [".js", ".node", ".json", "No mandatory extension"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "node36",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which file stores installed package versions?",
+      "options": [
+        "versions.json",
+        "package.json",
+        "package-lock.json",
+        "node-modules.json"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node37",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which command updates a package?",
+      "options": ["npm update", "npm upgrade", "node update", "update pkg"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node38",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which operator handles async errors in promises?",
+      "options": ["catch()", "error()", "resolve()", "throw()"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "node39",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which function converts a string to integer?",
+      "options": ["Number()", "parseInt()", "Convert()", "int()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node40",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module handles encryption?",
+      "options": ["crypto", "hash", "secure", "cipher"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "node41",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which statement loads ES Modules?",
+      "options": ["require()", "import", "include", "load"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node42",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which command runs a script from package.json?",
+      "options": ["npm execute", "node run", "npm run", "npm start script"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node43",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which HTTP method is used to update data?",
+      "options": ["GET", "POST", "PUT", "HEAD"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node44",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which module is used for path operations?",
+      "options": ["location", "path", "os", "url"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node45",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which object handles command-line arguments?",
+      "options": ["process.argv", "args", "cmd.args", "os.argv"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "node46",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which header sends JSON response?",
+      "options": [
+        "Content-Type: text/html",
+        "Content-Type: application/json",
+        "Accept: json",
+        "JSON: true"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node47",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which Node.js type handles binary data?",
+      "options": ["String", "Array", "Buffer", "Binary"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node48",
+      "language": "node",
+      "type": "mcq",
+      "title": "What does event loop manage?",
+      "options": [
+        "Memory",
+        "File system",
+        "Async operations",
+        "Networking only"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "node49",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which pattern avoids callback hell?",
+      "options": [
+        "Nested callbacks",
+        "Promises",
+        "Infinite loops",
+        "Debuggers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "node50",
+      "language": "node",
+      "type": "mcq",
+      "title": "Which allows scheduling a function?",
+      "options": ["setWait()", "sleep()", "setTimeout()", "timer()"],
+      "correctAnswer": 2
+    }
+  ]
+}

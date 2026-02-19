@@ -1,0 +1,133 @@
+/* ================= ROOT THEME ================= */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #e5e7eb;
+  background-color: #0b1220;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================= RESET ================= */
+* {
+  box-sizing: border-box;
+}
+
+/* ================= HTML / BODY ================= */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================= ROOT LAYOUT ================= */
+/* Keeps footer at bottom and allows content to grow */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= APP CONTENT ================= */
+/* Centers site and fixes mobile/desktop cut issues */
+.app-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* ================= PAGE WRAPPER ================= */
+/* Controls max width for ALL screens */
+.page-wrapper {
+  width: 100%;
+  max-width: 1400px; /* Desktop / Mac / TV */
+  padding: 0 16px;   /* Mobile safe padding */
+}
+
+/* ================= BODY BACKGROUND ================= */
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  overflow-x: hidden; /* Prevent horizontal scroll bugs */
+}
+
+/* ================= LINKS ================= */
+a {
+  font-weight: 500;
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #93c5fd;
+}
+
+/* ================= BUTTON BASE ================= */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  border-color: #60a5fa;
+}
+
+button:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* ================= LARGE SCREENS / TV ================= */
+@media (min-width: 1600px) {
+  body {
+    font-size: 16.5px;
+  }
+
+  .page-wrapper {
+    max-width: 1600px;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+  .page-wrapper {
+    padding: 0 14px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  body {
+    font-size: 14.5px;
+  }
+
+  .page-wrapper {
+    padding: 0 12px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 420px) {
+  body {
+    font-size: 14px;
+  }
+
+  .page-wrapper {
+    padding: 0 10px;
+  }
+}

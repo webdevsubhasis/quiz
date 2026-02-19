@@ -1,0 +1,456 @@
+{
+  "category": "Time & Work",
+  "questions": [
+
+    {
+      "id": "tw1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A alone can complete a work in 12 days and B alone in 18 days. In how many days will they complete it together?",
+      "options": ["7.2 days","6 days","5 days","4 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw2",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a work in 15 days. After working 5 days he leaves. B completes remaining work in 5 days. B alone can do the whole work in:",
+      "options": ["10 days","12 days","8 days","15 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw3",
+      "language": "math",
+      "type": "mcq",
+      "title": "A and B together can complete a work in 8 days. A alone can complete it in 24 days. B alone will take:",
+      "options": ["10 days","12 days","16 days","18 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw4",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes 1/4 of a work in 5 days. Time taken to complete whole work:",
+      "options": ["15 days","18 days","20 days","25 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw5",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 5 men can complete a work in 12 days, how many men are needed to finish in 4 days?",
+      "options": ["15","12","18","10"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw6",
+      "language": "math",
+      "type": "mcq",
+      "title": "A is twice as efficient as B. B can complete a work in 18 days. Together they will complete it in:",
+      "options": ["6 days","9 days","12 days","4 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw7",
+      "language": "math",
+      "type": "mcq",
+      "title": "12 workers complete a job in 10 days. After 5 days, 4 workers leave. Remaining work finished in:",
+      "options": ["10 days","8 days","5 days","6 days"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw8",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a job in 20 days, B in 30 days. Working together for 4 days, fraction of work completed:",
+      "options": ["1/3","2/5","1/4","1/5"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw9",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 6 hrs and another in 8 hrs. Together they fill in:",
+      "options": ["3 3/7 hrs","4 hrs","2 hrs","5 hrs"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw10",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a work in 10 days and B in 15 days. Together time:",
+      "options": ["6 days","7 days","5 days","8 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw11",
+      "language": "math",
+      "type": "mcq",
+      "title": "A and B together can do a work in 9 days. A alone can do it in 18 days. B alone will take:",
+      "options": ["18 days","12 days","9 days","6 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw12",
+      "language": "math",
+      "type": "mcq",
+      "title": "A does half the work in 6 days. Time required to finish full work:",
+      "options": ["12 days","10 days","15 days","8 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw13",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 8 men can complete a job in 15 days, number of men required to complete it in 5 days:",
+      "options": ["20","24","18","30"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw14",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can complete a work in 24 days. B is 50% more efficient. Together time:",
+      "options": ["8 days","12 days","16 days","10 days"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw15",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a work in 16 days, B in 12 days. Working together, remaining after 4 days:",
+      "options": ["1/4","1/6","1/3","1/2"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw16",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 12 hours and leak empties in 18 hours. Tank filled in:",
+      "options": ["30 hrs","24 hrs","36 hrs","18 hrs"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw17",
+      "language": "math",
+      "type": "mcq",
+      "title": "A alone completes work in 40 days. After 10 days B joins and finishes in 10 more days. B alone time:",
+      "options": ["20 days","30 days","40 days","25 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw18",
+      "language": "math",
+      "type": "mcq",
+      "title": "A is thrice as efficient as B. B takes 24 days. Together time:",
+      "options": ["6 days","8 days","12 days","4 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw19",
+      "language": "math",
+      "type": "mcq",
+      "title": "A and B together do a work in 12 days. A leaves after 4 days, B finishes in 16 days. A alone time:",
+      "options": ["18 days","20 days","24 days","30 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw20",
+      "language": "math",
+      "type": "mcq",
+      "title": "15 workers can finish work in 8 days. Work done by 5 workers in 8 days:",
+      "options": ["1/5","1/4","1/3","1/2"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw21",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a work in 20 days and B in 30 days. They work alternately starting A. Work finishes in:",
+      "options": ["24 days","25 days","26 days","27 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw22",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes 40% work in 8 days. Whole work completed in:",
+      "options": ["20 days","15 days","16 days","18 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill a tank in 10 hrs and 15 hrs. Together time:",
+      "options": ["6 hrs","5 hrs","7.5 hrs","8 hrs"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw24",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 3 workers make 36 items/day, 5 workers will make:",
+      "options": ["54","50","60","48"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw25",
+      "language": "math",
+      "type": "mcq",
+      "title": "A does a work in 18 days. B in 9 days. Together for 3 days. Remaining work:",
+      "options": ["1/2","1/3","1/6","1/4"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw26",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes work in 45 days. After 15 days B joins and finishes in 10 days. B alone:",
+      "options": ["12 days","15 days","18 days","20 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw27",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 4 men complete work in 12 days, 6 men complete in:",
+      "options": ["10 days","8 days","9 days","6 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw28",
+      "language": "math",
+      "type": "mcq",
+      "title": "A is twice efficient as B. Together they take 9 days. B alone:",
+      "options": ["18 days","27 days","36 days","12 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Half work done by A in 10 days and B in 5 days. Together:",
+      "options": ["6.67 days","8 days","7 days","5 days"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "tw30",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 8 hrs and B empties in 24 hrs. Filled in:",
+      "options": ["10 hrs","12 hrs","16 hrs","20 hrs"],
+      "correctAnswer": 1
+    },
+
+      {
+      "id": "tw31",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a work in 30 days and B in 20 days. They work together for 6 days. Remaining work:",
+      "options": ["1/5","3/5","2/5","1/2"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw32",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes a work in 12 days. B is 25% less efficient. B alone time:",
+      "options": ["18 days","16 days","20 days","15 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw33",
+      "language": "math",
+      "type": "mcq",
+      "title": "8 men can do a job in 18 days. 12 men will do it in:",
+      "options": ["10 days","15 days","12 days","9 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw34",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 20 hrs and leak empties in 30 hrs. Tank fills in:",
+      "options": ["45 hrs","40 hrs","50 hrs","60 hrs"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw35",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do a work in 10 days and B in 15 days. Working alternately starting A, work finished in:",
+      "options": ["13 days","11 days","14 days","12 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw36",
+      "language": "math",
+      "type": "mcq",
+      "title": "A does 3/4 of a work in 6 days. Full work time:",
+      "options": ["10 days","9 days","8 days","7 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw37",
+      "language": "math",
+      "type": "mcq",
+      "title": "A and B together complete work in 16 days. A alone in 48 days. B alone:",
+      "options": ["20 days","18 days","24 days","16 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw38",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 5 workers produce 100 units/day, 8 workers produce:",
+      "options": ["140","160","150","180"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw39",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes work in 14 days, B in 21 days. Half work together takes:",
+      "options": ["5 days","4.2 days","6 days","3 days"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill tank in 9 and 18 hrs. Together time:",
+      "options": ["7 hrs","6 hrs","5 hrs","4 hrs"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw41",
+      "language": "math",
+      "type": "mcq",
+      "title": "A is 4 times efficient as B. Together they take 8 days. B alone:",
+      "options": ["24 days","32 days","40 days","20 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw42",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 12 men finish work in 15 days, work done by 4 men in 15 days:",
+      "options": ["1/4","1/3","1/5","1/2"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "tw43",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes work in 25 days. After 5 days B joins and work finishes in 5 more days. B alone:",
+      "options": ["15 days","20 days","10 days","12.5 days"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw44",
+      "language": "math",
+      "type": "mcq",
+      "title": "3 men or 6 women do a work in 12 days. 6 men alone:",
+      "options": ["8 days","4 days","6 days","3 days"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "tw45",
+      "language": "math",
+      "type": "mcq",
+      "title": "A does 1/5 work in 2 days. Full work time:",
+      "options": ["12 days","15 days","8 days","10 days"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw46",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills tank in 6 hrs and B in 8 hrs. Together in:",
+      "options": ["5 hrs","2.5 hrs","4 hrs","3.43 hrs"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw47",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 20 workers finish job in 12 days, 15 workers finish in:",
+      "options": ["14 days","18 days","20 days","16 days"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw48",
+      "language": "math",
+      "type": "mcq",
+      "title": "A completes in 18 days, B in 12 days. Together after 3 days remaining:",
+      "options": ["1/2","1/6","1/4","1/3"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw49",
+      "language": "math",
+      "type": "mcq",
+      "title": "A alone 50 days. A+B together 25 days. B alone:",
+      "options": ["25 days","100 days","40 days","50 days"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "tw50",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 10 workers complete job in 12 days, number of workers needed for 8 days:",
+      "options": ["12","15","18","20"],
+      "correctAnswer": 1
+    }
+
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "category": "Java Programming",
+  "questions": [
+    {
+      "id": "j1",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which of the following is not a Java feature?",
+      "options": [
+        "Object-Oriented",
+        "Platform Independent",
+        "Memory Management",
+        "Pointer Arithmetic"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "j2",
+      "language": "java",
+      "type": "mcq",
+      "title": "Java compiler converts source code into?",
+      "options": [
+        "Machine Code",
+        "Bytecode",
+        "Assembly Code",
+        "Object Code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j3",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which keyword is used to inherit a class in Java?",
+      "options": [
+        "inherit",
+        "extends",
+        "implements",
+        "super"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j4",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which method is the entry point of a Java program?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j5",
+      "language": "java",
+      "type": "mcq",
+      "title": "Java is developed by?",
+      "options": [
+        "Microsoft",
+        "Sun Microsystems",
+        "Google",
+        "IBM"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j6",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which of the following is not a Java primitive data type?",
+      "options": [
+        "int",
+        "float",
+        "boolean",
+        "String"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "j7",
+      "language": "java",
+      "type": "mcq",
+      "title": "What is the size of an int in Java?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "Depends on OS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j8",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which keyword prevents method overriding?",
+      "options": [
+        "static",
+        "super",
+        "sealed",
+        "final"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "j9",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which concept allows multiple methods with same name?",
+      "options": [
+        "Overriding",
+        "Overloading",
+        "Encapsulation",
+        "Abstraction"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j10",
+      "language": "java",
+      "type": "mcq",
+      "title": "What is JVM?",
+      "options": [
+        "Java Variable Machine",
+        "Java Virtual Machine",
+        "Joint Virtual Module",
+        "Java Version Manager"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j11",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which package is imported by default?",
+      "options": [
+        "java.io",
+        "java.util",
+        "java.lang",
+        "java.net"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j12",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which OOP concept hides internal details?",
+      "options": [
+        "Inheritance",
+        "Abstraction",
+        "Encapsulation",
+        "Polymorphism"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j13",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which exception is unchecked?",
+      "options": [
+        "IOException",
+        "SQLException",
+        "ArithmeticException",
+        "ClassNotFoundException"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j14",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which keyword is used to handle exceptions?",
+      "options": [
+        "throw",
+        "try",
+        "finally",
+        "catch"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j15",
+      "language": "java",
+      "type": "mcq",
+      "title": "Wrapper class for int is?",
+      "options": [
+        "Integer",
+        "Int",
+        "Number",
+        "WrapperInt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j16",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which collection stores unique elements?",
+      "options": [
+        "ArrayList",
+        "LinkedList",
+        "HashSet",
+        "Vector"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j17",
+      "language": "java",
+      "type": "mcq",
+      "title": "What is the default value of a boolean?",
+      "options": [
+        "true",
+        "false",
+        "0",
+        "null"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j18",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which method is used to start a thread?",
+      "options": [
+        "begin()",
+        "start()",
+        "run()",
+        "execute()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j19",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which keyword is used to allocate memory?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "memory"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j20",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which of the following is synchronized by default?",
+      "options": [
+        "ArrayList",
+        "HashMap",
+        "Vector",
+        "HashSet"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j21",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which is not part of Java?",
+      "options": [
+        "JDK",
+        "JVM",
+        "JRE",
+        "IDE"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "j22",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which file contains bytecode?",
+      "options": [
+        ".java",
+        ".class",
+        ".exe",
+        ".jar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j23",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which access modifier is most restrictive?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "default"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j24",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which keyword is used to inherit an interface?",
+      "options": [
+        "extends",
+        "implements",
+        "super",
+        "interface"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j25",
+      "language": "java",
+      "type": "mcq",
+      "title": "Which method is always executed?",
+      "options": [
+        "catch()",
+        "throw()",
+        "finally()",
+        "try()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j26",
+      "language": "java",
+      "type": "output",
+      "title": "What is the output?",
+      "code": {
+        "content": "int a = 5;\nSystem.out.println(a++);",
+        "language": "java"
+      },
+      "options": [
+        "5",
+        "6",
+        "Error",
+        "0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j27",
+      "language": "java",
+      "type": "output",
+      "title": "What is the output?",
+      "code": {
+        "content": "int a = 5;\nSystem.out.println(++a);",
+        "language": "java"
+      },
+      "options": [
+        "5",
+        "6",
+        "Error",
+        "0"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j28",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println(10/3);",
+        "language": "java"
+      },
+      "options": [
+        "3",
+        "3.33",
+        "3.0",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j29",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println(10.0/3);",
+        "language": "java"
+      },
+      "options": [
+        "3",
+        "3.33",
+        "3.0",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j30",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println('A' + 1);",
+        "language": "java"
+      },
+      "options": [
+        "A1",
+        "66",
+        "Error",
+        "B"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j31",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println(true && false);",
+        "language": "java"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Runtime Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j32",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println(true || false);",
+        "language": "java"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Runtime Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j33",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "String s1 = \"Hello\";\nString s2 = \"Hello\";\nSystem.out.println(s1==s2);",
+        "language": "java"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Depends"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j34",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "String s1 = new String(\"Hello\");\nString s2 = new String(\"Hello\");\nSystem.out.println(s1==s2);",
+        "language": "java"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Depends"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j35",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int[] arr = {1,2,3};\nSystem.out.println(arr[1]);",
+        "language": "java"
+      },
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j36",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "for(int i=0;i<3;i++) {System.out.print(i);}",
+        "language": "java"
+      },
+      "options": [
+        "012",
+        "123",
+        "0123",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j37",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int x = 10;\nSystem.out.println(x>5 ? 100 : 200);",
+        "language": "java"
+      },
+      "options": [
+        "10",
+        "100",
+        "200",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j38",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int x = 10;\nint y = 20;\nSystem.out.println(x+y);",
+        "language": "java"
+      },
+      "options": [
+        "10",
+        "20",
+        "30",
+        "200"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "j39",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int a = 5;\nint b = a++ + ++a;\nSystem.out.println(b);",
+        "language": "java"
+      },
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j40",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "char c = 'A';\nc++;\nSystem.out.println(c);",
+        "language": "java"
+      },
+      "options": [
+        "A",
+        "B",
+        "66",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j41",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println(\"Hello\" + null);",
+        "language": "java"
+      },
+      "options": [
+        "nullHello",
+        "Hellonull",
+        "Error",
+        "Helllonull"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j42",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int a = 10;\na -= 5;\nSystem.out.println(a);",
+        "language": "java"
+      },
+      "options": [
+        "5",
+        "10",
+        "15",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j43",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int x = 5;\nSystem.out.println(x<<1);",
+        "language": "java"
+      },
+      "options": [
+        "10",
+        "5",
+        "20",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j44",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int x = 10;\nSystem.out.println(x%3);",
+        "language": "java"
+      },
+      "options": [
+        "1",
+        "2",
+        "0",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j45",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "boolean flag = false;\nSystem.out.println(!flag);",
+        "language": "java"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Runtime Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j46",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int a = 5;\nint b = 2;\nSystem.out.println(a/b);",
+        "language": "java"
+      },
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j47",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int x=5;\nSystem.out.println(x!=5);",
+        "language": "java"
+      },
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Runtime Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "j48",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int a=0;\nif(a=1) System.out.println(a);",
+        "language": "java"
+      },
+      "options": [
+        "Compiler Error",
+        "1",
+        "0",
+        "Runtime Error"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j49",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "int a=5;\nSystem.out.println(a--);",
+        "language": "java"
+      },
+      "options": [
+        "5",
+        "4",
+        "6",
+        "Undefined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "j50",
+      "language": "java",
+      "type": "output",
+      "title": "Output?",
+      "code": {
+        "content": "System.out.println(\"Hello\"+5+5);",
+        "language": "java"
+      },
+      "options": [
+        "Hello10",
+        "Hello55",
+        "10Hello5",
+        "Error"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

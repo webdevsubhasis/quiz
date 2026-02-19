@@ -1,0 +1,413 @@
+{
+  "category": "react",
+  "questions": [
+    {
+      "id": "REACT-1",
+      "language": "react",
+      "type": "mcq",
+      "title": "What is React?",
+      "options": ["A backend framework", "A JavaScript library for building UI", "A CSS library", "A database engine"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-2",
+      "language": "react",
+      "type": "mcq",
+      "title": "Who developed React?",
+      "options": ["Google", "Facebook (Meta)", "Microsoft", "Twitter"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-3",
+      "language": "react",
+      "type": "mcq",
+      "title": "React uses which language extension?",
+      "options": ["TSX", "JSX", "JSL", "ReactX"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-4",
+      "language": "react",
+      "type": "mcq",
+      "title": "What is the virtual DOM?",
+      "options": ["Browser DOM", "Representation of UI in memory", "Database structure", "Server API"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-5",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which method is used to create components?",
+      "options": ["createComponent()", "renderComponent()", "Functional or Class components", "Component.new()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-6",
+      "language": "react",
+      "type": "mcq",
+      "title": "React components must return…?",
+      "options": ["Strings only", "Objects only", "JSX elements", "Numbers"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-7",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook is used for state management?",
+      "options": ["useData()", "useEvent()", "useState()", "useStore()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-8",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook runs after every render?",
+      "options": ["useRender()", "useState()", "useEffect()", "usePost()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-9",
+      "language": "react",
+      "type": "mcq",
+      "title": "JSX stands for:",
+      "options": ["JavaScript XML", "Java Syntax Extension", "JSON XML", "JavaScript Extension File"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-10",
+      "language": "react",
+      "type": "mcq",
+      "title": "Props in React are:",
+      "options": ["Immutable", "Mutable", "Global variables", "Static values only"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "REACT-11",
+      "language": "react",
+      "type": "mcq",
+      "title": "State in React is:",
+      "options": ["Read-only", "Mutable", "Only in class components", "A CSS property"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-12",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook replaces lifecycle methods?",
+      "options": ["useState", "useEffect", "useProps", "useClass"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-13",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which method renders React components?",
+      "options": ["renderDOM()", "ReactDOM.render()", "DOM.react()", "react.mount()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-14",
+      "language": "react",
+      "type": "mcq",
+      "title": "How many elements can a component return?",
+      "options": ["Only one parent element", "Unlimited", "Zero", "Only two"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-15",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which symbol is used for fragments?",
+      "options": ["<> </>", "[ ]", "{{ }}", "<frag></frag>"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "REACT-16",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook is used for side effects?",
+      "options": ["useEffect()", "useSide()", "useImpact()", "useRun()"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-17",
+      "language": "react",
+      "type": "mcq",
+      "title": "Keys in React must be:",
+      "options": ["Unique among siblings", "Same everywhere", "Random numbers", "Alphabetical"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-18",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook is used for performance optimization?",
+      "options": ["useSpeed()", "useMemo()", "useCache()", "useOptimize()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-19",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which function updates state in useState?",
+      "options": ["set()", "updateState()", "setState()", "Setter function returned by useState"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "REACT-20",
+      "language": "react",
+      "type": "mcq",
+      "title": "React Router is used for:",
+      "options": ["State management", "Styling", "Routing/navigation", "Database connection"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "REACT-21",
+      "language": "react",
+      "type": "mcq",
+      "title": "What is a pure component?",
+      "options": ["A component without props", "A component that prevents unnecessary re-renders", "A component with only JSX", "A component with no state"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-22",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook is used to access previous props/state indirectly?",
+      "options": ["usePrev()", "useEffect()", "useRef()", "useBefore()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-23",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which of these is NOT a hook?",
+      "options": ["useCallback", "useReducer", "useProps", "useContext"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-24",
+      "language": "react",
+      "type": "mcq",
+      "title": "Context API is used to avoid:",
+      "options": ["API calls", "Prop drilling", "useEffect", "Class components"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-25",
+      "language": "react",
+      "type": "mcq",
+      "title": "React uses which algorithm to compare virtual DOM?",
+      "options": ["Binary search", "Diffing algorithm", "Linear scan", "Hash mapping"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "REACT-26",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook manages complex state?",
+      "options": ["useState", "useEffect", "useReducer", "useMemo"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-27",
+      "language": "react",
+      "type": "mcq",
+      "title": "React.StrictMode is used for:",
+      "options": ["Performance", "Highlighting potential issues", "Faster rendering", "Security"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-28",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook is used for callback memoization?",
+      "options": ["useMemo", "useCallback", "useReducer", "useRef"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-29",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which lifecycle method is replaced by useEffect?",
+      "options": ["componentDidMount", "componentWillThrown", "componentMade", "componentLoaded"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-30",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which library is commonly used with React?",
+      "options": ["Redux", "Laravel", "Django", "Bootstrap 2"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "REACT-31",
+      "language": "react",
+      "type": "mcq",
+      "title": "JSX must return how many root elements?",
+      "options": ["1", "2", "Unlimited", "None"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-32",
+      "language": "react",
+      "type": "mcq",
+      "title": "What is default export?",
+      "options": ["Multiple exports", "Single export", "Custom hooks", "Router component"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-33",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook stores values across renders?",
+      "options": ["useEffect", "useState", "useRef", "useKeep"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "REACT-34",
+      "language": "react",
+      "type": "mcq",
+      "title": "Functional components are:",
+      "options": ["Stateless only", "Stateful using hooks", "Class only", "Not allowed"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-35",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which file is the React entry point?",
+      "options": ["App.js", "index.js", "Main.js", "Root.js"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "REACT-36",
+      "language": "react",
+      "type": "mcq",
+      "title": "What does ReactDOM.createRoot() do?",
+      "options": ["Creates new CSS", "Creates a root for the app", "Renders hooks", "Runs effects"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-37",
+      "language": "react",
+      "type": "mcq",
+      "title": "Suspense in React is used for:",
+      "options": ["Animations", "Loading components lazily", "Error handling", "Styling"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-38",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook is used for context values?",
+      "options": ["useContext()", "useState()", "useEffect()", "useProps()"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-39",
+      "language": "react",
+      "type": "mcq",
+      "title": "React portals allow components to:",
+      "options": ["Render outside root DOM", "Render faster", "Store data", "Use state globally"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-40",
+      "language": "react",
+      "type": "mcq",
+      "title": "Lazy loading is done using:",
+      "options": ["React.lazy()", "React.load()", "JSX.lazy()", "useLazy()"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "REACT-41",
+      "language": "react",
+      "type": "mcq",
+      "title": "What is reconciliation?",
+      "options": ["Routing", "Comparing virtual DOM", "Creating CSS", "Error handling"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-42",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook handles browser events?",
+      "options": ["useEvent()", "JS events inside JSX", "useBrowser()", "useClick()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-43",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which of the following is true?",
+      "options": ["React changes real DOM directly", "React updates virtual DOM first", "React uses SQL", "React is server-only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-44",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which hook runs only on first render when dependency array is empty?",
+      "options": ["useAlways()", "useEffect()", "useRef()", "useStart()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-45",
+      "language": "react",
+      "type": "mcq",
+      "title": "What is a controlled component?",
+      "options": ["Input managed by React state", "Input managed by browser", "Static input", "Hidden element"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "REACT-46",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which tool is used to build production React apps?",
+      "options": ["npm dev", "webpack", "python", "php artisan"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-47",
+      "language": "react",
+      "type": "mcq",
+      "title": "PropTypes are used for:",
+      "options": ["Type checking", "Routing", "Building UI", "Authentication"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-48",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which method catches render errors?",
+      "options": ["componentDidCatch()", "catch()", "error()", "useCatch()"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "REACT-49",
+      "language": "react",
+      "type": "mcq",
+      "title": "Why is key important in lists?",
+      "options": ["Speed", "Identify elements uniquely", "CSS styling", "State control"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "REACT-50",
+      "language": "react",
+      "type": "mcq",
+      "title": "Which package installs React?",
+      "options": ["npm install react react-dom", "npm add react-kit", "npm install jsx", "npm react"],
+      "correctAnswer": 0
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+/* ================= SUBJECT HEADER ================= */
+
+.subject-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.subject-header h5 {
+  font-weight: 700;
+  color: #102c6e;
+}
+
+/* ================= SEARCH ================= */
+
+.subject-search {
+  width: 70%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.subject-search::placeholder {
+  color: #94a3b8;
+}
+
+.subject-search:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* ================= PAGINATION ================= */
+
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.pagination-bar button {
+  padding: 6px 16px;
+  border-radius: 8px;
+  background: #1e293b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.pagination-bar button:hover:not(:disabled) {
+  background: #334155;
+}
+
+.pagination-bar button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pagination-bar span {
+  color: #cbd5f5;
+  font-size: 13px;
+}
+
+/* ================= PREMIUM +++ DELETE MODAL ================= */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Modal Card */
+.modal-box.premium-plus {
+  background: linear-gradient(180deg, #ffffff, #f9fafb);
+  width: 420px;
+  padding: 32px 28px;
+  border-radius: 18px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  animation: modalPop 0.25s ease-out;
+}
+
+/* Icon */
+.modal-icon-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.modal-icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+/* Title */
+.modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+/* Text */
+.modal-text {
+  font-size: 16px;
+  color: #417cf1;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* Danger note */
+.danger-text {
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #dc2626;
+}
+
+/* ================= ACTION BUTTONS (FIXED) ================= */
+
+.modal-actions {
+  display: flex;
+  justify-content: center;   
+  gap: 16px;
+  margin-top: 28px;
+}
+
+/* Buttons */
+.modal-actions .btn {
+  padding: 9px 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* Cancel */
+.modal-actions .btn-outline-secondary {
+  background: transparent;
+  border: 2px solid #1a1c1f;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.modal-actions .btn-outline-secondary:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Delete */
+.premium-delete {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(239, 68, 68, 0.35);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.premium-delete:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(239, 68, 68, 0.45);
+}
+
+.premium-delete:active {
+  transform: scale(0.97);
+}
+
+/* Animation */
+@keyframes modalPop {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

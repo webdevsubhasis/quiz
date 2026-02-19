@@ -1,0 +1,8 @@
+Machine Learning — Course Brochure
+
+Modules:
+1. Intro
+2. Supervised
+3. Trees
+4. Unsupervised
+5. Deployment

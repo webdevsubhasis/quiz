@@ -1,0 +1,135 @@
+/* ----------------------------
+   GLOBAL LAYOUT
+----------------------------- */
+.layout {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #0d0d0d;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Main area */
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #000000 !important;
+}
+
+/* Content area */
+.content {
+  margin-top: 20px;
+}
+
+/* ----------------------------
+   GRID CARDS
+----------------------------- */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Glass-style widget */
+.card-admin,
+.widget {
+  padding: 25px;
+  border-radius: 16px;
+  background: #010108 !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  transition: 0.35s ease;
+}
+
+/* Hover Animation */
+/* .card-admin:hover,
+.widget:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.55);
+} */
+
+/* Widget text */
+.w-title {
+  font-size: 20px !important;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.w-value {
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  animation: fadeIn 0.8s ease;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ----------------------------
+   RECENT ACTIVITY CARD
+----------------------------- */
+.list {
+  margin-top: 15px;
+}
+
+.list-row {
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  transition: 0.3s;
+}
+
+.list-row:hover {
+  background: rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+
+/* ----------------------------
+   RESPONSIVE SIDEBAR SUPPORT
+----------------------------- */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main {
+    padding: 15px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-admin,
+  .widget {
+    padding: 18px;
+  }
+
+  .w-value {
+    font-size: 26px;
+  }
+}
+
+/* Smooth scrollbar */
+.main::-webkit-scrollbar {
+  width: 8px;
+}
+.main::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 8px;
+}

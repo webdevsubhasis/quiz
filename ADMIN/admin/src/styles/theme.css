@@ -1,0 +1,35 @@
+/* theme.css - light and dark theme variables and transitions */
+:root {
+  /* default light */
+  --bg-page: #f6f8fb;
+  --bg-section: #fff;
+  --text: #061024;
+  --muted: #64748b;
+  --card: #ffffff;
+  --shadow: 0 8px 24px rgba(2, 6, 23, 0.06);
+}
+
+html[data-theme="dark"] {
+  --bg-page: #071028;
+  --bg-section: rgba(6, 10, 20, 0.6);
+  --text: #e6eef9;
+  --muted: #9fb0c9;
+  --card: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.01)
+  );
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+}
+
+/* apply */
+body {
+  background: var(--bg-page);
+  color: var(--text);
+  transition: background 0.25s, color 0.25s;
+}
+.card-admin {
+  background: var(--bg-section);
+  box-shadow: var(--shadow);
+  transition: background 0.25s, box-shadow 0.25s;
+}

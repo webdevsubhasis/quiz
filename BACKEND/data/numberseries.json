@@ -1,0 +1,406 @@
+{
+  "category": "Number Series",
+  "questions": [
+    {
+      "id": "ns1",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 6, 15, 31, 56, ?",
+      "options": ["92", "91", "93", "90"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ns2",
+      "language": "math",
+      "type": "mcq",
+      "title": "3, 9, 27, 81, ?",
+      "options": ["243", "244", "242", "240"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns3",
+      "language": "math",
+      "type": "mcq",
+      "title": "5, 9, 17, 33, 65, ?",
+      "options": ["129", "130", "128", "131"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns4",
+      "language": "math",
+      "type": "mcq",
+      "title": "7, 10, 16, 25, 37, ?",
+      "options": ["52", "51", "50", "49"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ns5",
+      "language": "math",
+      "type": "mcq",
+      "title": "4, 6, 12, 36, 144, ?",
+      "options": ["750", "720", "740", "720"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ns6",
+      "language": "math",
+      "type": "mcq",
+      "title": "11, 13, 17, 23, 31, ?",
+      "options": ["41", "39", "37", "43"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns7",
+      "language": "math",
+      "type": "mcq",
+      "title": "1, 4, 9, 16, 25, ?",
+      "options": ["36", "35", "37", "38"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns8",
+      "language": "math",
+      "type": "mcq",
+      "title": "8, 24, 12, 36, 18, ?",
+      "options": ["45", "48", "54", "56"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ns9",
+      "language": "math",
+      "type": "mcq",
+      "title": "13, 18, 28, 43, 63, ?",
+      "options": ["88", "87", "89", "90"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns10",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 5, 11, 23, 47, ?",
+      "options": ["93", "96", "95", "98"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ns11",
+      "language": "math",
+      "type": "mcq",
+      "title": "121, 144, 169, 196, ?",
+      "options": ["225", "224", "226", "230"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns12",
+      "language": "math",
+      "type": "mcq",
+      "title": "6, 14, 30, 62, 126, ?",
+      "options": ["264", "252", "256", "254"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ns13",
+      "language": "math",
+      "type": "mcq",
+      "title": "3, 7, 15, 31, 63, ?",
+      "options": ["137", "126", "127", "128"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ns14",
+      "language": "math",
+      "type": "mcq",
+      "title": "10, 20, 21, 42, 43, ?",
+      "options": ["-86", "84", "85", "86"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ns15",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 10, 30, 68, 130, ?",
+      "options": ["222", "224", "226", "228"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns16",
+      "language": "math",
+      "type": "mcq",
+      "title": "5, 7, 14, 42, 168, ?",
+      "options": ["840", "836", "830", "820"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns17",
+      "language": "math",
+      "type": "mcq",
+      "title": "4, 9, 19, 39, 79, ?",
+      "options": ["157", "159", "160", "162"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ns18",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 12, 36, 80, 150, ?",
+      "options": ["-252", "252", "248", "254"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ns19",
+      "language": "math",
+      "type": "mcq",
+      "title": "1, 1, 2, 6, 24, 120, ?",
+      "options": ["720", "710", "730", "740"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns20",
+      "language": "math",
+      "type": "mcq",
+      "title": "7, 14, 28, 56, 112, ?",
+      "options": ["-224", "226", "222", "224"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ns21",
+      "language": "math",
+      "type": "mcq",
+      "title": "3, 5, 9, 17, 33, ?",
+      "options": ["65", "66", "67", "68"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns22",
+      "language": "math",
+      "type": "mcq",
+      "title": "8, 9, 11, 14, 18, ?",
+      "options": ["25", "22", "23", "24"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ns23",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 3, 6, 18, 108, ?",
+      "options": ["1944", "1950", "1930", "1920"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ns24",
+      "language": "math",
+      "type": "mcq",
+      "title": "15, 14, 12, 9, 5, ?",
+      "options": ["2", "1", "-1", "0"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ns25",
+      "language": "math",
+      "type": "mcq",
+      "title": "1, 8, 27, 64, 125, ?",
+      "options": ["-216", "217", "216", "219"],
+      "correctAnswer": 2
+    },
+
+  {
+    "id": "ns26",
+    "language": "math",
+    "type": "mcq",
+    "title": "6, 8, 13, 21, 34, ?",
+    "options": ["55", "54", "56", "57"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns27",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 7, 26, 125, 626, ?",
+    "options": ["3127", "3126", "3128", "3130"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns28",
+    "language": "math",
+    "type": "mcq",
+    "title": "4, 18, 48, 100, 180, ?",
+    "options": ["294", "296", "298", "300"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns29",
+    "language": "math",
+    "type": "mcq",
+    "title": "1, 5, 14, 30, 55, ?",
+    "options": ["89", "90", "91", "92"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns30",
+    "language": "math",
+    "type": "mcq",
+    "title": "3, 12, 48, 192, 768, ?",
+    "options": ["3072", "3060", "3096", "3048"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns31",
+    "language": "math",
+    "type": "mcq",
+    "title": "7, 11, 19, 35, 67, ?",
+    "options": ["131", "133", "135", "137"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns32",
+    "language": "math",
+    "type": "mcq",
+    "title": "9, 28, 65, 126, 217, ?",
+    "options": ["344", "342", "340", "338"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns33",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 4, 12, 48, 240, ?",
+    "options": ["1440", "1200", "720", "960"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns34",
+    "language": "math",
+    "type": "mcq",
+    "title": "5, 9, 17, 33, 65, ?",
+    "options": ["131", "129", "133", "135"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns35",
+    "language": "math",
+    "type": "mcq",
+    "title": "12, 11, 13, 10, 14, 9, ?",
+    "options": ["16", "12", "15", "17"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ns36",
+    "language": "math",
+    "type": "mcq",
+    "title": "1, 4, 10, 22, 46, ?",
+    "options": ["90", "94", "88", "92"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns37",
+    "language": "math",
+    "type": "mcq",
+    "title": "8, 27, 64, 125, 216, ?",
+    "options": ["512", "343", "256", "729"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns38",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 6, 7, 21, 22, 66, ?",
+    "options": ["67", "68", "70", "69"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns39",
+    "language": "math",
+    "type": "mcq",
+    "title": "121, 100, 81, 64, 49, ?",
+    "options": ["36", "25", "16", "9"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns40",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 3, 5, 9, 17, 33, ?",
+    "options": ["64", "65", "66", "67"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns41",
+    "language": "math",
+    "type": "mcq",
+    "title": "10, 20, 21, 42, 43, ?",
+    "options": ["84", "86", "85", "88"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns42",
+    "language": "math",
+    "type": "mcq",
+    "title": "4, 6, 12, 36, 144, ?",
+    "options": ["720", "576", "864", "900"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns43",
+    "language": "math",
+    "type": "mcq",
+    "title": "7, 10, 16, 25, 37, ?",
+    "options": ["49", "50", "52", "51"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ns44",
+    "language": "math",
+    "type": "mcq",
+    "title": "3, 7, 15, 31, 63, ?",
+    "options": ["126", "128", "125", "127"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ns45",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 5, 11, 23, 47, ?",
+    "options": ["96", "97", "98", "95"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ns46",
+    "language": "math",
+    "type": "mcq",
+    "title": "6, 14, 30, 62, 126, ?",
+    "options": ["252", "254", "258", "256"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ns47",
+    "language": "math",
+    "type": "mcq",
+    "title": "4, 9, 19, 39, 79, ?",
+    "options": ["160", "162", "158", "159"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ns48",
+    "language": "math",
+    "type": "mcq",
+    "title": "5, 7, 14, 42, 168, ?",
+    "options": ["836", "820", "830", "840"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ns49",
+    "language": "math",
+    "type": "mcq",
+    "title": "1, 1, 2, 6, 24, 120, ?",
+    "options": ["720", "710", "730", "740"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ns50",
+    "language": "math",
+    "type": "mcq",
+    "title": "7, 14, 28, 56, 112, ?",
+    "options": ["222", "224", "226", "228"],
+    "correctAnswer": 1
+  }
+]
+}

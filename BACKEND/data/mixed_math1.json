@@ -1,0 +1,655 @@
+{
+  "category": "MISCELLANEOUS MATH-1",
+  "questions": [
+    {
+      "id": "cf1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 7^123 \u00f7 13",
+      "options": [
+        "8",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cf2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 5^222 \u00f7 9",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 9^111 \u00f7 8",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 17^64 \u00f7 19",
+      "options": [
+        "0",
+        "17",
+        "18",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cf5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 3^250 \u00f7 7",
+      "options": [
+        "0",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cf6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 11^89 \u00f7 10",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 2^1000 \u00f7 9",
+      "options": [
+        "8",
+        "0",
+        "1",
+        "7"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "cf8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 19^45 \u00f7 11",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "2"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cf9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 12^75 \u00f7 11",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find remainder of 14^87 \u00f7 15",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "14"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "cf11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6+4)^3 - \u221a(256)*5",
+      "options": [
+        "920",
+        "921",
+        "919",
+        "922"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (18-7)^2 + 5^3 - 6^2",
+      "options": [
+        "210",
+        "211",
+        "209",
+        "212"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a(144)*(5^2-9) + 8",
+      "options": [
+        "200",
+        "201",
+        "199",
+        "202"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (9^3-8^3)/(9-8)",
+      "options": [
+        "217",
+        "218",
+        "216",
+        "219"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (4^5+2^6)/8",
+      "options": [
+        "136",
+        "137",
+        "135",
+        "138"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (7^4-7^2)/6",
+      "options": [
+        "392",
+        "393",
+        "391",
+        "394"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5^5-5)/4",
+      "options": [
+        "780",
+        "781",
+        "779",
+        "782"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (8^3+6^3)/(8+6)",
+      "options": [
+        "52",
+        "53",
+        "51",
+        "54"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (12^2-10^2)/(12-10)",
+      "options": [
+        "22",
+        "23",
+        "21",
+        "24"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (9^4-3^8)/6",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 7/9 + 5/6",
+      "options": [
+        "1.6111",
+        "1.6211",
+        "1.6011",
+        "1.6311"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 11/13 + 7/8",
+      "options": [
+        "1.7212",
+        "1.7312",
+        "1.7112",
+        "1.7412"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 9/11 + 4/7",
+      "options": [
+        "1.3896",
+        "1.3996",
+        "1.3796",
+        "1.4096"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 15/16 + 9/10",
+      "options": [
+        "1.8375",
+        "1.8475",
+        "1.8275",
+        "1.8575"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 17/19 + 5/12",
+      "options": [
+        "1.3114",
+        "1.3214",
+        "1.3014",
+        "1.3314"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 21/22 + 13/14",
+      "options": [
+        "1.8831",
+        "1.8931",
+        "1.8731",
+        "1.9031"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 8/9 + 11/12",
+      "options": [
+        "1.8056",
+        "1.8156",
+        "1.7956",
+        "1.8256"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 14/15 + 5/18",
+      "options": [
+        "1.2111",
+        "1.2211",
+        "1.2011",
+        "1.2311"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 19/21 + 7/20",
+      "options": [
+        "1.2548",
+        "1.2648",
+        "1.2448",
+        "1.2748"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Evaluate 23/24 + 11/13",
+      "options": [
+        "1.8045",
+        "1.8145",
+        "1.7945",
+        "1.8245"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 84 and 126",
+      "options": [
+        "252",
+        "262",
+        "242",
+        "272"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 132 and 198",
+      "options": [
+        "396",
+        "406",
+        "386",
+        "416"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 225 and 315",
+      "options": [
+        "1575",
+        "1585",
+        "1565",
+        "1595"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 128 and 160",
+      "options": [
+        "640",
+        "650",
+        "630",
+        "660"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 187 and 221",
+      "options": [
+        "2431",
+        "2441",
+        "2421",
+        "2451"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 144 and 360",
+      "options": [
+        "720",
+        "730",
+        "710",
+        "740"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 252 and 378",
+      "options": [
+        "756",
+        "766",
+        "746",
+        "776"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 420 and 630",
+      "options": [
+        "1260",
+        "1270",
+        "1250",
+        "1280"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 256 and 384",
+      "options": [
+        "768",
+        "778",
+        "758",
+        "788"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find LCM of 391 and 437",
+      "options": [
+        "7429",
+        "7439",
+        "7419",
+        "7449"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a288",
+      "options": [
+        "12\u221a2",
+        "212\u221a2",
+        "312\u221a2",
+        "\u221a288"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a392",
+      "options": [
+        "14\u221a2",
+        "214\u221a2",
+        "314\u221a2",
+        "\u221a392"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a500",
+      "options": [
+        "10\u221a5",
+        "210\u221a5",
+        "310\u221a5",
+        "\u221a500"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a648",
+      "options": [
+        "18\u221a2",
+        "218\u221a2",
+        "318\u221a2",
+        "\u221a648"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a968",
+      "options": [
+        "22\u221a2",
+        "222\u221a2",
+        "322\u221a2",
+        "\u221a968"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a1458",
+      "options": [
+        "27\u221a2",
+        "227\u221a2",
+        "327\u221a2",
+        "\u221a1458"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a1800",
+      "options": [
+        "30\u221a2",
+        "230\u221a2",
+        "330\u221a2",
+        "\u221a1800"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a2592",
+      "options": [
+        "36\u221a2",
+        "236\u221a2",
+        "336\u221a2",
+        "\u221a2592"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a3200",
+      "options": [
+        "40\u221a2",
+        "240\u221a2",
+        "340\u221a2",
+        "\u221a3200"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cf50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify \u221a4050",
+      "options": [
+        "45\u221a2",
+        "245\u221a2",
+        "345\u221a2",
+        "\u221a4050"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "category": "Simple Interest",
+  "questions": [
+    {
+      "id": "si1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b9502.2 at 9% for 3 years.",
+      "options": [
+        "1953.0",
+        "1860",
+        "1767.0",
+        "1868.05"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b91311.7 at 13% for 5 years.",
+      "options": [
+        "1917.1",
+        "2018",
+        "2118.9",
+        "2021.67"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si3",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b92667 earn \u20b91280.16 in 4 years (SI)?",
+      "options": [
+        "18.99",
+        "12.6",
+        "11.4",
+        "12"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b94375 at 12% for 5 years.",
+      "options": [
+        "2493.75",
+        "2625.0",
+        "2756.25",
+        "2634.89"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si5",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b92686 earn \u20b9564.06 in 3 years (SI)?",
+      "options": [
+        "13.85",
+        "6.65",
+        "7",
+        "7.35"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si6",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b92979 earn \u20b91906.56 in 4 years (SI)?",
+      "options": [
+        "16.8",
+        "16",
+        "15.2",
+        "20.01"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si7",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b91496 earn \u20b9269.28 in 2 years (SI)?",
+      "options": [
+        "9.45",
+        "9",
+        "8.55",
+        "14.19"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount on \u20b92620 at 10% p.a for 4 years (SI).",
+      "options": [
+        "3669.45",
+        "3484.6",
+        "3851.4",
+        "3668.0"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si9",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b94096 earn \u20b9860.16 at 7% (SI)?",
+      "options": [
+        "3",
+        "2.85",
+        "11.45",
+        "3.15"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si10",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b91705 earn \u20b9716.1 in 3 years (SI)?",
+      "options": [
+        "14.7",
+        "13.3",
+        "14",
+        "20.54"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si11",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b93713 earn \u20b91002.51 in 3 years (SI)?",
+      "options": [
+        "18.62",
+        "8.55",
+        "9",
+        "9.45"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si12",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b93643 earn \u20b9437.16 in 2 years (SI)?",
+      "options": [
+        "6",
+        "5.7",
+        "11.6",
+        "6.3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b93379 at 13% for 4 years.",
+      "options": [
+        "1669.23",
+        "1767.05",
+        "1844.93",
+        "1757.08"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount on \u20b95955 at 9% p.a for 5 years (SI).",
+      "options": [
+        "8203.01",
+        "8638.16",
+        "8634.75",
+        "9066.49"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si15",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b92517 earn \u20b91636.05 at 13% (SI)?",
+      "options": [
+        "5.25",
+        "5",
+        "13.0",
+        "4.75"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between amount and principal on \u20b91370 at 9% for 4 years?",
+      "options": [
+        "493.2",
+        "495.31",
+        "517.86",
+        "468.54"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b93359 at 17% for 4 years.",
+      "options": [
+        "2169.91",
+        "2398.33",
+        "2284.12",
+        "2290.41"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b92528 at 3% for 4 years.",
+      "options": [
+        "303.36",
+        "312.75",
+        "288.19",
+        "318.53"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si19",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b94479 earn \u20b9806.22 at 6% (SI)?",
+      "options": [
+        "3.15",
+        "2.85",
+        "8.35",
+        "3"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si20",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b93130 earn \u20b92817.0 in 5 years (SI)?",
+      "options": [
+        "17.1",
+        "18",
+        "19.95",
+        "18.9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si21",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b93856 earn \u20b91542.4 in 4 years (SI)?",
+      "options": [
+        "14.3",
+        "9.5",
+        "10.5",
+        "10"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si22",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b93032 earn \u20b9909.6 in 5 years (SI)?",
+      "options": [
+        "7.25",
+        "6",
+        "6.3",
+        "5.7"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si23",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b91707 earn \u20b9204.84 in 2 years (SI)?",
+      "options": [
+        "5.7",
+        "9.25",
+        "6",
+        "6.3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si24",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b92616 earn \u20b91098.72 at 14% (SI)?",
+      "options": [
+        "3.15",
+        "2.85",
+        "8.38",
+        "3"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si25",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b91367 earn \u20b9410.1 in 5 years (SI)?",
+      "options": [
+        "6.3",
+        "7.35",
+        "5.7",
+        "6"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b93734 at 11% for 5 years.",
+      "options": [
+        "2061.21",
+        "2053.7",
+        "2156.38",
+        "1951.01"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si27",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b93155 earn \u20b91325.1 at 7% (SI)?",
+      "options": [
+        "6.3",
+        "13.54",
+        "6",
+        "5.7"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b9790.68 at 11% for 2 years.",
+      "options": [
+        "3773.7",
+        "3602.89",
+        "3414.3",
+        "3594"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b91762 at 10% for 3 years.",
+      "options": [
+        "537.73",
+        "502.17",
+        "528.6",
+        "555.03"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between amount and principal on \u20b92347 at 12% for 3 years?",
+      "options": [
+        "844.92",
+        "853.99",
+        "887.17",
+        "802.67"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si31",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b91921 earn \u20b9268.94 at 7% (SI)?",
+      "options": [
+        "1.9",
+        "2.1",
+        "6.67",
+        "2"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si32",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b92576 earn \u20b9927.36 in 3 years (SI)?",
+      "options": [
+        "11.4",
+        "21.25",
+        "12.6",
+        "12"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b9825.16 at 14% for 2 years.",
+      "options": [
+        "2799.65",
+        "2947",
+        "3094.35",
+        "2951.76"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b92906.4 at 12% for 5 years.",
+      "options": [
+        "4853.74",
+        "4844",
+        "5086.2",
+        "4601.8"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount on \u20b93152 at 12% p.a for 3 years (SI).",
+      "options": [
+        "4072.38",
+        "4296.4",
+        "4501.06",
+        "4286.72"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between amount and principal on \u20b92412 at 5% for 3 years?",
+      "options": [
+        "361.8",
+        "370.03",
+        "379.89",
+        "343.71"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b91572 at 5% for 2 years.",
+      "options": [
+        "149.34",
+        "165.06",
+        "157.2",
+        "164.1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si38",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b92092 earn \u20b9502.08 in 3 years (SI)?",
+      "options": [
+        "8.4",
+        "8",
+        "7.6",
+        "14.74"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b93615.36 at 14% for 6 years.",
+      "options": [
+        "4088.8",
+        "4312.69",
+        "4519.2",
+        "4304"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si40",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b92491 earn \u20b9622.75 in 5 years (SI)?",
+      "options": [
+        "10.07",
+        "4.75",
+        "5.25",
+        "5"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b93475 at 9% for 1 years.",
+      "options": [
+        "297.11",
+        "316.26",
+        "312.75",
+        "328.39"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b91532 at 16% for 1 years.",
+      "options": [
+        "245.12",
+        "232.86",
+        "257.38",
+        "254.96"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between amount and principal on \u20b92649 at 11% for 3 years?",
+      "options": [
+        "917.88",
+        "881.31",
+        "874.17",
+        "830.46"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find simple interest on \u20b91082 at 15% for 1 years.",
+      "options": [
+        "169.21",
+        "162.3",
+        "154.19",
+        "170.42"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between amount and principal on \u20b92800 at 7% for 2 years?",
+      "options": [
+        "397.99",
+        "392.0",
+        "411.6",
+        "372.4"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "si46",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how many years will \u20b94057 earn \u20b91460.52 at 12% (SI)?",
+      "options": [
+        "3",
+        "2.85",
+        "3.15",
+        "7.59"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "si47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find principal if SI \u20b9724.5 at 7% for 3 years.",
+      "options": [
+        "3622.5",
+        "3277.5",
+        "3459.24",
+        "3450"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between amount and principal on \u20b92681 at 11% for 5 years?",
+      "options": [
+        "1548.28",
+        "1400.82",
+        "1474.55",
+        "1479.99"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "si49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount on \u20b92520 at 14% p.a for 4 years (SI).",
+      "options": [
+        "4127.76",
+        "3734.64",
+        "3939.28",
+        "3931.2"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "si50",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what rate will \u20b91356 earn \u20b91017.0 in 5 years (SI)?",
+      "options": [
+        "21.62",
+        "15",
+        "15.75",
+        "14.25"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

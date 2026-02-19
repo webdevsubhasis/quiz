@@ -1,0 +1,432 @@
+{
+  "category": "MISCELLANEOUS MATH-2",
+  "questions": [
+
+    {
+      "id": "u1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number decreased by 15% becomes 340. Find the original number.",
+      "options": ["420","360","400","380"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u2",
+      "language": "math",
+      "type": "mcq",
+      "title": "A trader marks his goods 40% above CP and gives 20% discount. Profit %?",
+      "options": ["10%","14%","16%","12%"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "u3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simple interest on ₹5000 at 8% for 3 years?",
+      "options": ["1500","1200","1000","1400"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Compound interest on ₹2000 at 10% for 2 years?",
+      "options": ["400","480","420","440"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio A:B = 4:5 and B:C = 3:2. Find A:C.",
+      "options": ["12:5","8:5","4:3","6:5"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "u6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 12 numbers is 48. Removing 60 gives new average?",
+      "options": ["45","46","47","44"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Salary increased from 8000 to 9200. Percentage increase?",
+      "options": ["20%","15%","18%","12%"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u8",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP ₹1200 sold at 25% profit. SP?",
+      "options": ["1450","1600","1500","1400"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simple interest ₹960 in 4 years at 6%. Principal?",
+      "options": ["4500","4000","3500","5000"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount ₹2662 at 10% CI for 3 years. Principal?",
+      "options": ["2100","1800","2000","2200"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u11",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B = 5:6 and B:C = 3:4. Find A:C.",
+      "options": ["10:9","15:16","5:8","9:8"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average age of 6 persons is 25. After including a person it becomes 27. Age of new person?",
+      "options": ["40","39","41","37"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u13",
+      "language": "math",
+      "type": "mcq",
+      "title": "What % of 640 is 96?",
+      "options": ["18%","16%","15%","12%"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Marked price ₹2500, discount 12%. Selling price?",
+      "options": ["2250","2200","2150","2100"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI and SI for 2 years at 10% on ₹3000?",
+      "options": ["60","30","45","90"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u16",
+      "language": "math",
+      "type": "mcq",
+      "title": "A is 5 years older than B. After 5 years ratio 7:6. Present age of B?",
+      "options": ["20","30","25","15"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of first 30 natural numbers?",
+      "options": ["14.5","16","15.5","15"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Profit 20% then loss 20%. Net result?",
+      "options": ["Gain 4%","Loss 2%","Loss 4%","No change"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u19",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹4000 becomes ₹4840 in 2 years at CI. Rate?",
+      "options": ["12%","9%","10%","8%"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u20",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 25% of x equals 50% of 200, x=?",
+      "options": ["300","400","350","450"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Population grows 10% yearly. Increase in 2 years?",
+      "options": ["20%","21%","19%","22%"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Selling price ₹720, loss 10%. CP?",
+      "options": ["780","760","800","820"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "u23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 5 numbers is 40. Add 60, new average?",
+      "options": ["42","44","45","43.33"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "u24",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B:C = 2:3:5 and total = 400. B=?",
+      "options": ["150","120","100","140"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u25",
+      "language": "math",
+      "type": "mcq",
+      "title": "A man spends 80% income. Saves ₹600. Income?",
+      "options": ["2500","3000","2800","3200"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "u26",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number increased by 25% becomes 500. Find original number.",
+      "options": ["350","380","400","420"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "u27",
+      "language": "math",
+      "type": "mcq",
+      "title": "A trader sells at 10% loss. If CP = ₹900, SP=?",
+      "options": ["810","820","800","830"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u28",
+      "language": "math",
+      "type": "mcq",
+      "title": "SI on ₹4500 for 2 years at 12%?",
+      "options": ["1080","1200","900","1000"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u29",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI on ₹1000 at 10% for 3 years?",
+      "options": ["300","310","331","350"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "u30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio A:B = 2:3, B:C = 5:4. A:C?",
+      "options": ["5:6","10:12","8:9","6:5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 15 numbers is 60. Remove 75. New average?",
+      "options": ["59","58","57","56"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Income increases 20%. New income 7200. Old income?",
+      "options": ["5800","6000","6200","6400"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u33",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP ₹640 profit 15%. SP?",
+      "options": ["720","736","750","760"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u34",
+      "language": "math",
+      "type": "mcq",
+      "title": "SI ₹800 in 5 years at 8%. Principal?",
+      "options": ["2000","2500","3000","1500"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount ₹1210 after 2 years CI 10%. Principal?",
+      "options": ["1000","1100","900","950"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u36",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B = 3:4, B:C = 5:6. A:C?",
+      "options": ["15:24","5:8","1:2","3:8"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average age of 8 persons 28. After 2 years average?",
+      "options": ["29","30","31","32"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u38",
+      "language": "math",
+      "type": "mcq",
+      "title": "What % of 320 is 64?",
+      "options": ["18%","20%","22%","24%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Marked price ₹1500 discount 10%. SP?",
+      "options": ["1300","1400","1350","1250"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "u40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference CI and SI for 2 yrs 5% on ₹2000?",
+      "options": ["5","10","15","20"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u41",
+      "language": "math",
+      "type": "mcq",
+      "title": "A is 3 yrs older than B. After 3 yrs ratio 5:4. B age?",
+      "options": ["9","12","15","18"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of multiples of 4 from 4 to 40?",
+      "options": ["20","22","24","18"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Profit 25% then loss 20%. Net?",
+      "options": ["No change","Gain 5%","Loss 5%","Gain 2%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u44",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹3000 becomes ₹3630 in 2 yrs CI. Rate?",
+      "options": ["8%","9%","10%","11%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "u45",
+      "language": "math",
+      "type": "mcq",
+      "title": "40% of x = 80% of 150. x=?",
+      "options": ["300","250","200","150"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Population grows 5% yearly. 2 years growth?",
+      "options": ["10%","10.25%","9%","11%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u47",
+      "language": "math",
+      "type": "mcq",
+      "title": "SP ₹540 loss 10%. CP?",
+      "options": ["600","580","620","590"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "u48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 6 numbers 35. Add 65 new average?",
+      "options": ["38","39","40","41"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u49",
+      "language": "math",
+      "type": "mcq",
+      "title": "A:B:C = 3:4:5 total 360. C=?",
+      "options": ["120","150","180","90"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "u50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Man saves 25% of his income is ₹1000. Income?",
+      "options": ["3000","4000","5000","2500"],
+      "correctAnswer": 1
+    }
+
+  ]
+}

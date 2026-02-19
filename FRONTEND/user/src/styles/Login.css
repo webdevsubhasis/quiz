@@ -1,0 +1,194 @@
+/* ================================================= */
+/* ================= ROOT RESET ==================== */
+/* ================================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* ================================================= */
+/* ================= PAGE CENTER =================== */
+/* ================================================= */
+.login-wrapper {
+  min-height: 90svh; /* better than vh on mobile */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+  padding: clamp(12px, 3vw, 32px);
+}
+
+/* ================================================= */
+/* ================= CARD ========================== */
+/* ================================================= */
+.login-card {
+  width: 100%;
+  max-width: clamp(320px, 90vw, 520px);
+  background: rgba(233, 203, 203, 0.94);
+  border-radius: clamp(12px, 2vw, 18px);
+  padding: clamp(20px, 4vw, 36px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* ================================================= */
+/* ================= TITLE ========================= */
+/* ================================================= */
+.login-title {
+  text-align: center;
+  margin-bottom: clamp(10px, 2vw, 18px);
+  font-size: clamp(1.4rem, 4vw, 2.1rem);
+  color: #4e053e;
+}
+
+/* ================================================= */
+/* ================= INPUT GROUP =================== */
+/* ================================================= */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: clamp(14px, 2.5vw, 22px);
+}
+
+.input-group label {
+  font-size: clamp(0.85rem, 2.5vw, 1rem);
+  margin-bottom: 6px;
+  color: #0062ff;
+  font-weight: 700;
+}
+
+.input-group input {
+  width: 100%;
+  height: clamp(42px, 6vw, 50px);
+  padding: 0 clamp(10px, 3vw, 14px);
+  border-radius: 10px;
+  border: 2px solid #000;
+  font-size: clamp(0.85rem, 2.8vw, 1rem);
+  font-weight: 600;
+  color: #7db3a9;
+  background-color: #130238;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #eb25ca;
+  box-shadow: 0 0 0 3px rgba(235, 37, 202, 0.25);
+}
+
+::placeholder {
+  color: #e9b7b7;
+  font-weight: 600;
+}
+
+/* ================================================= */
+/* ================= PASSWORD ====================== */
+/* ================================================= */
+.password-box {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: clamp(8px, 2vw, 14px);
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: clamp(16px, 3vw, 20px);
+  user-select: none;
+}
+.password-box input[type="password"]{
+  color: #35c93b !important;
+}
+/* ================================================= */
+/* ================= OPTIONS ======================= */
+/* ================================================= */
+.options-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin: clamp(10px, 2vw, 18px) 0;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: clamp(0.75rem, 2.5vw, 0.9rem);
+  font-weight: 700;
+  color: #250404;
+}
+
+.remember input {
+  width: 16px;
+  height: 16px;
+}
+
+.forgot {
+  font-size: clamp(0.75rem, 2.5vw, 0.9rem);
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+/* ================================================= */
+/* ================= ERROR ========================= */
+/* ================================================= */
+.error-msg {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: clamp(6px, 2vw, 10px);
+  border-radius: 8px;
+  font-size: clamp(0.7rem, 2.5vw, 0.85rem);
+  margin-bottom: 12px;
+}
+
+/* ================================================= */
+/* ================= BUTTON ======================== */
+/* ================================================= */
+.login-btn {
+  width: 100%;
+  height: clamp(44px, 6vw, 52px);
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: #fff;
+  font-size: clamp(0.95rem, 3vw, 1.1rem);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
+
+/* ================================================= */
+/* ================= REGISTER ====================== */
+/* ================================================= */
+.register {
+  margin-top: clamp(14px, 3vw, 22px);
+  text-align: center;
+  font-size: clamp(0.8rem, 2.5vw, 0.95rem);
+  color: #000;
+  font-weight: 600;
+}
+
+.register span {
+  color: #2563eb;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.register span:hover {
+  text-decoration: underline;
+}

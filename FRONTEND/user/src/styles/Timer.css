@@ -1,0 +1,33 @@
+.timer-ring {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Normal */
+.timer-normal {
+  color: #e5e7eb;
+}
+
+/* < 5 minutes */
+.timer-warning {
+  color: #facc15; /* yellow */
+}
+
+/* < 1 minute */
+.timer-danger {
+  color: #ef4444; /* red */
+}
+
+/* Blinking animation */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}

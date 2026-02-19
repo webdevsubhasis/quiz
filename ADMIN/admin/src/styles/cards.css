@@ -1,0 +1,23 @@
+/* cards.css - widget & card specific */
+.widget .w-title {
+  font-size: 13px;
+  color: var(--muted);
+}
+.widget .w-value {
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 8px;
+  color: var(--blue);
+}
+.card-admin h5 {
+  margin: 0 0 8px 0;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(2, 6, 23, 0.04);
+  margin-bottom: 8px;
+}

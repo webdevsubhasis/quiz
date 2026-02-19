@@ -1,0 +1,406 @@
+{
+  "category": "Mixed Number Series",
+  "questions": [
+    {
+      "id": "ms1",
+      "language": "math",
+      "type": "mcq",
+      "title": "3, 7, 15, 31, 63, ?, 255",
+      "options": ["127", "126", "129", "128"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ms2",
+      "language": "math",
+      "type": "mcq",
+      "title": "5, 11, 23, 47, 96, 191 (Find wrong number)",
+      "options": ["47", "96", "191", "23"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms3",
+      "language": "math",
+      "type": "mcq",
+      "title": "4, 9, 19, 39, 79, ?, 319",
+      "options": ["158", "161", "159", "160"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ms4",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 6, 12, 20, 30, 42, ?",
+      "options": ["56", "57", "58", "59"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms5",
+      "language": "math",
+      "type": "mcq",
+      "title": "7, 14, 28, 56, 110, 224 (Wrong number)",
+      "options": ["28", "56", "110", "224"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ms6",
+      "language": "math",
+      "type": "mcq",
+      "title": "8, 24, 12, 36, 18, ?, 27",
+      "options": ["54", "48", "45", "42"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms7",
+      "language": "math",
+      "type": "mcq",
+      "title": "11, 13, 17, 23, 31, 41, 52 (Wrong number)",
+      "options": ["41", "52", "23", "17"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms8",
+      "language": "math",
+      "type": "mcq",
+      "title": "1, 4, 10, 22, 46, ?, 190",
+      "options": ["92", "94", "96", "90"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms9",
+      "language": "math",
+      "type": "mcq",
+      "title": "6, 14, 30, 62, 126, 252 (Wrong number)",
+      "options": ["30", "62", "252", "126"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ms10",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 3, 6, 18, 108, ?, 19440",
+      "options": ["648", "972", "1944", "324"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ms11",
+      "language": "math",
+      "type": "mcq",
+      "title": "121, 144, 169, 196, 225, 255 (Wrong number)",
+      "options": ["196", "255", "169", "144"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms12",
+      "language": "math",
+      "type": "mcq",
+      "title": "10, 20, 21, 42, 43, ?, 87",
+      "options": ["84", "85", "86", "88"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms13",
+      "language": "math",
+      "type": "mcq",
+      "title": "3, 5, 9, 17, 33, 65, 130 (Wrong number)",
+      "options": ["33", "65", "130", "17"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ms14",
+      "language": "math",
+      "type": "mcq",
+      "title": "4, 6, 12, 36, 144, ?, 4320",
+      "options": ["720", "840", "960", "600"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms15",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 5, 11, 23, 47, 95, 191 (Wrong number)",
+      "options": ["95", "191", "47", "23"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms16",
+      "language": "math",
+      "type": "mcq",
+      "title": "9, 28, 65, 126, 217, ?, 513",
+      "options": ["340", "344", "342", "346"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms17",
+      "language": "math",
+      "type": "mcq",
+      "title": "15, 14, 12, 9, 5, 0, -6 (Wrong number)",
+      "options": ["5", "0", "-6", "14"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms18",
+      "language": "math",
+      "type": "mcq",
+      "title": "5, 7, 14, 42, 168, ?, 10080",
+      "options": ["720", "840", "960", "1260"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms19",
+      "language": "math",
+      "type": "mcq",
+      "title": "1, 1, 2, 6, 24, 120, 720, 5040 (Wrong number)",
+      "options": ["120", "720", "5040", "24"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ms20",
+      "language": "math",
+      "type": "mcq",
+      "title": "2, 10, 30, 68, 130, ?, 322",
+      "options": ["214", "212", "210", "216"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms21",
+      "language": "math",
+      "type": "mcq",
+      "title": "7, 10, 16, 25, 37, 52, 70 (Wrong number)",
+      "options": ["25", "52", "70", "37"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms22",
+      "language": "math",
+      "type": "mcq",
+      "title": "8, 9, 11, 14, 18, 23, ?",
+      "options": ["28", "29", "30", "31"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ms23",
+      "language": "math",
+      "type": "mcq",
+      "title": "13, 18, 28, 43, 63, 88, 118 (Wrong number)",
+      "options": ["118", "63", "88", "28"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms24",
+      "language": "math",
+      "type": "mcq",
+      "title": "1, 8, 27, 64, 125, ?, 343",
+      "options": ["216", "217", "218", "219"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ms25",
+      "language": "math",
+      "type": "mcq",
+      "title": "11, 12, 14, 17, 21, 26, 33 (Wrong number)",
+      "options": ["21", "33", "26", "14"],
+      "correctAnswer": 1
+    },
+
+  {
+    "id": "ms26",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 4, 12, 48, 240, ?, 10080",
+    "options": ["720", "960", "1200", "1440"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms27",
+    "language": "math",
+    "type": "mcq",
+    "title": "4, 6, 9, 13, 18, 24, 31 (Wrong number)",
+    "options": ["13", "24", "31", "9"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms28",
+    "language": "math",
+    "type": "mcq",
+    "title": "5, 9, 17, 33, 65, ?, 257",
+    "options": ["128", "129", "130", "131"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms29",
+    "language": "math",
+    "type": "mcq",
+    "title": "1, 3, 9, 31, 129, 651, ?",
+    "options": ["3911", "3907", "3909", "3913"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms30",
+    "language": "math",
+    "type": "mcq",
+    "title": "6, 7, 9, 12, 16, 21, ?",
+    "options": ["26", "27", "28", "29"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms31",
+    "language": "math",
+    "type": "mcq",
+    "title": "3, 4, 6, 9, 13, 18, 24 (Wrong number)",
+    "options": ["9", "13", "24", "18"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms32",
+    "language": "math",
+    "type": "mcq",
+    "title": "7, 21, 20, 60, 59, 177, ?",
+    "options": ["176", "178", "179", "181"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ms33",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 3, 5, 11, 23, 47, 95 (Wrong number)",
+    "options": ["5", "11", "47", "95"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ms34",
+    "language": "math",
+    "type": "mcq",
+    "title": "4, 16, 36, 64, 100, ?, 196",
+    "options": ["121", "132", "144", "169"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms35",
+    "language": "math",
+    "type": "mcq",
+    "title": "8, 27, 64, 125, 216, 343, 510 (Wrong number)",
+    "options": ["125", "343", "510", "216"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms36",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 6, 7, 21, 22, 66, 67, ?",
+    "options": ["198", "201", "200", "204"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ms37",
+    "language": "math",
+    "type": "mcq",
+    "title": "10, 20, 40, 80, 160, 310, 640 (Wrong number)",
+    "options": ["310", "80", "160", "640"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ms38",
+    "language": "math",
+    "type": "mcq",
+    "title": "3, 8, 23, 68, 203, ?, 1823",
+    "options": ["608", "609", "610", "611"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms39",
+    "language": "math",
+    "type": "mcq",
+    "title": "1, 4, 10, 20, 35, 56, 84 (Wrong number)",
+    "options": ["10", "35", "84", "56"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms40",
+    "language": "math",
+    "type": "mcq",
+    "title": "6, 11, 21, 41, 81, ?, 321",
+    "options": ["121", "141", "161", "201"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms41",
+    "language": "math",
+    "type": "mcq",
+    "title": "9, 18, 36, 72, 144, 280, 576 (Wrong number)",
+    "options": ["280", "72", "36", "576"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ms42",
+    "language": "math",
+    "type": "mcq",
+    "title": "5, 7, 10, 15, 23, 34, ?",
+    "options": ["47", "49", "51", "52"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms43",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 5, 14, 41, 122, ?, 1094",
+    "options": ["365", "364", "366", "368"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ms44",
+    "language": "math",
+    "type": "mcq",
+    "title": "4, 9, 19, 39, 79, 150, 319 (Wrong number)",
+    "options": ["39", "79", "150", "19"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ms45",
+    "language": "math",
+    "type": "mcq",
+    "title": "1, 2, 6, 24, 120, ?, 5040",
+    "options": ["720", "840", "900", "600"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ms46",
+    "language": "math",
+    "type": "mcq",
+    "title": "11, 13, 17, 23, 31, 42, 43 (Wrong number)",
+    "options": ["31", "42", "17", "23"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms47",
+    "language": "math",
+    "type": "mcq",
+    "title": "2, 10, 30, 68, 130, 222, ?",
+    "options": ["350", "344", "348", "352"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms48",
+    "language": "math",
+    "type": "mcq",
+    "title": "3, 12, 48, 192, 768, 3000, 3072 (Wrong number)",
+    "options": ["768", "3000", "48", "192"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms49",
+    "language": "math",
+    "type": "mcq",
+    "title": "8, 9, 11, 14, 18, 23, 29, ?",
+    "options": ["36", "37", "38", "39"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ms50",
+    "language": "math",
+    "type": "mcq",
+    "title": "7, 10, 16, 25, 37, 52, 70, 91 (Wrong number)",
+    "options": ["52", "70", "25", "91"],
+    "correctAnswer": 1
+  }
+]
+}

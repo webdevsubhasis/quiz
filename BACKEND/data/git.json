@@ -1,0 +1,534 @@
+{
+  "category": "Git & GitHub",
+  "questions": [
+    {
+      "id": "gg1",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is Git?",
+      "options": [
+        "A programming language",
+        "A version control system",
+        "A database",
+        "An operating system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg2",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Who developed Git?",
+      "options": [
+        "Bill Gates",
+        "Linus Torvalds",
+        "Mark Zuckerberg",
+        "Guido van Rossum"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg3",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is GitHub?",
+      "options": [
+        "Local version control tool",
+        "Cloud-based Git repository hosting service",
+        "Text editor",
+        "IDE"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg4",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command initializes a Git repository?",
+      "options": ["git start", "git init", "git create", "git new"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg5",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command checks Git status?",
+      "options": ["git check", "git state", "git status", "git info"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "gg6",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command adds files to staging area?",
+      "options": ["git add", "git commit", "git push", "git pull"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gg7",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command saves changes to repository?",
+      "options": ["git save", "git add", "git commit", "git update"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gg8",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is a commit?",
+      "options": [
+        "Temporary change",
+        "Snapshot of changes",
+        "Deleted file",
+        "Untracked file"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg9",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command shows commit history?",
+      "options": ["git history", "git log", "git show", "git list"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg10",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is a repository?",
+      "options": [
+        "A folder for backups",
+        "A storage for Git projects",
+        "A database table",
+        "A server"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg11",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is branching in Git?",
+      "options": [
+        "Copying files",
+        "Creating parallel versions of code",
+        "Deleting code",
+        "Uploading code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg12",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command creates a new branch?",
+      "options": ["git new", "git branch", "git checkout", "git fork"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg13",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command switches branches?",
+      "options": ["git move", "git switch", "git checkout", "Both B and C"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "gg14",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is merging in Git?",
+      "options": [
+        "Deleting branches",
+        "Combining branches",
+        "Copying files",
+        "Pushing code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg15",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command merges branches?",
+      "options": ["git join", "git merge", "git combine", "git sync"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg16",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is a merge conflict?",
+      "options": [
+        "Git error",
+        "Conflicting changes in same file",
+        "Network issue",
+        "Permission error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg17",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command uploads local commits to remote repository?",
+      "options": ["git pull", "git clone", "git push", "git upload"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gg18",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command downloads changes from remote repository?",
+      "options": ["git push", "git pull", "git fetch", "Both B and C"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "gg19",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is git clone used for?",
+      "options": [
+        "Create branch",
+        "Copy remote repository",
+        "Delete repository",
+        "Merge repository"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg20",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is origin in Git?",
+      "options": [
+        "Default branch",
+        "Default remote repository name",
+        "First commit",
+        "Local folder"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg21",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is fork in GitHub?",
+      "options": [
+        "Clone repository locally",
+        "Copy repository to your GitHub account",
+        "Delete repository",
+        "Merge repository"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg22",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is pull request?",
+      "options": [
+        "Request to download code",
+        "Request to merge changes",
+        "Request to delete branch",
+        "Request to clone repo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg23",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which file is used to ignore files in Git?",
+      "options": [".gitignore", ".gitconfig", ".ignore", ".config"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gg24",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command removes a file from Git tracking?",
+      "options": ["git delete", "git remove", "git rm", "git clear"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gg25",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What does git fetch do?",
+      "options": [
+        "Merges code",
+        "Downloads updates without merging",
+        "Deletes branches",
+        "Uploads commits"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg26",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command discards local changes?",
+      "options": ["git discard", "git reset", "git revert", "git clear"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg27",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is HEAD in Git?",
+      "options": [
+        "First commit",
+        "Last commit",
+        "Current branch reference",
+        "Main repository"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gg28",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which branch is default in most repositories?",
+      "options": ["dev", "master/main", "test", "feature"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg29",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command renames a branch?",
+      "options": ["git rename", "git branch -m", "git move", "git switch"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg30",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is rebase?",
+      "options": [
+        "Delete branch",
+        "Reapply commits on another base",
+        "Merge branches",
+        "Push changes"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg31",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command creates a new GitHub repository?",
+      "options": [
+        "git init",
+        "Through GitHub website",
+        "git new repo",
+        "git create repo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg32",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which protocol is commonly used to connect GitHub?",
+      "options": ["FTP", "HTTP/HTTPS", "SMTP", "SNMP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg33",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is SSH key used for?",
+      "options": [
+        "Password storage",
+        "Secure authentication",
+        "Code encryption",
+        "File compression"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg34",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command shows differences between files?",
+      "options": ["git compare", "git diff", "git status", "git log"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg35",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is a tag in Git?",
+      "options": [
+        "Branch name",
+        "Commit label",
+        "Remote repo",
+        "Staging area"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg36",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command creates a tag?",
+      "options": ["git label", "git tag", "git mark", "git note"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg37",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is GitHub Actions used for?",
+      "options": [
+        "Version control",
+        "CI/CD automation",
+        "Code editing",
+        "Database management"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg38",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is README file?",
+      "options": [
+        "Configuration file",
+        "Project documentation",
+        "Executable file",
+        "Hidden file"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg39",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which file stores Git configuration?",
+      "options": [".gitconfig", ".gitignore", ".github", ".config"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gg40",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command undoes a commit but keeps changes?",
+      "options": ["git revert", "git reset --soft", "git reset --hard", "git undo"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg41",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command permanently removes commit changes?",
+      "options": ["git revert", "git reset --hard", "git reset --soft", "git clean"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg42",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is Git stash used for?",
+      "options": [
+        "Save temporary changes",
+        "Delete changes",
+        "Commit changes",
+        "Push changes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gg43",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command saves changes temporarily?",
+      "options": ["git temp", "git save", "git stash", "git hold"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "gg44",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which platform is mainly used for open-source collaboration?",
+      "options": ["GitHub", "Git Bash", "Git CLI", "Notepad"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "gg45",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is a collaborator in GitHub?",
+      "options": [
+        "Viewer",
+        "Person with write access",
+        "Owner only",
+        "Guest user"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "gg46",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command lists all branches?",
+      "options": ["git list", "git branch", "git show", "git status"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg47",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "What is Git workflow?",
+      "options": [
+        "Coding style",
+        "Process of using Git effectively",
+        "File structure",
+        "Command list"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg48",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which GitHub feature tracks issues and bugs?",
+      "options": ["Actions", "Issues", "Projects", "Wiki"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg49",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Which command removes untracked files?",
+      "options": ["git remove", "git clean", "git rm", "git reset"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "gg50",
+      "language": "git-github",
+      "type": "mcq",
+      "title": "Git & GitHub are mainly used for?",
+      "options": [
+        "Version control and collaboration",
+        "Graphic design",
+        "Database management",
+        "Operating system development only"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

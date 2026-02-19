@@ -1,0 +1,504 @@
+{
+  "category": "Computer Networks",
+  "questions": [
+    {
+      "id": "cn1",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is a computer network?",
+      "options": [
+        "A single computer system",
+        "Interconnection of computers for communication",
+        "A software application",
+        "A database system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn2",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which device connects multiple computers in a network?",
+      "options": ["Router", "Switch", "Modem", "Printer"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn3",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What does LAN stand for?",
+      "options": [
+        "Large Area Network",
+        "Local Area Network",
+        "Logical Area Network",
+        "Long Area Network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn4",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which network covers a large geographical area?",
+      "options": ["LAN", "MAN", "WAN", "PAN"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn5",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which device is used to connect different networks?",
+      "options": ["Hub", "Switch", "Router", "Repeater"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "cn6",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is the full form of MAN?",
+      "options": [
+        "Main Area Network",
+        "Metropolitan Area Network",
+        "Medium Area Network",
+        "Modern Area Network"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn7",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which topology uses a single central cable?",
+      "options": ["Star", "Ring", "Bus", "Mesh"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn8",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which topology has a central hub?",
+      "options": ["Bus", "Ring", "Star", "Mesh"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn9",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which topology is most reliable?",
+      "options": ["Bus", "Ring", "Star", "Mesh"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "cn10",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is bandwidth?",
+      "options": [
+        "Speed of CPU",
+        "Data transfer capacity",
+        "Network topology",
+        "Signal type"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "cn11",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What does OSI stand for?",
+      "options": [
+        "Open System Interconnection",
+        "Operating System Interface",
+        "Open Software Interface",
+        "Operating Software Integration"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn12",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "How many layers are there in OSI model?",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn13",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which is the top layer of OSI model?",
+      "options": ["Presentation", "Application", "Session", "Transport"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn14",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which is the bottom layer of OSI model?",
+      "options": ["Physical", "Data Link", "Network", "Transport"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn15",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which OSI layer is responsible for routing?",
+      "options": ["Data Link", "Network", "Transport", "Session"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "cn16",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which OSI layer ensures reliable data transfer?",
+      "options": ["Application", "Transport", "Network", "Physical"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn17",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used for reliable communication?",
+      "options": ["UDP", "IP", "TCP", "HTTP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn18",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is connectionless?",
+      "options": ["TCP", "FTP", "UDP", "SMTP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn19",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What does TCP stand for?",
+      "options": [
+        "Transmission Control Protocol",
+        "Transfer Communication Protocol",
+        "Total Control Protocol",
+        "Transmission Communication Process"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn20",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What does IP stand for?",
+      "options": [
+        "Internet Protocol",
+        "Internal Protocol",
+        "Interface Protocol",
+        "Information Process"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "cn21",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used for web browsing?",
+      "options": ["FTP", "SMTP", "HTTP", "SNMP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn22",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used to send emails?",
+      "options": ["FTP", "SMTP", "HTTP", "DNS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn23",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used to receive emails?",
+      "options": ["SMTP", "POP3", "HTTP", "FTP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn24",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol translates domain names to IP addresses?",
+      "options": ["HTTP", "FTP", "DNS", "SNMP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn25",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is an IP address?",
+      "options": [
+        "Hardware address",
+        "Logical address of a device",
+        "Physical cable address",
+        "Port number"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "cn26",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which IP version uses 32-bit address?",
+      "options": ["IPv4", "IPv6", "IPX", "TCP"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn27",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which IP version uses 128-bit address?",
+      "options": ["IPv4", "IPv6", "IPX", "UDP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn28",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is MAC address?",
+      "options": [
+        "Logical address",
+        "Hardware address",
+        "Network address",
+        "IP address"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn29",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which device works at Data Link layer?",
+      "options": ["Router", "Switch", "Gateway", "Repeater"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn30",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which device works at Network layer?",
+      "options": ["Hub", "Switch", "Router", "Repeater"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "cn31",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is firewall?",
+      "options": [
+        "Antivirus software",
+        "Network security device",
+        "Hardware driver",
+        "Protocol"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn32",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used for secure web communication?",
+      "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn33",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is packet switching?",
+      "options": [
+        "Dedicated communication",
+        "Data divided into packets",
+        "Analog transmission",
+        "Circuit switching"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn34",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which network uses packet switching?",
+      "options": ["Telephone network", "Internet", "Radio network", "TV network"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn35",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is latency?",
+      "options": [
+        "Data size",
+        "Delay in data transmission",
+        "Bandwidth",
+        "Signal strength"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "cn36",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which topology is expensive but very reliable?",
+      "options": ["Star", "Bus", "Ring", "Mesh"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "cn37",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is a repeater?",
+      "options": [
+        "Signal amplifier",
+        "Routing device",
+        "Switching device",
+        "Security device"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn38",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used for file transfer?",
+      "options": ["SMTP", "FTP", "HTTP", "DNS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn39",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is a gateway?",
+      "options": [
+        "Device connecting different networks",
+        "Storage device",
+        "Network cable",
+        "Switch"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn40",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which network device filters traffic based on rules?",
+      "options": ["Router", "Firewall", "Hub", "Repeater"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "cn41",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is VPN?",
+      "options": [
+        "Virtual Private Network",
+        "Visual Private Network",
+        "Virtual Public Network",
+        "Verified Private Network"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn42",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol is used for remote login?",
+      "options": ["FTP", "SSH", "SMTP", "HTTP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn43",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol manages network devices?",
+      "options": ["SNMP", "FTP", "SMTP", "HTTP"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn44",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is congestion?",
+      "options": [
+        "High bandwidth",
+        "Network overload",
+        "Signal amplification",
+        "Low latency"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn45",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol resolves IP to MAC address?",
+      "options": ["ARP", "RARP", "DNS", "DHCP"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "cn46",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which protocol assigns IP addresses automatically?",
+      "options": ["DNS", "ARP", "DHCP", "ICMP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cn47",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "What is ICMP used for?",
+      "options": [
+        "Email transmission",
+        "Error reporting and diagnostics",
+        "File transfer",
+        "Web browsing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn48",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which tool is used to test network connectivity?",
+      "options": ["ping", "ftp", "ssh", "netstat"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cn49",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Which network is used within a personal area?",
+      "options": ["LAN", "PAN", "WAN", "MAN"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cn50",
+      "language": "computer networks",
+      "type": "mcq",
+      "title": "Computer Networks mainly enable?",
+      "options": [
+        "Hardware manufacturing",
+        "Resource sharing and communication",
+        "Program compilation",
+        "Data storage only"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

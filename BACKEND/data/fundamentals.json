@@ -1,0 +1,355 @@
+{
+   "category": "Fundamental of Computer",
+  "questions": [
+    {
+      "id": "f1",
+      "type": "mcq",
+      "title": "Which one is an output device?",
+      "options": ["Keyboard", "Monitor", "Mouse", "Scanner"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f2",
+      "type": "mcq",
+      "title": "CPU stands for?",
+      "options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Control Processing Unit"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f3",
+      "type": "mcq",
+      "title": "Which is the brain of the computer?",
+      "options": ["RAM", "CPU", "Hard Disk", "Monitor"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f4",
+      "type": "mcq",
+      "title": "Which is a volatile memory?",
+      "options": ["ROM", "SSD", "RAM", "Hard Disk"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f5",
+      "type": "mcq",
+      "title": "Which device is used for printing?",
+      "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f6",
+      "type": "mcq",
+      "title": "Which is NOT an input device?",
+      "options": ["Mouse", "Keyboard", "Scanner", "Projector"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f7",
+      "type": "mcq",
+      "title": "Which part stores data permanently?",
+      "options": ["RAM", "ROM", "Cache", "Hard Disk"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f8",
+      "type": "mcq",
+      "title": "Full form of ALU?",
+      "options": ["Arithmetic and Logic Unit", "Application Logical Unit", "Advanced Logic Unit", "Arithmetic Large Unit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f9",
+      "type": "mcq",
+      "title": "Which is an example of system software?",
+      "options": ["MS Word", "Windows OS", "Chrome", "Photoshop"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f10",
+      "type": "mcq",
+      "title": "What does GUI stand for?",
+      "options": ["General User Interaction", "Graphical User Interface", "Global Uniform Interface", "Graphics Utility Interface"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f11",
+      "type": "mcq",
+      "title": "Which device is used for storing data?",
+      "options": ["RAM", "Hard Disk", "Keyboard", "Mouse"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f12",
+      "type": "mcq",
+      "title": "1 Byte = ?",
+      "options": ["4 bits", "8 bits", "16 bits", "32 bits"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f13",
+      "type": "mcq",
+      "title": "Which is NOT an operating system?",
+      "options": ["Windows", "Linux", "Python", "macOS"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f14",
+      "type": "mcq",
+      "title": "Which device shows visual output?",
+      "options": ["Speaker", "Monitor", "Keyboard", "Plotter"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f15",
+      "type": "mcq",
+      "title": "What is the full form of USB?",
+      "options": ["Universal System Bus", "Universal Serial Bus", "Unique Serial Bus", "Unified System Base"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f16",
+      "type": "mcq",
+      "title": "Which memory is permanent?",
+      "options": ["RAM", "Cache", "ROM", "Registers"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f17",
+      "type": "mcq",
+      "title": "Which storage has the largest capacity?",
+      "options": ["KB", "MB", "GB", "TB"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f18",
+      "type": "mcq",
+      "title": "Which part holds the instructions for booting?",
+      "options": ["RAM", "ROM", "CPU", "GPU"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f19",
+      "type": "mcq",
+      "title": "Which is NOT a programming language?",
+      "options": ["Python", "Java", "C++", "Google"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f20",
+      "type": "mcq",
+      "title": "Speed of CPU is measured in?",
+      "options": ["GHz", "MB", "GB", "Pixels"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f21",
+      "type": "mcq",
+      "title": "What is used to store BIOS?",
+      "options": ["RAM", "SSD", "ROM", "HDD"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f22",
+      "type": "mcq",
+      "title": "Which is NOT a type of computer?",
+      "options": ["Mini", "Macro", "Micro", "Super"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f23",
+      "type": "mcq",
+      "title": "Which device converts digital signals to audio?",
+      "options": ["Modem", "Sound Card", "CPU", "GPU"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f24",
+      "type": "mcq",
+      "title": "Which port is used for a pen drive?",
+      "options": ["VGA", "USB", "HDMI", "LAN"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f25",
+      "type": "mcq",
+      "title": "Full form of HDD?",
+      "options": ["Heavy Disk Drive", "Hard Disk Drive", "Hybrid Disk Drive", "High Data Device"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f26",
+      "type": "mcq",
+      "title": "LAN stands for?",
+      "options": ["Local Area Network", "Large Area Network", "Loss Area Network", "Logical Access Node"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f27",
+      "type": "mcq",
+      "title": "Which is not a secondary  storage device?",
+      "options": ["SSD", "RAM", "HDD", "DVD"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f28",
+      "type": "mcq",
+      "title": "Which is an input device?",
+      "options": ["Printer", "Keyboard", "Monitor", "Speaker"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f29",
+      "type": "mcq",
+      "title": "What does WWW stand for?",
+      "options": ["World Wide Web", "World Wide Win", "Web Wide World", "Wide World Web"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f30",
+      "type": "mcq",
+      "title": "Which is the fastest memory?",
+      "options": ["RAM", "Cache", "Hard Disk", "DVD"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f31",
+      "type": "mcq",
+      "title": "Which of these is an example of application software?",
+      "options": ["Windows", "MS Word", "BIOS", "Linux"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f32",
+      "type": "mcq",
+      "title": "Binary system uses which digits?",
+      "options": ["0 and 1", "1 and 2", "0 and 2", "2 and 3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f33",
+      "type": "mcq",
+      "title": "Which unit measures monitor clarity?",
+      "options": ["Hz", "MB", "Pixels", "RPM"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f34",
+      "type": "mcq",
+      "title": "Which memory is temporary?",
+      "options": ["HDD", "RAM", "SSD", "ROM"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f35",
+      "type": "mcq",
+      "title": "Full form of PDF?",
+      "options": ["Portable Document Format", "Printed Data File", "Portable Digital File", "Program Document File"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f36",
+      "type": "mcq",
+      "title": "Which device is used to connect Internet?",
+      "options": ["Speaker", "Modem", "Printer", "Monitor"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f37",
+      "type": "mcq",
+      "title": "What type of device is a mouse?",
+      "options": ["Input", "Output", "Storage", "Processing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f38",
+      "type": "mcq",
+      "title": "Which is NOT a computer generation?",
+      "options": ["First", "Second", "Fourth", "Seventh"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f39",
+      "type": "mcq",
+      "title": "Which is used for long-term storage?",
+      "options": ["Cache", "Registers", "RAM", "Hard Disk"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f40",
+      "type": "mcq",
+      "title": "Which device shows audio output?",
+      "options": ["Speaker", "Monitor", "Mouse", "Projector"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f41",
+      "type": "mcq",
+      "title": "Which is a portable computer?",
+      "options": ["Laptop", "Desktop", "Server", "Mainframe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f42",
+      "type": "mcq",
+      "title": "Which key is NOT on a keyboard?",
+      "options": ["Shift", "Control", "Alt", "Laser"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "f43",
+      "type": "mcq",
+      "title": "Which allows direct communication within a network?",
+      "options": ["Router", "Modem", "Switch", "Projector"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f44",
+      "type": "mcq",
+      "title": "Which part performs calculations?",
+      "options": ["ALU", "RAM", "Monitor", "HDD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f45",
+      "type": "mcq",
+      "title": "What is the full form of IP?",
+      "options": ["Internet Process", "Internet Protocol", "Internal Program", "Internal Protocol"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f46",
+      "type": "mcq",
+      "title": "Which device reads barcodes?",
+      "options": ["Scanner", "OCR", "Barcode Reader", "Laser Printer"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "f47",
+      "type": "mcq",
+      "title": "What is phishing?",
+      "options": ["Fish farming", "Hacking method", "Typing error", "Software update"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "f48",
+      "type": "mcq",
+      "title": "Which is used to protect a network?",
+      "options": ["Firewall", "Antivirus", "Router", "Switch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f49",
+      "type": "mcq",
+      "title": "Which file format is executable?",
+      "options": [".exe", ".doc", ".jpg", ".pdf"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "f50",
+      "type": "mcq",
+      "title": "Which number system uses base 16?",
+      "options": ["Decimal", "Binary", "Hexadecimal", "Octal"],
+      "correctAnswer": 2
+    }
+  ]
+}

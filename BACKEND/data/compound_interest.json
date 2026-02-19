@@ -1,0 +1,457 @@
+{
+  "category": "Compound Interest",
+  "questions": [
+
+    {
+      "id": "hci1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum amounts to ₹13310 in 2 years and ₹14641 in 3 years at compound interest. Find principal.",
+      "options": ["10000","11000","12000","9000"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI and SI on ₹8000 for 2 years at rate R is ₹128. Find R.",
+      "options": ["5%","6%","4%","8%"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "hci3",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum triples in 5 years at compound interest. In how many years will it become 27 times?",
+      "options": ["10","12","15","20"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "hci4",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹12500 invested at 8% compounded annually for 2 years and 10% for next 1 year. Find amount.",
+      "options": ["16038","16200","15900","16170"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci5",
+      "language": "math",
+      "type": "mcq",
+      "title": "If CI for 2 years on a sum at 10% is ₹231, find principal.",
+      "options": ["1100","1000","1200","1050"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "hci6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount becomes ₹9261 in 3 years compounded annually. Find rate of interest.",
+      "options": ["8%","9%","10%","7%"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "hci7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find amount if ₹5000 compounded half yearly at 20% for 1 year.",
+      "options": ["6000","6050","6100","6200"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci8",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 4 years compounded annually. In how many years will it become 8 times?",
+      "options": ["8","10","12","16"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "hci9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Find rate if ₹6400 becomes ₹7744 in 2 years compounded annually.",
+      "options": ["10%","11%","12%","9%"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci10",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹9000 invested at 10% first year, 20% second year compounded annually. Find amount.",
+      "options": ["11880","11800","12000","11900"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Amount of ₹P becomes ₹13310 in 2 years and ₹14641 in 3 years compounded annually. Find rate.",
+      "options": ["10%","9%","11%","12%"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci12",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI on a sum for 2 years at 20% is ₹880 compounded annually. Find principal.",
+      "options": ["2000","2500","2200","2400"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci13",
+      "language": "math",
+      "type": "mcq",
+      "title": "If amount becomes 4 times in 10 years, in how many years will it become 16 times compounded annually?",
+      "options": ["20","15","25","30"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci14",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹8000 compounded annually at 10% for 2 years and 5% for next 1 year. Find amount.",
+      "options": ["9702","9680","9720","9650"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci15",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI for 3 years at 10% is ₹331 compounded annually. Find principal.",
+      "options": ["1000","900","1100","1200"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci16",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum becomes ₹1728 in 3 years compounded annually. Find rate.",
+      "options": ["10%","20%","12%","8%"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "hci17",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹5000 compounded quarterly at 8% for 1 year. Find amount.",
+      "options": ["5412","5408","5420","5390"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "hci18",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 5 years compounded annually. Find time to become 32 times.",
+      "options": ["20","25","30","15"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "hci19",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹6400 becomes ₹7744 in 2 years compounded annually. Find rate.",
+      "options": ["9%","10%","11%","8%"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "hci20",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹9000 invested at 20% first year and 10% next year compounded annually. Find amount.",
+      "options": ["11880","11800","12000","11950"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Difference between CI and SI for 2 years at 10% on ₹5000 equals compounded annually?",
+      "options": ["50","40","60","45"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci22",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum triples in 4 years compounded annually. Find time to become 27 times.",
+      "options": ["8","10","12","16"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "hci23",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹10000 at 8% compounded half yearly for 1 year.",
+      "options": ["10816","10824","10800","10780"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci24",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI for 2 years at 20% is ₹960 compounded annually. Find principal.",
+      "options": ["2000","2400","2500","2200"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci25",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹4000 becomes ₹5324 in 3 years compounded annually. Find rate.",
+      "options": ["10%","11%","9%","8%"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci26",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 6 years compounded annually. Find time to become 4 times.",
+      "options": ["12","10","15","8"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci27",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹3000 at 5% compounded annually for 2 years.",
+      "options": ["3307.5","3300","3315","3290"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci28",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI for 3 years at 20% is ₹728 compounded annually. Find principal.",
+      "options": ["1000","900","1200","1100"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci29",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹5000 invested at 10% for 2 years then 20% for 1 year compounded annually.",
+      "options": ["7260","7200","7300","7350"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci30",
+      "language": "math",
+      "type": "mcq",
+      "title": "If amount becomes 9 times in 8 years, time to become 27 times compounded annually?",
+      "options": ["12","16","20","24"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci31",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹8000 compounded quarterly at 8% for 1 year.",
+      "options": ["8659","8660","8640","8680"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci32",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI on ₹2500 for 2 years at 10% compounded annually.",
+      "options": ["525","500","520","510"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci33",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹6000 becomes ₹7986 in 3 years compounded annually. Find rate.",
+      "options": ["10%","9%","11%","12%"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci34",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 5 years compounded annually. Find time to become 16 times.",
+      "options": ["20","15","10","25"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci35",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹7000 at 5% for 3 years compounded annually.",
+      "options": ["8103","8090","8120","8000"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci36",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI on ₹5000 at 8% for 2 years compounded annually.",
+      "options": ["832","800","820","840"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci37",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹12000 at 10% for 2 years then 5% for 1 year compounded annually.",
+      "options": ["15246","15000","15300","15100"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci38",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹4000 at 12% compounded quarterly for 1 year.",
+      "options": ["4494","4480","4500","4520"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci39",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹9000 at 10% for 3 years compounded annually.",
+      "options": ["11979","12000","11800","12100"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci40",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹10000 at 8% for 2 years compounded annually.",
+      "options": ["11664","11600","11700","11500"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci41",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum doubles in 4 years compounded annually. Find time to become 16 times.",
+      "options": ["16","12","20","24"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci42",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹5000 at 10% compounded annually for 3 years.",
+      "options": ["6655","6600","6700","6680"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci43",
+      "language": "math",
+      "type": "mcq",
+      "title": "CI on ₹10000 at 5% for 2 years compounded annually.",
+      "options": ["1025","1000","1050","1010"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci44",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹6000 at 12% half yearly for 1 year.",
+      "options": ["6739.2","6720","6740","6700"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci45",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹8000 at 20% for 2 years compounded annually.",
+      "options": ["11520","11620","11720","11320"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci46",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹7000 becomes ₹9317 in 3 years compounded annually. Find rate.",
+      "options": ["10%","11%","9%","12%"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci47",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹4000 at 15% for 2 years compounded annually.",
+      "options": ["5290","5300","5280","5270"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci48",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹9000 becomes ₹10890 in 2 years compounded annually. Find rate.",
+      "options": ["10%","11%","12%","9%"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci49",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum triples in 6 years compounded annually. Time to become 9 times?",
+      "options": ["12","18","9","15"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "hci50",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹12000 at 8% for 2 years compounded annually.",
+      "options": ["13997","14000","13800","14100"],
+      "correctAnswer": 0
+    }
+
+  ]
+}
+

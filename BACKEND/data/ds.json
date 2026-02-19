@@ -1,0 +1,484 @@
+{
+  "category": "Data Structures",
+  "questions": [
+    {
+      "id": "ds1",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is a data structure?",
+      "options": [
+        "A programming language",
+        "A way to store and organize data",
+        "An operating system",
+        "A database"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds2",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure follows FIFO principle?",
+      "options": ["Stack", "Queue", "Tree", "Graph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds3",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure follows LIFO principle?",
+      "options": ["Queue", "Array", "Stack", "Linked List"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds4",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure stores elements in contiguous memory?",
+      "options": ["Linked List", "Tree", "Graph", "Array"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ds5",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure uses pointers?",
+      "options": ["Array", "Linked List", "Stack", "Queue"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds6",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which is NOT a linear data structure?",
+      "options": ["Array", "Stack", "Queue", "Tree"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ds7",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which is a non-linear data structure?",
+      "options": ["Array", "Stack", "Queue", "Graph"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ds8",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is the time complexity of accessing an array element?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds9",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which operation is not allowed in stack?",
+      "options": ["Push", "Pop", "Peek", "Insert at middle"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ds10",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which operation removes element from stack?",
+      "options": ["Push", "Pop", "Peek", "Insert"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds11",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which operation adds element to stack?",
+      "options": ["Pop", "Push", "Peek", "Delete"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds12",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which operation removes element from queue?",
+      "options": ["Enqueue", "Push", "Dequeue", "Pop"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds13",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which operation inserts element in queue?",
+      "options": ["Push", "Pop", "Enqueue", "Dequeue"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds14",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is underflow condition?",
+      "options": [
+        "Insertion in full structure",
+        "Deletion from empty structure",
+        "Overflow of memory",
+        "Accessing invalid index"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds15",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is overflow condition?",
+      "options": [
+        "Deletion from empty structure",
+        "Insertion in full structure",
+        "Memory leak",
+        "Invalid pointer"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds16",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is best for recursion?",
+      "options": ["Queue", "Array", "Stack", "Graph"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds17",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which linked list has pointers to both previous and next nodes?",
+      "options": [
+        "Singly Linked List",
+        "Circular Linked List",
+        "Doubly Linked List",
+        "Linear List"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds18",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which linked list connects last node to first node?",
+      "options": [
+        "Singly Linked List",
+        "Doubly Linked List",
+        "Circular Linked List",
+        "Linear List"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds19",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is the head of a linked list?",
+      "options": [
+        "Last node",
+        "First node",
+        "Middle node",
+        "Random node"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds20",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is used in BFS?",
+      "options": ["Stack", "Queue", "Tree", "Array"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds21",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is used in DFS?",
+      "options": ["Queue", "Stack", "Heap", "Array"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds22",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is a tree?",
+      "options": [
+        "Linear data structure",
+        "Hierarchical data structure",
+        "Sequential data structure",
+        "Random data structure"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds23",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is the topmost node in a tree called?",
+      "options": ["Leaf", "Root", "Child", "Parent"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds24",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which tree has at most two children?",
+      "options": ["Binary Tree", "AVL Tree", "B-Tree", "Heap"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ds25",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which traversal uses Left-Root-Right order?",
+      "options": ["Preorder", "Inorder", "Postorder", "Level Order"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds26",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which traversal uses Root-Left-Right?",
+      "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds27",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which traversal uses Left-Right-Root?",
+      "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds28",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is a graph?",
+      "options": [
+        "Linear structure",
+        "Hierarchical structure",
+        "Collection of nodes and edges",
+        "Only tree structure"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds29",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is a vertex?",
+      "options": [
+        "Connection between nodes",
+        "Node in a graph",
+        "Weight of edge",
+        "Path"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds30",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is an edge?",
+      "options": [
+        "Node",
+        "Connection between nodes",
+        "Graph",
+        "Tree root"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds31",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is used to implement priority queue?",
+      "options": ["Stack", "Queue", "Heap", "Array"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds32",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which heap property does max-heap follow?",
+      "options": [
+        "Parent is smaller than children",
+        "Parent is greater than children",
+        "Random order",
+        "Sorted order"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds33",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is best for searching?",
+      "options": ["Array", "Linked List", "Binary Search Tree", "Stack"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds34",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which sorting algorithm is fastest on average?",
+      "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds35",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which sorting algorithm compares adjacent elements?",
+      "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Heap Sort"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "ds36",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is the best case time complexity of binary search?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds37",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Binary search works on?",
+      "options": ["Unsorted array", "Sorted array", "Linked list", "Graph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds38",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure uses hashing?",
+      "options": ["Array", "Stack", "Queue", "Hash Table"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ds39",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "What is collision in hashing?",
+      "options": [
+        "Same key value",
+        "Two keys map to same index",
+        "Deletion of key",
+        "Memory overflow"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds40",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which technique resolves collision?",
+      "options": [
+        "Sorting",
+        "Chaining",
+        "Recursion",
+        "Traversal"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds41",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is dynamic?",
+      "options": ["Array", "Linked List", "Static array", "Fixed stack"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds42",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is static?",
+      "options": ["Linked List", "Tree", "Array", "Graph"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds43",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which operation is faster in array?",
+      "options": ["Insertion", "Deletion", "Access", "Searching"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds44",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is best for implementing undo/redo?",
+      "options": ["Queue", "Array", "Stack", "Tree"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds45",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure supports FIFO?",
+      "options": ["Stack", "Queue", "Tree", "Graph"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ds46",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure supports LIFO?",
+      "options": ["Queue", "Stack", "Heap", "Graph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds47",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which algorithm uses divide and conquer?",
+      "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds48",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure stores hierarchical data?",
+      "options": ["Array", "Queue", "Tree", "Stack"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ds49",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Which data structure is best for memory utilization?",
+      "options": ["Array", "Linked List", "Graph", "Tree"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ds50",
+      "language": "data structures",
+      "type": "mcq",
+      "title": "Data Structures mainly help in?",
+      "options": [
+        "Organizing data efficiently",
+        "Designing UI",
+        "Creating OS",
+        "Network communication"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

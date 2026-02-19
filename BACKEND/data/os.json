@@ -1,0 +1,539 @@
+{
+  "category": "Operating System",
+  "questions": [
+    {
+      "id": "os1",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is an operating system?",
+      "options": [
+        "A hardware component",
+        "A system software that manages computer resources",
+        "An application software",
+        "A programming language"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os2",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which of the following is an example of an operating system?",
+      "options": ["MS Word", "Windows", "Google Chrome", "Oracle"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os3",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is the main function of an operating system?",
+      "options": [
+        "Run applications",
+        "Manage hardware and software resources",
+        "Compile programs",
+        "Create documents"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os4",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS is open source?",
+      "options": ["Windows", "Linux", "macOS", "DOS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os5",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which operating system is used in mobile devices?",
+      "options": ["Linux", "Android", "Windows Server", "UNIX"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "os6",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is a process?",
+      "options": [
+        "A program in execution",
+        "A file in memory",
+        "A system call",
+        "A hardware device"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os7",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is a thread?",
+      "options": [
+        "A lightweight process",
+        "A heavy process",
+        "A system file",
+        "A hardware interrupt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os8",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS allows multiple users at the same time?",
+      "options": ["Single-user OS", "Batch OS", "Multi-user OS", "Embedded OS"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os9",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which scheduling algorithm is simplest?",
+      "options": ["Round Robin", "Shortest Job First", "FCFS", "Priority"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os10",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What does FCFS stand for?",
+      "options": [
+        "Fast Come Fast Serve",
+        "First Come First Serve",
+        "First Call First Serve",
+        "Fast Call Fast Serve"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "os11",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which scheduling algorithm uses time slices?",
+      "options": ["FCFS", "Priority", "Round Robin", "SJF"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os12",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is deadlock?",
+      "options": [
+        "A process executing forever",
+        "A situation where processes wait indefinitely",
+        "A memory error",
+        "A system crash"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os13",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which condition is NOT necessary for deadlock?",
+      "options": [
+        "Mutual exclusion",
+        "Hold and wait",
+        "Preemption",
+        "Circular wait"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os14",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is memory management?",
+      "options": [
+        "Managing CPU",
+        "Managing I/O devices",
+        "Managing main memory",
+        "Managing files"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os15",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which memory is volatile?",
+      "options": ["ROM", "Hard Disk", "RAM", "SSD"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "os16",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is virtual memory?",
+      "options": [
+        "Extra RAM",
+        "Memory on hard disk used as RAM",
+        "Cache memory",
+        "ROM memory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os17",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is paging?",
+      "options": [
+        "Memory allocation technique",
+        "CPU scheduling",
+        "Disk scheduling",
+        "File management"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os18",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is a page fault?",
+      "options": [
+        "CPU failure",
+        "Page not found in main memory",
+        "Disk crash",
+        "Memory overflow"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os19",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS component manages files?",
+      "options": [
+        "Memory manager",
+        "File system",
+        "Scheduler",
+        "Loader"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os20",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which file system is used in Windows?",
+      "options": ["EXT4", "FAT/NTFS", "HFS", "XFS"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "os21",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which file system is commonly used in Linux?",
+      "options": ["NTFS", "FAT32", "EXT4", "HFS"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os22",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is an interrupt?",
+      "options": [
+        "A hardware failure",
+        "A signal to CPU for attention",
+        "A software bug",
+        "A system crash"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os23",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS is time-sharing?",
+      "options": ["Batch OS", "Real-time OS", "Time-sharing OS", "Embedded OS"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os24",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is context switching?",
+      "options": [
+        "Switching between users",
+        "Switching between processes",
+        "Switching memory",
+        "Switching files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os25",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS is used in embedded systems?",
+      "options": ["Windows", "Linux", "RTOS", "UNIX"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "os26",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is a real-time operating system?",
+      "options": [
+        "Responds within strict time limits",
+        "Runs faster programs",
+        "Used only in PCs",
+        "Used only in servers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os27",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which algorithm avoids deadlock?",
+      "options": ["FCFS", "Round Robin", "Banker's Algorithm", "Priority"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os28",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is spooling?",
+      "options": [
+        "Process scheduling",
+        "Overlapping I/O and CPU",
+        "Memory allocation",
+        "Deadlock handling"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os29",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS manages multiple programs at once?",
+      "options": ["Single-tasking OS", "Multitasking OS", "Batch OS", "Embedded OS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os30",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which scheduling algorithm gives minimum average waiting time?",
+      "options": ["FCFS", "Round Robin", "Priority", "SJF"],
+      "correctAnswer": 3
+    },
+
+    {
+      "id": "os31",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is kernel?",
+      "options": [
+        "Core part of OS",
+        "User interface",
+        "Application software",
+        "Hardware"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os32",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS architecture has a single large kernel?",
+      "options": ["Microkernel", "Monolithic kernel", "Hybrid kernel", "Layered OS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os33",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS uses command-line interface?",
+      "options": ["Windows", "Linux", "macOS", "Android"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os34",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS uses GUI?",
+      "options": ["DOS", "UNIX", "Windows", "Shell"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os35",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is booting?",
+      "options": [
+        "Shutting down the system",
+        "Starting the computer",
+        "Installing OS",
+        "Formatting disk"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "os36",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which memory is fastest?",
+      "options": ["Cache", "RAM", "ROM", "Hard Disk"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os37",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is I/O device?",
+      "options": [
+        "Memory device",
+        "Input/Output device",
+        "Storage device",
+        "CPU device"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os38",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS feature improves CPU utilization?",
+      "options": ["Multiprogramming", "Booting", "Paging", "Spooling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os39",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is starvation?",
+      "options": [
+        "Process never gets CPU",
+        "Process ends quickly",
+        "Memory overflow",
+        "Deadlock"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os40",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which scheduling algorithm may cause starvation?",
+      "options": ["FCFS", "SJF", "Round Robin", "FIFO"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "os41",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is semaphore?",
+      "options": [
+        "Process",
+        "Synchronization tool",
+        "Memory block",
+        "CPU register"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os42",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS manages hardware interrupts?",
+      "options": ["Application", "Compiler", "Kernel", "Shell"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "os43",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS supports multiprocessing?",
+      "options": ["DOS", "Windows", "Linux", "Both Windows and Linux"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "os44",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is swap space?",
+      "options": [
+        "Extra memory in CPU",
+        "Disk space used for virtual memory",
+        "Cache memory",
+        "ROM space"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os45",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS is best for servers?",
+      "options": ["Android", "Windows Server", "MS Word", "DOS"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "os46",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS provides multitasking?",
+      "options": ["DOS", "Windows", "Batch OS", "Single-user OS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os47",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS supports multi-threading?",
+      "options": ["DOS", "Windows", "Linux", "Both Windows and Linux"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "os48",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Which OS feature ensures security?",
+      "options": [
+        "User authentication",
+        "File management",
+        "Memory allocation",
+        "Process scheduling"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "os49",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "What is shell?",
+      "options": [
+        "Core of OS",
+        "Interface between user and kernel",
+        "Hardware component",
+        "System call"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "os50",
+      "language": "operating system",
+      "type": "mcq",
+      "title": "Operating system mainly acts as?",
+      "options": [
+        "Compiler",
+        "Interface between user and hardware",
+        "Text editor",
+        "Web browser"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

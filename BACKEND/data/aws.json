@@ -1,0 +1,494 @@
+{
+  "category": "Amazon Web Services (AWS)",
+  "questions": [
+    {
+      "id": "aws1",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What does AWS stand for?",
+      "options": [
+        "Amazon Web Services",
+        "Advanced Web System",
+        "Automated Web Services",
+        "Amazon Wide Services"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws2",
+      "language": "aws",
+      "type": "mcq",
+      "title": "AWS is mainly used for?",
+      "options": [
+        "Cloud computing",
+        "Graphic design",
+        "Operating system development",
+        "Database installation only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws3",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which company provides AWS?",
+      "options": ["Google", "Microsoft", "Amazon", "IBM"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws4",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service provides virtual servers?",
+      "options": ["S3", "EC2", "RDS", "Lambda"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws5",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What does EC2 stand for?",
+      "options": [
+        "Elastic Cloud Compute",
+        "Elastic Compute Cloud",
+        "Enterprise Compute Cloud",
+        "Enhanced Cloud Compute"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "aws6",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for object storage?",
+      "options": ["EBS", "S3", "EFS", "Glacier"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws7",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS storage service is best for archival data?",
+      "options": ["S3", "EBS", "Glacier", "EFS"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws8",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is serverless?",
+      "options": ["EC2", "Lambda", "RDS", "Elastic Beanstalk"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws9",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is AWS Lambda used for?",
+      "options": [
+        "Running code without managing servers",
+        "Storing data",
+        "Hosting databases",
+        "Managing users"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws10",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is a managed relational database?",
+      "options": ["S3", "DynamoDB", "RDS", "Redshift"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "aws11",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which database is NoSQL in AWS?",
+      "options": ["RDS", "Aurora", "DynamoDB", "Redshift"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws12",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for DNS?",
+      "options": ["CloudFront", "Route 53", "VPC", "ELB"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws13",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is VPC in AWS?",
+      "options": [
+        "Virtual Private Cloud",
+        "Virtual Public Cloud",
+        "Verified Private Cloud",
+        "Virtual Protected Compute"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws14",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service distributes traffic across multiple EC2 instances?",
+      "options": ["Auto Scaling", "CloudWatch", "Elastic Load Balancer", "Route 53"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws15",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is Auto Scaling used for?",
+      "options": [
+        "Monitoring logs",
+        "Increasing or decreasing EC2 instances automatically",
+        "Backing up data",
+        "Managing IAM users"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "aws16",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for monitoring?",
+      "options": ["CloudTrail", "CloudWatch", "Inspector", "Config"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws17",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service records AWS API calls?",
+      "options": ["CloudWatch", "CloudTrail", "IAM", "GuardDuty"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws18",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is IAM in AWS?",
+      "options": [
+        "Identity and Access Management",
+        "Internet Access Manager",
+        "Instance Allocation Module",
+        "Internal Access Monitor"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws19",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service manages users and permissions?",
+      "options": ["VPC", "IAM", "EC2", "S3"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws20",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is the root account in AWS?",
+      "options": [
+        "Default admin account",
+        "Billing account only",
+        "IAM user",
+        "Temporary account"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "aws21",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service provides content delivery?",
+      "options": ["Route 53", "CloudFront", "S3", "VPC"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws22",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for data warehousing?",
+      "options": ["RDS", "DynamoDB", "Redshift", "Aurora"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws23",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS pricing model charges per hour or second?",
+      "options": ["Reserved Instances", "Spot Instances", "On-Demand", "Savings Plan"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws24",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which pricing option offers lowest cost with interruptions?",
+      "options": ["On-Demand", "Reserved", "Spot Instances", "Dedicated Hosts"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws25",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is AWS Free Tier?",
+      "options": [
+        "Paid service",
+        "Limited free usage for beginners",
+        "Trial of all services",
+        "Free enterprise plan"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "aws26",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for backups?",
+      "options": ["AWS Backup", "CloudFront", "IAM", "Route 53"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws27",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service provides managed Kubernetes?",
+      "options": ["ECS", "EKS", "Fargate", "Lambda"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws28",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for container management?",
+      "options": ["EC2", "ECS", "S3", "RDS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws29",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is Amazon Aurora?",
+      "options": [
+        "NoSQL database",
+        "Serverless function",
+        "Managed relational database",
+        "Storage service"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws30",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service protects against DDoS attacks?",
+      "options": ["AWS Shield", "CloudTrail", "IAM", "S3"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "aws31",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service detects security threats?",
+      "options": ["Inspector", "GuardDuty", "CloudWatch", "Config"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws32",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service is used for infrastructure as code?",
+      "options": ["CloudFormation", "CloudTrail", "CloudWatch", "IAM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws33",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is an Availability Zone?",
+      "options": [
+        "A region",
+        "A data center or group of data centers",
+        "An edge location",
+        "A VPC"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws34",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS component provides global presence?",
+      "options": ["Regions", "Availability Zones", "Edge Locations", "VPC"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws35",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service provides email sending?",
+      "options": ["SNS", "SQS", "SES", "CloudWatch"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "aws36",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service is used for message queuing?",
+      "options": ["SNS", "SQS", "SES", "Step Functions"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws37",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service sends notifications?",
+      "options": ["SQS", "SNS", "SES", "Lambda"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws38",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is AWS Elastic Beanstalk?",
+      "options": [
+        "PaaS for deploying applications",
+        "Database service",
+        "Storage service",
+        "Monitoring service"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws39",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service manages secrets securely?",
+      "options": ["IAM", "Secrets Manager", "KMS", "CloudTrail"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws40",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is AWS KMS used for?",
+      "options": [
+        "Key management and encryption",
+        "Monitoring",
+        "Compute",
+        "Storage"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "aws41",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service helps optimize costs?",
+      "options": ["Trusted Advisor", "CloudTrail", "Inspector", "Shield"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws42",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service shows AWS billing details?",
+      "options": ["CloudWatch", "Cost Explorer", "IAM", "Config"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws43",
+      "language": "aws",
+      "type": "mcq",
+      "title": "What is shared responsibility model?",
+      "options": [
+        "AWS handles everything",
+        "Customer handles everything",
+        "Security shared between AWS and customer",
+        "Only AWS security"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws44",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service provides API management?",
+      "options": ["API Gateway", "Lambda", "S3", "CloudFront"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws45",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service converts text to speech?",
+      "options": ["Polly", "Lex", "Comprehend", "Rekognition"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "aws46",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service analyzes images and videos?",
+      "options": ["Polly", "Lex", "Rekognition", "Translate"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "aws47",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which service provides chatbot functionality?",
+      "options": ["Lex", "Polly", "Comprehend", "SNS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws48",
+      "language": "aws",
+      "type": "mcq",
+      "title": "Which AWS service translates languages?",
+      "options": ["Translate", "Lex", "Polly", "Rekognition"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "aws49",
+      "language": "aws",
+      "type": "mcq",
+      "title": "AWS mainly follows which cloud model?",
+      "options": [
+        "Private cloud",
+        "Public cloud",
+        "Hybrid cloud only",
+        "Community cloud"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "aws50",
+      "language": "aws",
+      "type": "mcq",
+      "title": "AWS is best described as?",
+      "options": [
+        "On-premise software",
+        "Cloud service provider",
+        "Desktop application",
+        "Operating system"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "category": "Bootstrap 5",
+  "questions": [
+    {
+      "id": "b1",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "What is Bootstrap?",
+      "options": [
+        "A JavaScript framework",
+        "A CSS framework",
+        "A database",
+        "A backend language"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b2",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which company developed Bootstrap?",
+      "options": [
+        "Google",
+        "Facebook",
+        "Twitter",
+        "Microsoft"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b3",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which file is required to use Bootstrap styles?",
+      "options": [
+        "bootstrap.js",
+        "bootstrap.css",
+        "bootstrap.php",
+        "bootstrap.sql"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b4",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which layout system does Bootstrap use?",
+      "options": [
+        "Flexbox only",
+        "CSS Grid only",
+        "12-column grid system",
+        "Table layout"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b5",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "How many columns are there in Bootstrap grid system?",
+      "options": ["10", "12", "16", "24"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b6",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class makes an image responsive in Bootstrap 5?",
+      "options": [
+        ".img-responsive",
+        ".img-fluid",
+        ".responsive-img",
+        ".image-fluid"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b7",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which Bootstrap class is used to create a button?",
+      "options": [".btn", ".button", ".btn-group", ".btn-style"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b8",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to make a button blue?",
+      "options": [
+        ".btn-info",
+        ".btn-primary",
+        ".btn-warning",
+        ".btn-dark"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b9",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class hides content on all screen sizes?",
+      "options": [
+        ".d-none",
+        ".hidden",
+        ".invisible",
+        ".display-none"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b10",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to create a container with fixed width?",
+      "options": [
+        ".container",
+        ".container-fluid",
+        ".row",
+        ".col"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "b11",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class creates a full-width container?",
+      "options": [
+        ".container",
+        ".container-xl",
+        ".container-fluid",
+        ".container-lg"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b12",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which Bootstrap utility controls text alignment?",
+      "options": [
+        ".align-text",
+        ".text-center",
+        ".text-align",
+        ".center-text"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b13",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class adds margin in Bootstrap?",
+      "options": [".p-3", ".m-3", ".g-3", ".s-3"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b14",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class adds padding?",
+      "options": [".m-4", ".p-4", ".pd-4", ".pad-4"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b15",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which component is used for navigation?",
+      "options": ["Navbar", "Card", "Modal", "Toast"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b16",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which component is used to display popup dialogs?",
+      "options": ["Alert", "Modal", "Toast", "Tooltip"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b17",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to create rows?",
+      "options": [".row", ".column", ".grid-row", ".flex-row"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b18",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to create columns?",
+      "options": [".col", ".row", ".grid", ".container"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b19",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which breakpoint is used for mobile devices?",
+      "options": ["sm", "md", "lg", "xl"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b20",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class makes text bold?",
+      "options": [
+        ".text-bold",
+        ".fw-bold",
+        ".font-bold",
+        ".bold-text"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "b21",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which utility controls display property?",
+      "options": [".d-flex", ".display", ".show", ".visible"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b22",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used for responsive tables?",
+      "options": [
+        ".table-responsive",
+        ".table-fluid",
+        ".table-scroll",
+        ".table-wrap"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b23",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which component shows progress?",
+      "options": ["Spinner", "Progress", "Alert", "Badge"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b24",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class styles a list group?",
+      "options": [
+        ".list-group",
+        ".group-list",
+        ".list-style",
+        ".ul-group"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b25",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class adds rounded corners?",
+      "options": [
+        ".rounded",
+        ".border-round",
+        ".corner",
+        ".round"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b26",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class makes an element invisible but keeps space?",
+      "options": [
+        ".d-none",
+        ".invisible",
+        ".hidden",
+        ".opacity-0"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b27",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which component displays notifications?",
+      "options": ["Toast", "Modal", "Alert", "Card"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b28",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used for shadows?",
+      "options": [
+        ".shadow",
+        ".box-shadow",
+        ".depth",
+        ".elevation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b29",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which Bootstrap file includes JavaScript plugins?",
+      "options": [
+        "bootstrap.css",
+        "bootstrap.bundle.js",
+        "bootstrap.html",
+        "bootstrap.json"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "b30",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Bootstrap 5 removes dependency on which library?",
+      "options": ["jQuery", "React", "Vue", "Angular"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "b31",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used for badges?",
+      "options": [".badge", ".tag", ".label", ".chip"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b32",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which utility controls text color?",
+      "options": [
+        ".text-primary",
+        ".font-color",
+        ".color-text",
+        ".txt-color"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b33",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class creates a card component?",
+      "options": [".card", ".panel", ".box", ".tile"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b34",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class aligns items vertically in flexbox?",
+      "options": [
+        ".align-items-center",
+        ".justify-center",
+        ".vertical-center",
+        ".items-middle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b35",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to make text uppercase?",
+      "options": [
+        ".text-uppercase",
+        ".uppercase",
+        ".text-capital",
+        ".font-upper"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b36",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to fix navbar at top?",
+      "options": [
+        ".fixed-top",
+        ".navbar-top",
+        ".sticky",
+        ".top-fixed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b37",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class enables sticky positioning?",
+      "options": [
+        ".sticky-top",
+        ".fixed-top",
+        ".position-top",
+        ".float-top"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b38",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which component creates collapsible content?",
+      "options": ["Collapse", "Modal", "Toast", "Alert"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b39",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class adds border?",
+      "options": [".border", ".bordered", ".box-border", ".outline"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b40",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which utility sets width to 100%?",
+      "options": [".w-100", ".width-100", ".full-width", ".max-w"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "b41",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which utility controls position?",
+      "options": [
+        ".position-relative",
+        ".pos-relative",
+        ".relative",
+        ".place-relative"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b42",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class centers content horizontally?",
+      "options": [
+        ".justify-content-center",
+        ".align-center",
+        ".text-middle",
+        ".center-content"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b43",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used for alerts?",
+      "options": [".alert", ".warning", ".message", ".notify"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b44",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class creates a dark background?",
+      "options": [
+        ".bg-dark",
+        ".bg-black",
+        ".dark-bg",
+        ".background-dark"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b45",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to float elements?",
+      "options": [
+        ".float-start",
+        ".float-left",
+        ".pull-left",
+        ".align-float"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b46",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class creates a spinner?",
+      "options": [
+        ".spinner-border",
+        ".loader",
+        ".progress-spinner",
+        ".spin"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b47",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which utility controls opacity?",
+      "options": [
+        ".opacity-50",
+        ".transparent",
+        ".fade",
+        ".alpha"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b48",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which class is used to create dropdowns?",
+      "options": [
+        ".dropdown",
+        ".select-menu",
+        ".menu-down",
+        ".list-drop"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "b49",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Which Bootstrap version introduced utility API?",
+      "options": ["Bootstrap 3", "Bootstrap 4", "Bootstrap 5", "Bootstrap 2"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "b50",
+      "language": "bootstrap5",
+      "type": "mcq",
+      "title": "Bootstrap 5 is mainly used for?",
+      "options": [
+        "Backend development",
+        "Database design",
+        "Responsive web design",
+        "Server-side scripting"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

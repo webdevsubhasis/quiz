@@ -1,0 +1,406 @@
+{
+     "category": "Mixed Arithmetic - Set 5",
+  "questions": [
+    {
+      "id": "ma5_1",
+      "language": "math",
+      "type": "mcq",
+      "title": "If compound interest for 2 years at 20% is ₹840, find principal.",
+      "options": ["₹1800", "₹2000", "₹1500", "₹1750"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_2",
+      "language": "math",
+      "type": "mcq",
+      "title": "A mixture of milk and water is 4:1. 10 L water added becomes 4:3. Initial quantity?",
+      "options": ["20 L", "30 L", "40 L", "25 L"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill tank in 18 min and 27 min. Together for 6 min then slower closed. Remaining time?",
+      "options": ["9 min", "10 min", "8 min", "7 min"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of consecutive numbers from n to n+8 is 20. Find n.",
+      "options": ["16", "12", "15", "14"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Selling price sells article at 20% loss then 20% gain. Overall effect?",
+      "options": ["4% loss", "No change", "4% gain", "2% loss"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_6",
+      "language": "math",
+      "type": "mcq",
+      "title": "A train running at 90 km/h crosses a bridge in 36 sec. Train 150 m long. Bridge length?",
+      "options": ["600 m", "650 m", "700 m", "750 m"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_7",
+      "language": "math",
+      "type": "mcq",
+      "title": "A and B invest in ratio 2:3. After 4 months A doubles his investment. Profit ratio after 1 year?",
+      "options": ["5:7", "6:7", "4:7", "3:5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat goes 40 km upstream in 8 hr and downstream in 5 hr. Speed in still water?",
+      "options": ["7 km/h", "6 km/h", "5 km/h", "8 km/h"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simple interest for 3 years equals 1/4 principal. Rate?",
+      "options": ["8.33%", "12.5%", "10%", "9%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_10",
+      "language": "math",
+      "type": "mcq",
+      "title": "If cost price increases by 25% and selling price increases by 20%, profit changes from 20% to?",
+      "options": ["16%", "15%", "18%", "14%"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "ma5_11",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum becomes ₹1452 in 2 years and ₹1597.2 in 3 years at simple interest. Find rate.",
+      "options": ["10%", "8%", "12%", "9%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_12",
+      "language": "math",
+      "type": "mcq",
+      "title": "A pipe fills a tank in 24 min and another empties in 36 min. Both open together. Tank fills in?",
+      "options": ["36 min", "60 min", "72 min", "90 min"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_13",
+      "language": "math",
+      "type": "mcq",
+      "title": "A trader marks goods 50% above cost and gives two successive discounts 20% and 10%. Profit percent?",
+      "options": ["8%", "10%", "12%", "5%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of first n odd numbers is 49. Find n.",
+      "options": ["49", "25", "36", "14"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two trains 240m and 360m cross opposite in 12 sec. Sum of speeds?",
+      "options": ["150 km/h", "180 km/h", "120 km/h", "100 km/h"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio of ages A:B = 4:7. After 6 years ratio becomes 5:8. Present age of A?",
+      "options": ["24", "20", "18", "16"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma5_17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 12 km/h, stream 3 km/h. Time for 45 km round trip?",
+      "options": ["7 hr", "6 hr", "5 hr", "8 hr"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_18",
+      "language": "math",
+      "type": "mcq",
+      "title": "If selling price is increased by 20%, profit becomes 44%. Original profit?",
+      "options": ["20%", "25%", "30%", "24%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_19",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum at CI triples in 10 years. In how many years becomes 9 times?",
+      "options": ["20", "30", "15", "25"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_20",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 8 men or 12 women finish work in 15 days, 4 men and 6 women finish in?",
+      "options": ["30 days", "20 days", "15 days", "25 days"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_21",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum becomes ₹968 in 2 years and ₹1056 in 3 years at simple interest. Find principal.",
+      "options": ["₹880", "₹800", "₹840", "₹900"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_22",
+      "language": "math",
+      "type": "mcq",
+      "title": "A mixture of acid and water is 3:2. 10 L mixture removed and replaced by water, ratio becomes 9:11. Initial quantity?",
+      "options": ["60 L", "40 L", "50 L", "45 L"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_23",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do work in 20 days, B in 30 days. They work alternately starting with A. Work finishes in?",
+      "options": ["24 days", "25 days", "26 days", "23 days"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Marked price ₹2000. After successive discounts x% and 20%, SP = ₹1280. Find x.",
+      "options": ["20%", "25%", "30%", "15%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat goes 48 km upstream in 8 hr and downstream in 4 hr. Speed of stream?",
+      "options": ["3 km/h", "2 km/h", "4 km/h", "5 km/h"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 15 numbers is 40. Removing two numbers average becomes 38. Sum removed?",
+      "options": ["118", "120", "122", "116"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_27",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests ₹5000 for 12 months, B ₹8000 for 6 months and C ₹6000 for 8 months. Profit ratio?",
+      "options": ["5:4:4", "5:8:4", "10:8:8", "15:12:8"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_28",
+      "language": "math",
+      "type": "mcq",
+      "title": "If simple interest for 4 years equals compound interest for 2 years at same rate, rate?",
+      "options": ["16%", "12%", "8%", "10%"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma5_29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two trains cross each other in 10 sec. Lengths 100m & 150m. Relative speed?",
+      "options": ["90 km/h", "80 km/h", "72 km/h", "60 km/h"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_30",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number increased by 25% and then decreased by 20% becomes 120. Original number?",
+      "options": ["120", "125", "100", "110"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_31",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sum becomes ₹2420 in 2 years and ₹2662 in 3 years at simple interest. Find rate.",
+      "options": ["10%", "8%", "12%", "9%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two pipes fill tank in 12 and 18 min. After both work 4 min, faster closed. Remaining time?",
+      "options": ["8 min", "6 min", "7 min", "9 min"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 20 numbers is 60. Replacing one number 20 by 100. New average?",
+      "options": ["64", "62", "65", "66"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_34",
+      "language": "math",
+      "type": "mcq",
+      "title": "If CP increases by 25% and SP increases by 10%, profit decreases from 20% to?",
+      "options": ["8%", "6%", "10%", "12%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat speed 15 km/h, stream 3 km/h. Time difference for 54 km up & down?",
+      "options": ["2 hr", "1 hr", "3 hr", "4 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_36",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests ₹8000 for 6 months and B ₹6000 for 8 months. Profit ratio?",
+      "options": ["4:3", "3:4", "2:3", "1:1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_37",
+      "language": "math",
+      "type": "mcq",
+      "title": "A can do work in 24 days, B in 36 days. Together 6 days then A leaves. Remaining time?",
+      "options": ["18 days", "12 days", "15 days", "20 days"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Selling price of 12 articles equals cost price of 15 articles. Loss percent?",
+      "options": ["20%", "25%", "15%", "18%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_39",
+      "language": "math",
+      "type": "mcq",
+      "title": "A train 150m long crosses a pole in 10 sec. Speed?",
+      "options": ["60 km/h", "45 km/h", "54 km/h", "36 km/h"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simple interest on a sum for 6 years equals principal. Rate?",
+      "options": ["16.67%", "20%", "12.5%", "15%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Compound interest for 2 years at 10% is ₹210. Find principal.",
+      "options": ["₹2500", "₹2000", "₹1500", "₹1900"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio of ages A:B = 3:4. After 8 years ratio becomes 5:6. Present age of A?",
+      "options": ["24", "20", "16", "12"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two trains 120m and 180m cross opposite in 12 sec. Sum of speeds?",
+      "options": ["90 km/h", "72 km/h", "108 km/h", "60 km/h"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Marked price ₹1500, discount 20% and x%. SP ₹960. Find x.",
+      "options": ["10%", "15%", "20%", "25%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma5_45",
+      "language": "math",
+      "type": "mcq",
+      "title": "A mixture 5:3 milk water. 16 L replaced by water ratio becomes 1:1. Initial quantity?",
+      "options": ["64 L", "48 L", "56 L", "72 L"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_46",
+      "language": "math",
+      "type": "mcq",
+      "title": "A does work in 15 days and B in 20 days. Both work alternately starting A. Finish time?",
+      "options": ["17 days", "16 days", "18 days", "15 days"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5_47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average speed for equal distances at 30 and 60 km/h?",
+      "options": ["40 km/h", "45 km/h", "36 km/h", "48 km/h"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_48",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 12 men finish work in 18 days, 9 men finish in?",
+      "options": ["14 days", "20 days", "21 days", "24 days"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma5_49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Boat covers 36 km upstream in 6 hr and downstream in 4 hr. Speed in still water?",
+      "options": ["7.5 km/h", "6 km/h", "8 km/h", "9 km/h"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma5_50",
+      "language": "math",
+      "type": "mcq",
+      "title": "If SI for 5 years equals 50% principal, rate?",
+      "options": ["16%", "8%", "12%", "10%"],
+      "correctAnswer": 3
+    }
+  ]
+}

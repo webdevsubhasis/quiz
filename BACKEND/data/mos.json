@@ -1,0 +1,527 @@
+{
+  "category": "Mobile Operating System",
+  "questions": [
+    {
+      "id": "mos1",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is a mobile operating system?",
+      "options": [
+        "Software that manages mobile hardware and software",
+        "Mobile application",
+        "Computer hardware",
+        "Network protocol"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos2",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which is the most widely used mobile operating system?",
+      "options": ["iOS", "Android", "Windows Phone", "BlackBerry OS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos3",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Android is based on which kernel?",
+      "options": ["Windows kernel", "Linux kernel", "Unix kernel", "Mac kernel"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos4",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which company develops Android OS?",
+      "options": ["Apple", "Microsoft", "Google", "Samsung"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos5",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "iOS is used in which devices?",
+      "options": ["Samsung phones", "Windows phones", "Apple devices", "Nokia phones"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos6",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which programming language is commonly used for Android app development?",
+      "options": ["Swift", "Kotlin", "Objective-C", "C#"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos7",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which language is primarily used for iOS development?",
+      "options": ["Java", "Swift", "Python", "Kotlin"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos8",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is APK in Android?",
+      "options": [
+        "Android Package file",
+        "Android Program Kernel",
+        "Application Permission Key",
+        "Android Process Kit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos9",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is multitasking in mobile OS?",
+      "options": [
+        "Running multiple apps simultaneously",
+        "Using multiple devices",
+        "Installing many apps",
+        "Switching off apps"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos10",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which Android component manages the app lifecycle?",
+      "options": ["Service", "Broadcast Receiver", "Activity", "Content Provider"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "mos11",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which store is used to download Android apps?",
+      "options": ["App Store", "Play Store", "Microsoft Store", "Galaxy Store"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos12",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which store is used for iOS apps?",
+      "options": ["Play Store", "App Store", "Windows Store", "Galaxy Store"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos13",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is rooting in Android?",
+      "options": [
+        "Installing apps",
+        "Removing system apps",
+        "Gaining superuser access",
+        "Updating OS"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos14",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is jailbreaking in iOS?",
+      "options": [
+        "Resetting device",
+        "Unlocking network",
+        "Removing Apple restrictions",
+        "Updating iOS"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos15",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which mobile OS is open source?",
+      "options": ["iOS", "Android", "Windows Phone", "BlackBerry OS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos16",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What does OTA update mean?",
+      "options": [
+        "Over The Air update",
+        "On Time Activation",
+        "Offline Transfer Access",
+        "Open Technology Access"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos17",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which mobile OS was developed by Microsoft?",
+      "options": ["Android", "iOS", "Windows Phone", "Symbian"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos18",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is UI in mobile OS?",
+      "options": [
+        "User Interface",
+        "User Information",
+        "Unique Identifier",
+        "Unified Internet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos19",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which Android version introduced Material Design?",
+      "options": ["KitKat", "Lollipop", "Marshmallow", "Nougat"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos20",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is background service in mobile OS?",
+      "options": [
+        "Visible UI component",
+        "Runs tasks without UI",
+        "Hardware driver",
+        "System update"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "mos21",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which mobile OS uses Swift language?",
+      "options": ["Android", "iOS", "Windows Phone", "BlackBerry"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos22",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is sandboxing in mobile OS?",
+      "options": [
+        "App isolation for security",
+        "File sharing",
+        "Network blocking",
+        "Memory expansion"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos23",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS was developed by Nokia?",
+      "options": ["Android", "Symbian", "iOS", "Windows Phone"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos24",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which feature saves battery by limiting background apps?",
+      "options": ["Doze mode", "Split screen", "Multi-window", "Hotspot"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos25",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is an emulator?",
+      "options": [
+        "Physical device",
+        "Virtual mobile device",
+        "System update",
+        "Mobile sensor"
+      ],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "mos26",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which mobile OS supports widgets?",
+      "options": ["Android", "iOS", "Both Android and iOS", "None"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos27",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is app permission?",
+      "options": [
+        "App update",
+        "User consent for access",
+        "App crash",
+        "System bug"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos28",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which sensor detects screen rotation?",
+      "options": ["Proximity", "Gyroscope", "Accelerometer", "Light sensor"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos29",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is mobile OS kernel responsible for?",
+      "options": [
+        "UI design",
+        "Hardware interaction",
+        "App installation",
+        "App store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos30",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS introduced Face ID?",
+      "options": ["Android", "iOS", "Windows Phone", "BlackBerry"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "mos31",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is split screen feature?",
+      "options": [
+        "Running two apps together",
+        "Screen recording",
+        "Screen rotation",
+        "Screen casting"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos32",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS is known for high customization?",
+      "options": ["iOS", "Android", "Windows Phone", "Symbian"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos33",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is bootloader?",
+      "options": [
+        "Loads OS during startup",
+        "Installs apps",
+        "Manages UI",
+        "Controls network"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos34",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS is tightly controlled by Apple?",
+      "options": ["Android", "iOS", "Windows Phone", "Symbian"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos35",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is firmware?",
+      "options": [
+        "Low-level software controlling hardware",
+        "Mobile app",
+        "User interface",
+        "Cloud service"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "mos36",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS supports sideloading apps easily?",
+      "options": ["iOS", "Android", "Windows Phone", "BlackBerry"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos37",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is system UI?",
+      "options": [
+        "User-installed app",
+        "Core interface of OS",
+        "Hardware component",
+        "Network protocol"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos38",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS uses AOSP?",
+      "options": ["Android", "iOS", "Windows Phone", "Symbian"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos39",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is power management in mobile OS?",
+      "options": [
+        "Battery optimization",
+        "Network control",
+        "App installation",
+        "UI rendering"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos40",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS discontinued Windows Phone?",
+      "options": ["Google", "Apple", "Microsoft", "Nokia"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "mos41",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is app sandboxing mainly used for?",
+      "options": [
+        "Security",
+        "Performance",
+        "UI design",
+        "Storage"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos42",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS version introduced Dark Mode widely?",
+      "options": ["Android 8", "Android 9", "Android 10", "Android 7"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mos43",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is mobile OS fragmentation?",
+      "options": [
+        "Multiple OS versions in use",
+        "Storage division",
+        "Network failure",
+        "App crash"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos44",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS is known for strong privacy control?",
+      "options": ["Android", "iOS", "Windows Phone", "Symbian"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mos45",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is an app lifecycle?",
+      "options": [
+        "Stages of app execution",
+        "App size",
+        "App cost",
+        "App rating"
+      ],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "mos46",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS allows custom ROM installation?",
+      "options": ["Android", "iOS", "Windows Phone", "BlackBerry"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos47",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is accessibility feature?",
+      "options": [
+        "Helps users with disabilities",
+        "App store feature",
+        "Game mode",
+        "Battery saver"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos48",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which OS update method is wireless?",
+      "options": ["OTA", "USB flash", "CD install", "Manual ROM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos49",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "What is mobile OS security patch?",
+      "options": [
+        "Bug fix update",
+        "New app",
+        "UI change",
+        "Hardware upgrade"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mos50",
+      "language": "mobile os",
+      "type": "mcq",
+      "title": "Which component controls app permissions?",
+      "options": [
+        "Package Manager",
+        "Kernel",
+        "Launcher",
+        "Play Store"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

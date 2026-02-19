@@ -1,0 +1,407 @@
+{
+  "category": "Clock",
+  "questions": [
+    {
+      "id": "clk1",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 3 and 4 o'clock are the hands of a clock together?",
+      "options": ["3:16:22", "3:15:00", "3:18:00", "3:17:10"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk2",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 7 and 8 o'clock will the hands be at right angle?",
+      "options": ["7:21:49", "7:19:38", "7:20:00", "7:18:00"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk3",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many times do the hands of a clock coincide in a day?",
+      "options": ["22", "24", "20", "21"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk4",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 4 and 5 are the hands opposite?",
+      "options": ["4:54:32", "4:52:44", "4:50:00", "4:55:20"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk5",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a clock gains 5 minutes every hour, how much will it gain in 24 hours?",
+      "options": ["3 hr", "1 hr 40 min", "2 hr 10 min", "2 hr"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clk6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 6:20?",
+      "options": ["50°", "40°", "60°", "30°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mirror image time of 2:35?",
+      "options": ["7:25", "9:20", "9:25", "8:20"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk8",
+      "language": "math",
+      "type": "mcq",
+      "title": "In how much time after 5:15 will the hands coincide?",
+      "options": ["32 8/11 min", "30 min", "35 min", "28 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk9",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 9 and 10 will angle be 180°?",
+      "options": ["9:49:05", "9:48:00", "9:45:00", "9:50:00"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk10",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many right angles occur in 12 hours?",
+      "options": ["23", "24", "22", "44"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk11",
+      "language": "math",
+      "type": "mcq",
+      "title": "A clock loses 2 minutes every hour. If it was set correct at 12 noon, what time will it show at real 6 PM?",
+      "options": ["5:48 PM", "5:50 PM", "5:52 PM", "5:56 PM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 5:40?",
+      "options": ["70°", "60°", "50°", "80°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk13",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 1 and 2 o'clock are hands at 90°?",
+      "options": ["1:16:22", "1:18:00", "1:20:00", "1:15:00"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk14",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many times do hands form a straight line (180°) in 12 hours?",
+      "options": ["11", "10", "12", "13"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk15",
+      "language": "math",
+      "type": "mcq",
+      "title": "A clock gains 10 minutes per hour. If set correct at 8 AM, what time will it show at real 2 PM?",
+      "options": ["3:20 PM", "2:50 PM", "3:00 PM", "2:40 PM"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 8:15?",
+      "options": ["157.5°", "165°", "150°", "160°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mirror image time of 6:40?",
+      "options": ["5:10", "5:20", "5:25", "5:30"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk18",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many times do hands coincide in 12 hours?",
+      "options": ["11", "12", "10", "13"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk19",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 10 and 11 are hands together?",
+      "options": ["10:54:33", "10:55:00", "10:52:00", "10:53:20"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 12:45?",
+      "options": ["122.5°", "120°", "105°", "112.5°"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clk21",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a clock gains 1 minute every 15 minutes, how much does it gain in 24 hours?",
+      "options": ["96 min", "90 min", "100 min", "80 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 3:50?",
+      "options": ["155°", "145°", "150°", "160°"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk23",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 2 and 3 will angle be 180°?",
+      "options": ["2:43:38", "2:45:00", "2:42:00", "2:44:10"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk24",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many times do hands form right angle in 24 hours?",
+      "options": ["44", "48", "40", "46"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk25",
+      "language": "math",
+      "type": "mcq",
+      "title": "A clock loses 30 seconds every hour. How much time lost in 2 days?",
+      "options": ["34 min", "20 min", "18 min", "24 min"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "clk26",
+      "language": "math",
+      "type": "mcq",
+      "title": "A clock is 5 minutes fast at 2 PM and 3 minutes slow at 8 PM. When was it correct?",
+      "options": ["4:30 PM", "5:00 PM", "4:00 PM", "3:30 PM"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 7:25?",
+      "options": ["92.5°", "87.5°", "95°", "90°"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk28",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many times do hands overlap between 2 PM and 4 PM?",
+      "options": ["1", "3", "2", "4"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mirror image of 11:20?",
+      "options": ["12:40", "12:45", "12:35", "12:20"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk30",
+      "language": "math",
+      "type": "mcq",
+      "title": "A clock gains 12 minutes per day. After how many days will it gain 3 hours?",
+      "options": ["10", "12", "15", "20"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 9:45?",
+      "options": ["22.5°", "30°", "15°", "7.5°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk32",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 6 and 7 will hands be together?",
+      "options": ["6:32:44", "6:30:00", "6:34:00", "6:31:10"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk33",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many right angles occur between 3 PM and 6 PM?",
+      "options": ["11", "10", "12", "9"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk34",
+      "language": "math",
+      "type": "mcq",
+      "title": "If a clock loses 8 minutes per day, in how many days will it be 2 hours slow?",
+      "options": ["10", "15", "12", "20"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 4:48?",
+      "options": ["144°", "156°", "150°", "138°"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Opposite time of 8:25?",
+      "options": ["2:25", "2:35", "1:35", "1:25"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Hands form 60° how many times in 12 hours?",
+      "options": ["22", "24", "44", "20"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk38",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 8 and 9 are hands opposite?",
+      "options": ["8:43:38", "8:45:00", "8:42:00", "8:44:10"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk39",
+      "language": "math",
+      "type": "mcq",
+      "title": "A watch gains uniformly and gains 30 minutes in 24 hours. When will it gain 10 minutes?",
+      "options": ["8 hr", "6 hr", "10 hr", "12 hr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 1:50?",
+      "options": ["115°", "125°", "120°", "110°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk41",
+      "language": "math",
+      "type": "mcq",
+      "title": "In 24 hours, how many times are hands in straight line but not together?",
+      "options": ["22", "24", "20", "44"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 10:20?",
+      "options": ["170°", "160°", "165°", "175°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk43",
+      "language": "math",
+      "type": "mcq",
+      "title": "If clock is 4 minutes slow at 1 PM and 6 minutes fast at 7 PM, when correct?",
+      "options": ["4 PM", "3:30 PM", "5 PM", "4:12 PM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 2:24?",
+      "options": ["132°", "144°", "138°", "150°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "clk45",
+      "language": "math",
+      "type": "mcq",
+      "title": "A clock gains 2 minutes every hour. How much will it gain in 5 days?",
+      "options": ["240 min", "200 min", "180 min", "300 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mirror image of 4:15?",
+      "options": ["7:45", "7:50", "8:45", "8:50"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk47",
+      "language": "math",
+      "type": "mcq",
+      "title": "How many times hands coincide in 24 hours?",
+      "options": ["22", "44", "24", "48"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "clk48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Angle between hands at 11:10?",
+      "options": ["115°", "120°", "125°", "110°"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk49",
+      "language": "math",
+      "type": "mcq",
+      "title": "At what time between 12 and 1 are hands perpendicular?",
+      "options": ["12:16:22", "12:15:00", "12:20:00", "12:18:00"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "clk50",
+      "language": "math",
+      "type": "mcq",
+      "title": "A watch loses 5 minutes every day. After how many days will it lose 2 hours 30 minutes?",
+      "options": ["30", "25", "20", "15"],
+      "correctAnswer": 0
+    }
+  ]
+}
+
+

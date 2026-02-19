@@ -1,0 +1,26 @@
+.add-subject-card {
+  max-width: 600px;
+  margin: auto;
+}
+
+.add-subject-card input,
+.add-subject-card textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  color: white;
+}
+
+.add-subject-card label {
+  font-weight: 600;
+  color: #cbd5f5;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}

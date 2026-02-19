@@ -1,0 +1,410 @@
+{
+  "category": "Elementary Statistics",
+  "questions": [
+    {
+      "id": "st1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 5 numbers is 24. If one number is removed, new mean becomes 20. Find removed number.",
+      "options": ["40", "44", "36", "32"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of first 10 natural numbers?",
+      "options": ["5", "5.5", "6", "4.5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "st3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 20 observations is 18. Later found one value 48 entered as 84. Correct mean?",
+      "options": ["16.2", "17.8", "18.6", "15.9"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Median of odd number of observations depends on",
+      "options": ["Position only", "Values only", "Sum of values", "Both value and frequency"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st5",
+      "language": "math",
+      "type": "mcq",
+      "title": "If mean=median=mode then distribution is",
+      "options": ["Random", "Positively skewed", "Negatively skewed", "Symmetrical"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "st6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 8 numbers is 12. One number increased by 8. New average?",
+      "options": ["13", "14", "12.5", "11"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Combined mean of groups (10, mean=20) and (15, mean=30)?",
+      "options": ["25", "26", "28", "24"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "st8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Variance zero means",
+      "options": ["All values equal", "All values zero", "Mean zero", "Data missing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st9",
+      "language": "math",
+      "type": "mcq",
+      "title": "If each observation increases by 5, variance becomes",
+      "options": ["Same", "5 more", "25 more", "5 times"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of numbers 2,4,6,8,10?",
+      "options": ["9", "5", "6", "8"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average age of 30 students = 12. Teacher age 30 joins. New average?",
+      "options": ["12.58", "12.6", "13", "12.5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st12",
+      "language": "math",
+      "type": "mcq",
+      "title": "If median=20 and mode=18, approximate mean?",
+      "options": ["23", "21", "20", "22"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "st13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of deviations from mean equals",
+      "options": ["0", "Mean", "Variance", "SD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st14",
+      "language": "math",
+      "type": "mcq",
+      "title": "If all observations multiplied by 3, standard deviation becomes",
+      "options": ["9 times", "Same", "3 times", "√3 times"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Range = 50 and lowest value 20. Highest value?",
+      "options": ["70", "30", "60", "80"],
+      "correctAnswer": 0
+    },
+  
+    {
+      "id": "st16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 12 numbers is 15. If each number increases by 3, new mean?",
+      "options": ["18", "15", "36", "12"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 6 numbers is 10. Replacing 6 with 16, new average?",
+      "options": ["11", "12.37", "13.27", "11.67"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "st18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 5 numbers = 8. After adding one number becomes 9. Find added number.",
+      "options": ["14", "12", "13", "15"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Combined mean of 8 items (mean 12) and 12 items (mean 18)?",
+      "options": ["5.6", "15.6", "16.6", "14"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "st20",
+      "language": "math",
+      "type": "mcq",
+      "title": "If mean of distribution is 25 and each observation decreases by 5, new mean?",
+      "options": ["20", "25", "30", "15"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 9 numbers is 11. If one number removed, mean becomes 10. Removed number?",
+      "options": ["29", "20", "19", "27"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st22",
+      "language": "math",
+      "type": "mcq",
+      "title": "If SD=0, coefficient of variation equals",
+      "options": ["0", "1", "Undefined", "Mean"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of first n natural numbers?",
+      "options": ["(n-1)/2", "n/2", "(n+1)/2", "n"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 4 consecutive even numbers is 14. Numbers are",
+      "options": ["10,12,14,16", "12,14,16,18", "8,10,12,14", "14,16,18,20"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Median of 3,7,9,11,15?",
+      "options": ["19", "11", "7", "9"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "st26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 10 numbers is 20. If each multiplied by 2, new mean?",
+      "options": ["20", "50", "40", "30"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of deviations from median is",
+      "options": ["Not necessarily zero", "Always zero", "Mean", "Variance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Range remains same if",
+      "options": ["Add constant to all values", "Multiply values", "Divide values", "Square values"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of symmetric distribution equals",
+      "options": ["Median", "Mode only", "Variance", "Range"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 2,4,6,...,20?",
+      "options": ["17", "10", "11", "9"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average speed for equal distances with speeds a and b",
+      "options": ["2ab/(a+b)", "(a+b)/2", "ab", "a+b"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st32",
+      "language": "math",
+      "type": "mcq",
+      "title": "If mean > median, distribution is",
+      "options": ["Positively skewed", "Symmetric", "Negative", "Uniform"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of numbers x,x+2,x+4 is 10. Find x",
+      "options": ["18", "6", "8", "12"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st34",
+      "language": "math",
+      "type": "mcq",
+      "title": "If SD doubles, variance becomes",
+      "options": ["4 times", "2 times", "Same", "Half"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st35",
+      "language": "math",
+      "type": "mcq",
+      "title": "If 5 added to each value, coefficient of variation",
+      "options": ["Changes", "Same", "Zero", "Doubles"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "st36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of 40 observations is 50. If one value 100 replaced by 60, new mean?",
+      "options": ["46", "50", "49", "51"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of squares deviation minimum about",
+      "options": ["Mean", "Median", "Mode", "Origin"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st38",
+      "language": "math",
+      "type": "mcq",
+      "title": "If each value multiplied by 2 and increased by 5, variance becomes",
+      "options": ["3 times", "4 times", "Same", "Increases by 5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "st39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Combined mean of groups (n, mean=a) and (n, mean=b)",
+      "options": ["(a+b)/2", "a+b", "ab", "(a-b)/2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st40",
+      "language": "math",
+      "type": "mcq",
+      "title": "If SD=5 and mean=25, coefficient of variation?",
+      "options": ["30%", "25%", "5%", "20%"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "st41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 20 numbers 15. Adding 5 numbers average 25. New average?",
+      "options": ["19", "18", "17", "20"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Median minimizes sum of",
+      "options": ["Absolute deviations", "Squares", "Cubes", "Mean deviations"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of first n odd numbers?",
+      "options": ["2n", "n²", "(n+1)/2", "n"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "st44",
+      "language": "math",
+      "type": "mcq",
+      "title": "If variance=16, SD equals",
+      "options": ["6", "8", "4", "16"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of dataset increases by 2 when each value increased by",
+      "options": ["2", "1", "4", "0"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average of 5 numbers is x. Add one number 5x → new average?",
+      "options": ["(10x)/6", "(6x)/5", "(7x)/6", "(5x)/6"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean of arithmetic progression equals",
+      "options": ["(first+last)/2", "last-first", "sum/n", "difference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st48",
+      "language": "math",
+      "type": "mcq",
+      "title": "If CV=0, dataset is",
+      "options": ["Random", "Increasing", "Constant", "Skewed"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "st49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mean deviation about mean always",
+      "options": ["Minimum", "Maximum", "Zero", "Infinite"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "st50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sum of deviations from mean of dataset",
+      "options": ["1", "0", "Mean", "Variance"],
+      "correctAnswer": 1
+    }
+  ]
+}
+
+
+  

@@ -1,0 +1,33 @@
+module.exports = {
+    USER: {
+        REGISTERED: "USER_REGISTERED",
+        LOGIN: "USER_LOGIN",
+        LOGOUT: "USER_LOGOUT",
+        PASSWORD_RESET: "USER_PASSWORD_RESET",
+    },
+
+    ADMIN: {
+        LOGIN: "ADMIN_LOGIN",
+        LOGOUT: "ADMIN_LOGOUT",
+        REGISTERED: "ADMIN_REGISTERED",
+    },
+
+    SUBJECT: {
+        CREATED: "SUBJECT_CREATED",
+        UPDATED: "SUBJECT_UPDATED",
+        DELETED: "SUBJECT_DELETED",
+    },
+
+    QUESTION: {
+        ADDED: "QUESTION_ADDED",
+        UPDATED: "QUESTION_UPDATED",
+        DELETED: "QUESTION_DELETED",
+        BULK_UPLOAD: "QUESTIONS_BULK_UPLOAD",
+    },
+
+    EXAM: {
+        STARTED: "EXAM_STARTED",
+        SUBMITTED: "EXAM_SUBMITTED",
+        TIMEOUT: "EXAM_TIMEOUT",
+    },
+};

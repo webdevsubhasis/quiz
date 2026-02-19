@@ -1,0 +1,655 @@
+{
+  "category": "Percentage",
+  "questions": [
+    {
+      "id": "per1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 792 by 26%",
+      "options": [
+        "997.92",
+        "1047.82",
+        "948.02",
+        "1002.92"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 649 by 38%",
+      "options": [
+        "895.62",
+        "940.4",
+        "850.84",
+        "900.62"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 781 by 22%",
+      "options": [
+        "952.82",
+        "1000.46",
+        "905.18",
+        "957.82"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 244 by 17%",
+      "options": [
+        "285.48",
+        "299.75",
+        "271.21",
+        "290.48"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 734 by 37%",
+      "options": [
+        "1005.58",
+        "1055.86",
+        "955.3",
+        "1010.58"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 889 by 23%",
+      "options": [
+        "1093.47",
+        "1148.14",
+        "1038.8",
+        "1098.47"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 791 by 21%",
+      "options": [
+        "957.11",
+        "1004.97",
+        "909.25",
+        "962.11"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 739 by 14%",
+      "options": [
+        "842.46",
+        "884.58",
+        "800.34",
+        "847.46"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 782 by 27%",
+      "options": [
+        "993.14",
+        "1042.8",
+        "943.48",
+        "998.14"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Increase 805 by 14%",
+      "options": [
+        "917.7",
+        "963.59",
+        "871.82",
+        "922.7"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per11",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 803 increased by 13% then decreased by 23%. Final value?",
+      "options": [
+        "698.69",
+        "733.62",
+        "663.76",
+        "703.69"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per12",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 754 increased by 25% then decreased by 15%. Final value?",
+      "options": [
+        "801.12",
+        "841.18",
+        "761.06",
+        "806.12"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per13",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 422 increased by 27% then decreased by 6%. Final value?",
+      "options": [
+        "503.78",
+        "528.97",
+        "478.59",
+        "508.78"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per14",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 340 increased by 29% then decreased by 24%. Final value?",
+      "options": [
+        "333.34",
+        "350.01",
+        "316.67",
+        "338.34"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per15",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 628 increased by 10% then decreased by 22%. Final value?",
+      "options": [
+        "538.82",
+        "565.76",
+        "511.88",
+        "543.82"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per16",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 357 increased by 30% then decreased by 5%. Final value?",
+      "options": [
+        "440.89",
+        "462.93",
+        "418.85",
+        "445.89"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per17",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 893 increased by 18% then decreased by 14%. Final value?",
+      "options": [
+        "906.22",
+        "951.53",
+        "860.91",
+        "911.22"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per18",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 377 increased by 18% then decreased by 18%. Final value?",
+      "options": [
+        "364.79",
+        "383.03",
+        "346.55",
+        "369.79"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per19",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 585 increased by 21% then decreased by 5%. Final value?",
+      "options": [
+        "672.46",
+        "706.08",
+        "638.84",
+        "677.46"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per20",
+      "language": "math",
+      "type": "mcq",
+      "title": "A number 224 increased by 24% then decreased by 7%. Final value?",
+      "options": [
+        "258.32",
+        "271.24",
+        "245.4",
+        "263.32"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per21",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 473, SP = 559. Profit % ?",
+      "options": [
+        "18.18",
+        "19.09",
+        "17.27",
+        "23.18"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per22",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 431, SP = 627. Profit % ?",
+      "options": [
+        "45.48",
+        "47.75",
+        "43.21",
+        "50.48"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per23",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 142, SP = 191. Profit % ?",
+      "options": [
+        "34.51",
+        "36.24",
+        "32.78",
+        "39.51"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per24",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 174, SP = 215. Profit % ?",
+      "options": [
+        "23.56",
+        "24.74",
+        "22.38",
+        "28.56"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per25",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 189, SP = 344. Profit % ?",
+      "options": [
+        "82.01",
+        "86.11",
+        "77.91",
+        "87.01"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per26",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 326, SP = 436. Profit % ?",
+      "options": [
+        "33.74",
+        "35.43",
+        "32.05",
+        "38.74"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per27",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 106, SP = 179. Profit % ?",
+      "options": [
+        "68.87",
+        "72.31",
+        "65.43",
+        "73.87"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per28",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 280, SP = 401. Profit % ?",
+      "options": [
+        "43.21",
+        "45.37",
+        "41.05",
+        "48.21"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per29",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 108, SP = 240. Profit % ?",
+      "options": [
+        "122.22",
+        "128.33",
+        "116.11",
+        "127.22"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per30",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP = 117, SP = 265. Profit % ?",
+      "options": [
+        "126.5",
+        "132.83",
+        "120.17",
+        "131.5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per31",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 18% increase value becomes 854. Original value?",
+      "options": [
+        "723.73",
+        "759.92",
+        "687.54",
+        "728.73"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per32",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 21% increase value becomes 318. Original value?",
+      "options": [
+        "262.81",
+        "275.95",
+        "249.67",
+        "267.81"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per33",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 26% increase value becomes 425. Original value?",
+      "options": [
+        "337.3",
+        "354.17",
+        "320.44",
+        "342.3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per34",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 33% increase value becomes 821. Original value?",
+      "options": [
+        "617.29",
+        "648.15",
+        "586.43",
+        "622.29"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per35",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 12% increase value becomes 571. Original value?",
+      "options": [
+        "509.82",
+        "535.31",
+        "484.33",
+        "514.82"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per36",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 16% increase value becomes 691. Original value?",
+      "options": [
+        "595.69",
+        "625.47",
+        "565.91",
+        "600.69"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per37",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 19% increase value becomes 531. Original value?",
+      "options": [
+        "446.22",
+        "468.53",
+        "423.91",
+        "451.22"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per38",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 24% increase value becomes 311. Original value?",
+      "options": [
+        "250.81",
+        "263.35",
+        "238.27",
+        "255.81"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per39",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 21% increase value becomes 613. Original value?",
+      "options": [
+        "506.61",
+        "531.94",
+        "481.28",
+        "511.61"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per40",
+      "language": "math",
+      "type": "mcq",
+      "title": "After 11% increase value becomes 526. Original value?",
+      "options": [
+        "473.87",
+        "497.56",
+        "450.18",
+        "478.87"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 46% and 49% in ratio 2:4 ?",
+      "options": [
+        "48.0",
+        "50.4",
+        "45.6",
+        "53.0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 60% and 53% in ratio 5:5 ?",
+      "options": [
+        "56.5",
+        "59.33",
+        "53.67",
+        "61.5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 45% and 57% in ratio 5:3 ?",
+      "options": [
+        "49.5",
+        "51.98",
+        "47.02",
+        "54.5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 56% and 55% in ratio 3:5 ?",
+      "options": [
+        "55.38",
+        "58.15",
+        "52.61",
+        "60.38"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 46% and 54% in ratio 2:2 ?",
+      "options": [
+        "50.0",
+        "52.5",
+        "47.5",
+        "55.0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 52% and 64% in ratio 2:4 ?",
+      "options": [
+        "60.0",
+        "63.0",
+        "57.0",
+        "65.0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 53% and 53% in ratio 4:2 ?",
+      "options": [
+        "53.0",
+        "55.65",
+        "50.35",
+        "58.0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 37% and 52% in ratio 3:4 ?",
+      "options": [
+        "45.57",
+        "47.85",
+        "43.29",
+        "50.57"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 30% and 48% in ratio 4:5 ?",
+      "options": [
+        "40.0",
+        "42.0",
+        "38.0",
+        "45.0"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "per50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Average percentage of 46% and 45% in ratio 2:4 ?",
+      "options": [
+        "45.33",
+        "47.6",
+        "43.06",
+        "50.33"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "category": "Square & Cube Roots",
+  "questions": [
+    {
+      "id": "root1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a25 + \u221b1 * 4 - 4",
+      "options": [
+        "7",
+        "4",
+        "5",
+        "2"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a9 + \u221b64 * 5 - 5",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a49 + \u221b27) * 5",
+      "options": [
+        "10",
+        "11",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a36 * 3 - \u221b512",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "10"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a64 + \u221b512 * 9 - 7",
+      "options": [
+        "12",
+        "9",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a9 + \u221b343",
+      "options": [
+        "5",
+        "0",
+        "4",
+        "8"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + \u221b512) * 3",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a9 + 7) * \u221b64",
+      "options": [
+        "16",
+        "17",
+        "14",
+        "15"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a16 + \u221b64 * 12 - 11",
+      "options": [
+        "4",
+        "2",
+        "7",
+        "5"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a9 + 7) * \u221b216",
+      "options": [
+        "22",
+        "26",
+        "24",
+        "28"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 + \u221b1 * 9 - 9",
+      "options": [
+        "1",
+        "6",
+        "2",
+        "-1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + \u221b512) * 7",
+      "options": [
+        "12",
+        "8",
+        "11",
+        "9"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a25 + \u221b1 * 2 - 2",
+      "options": [
+        "5",
+        "9",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 + \u221b125 + 12/8",
+      "options": [
+        "6",
+        "5",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a36 + \u221b216 * 11 - 8",
+      "options": [
+        "4",
+        "7",
+        "5",
+        "10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a4 + 12) * \u221b512",
+      "options": [
+        "33",
+        "29",
+        "28",
+        "32"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a81 * 6 - \u221b8",
+      "options": [
+        "24",
+        "22",
+        "20",
+        "23"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a4 + \u221b125) * 9",
+      "options": [
+        "9",
+        "11",
+        "7",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + \u221b512) * 12",
+      "options": [
+        "14",
+        "11",
+        "8",
+        "13"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 * 3 - \u221b27",
+      "options": [
+        "3",
+        "0",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a81 + \u221b512) * 11",
+      "options": [
+        "13",
+        "11",
+        "17",
+        "12"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a9 + \u221b512 * 8 - 12",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + 11) * \u221b8",
+      "options": [
+        "15",
+        "8",
+        "16",
+        "12"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + \u221b64) * 6",
+      "options": [
+        "6",
+        "7",
+        "3",
+        "9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a4 + 12) * \u221b512",
+      "options": [
+        "31",
+        "32",
+        "28",
+        "36"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a4 + \u221b8) * 6",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "4"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a16 + \u221b27) * 11",
+      "options": [
+        "7",
+        "3",
+        "11",
+        "5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a4 + \u221b216) * 2",
+      "options": [
+        "4",
+        "5",
+        "0",
+        "6"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + \u221b1) * 11",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 * 2 - \u221b343",
+      "options": [
+        "-1",
+        "-3",
+        "-2",
+        "1"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a16 + \u221b1 * 5 - 5",
+      "options": [
+        "2",
+        "0",
+        "4",
+        "7"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a9 + \u221b343",
+      "options": [
+        "1",
+        "6",
+        "0",
+        "4"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a9 + \u221b343",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "4"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a25 + \u221b343 * 4 - 6",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 + \u221b125",
+      "options": [
+        "4",
+        "3",
+        "0",
+        "2"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a16 + 9) * \u221b125",
+      "options": [
+        "27",
+        "24",
+        "28",
+        "25"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a81 * 6 - \u221b8",
+      "options": [
+        "26",
+        "22",
+        "24",
+        "19"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a64 + \u221b512 * 10 - 12",
+      "options": [
+        "6",
+        "10",
+        "9",
+        "13"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 + \u221b125 + 3/8",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "2"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a9 + 7) * \u221b1",
+      "options": [
+        "2",
+        "7",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 + \u221b125 + 8/6",
+      "options": [
+        "3",
+        "7",
+        "0",
+        "1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a25 + \u221b125 * 12 - 10",
+      "options": [
+        "6",
+        "4",
+        "10",
+        "8"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "root43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + 11) * \u221b125",
+      "options": [
+        "27",
+        "30",
+        "33",
+        "28"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a9 + \u221b343 + 7/6",
+      "options": [
+        "8",
+        "4",
+        "7",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a4 + \u221b27 * 6 - 3",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a4 + \u221b27) * 7",
+      "options": [
+        "4",
+        "7",
+        "6",
+        "5"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a9 + 7) * \u221b512",
+      "options": [
+        "30",
+        "32",
+        "33",
+        "36"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "root48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a36 + \u221b216 * 10 - 9",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "7"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "root49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (\u221a25 + \u221b216) * 4",
+      "options": [
+        "6",
+        "9",
+        "7",
+        "3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "root50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: \u221a25 * 8 - \u221b64",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "18"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

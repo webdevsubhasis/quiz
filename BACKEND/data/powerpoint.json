@@ -1,0 +1,515 @@
+{
+  "category": "powerpoint",
+  "questions": [
+    {
+      "id": "POWERPOINT-1",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "PowerPoint is mainly used for:",
+      "options": [
+        "Word processing",
+        "Creating presentations",
+        "Database management",
+        "Programming"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-2",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "What is the default file extension for PowerPoint presentations?",
+      "options": [".pptx", ".docx", ".xlsx", ".ppj"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-3",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which key starts the slideshow from the beginning?",
+      "options": ["F5", "F2", "Ctrl + S", "Shift + F5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-4",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which view displays all slides as thumbnails?",
+      "options": [
+        "Slide Sorter View",
+        "Reading View",
+        "Outline View",
+        "Notes Page View"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-5",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature allows text to appear letter-by-letter?",
+      "options": ["Slide Transition", "Animation", "Motion Path", "Morph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-6",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Where do you insert a new slide?",
+      "options": [
+        "Insert → New Slide",
+        "File → Add",
+        "Design → Slide",
+        "View → New"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-7",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which shortcut duplicates a slide?",
+      "options": ["Ctrl + D", "Ctrl + P", "Ctrl + Shift + V", "Ctrl + Alt + D"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-8",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "What is a placeholder?",
+      "options": [
+        "A text style",
+        "A preformatted container for content",
+        "A slide transition",
+        "A theme color"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-9",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which tab contains slide transitions?",
+      "options": ["Design", "Animations", "Transitions", "Slide Show"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-10",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature records narration and timings?",
+      "options": [
+        "Record Slide Show",
+        "Presenter View",
+        "Slide Master",
+        "Morph"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-11",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which view helps you write notes for presenters?",
+      "options": [
+        "Notes Page View",
+        "Outline View",
+        "Slide Sorter",
+        "Grid View"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-12",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which element controls global styles for the presentation?",
+      "options": [
+        "Design Templates",
+        "Slide Master",
+        "Animation Pane",
+        "Transition Pane"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-13",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which is NOT a slide layout?",
+      "options": ["Title Slide", "Two Content", "Comparison", "Master Table"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "POWERPOINT-14",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which menu allows you to insert charts?",
+      "options": ["Home", "Insert", "View", "Review"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-15",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which key starts slideshow from the current slide?",
+      "options": ["Shift + F5", "F5", "Ctrl + F5", "Alt + S"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-16",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "PowerPoint belongs to which software suite?",
+      "options": ["Adobe", "Microsoft Office", "Google Tools", "Oracle"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-17",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which file format supports editable PowerPoint?",
+      "options": [".pdf", ".pptx", ".jpg", ".mp4"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-18",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature converts bullet points to SmartArt?",
+      "options": [
+        "Design Ideas",
+        "Smart Graphics",
+        "Convert to SmartArt",
+        "Shape Tool"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-19",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "What is the purpose of the Animation Pane?",
+      "options": [
+        "Preview animations",
+        "Record presentation",
+        "Zoom slides",
+        "Change layout"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-20",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature removes the background of an image?",
+      "options": [
+        "Crop Tool",
+        "Remove Background",
+        "Picture Styles",
+        "Compress Picture"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-21",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which file type exports a slide as an image?",
+      "options": ["JPG", "PPT", "DOCX", "XLS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-22",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which option helps align objects evenly?",
+      "options": ["Gridlines", "Align Tool", "Layout Tool", "Sort Tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-23",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Where do you change slide size?",
+      "options": [
+        "View → Resize",
+        "File → Page Setup",
+        "Design → Slide Size",
+        "Insert → Slide"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-24",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which format is used for PowerPoint templates?",
+      "options": [".pptt", ".pptm", ".potx", ".ppx"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-25",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which transition is smooth and modern?",
+      "options": ["Wipe", "Morph", "Cut", "Push"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-26",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which key deletes a slide?",
+      "options": [
+        "Ctrl + Delete",
+        "Delete",
+        "Backspace only",
+        "Shift + Delete"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-27",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature adds movement to slide objects?",
+      "options": ["Transitions", "Animations", "Themes", "Placeholders"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-28",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Presenter View displays:",
+      "options": [
+        "Only slides",
+        "Slides, notes, and timer",
+        "Audience comments",
+        "Thumbnails only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-29",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which tab is used to add audio?",
+      "options": ["Insert", "Design", "Review", "Transitions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-30",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature automatically suggests slide designs?",
+      "options": ["SmartArt", "Design Ideas", "Format Painter", "Clipboard"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-31",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "PowerPoint saves auto-recovery information every ________________:",
+      "options": ["1 minute", "5 minutes", "10 minutes", "15 minutes"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-32",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which shape tool creates arrows?",
+      "options": ["Callout", "Block Arrows", "Flowchart", "Stars"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-33",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which view helps rearrange slides easily?",
+      "options": [
+        "Outline View",
+        "Slide Sorter View",
+        "Notes View",
+        "Reading View"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-34",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "What is the shortcut for a new slide?",
+      "options": ["Ctrl + N", "Ctrl + M", "Ctrl + Shift + N", "Alt + M"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-35",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which menu controls text formatting?",
+      "options": ["Home", "Insert", "Review", "View"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-36",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "What does Slide Master control?",
+      "options": [
+        "Only one slide",
+        "All slides in the presentation",
+        "Audio settings",
+        "Zoom settings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-37",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which option compresses media?",
+      "options": [
+        "File → Compress Media",
+        "View → Media Tools",
+        "Design → Compress",
+        "Insert → Media"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-38",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "PowerPoint is best described as:",
+      "options": [
+        "Spreadsheet software",
+        "Presentation software",
+        "Photo editing software",
+        "Web development tool"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-39",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which feature repeats formatting?",
+      "options": [
+        "Copy Style",
+        "Format Painter",
+        "Duplicate Formatting",
+        "Style Reset"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-40",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which element is NOT part of a slide theme?",
+      "options": ["Font", "Color", "Layout", "Chart Data"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "POWERPOINT-41",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which import option inserts a video?",
+      "options": [
+        "Insert → Media → Video",
+        "Design → Video",
+        "Format → Insert Video",
+        "Home → Upload"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-42",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Slide transitions are applied to:",
+      "options": ["Objects", "Text only", "Entire slides", "Notes"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-43",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which view is used for printing handouts?",
+      "options": ["Reading View", "Notes Page", "Handout Master", "Slide Show"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "POWERPOINT-44",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which tool helps align text boxes?",
+      "options": ["SmartArt", "Align Tool", "Format Painter", "Design Ideas"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-45",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which option protects a presentation?",
+      "options": [
+        "Review → Protect Presentation",
+        "Insert → Secure",
+        "Home → Lock",
+        "View → Protection"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-46",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which file exports video?",
+      "options": [".mp4", ".docx", ".pptx", ".xls"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-47",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which animation makes text appear from above?",
+      "options": ["Fly In", "Fade", "Zoom", "Bounce"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-48",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "What does the Rehearse Timings feature do?",
+      "options": [
+        "Checks grammar",
+        "Times slide transitions",
+        "Edits speaker notes",
+        "Creates duplicates"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "POWERPOINT-49",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which option inserts tables?",
+      "options": [
+        "Insert → Table",
+        "Design → Table",
+        "Home → Insert Table",
+        "View → Tables"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "POWERPOINT-50",
+      "language": "powerpoint",
+      "type": "mcq",
+      "title": "Which shortcut opens the print dialog?",
+      "options": ["Ctrl + P", "Ctrl + Shift + P", "Ctrl + O", "Alt + P"],
+      "correctAnswer": 0
+    }
+  ]
+}

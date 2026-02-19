@@ -1,0 +1,405 @@
+{
+  "category": "FoxPro",
+  "questions": [
+    {
+      "id": "fp1",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "What is FoxPro primarily used for?",
+      "options": ["Web development", "Database management", "Game development", "Operating systems"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp2",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which company developed FoxPro?",
+      "options": ["IBM", "Oracle", "Microsoft", "Sun Microsystems"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp3",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "What file extension is used for FoxPro tables?",
+      "options": [".txt", ".dbf", ".sql", ".mdb"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp4",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command opens a database table in FoxPro?",
+      "options": ["OPEN TABLE", "USE", "SELECT", "LOAD"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp5",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command closes all open tables?",
+      "options": ["CLOSE ALL", "CLEAR", "RELEASE", "QUIT"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp6",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "What command is used to create a table?",
+      "options": ["MAKE TABLE", "CREATE TABLE", "NEW TABLE", "BUILD TABLE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp7",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which data type stores character data?",
+      "options": ["Numeric", "Logical", "Character", "Date"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp8",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which logical values are used in FoxPro?",
+      "options": ["YES/NO", "TRUE/FALSE", "1/0", ".T. /.F."],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fp9",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "What command displays records from a table?",
+      "options": ["SHOW", "DISPLAY", "LIST", "VIEW"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp10",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command is used to add a new record?",
+      "options": ["ADD", "INSERT", "APPEND", "NEW"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp11",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command deletes the current record?",
+      "options": ["REMOVE", "DELETE", "ERASE", "DROP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp12",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command permanently removes deleted records?",
+      "options": ["DELETE", "ERASE", "PACK", "ZAP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp13",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command removes all records from a table?",
+      "options": ["CLEAR", "DELETE ALL", "ZAP", "REMOVE ALL"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp14",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command is used to edit data?",
+      "options": ["MODIFY", "EDIT", "CHANGE", "ALTER"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp15",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which index file extension is used in FoxPro?",
+      "options": [".idx", ".ind", ".ndx", ".key"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp16",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command creates an index?",
+      "options": ["MAKE INDEX", "BUILD INDEX", "INDEX ON", "CREATE KEY"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp17",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command selects a work area?",
+      "options": ["USE", "SELECT", "WORK", "SET"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp18",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "What does SET DELETED ON do?",
+      "options": ["Deletes records", "Hides deleted records", "Removes database", "Closes table"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp19",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command is used to sort records?",
+      "options": ["ARRANGE", "SORT", "ORDER", "FILTER"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp20",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command filters records?",
+      "options": ["WHERE", "SET FILTER", "SEARCH", "QUERY"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp21",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command is used to find a record?",
+      "options": ["LOOKUP", "SEARCH", "LOCATE", "FIND"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp22",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which keyword repeats the last LOCATE search?",
+      "options": ["NEXT", "CONTINUE", "AGAIN", "REPEAT"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp23",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command releases memory variables?",
+      "options": ["CLEAR", "FREE", "RELEASE", "REMOVE"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp24",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command exits FoxPro?",
+      "options": ["END", "STOP", "QUIT", "EXIT"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp25",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command creates a form?",
+      "options": ["BUILD FORM", "CREATE FORM", "MAKE FORM", "NEW FORM"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp26",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command runs a program file?",
+      "options": ["EXECUTE", "RUN", "DO", "START"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp27",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "What file extension is used for FoxPro programs?",
+      "options": [".exe", ".prg", ".bat", ".cmd"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp28",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which symbol denotes comments?",
+      "options": ["//", "/* */", "*", "#"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp29",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command pauses execution?",
+      "options": ["WAIT", "PAUSE", "STOP", "HOLD"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp30",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command clears the screen?",
+      "options": ["CLS", "CLEAR", "ERASE", "RESET"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp31",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which function returns system date?",
+      "options": ["DATE()", "TODAY()", "NOW()", "SYSDATE()"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp32",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which function converts numeric to character?",
+      "options": ["STR()", "VAL()", "CHR()", "NUM()"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp33",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which function converts character to numeric?",
+      "options": ["STR()", "NUM()", "VAL()", "INT()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp34",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which operator is used for string concatenation?",
+      "options": ["+", "&", ".", ","],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp35",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command defines a variable?",
+      "options": ["VAR", "DIMENSION", "LOCAL", "DEFINE"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp36",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which keyword declares a private variable?",
+      "options": ["PRIVATE", "LOCAL", "PUBLIC", "STATIC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp37",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command opens a database container?",
+      "options": ["OPEN DATABASE", "USE DATABASE", "SET DATABASE", "SELECT ALL"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp38",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which clause is used in SELECT-SQL?",
+      "options": ["FROM", "WHERE", "ORDER BY", "All of these"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fp39",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command copies table structure?",
+      "options": ["COPY STRUCTURE", "CLONE", "DUPLICATE", "STRUCT"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp40",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command renames a table?",
+      "options": ["RENAME", "MOVE", "CHANGE", "ALTER"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp41",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which function returns record count?",
+      "options": ["COUNT()", "RECCOUNT()", "TOTAL()", "ROWS()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp42",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command positions pointer at first record?",
+      "options": ["FIRST", "TOP", "GO TOP", "START"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp43",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command positions pointer at last record?",
+      "options": ["END", "BOTTOM", "GO BOTTOM", "LAST"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp44",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which keyword creates a loop?",
+      "options": ["FOR", "WHILE", "DO WHILE", "All of these"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fp45",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which statement ends a loop?",
+      "options": ["EXIT", "BREAK", "ENDDO", "STOP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fp46",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command displays structure of table?",
+      "options": ["DISPLAY STRUCTURE", "SHOW STRUCTURE", "LIST STRUCTURE", "VIEW STRUCTURE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fp47",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command saves changes to disk?",
+      "options": ["SAVE", "COMMIT", "FLUSH", "WRITE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp48",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which keyword defines conditional execution?",
+      "options": ["IF", "CASE", "DO CASE", "All of these"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fp49",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which command hides command output in FoxPro?",
+      "options": ["HIDE", "SET TALK OFF", "SET STATUS OFF", "CLEAR"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fp50",
+      "language": "foxpro",
+      "type": "mcq",
+      "title": "Which FoxPro version introduced object-oriented programming?",
+      "options": ["FoxPro 2.0", "Visual FoxPro 3.0", "FoxPro 1.0", "Visual FoxPro 9.0"],
+      "correctAnswer": 1
+    }
+  ]
+}

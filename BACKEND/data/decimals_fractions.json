@@ -1,0 +1,655 @@
+{
+  "category": "Decimals & Fractions",
+  "questions": [
+    {
+      "id": "dfh1",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (25/4 - 25/20) \u00f7 9",
+      "options": [
+        "1.056",
+        "0.556",
+        "0.806",
+        "0.056"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (20/25 - 7/20) \u00f7 9",
+      "options": [
+        "2.05",
+        "-0.95",
+        "0.3",
+        "0.05"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 6/100 \u00d7 (23/100 + 1/25)",
+      "options": [
+        "0.266",
+        "-0.484",
+        "0.016",
+        "1.016"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5/8 + 2/50) \u00d7 4",
+      "options": [
+        "3.66",
+        "2.66",
+        "3.16",
+        "1.66"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (11/8 + 2/50) \u00f7 (3/20)",
+      "options": [
+        "9.433",
+        "11.433",
+        "9.683",
+        "10.433"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 16/5 \u00d7 (6/2 + 4/10)",
+      "options": [
+        "10.88",
+        "11.13",
+        "9.88",
+        "11.38"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3/10 + 20/100) \u00f7 (2/2)",
+      "options": [
+        "0.5",
+        "2.5",
+        "1.5",
+        "-0.5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (21/8 + 13/5) \u00d7 5",
+      "options": [
+        "25.125",
+        "26.375",
+        "26.125",
+        "26.625"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 23/40 \u00d7 (13/100 + 4/25)",
+      "options": [
+        "0.167",
+        "-0.333",
+        "0.417",
+        "0.667"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (13/25 + 23/100) \u00f7 (2/8)",
+      "options": [
+        "2.5",
+        "3.0",
+        "3.25",
+        "5.0"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 16/5 \u00d7 (20/5 + 4/50)",
+      "options": [
+        "12.556",
+        "13.056",
+        "12.056",
+        "14.056"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 20/4 \u00d7 (12/4 + 3/20)",
+      "options": [
+        "16.75",
+        "17.75",
+        "15.75",
+        "16.0"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 11/8 \u00d7 (6/2 + 3/2)",
+      "options": [
+        "6.188",
+        "7.188",
+        "5.188",
+        "6.438"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 4/100 \u00d7 (24/4 + 5/8)",
+      "options": [
+        "2.265",
+        "0.265",
+        "-0.235",
+        "0.515"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (16/2 + 24/25) \u00d7 9",
+      "options": [
+        "80.64",
+        "80.89",
+        "81.64",
+        "80.14"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2/40 - 10/16) \u00f7 8",
+      "options": [
+        "0.428",
+        "0.178",
+        "-0.072",
+        "1.928"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (19/2 - 16/100) \u00f7 6",
+      "options": [
+        "1.057",
+        "3.557",
+        "1.557",
+        "2.557"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 9/4 \u00d7 (9/25 + 5/16)",
+      "options": [
+        "1.013",
+        "3.513",
+        "2.513",
+        "1.513"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (19/10 + 25/5) \u00d7 6",
+      "options": [
+        "43.4",
+        "41.9",
+        "41.4",
+        "42.4"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (18/16 + 4/8) \u00f7 (1/4)",
+      "options": [
+        "6.0",
+        "6.75",
+        "5.5",
+        "6.5"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (5/2 + 16/10) \u00d7 7",
+      "options": [
+        "29.7",
+        "28.2",
+        "28.95",
+        "28.7"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6/10 + 9/2) \u00d7 8",
+      "options": [
+        "40.8",
+        "39.8",
+        "41.8",
+        "42.8"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (8/25 + 23/4) \u00d7 7",
+      "options": [
+        "42.49",
+        "44.49",
+        "41.99",
+        "42.99"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (3/4 + 20/10) \u00f7 (5/5)",
+      "options": [
+        "3.0",
+        "2.75",
+        "3.75",
+        "3.25"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (16/16 + 6/20) \u00d7 5",
+      "options": [
+        "7.5",
+        "6.75",
+        "5.5",
+        "6.5"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (21/5 - 11/100) \u00f7 8",
+      "options": [
+        "0.511",
+        "2.511",
+        "0.761",
+        "1.511"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh27",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (17/8 - 25/20) \u00f7 4",
+      "options": [
+        "0.469",
+        "-0.781",
+        "0.719",
+        "0.219"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (15/8 + 3/2) \u00d7 2",
+      "options": [
+        "5.75",
+        "8.75",
+        "7.75",
+        "6.75"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (13/20 + 10/5) \u00d7 7",
+      "options": [
+        "18.8",
+        "19.05",
+        "17.55",
+        "18.55"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 16/16 \u00d7 (10/10 + 1/25)",
+      "options": [
+        "1.29",
+        "1.04",
+        "3.04",
+        "1.54"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (12/50 + 8/2) \u00f7 (4/5)",
+      "options": [
+        "4.8",
+        "5.3",
+        "5.8",
+        "7.3"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (20/100 + 8/100) \u00d7 3",
+      "options": [
+        "1.84",
+        "-0.16",
+        "0.84",
+        "0.34"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (18/50 - 23/100) \u00f7 3",
+      "options": [
+        "0.543",
+        "0.043",
+        "1.043",
+        "-0.457"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 5/25 \u00d7 (19/20 + 3/50)",
+      "options": [
+        "-0.298",
+        "0.452",
+        "0.202",
+        "2.202"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (11/8 + 1/2) \u00f7 (3/20)",
+      "options": [
+        "13.0",
+        "12.5",
+        "13.5",
+        "12.75"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh36",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (20/10 - 10/8) \u00f7 9",
+      "options": [
+        "0.083",
+        "-0.917",
+        "-0.417",
+        "2.083"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh37",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 25/40 \u00d7 (5/10 + 5/40)",
+      "options": [
+        "-0.109",
+        "-0.609",
+        "0.891",
+        "0.391"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 21/40 \u00d7 (8/25 + 3/10)",
+      "options": [
+        "0.326",
+        "0.826",
+        "-0.174",
+        "0.576"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh39",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 1/2 \u00d7 (21/8 + 1/16)",
+      "options": [
+        "0.344",
+        "1.344",
+        "3.344",
+        "0.844"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (13/25 + 24/40) \u00d7 9",
+      "options": [
+        "11.08",
+        "10.08",
+        "9.08",
+        "9.58"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh41",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 7/2 \u00d7 (13/20 + 2/5)",
+      "options": [
+        "3.675",
+        "4.675",
+        "2.675",
+        "3.175"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (6/16 - 19/20) \u00f7 6",
+      "options": [
+        "-0.596",
+        "0.904",
+        "0.404",
+        "-0.096"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh43",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (21/100 + 18/20) \u00d7 9",
+      "options": [
+        "10.24",
+        "10.49",
+        "9.99",
+        "8.99"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (4/25 + 12/25) \u00f7 (3/5)",
+      "options": [
+        "1.567",
+        "1.067",
+        "1.317",
+        "0.567"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 6/25 \u00d7 (10/100 + 4/25)",
+      "options": [
+        "0.562",
+        "-0.938",
+        "0.312",
+        "0.062"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "dfh46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: 18/2 \u00d7 (20/100 + 1/4)",
+      "options": [
+        "3.05",
+        "4.05",
+        "6.05",
+        "4.55"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (16/100 + 21/5) \u00f7 (5/16)",
+      "options": [
+        "15.952",
+        "14.202",
+        "13.952",
+        "14.452"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "dfh48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (2/40 + 22/5) \u00f7 (1/5)",
+      "options": [
+        "23.25",
+        "22.25",
+        "21.25",
+        "21.75"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "dfh49",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (17/8 - 8/5) \u00f7 6",
+      "options": [
+        "0.087",
+        "1.087",
+        "2.087",
+        "-0.913"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "dfh50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Simplify: (10/100 - 18/40) \u00f7 6",
+      "options": [
+        "0.192",
+        "0.942",
+        "-0.558",
+        "-0.058"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

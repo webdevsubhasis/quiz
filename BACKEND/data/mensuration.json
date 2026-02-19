@@ -1,0 +1,409 @@
+{
+  "category": "Mensuration",
+  "questions": [
+    {
+      "id": "men1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A cube of side 6 cm is melted to form smaller cubes of side 2 cm. Number of cubes formed?",
+      "options": ["27", "18", "9", "36"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men2",
+      "language": "math",
+      "type": "mcq",
+      "title": "Volume of sphere radius 7 cm (π=22/7)?",
+      "options": ["1437.33", "1436", "1440", "1450"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cylinder radius doubles, height halves. Volume becomes",
+      "options": ["Same", "Double", "Half", "4 times"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men4",
+      "language": "math",
+      "type": "mcq",
+      "title": "Area of square inscribed in circle radius 7 cm?",
+      "options": ["98", "49", "196", "154"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two cubes ratio sides 2:3. Ratio volumes?",
+      "options": ["8:27", "4:9", "2:3", "16:81"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men6",
+      "language": "math",
+      "type": "mcq",
+      "title": "Surface area cube side 5 cm?",
+      "options": ["100", "125", "150", "175"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cone and cylinder same radius and height. Volume ratio?",
+      "options": ["1:3", "3:1", "1:2", "2:3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Length diagonal cube side 4 cm?",
+      "options": ["4√2", "8", "4√3", "6√2"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men9",
+      "language": "math",
+      "type": "mcq",
+      "title": "Water level rises 2 cm when cube 3 cm side immersed. Tank base area?",
+      "options": ["13.5", "9", "4.5", "18"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Circumference circle 44 cm. Radius?",
+      "options": ["17", "14", "3.5", "7"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "men11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cube painted all sides cut into 27 cubes. Cubes with 2 faces painted?",
+      "options": ["12", "8", "6", "4"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Area of equilateral triangle side 4√3?",
+      "options": ["2√3", "24", "48", "12√3"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men13",
+      "language": "math",
+      "type": "mcq",
+      "title": "If radius sphere triples, volume becomes",
+      "options": ["72 times", "9 times", "3 times", "27 times"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "men14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Path 1 m wide around square garden side 10 m. Area of path?",
+      "options": ["40", "44", "36", "48"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Curved surface area cylinder r=3,h=7?",
+      "options": ["132", "66", "198", "154"],
+      "correctAnswer": 0
+    },
+   
+    {
+      "id": "men16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sphere radius 3 cm melted into cylinders radius 1 cm height 3 cm. Number formed?",
+      "options": ["22", "9", "12", "6"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Volume cube equals cylinder r=2,h=7. Find cube side.",
+      "options": ["∛(88)", "4", "5", "6"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Area circle = area square side 14. Circle radius?",
+      "options": ["7√(14/π)", "7", "14/√π", "28"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cone height doubles radius halves. Volume becomes",
+      "options": ["Half", "Same", "Double", "Quarter"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solid sphere volume equals cube side 6. Sphere radius?",
+      "options": ["≈3.7", "3", "4", "5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men21",
+      "language": "math",
+      "type": "mcq",
+      "title": "Metal cube melted to sphere radius 3. Original cube side?",
+      "options": ["≈4.83", "6", "9", "5"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men22",
+      "language": "math",
+      "type": "mcq",
+      "title": "Hollow sphere outer 5 inner 4. Volume metal?",
+      "options": ["≈381", "≈113", "≈500", "≈250"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Rectangle 20×14 inscribed circle radius?",
+      "options": ["70", "7", "14", "3.5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Surface area cube increases 44%. Side increases",
+      "options": ["20%", "44%", "10%", "22%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men25",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sphere volume equals cylinder r=3,h=8. Sphere radius?",
+      "options": ["≈4", "3", "5", "6"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men26",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cube painted cut into 64 cubes. Cubes 3 faces painted?",
+      "options": ["6", "12", "8", "4"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men27",
+      "language": "math",
+      "type": "mcq",
+      "title": "CSA cone r=7,l=25?",
+      "options": ["555", "275", "1100", "550"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "men28",
+      "language": "math",
+      "type": "mcq",
+      "title": "Water tank cube 5m. Sphere radius 1m dropped. Rise in level?",
+      "options": ["≈0.033m", "0.02m", "0.05m", "0.01m"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men29",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio areas two circles radii 2:5",
+      "options": ["2:25", "2:5", "4:25", "8:25"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men30",
+      "language": "math",
+      "type": "mcq",
+      "title": "Height equilateral triangle side 8?",
+      "options": ["4√3", "8√3", "2√3", "6√3"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men31",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cylinder volume doubles when height doubled and radius becomes",
+      "options": ["1/√2 times", "Half", "Double", "√2 times"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men32",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cube diagonal 6√3. Side?",
+      "options": ["9", "3", "6", "12"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men33",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cone frustum r1=3,r2=5,h=4 volume?",
+      "options": ["≈268", "≈200", "≈314", "≈150"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men34",
+      "language": "math",
+      "type": "mcq",
+      "title": "Ratio volumes similar solids scale 3:4",
+      "options": ["27:64", "9:16", "3:4", "81:256"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men35",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sphere area 154 cm² radius?",
+      "options": ["35", "7", "14", "3.5"],
+      "correctAnswer": 3
+    },
+   
+    {
+      "id": "men36",
+      "language": "math",
+      "type": "mcq",
+      "title": "A solid cone and hemisphere have same radius 7 cm and same volume. Height of cone?",
+      "options": ["14 cm", "21 cm", "10.5 cm", "7 cm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men37",
+      "language": "math",
+      "type": "mcq",
+      "title": "A cube of side 6 cm is melted to form a cylinder radius 3 cm. Height of cylinder?",
+      "options": ["18/π cm", "6 cm", "4 cm", "8/π cm"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "men38",
+      "language": "math",
+      "type": "mcq",
+      "title": "Metal sphere radius 4 cm melted into smaller spheres radius 2 cm. Number formed?",
+      "options": ["8", "4", "6", "16"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men39",
+      "language": "math",
+      "type": "mcq",
+      "title": "A cylindrical tank radius 7 m filled to height 4 m. How much water to raise level by 1 m?",
+      "options": ["54π m³", "154π m³", "308π m³", "77π m³"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men40",
+      "language": "math",
+      "type": "mcq",
+      "title": "Surface area of sphere equals curved surface of cylinder (same radius). Ratio height to radius?",
+      "options": ["2:1", "1:1", "4:1", "1:2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men41",
+      "language": "math",
+      "type": "mcq",
+      "title": "A cube diagonal 10√3 cm. Volume?",
+      "options": ["100 cm³", "1000 cm³", "125 cm³", "343 cm³"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men42",
+      "language": "math",
+      "type": "mcq",
+      "title": "Hollow cylinder outer radius 5 inner radius 3 height 7. Volume metal?",
+      "options": ["224π", "154π", "196π", "112π"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men43",
+      "language": "math",
+      "type": "mcq",
+      "title": "A sphere volume equals cone (same radius). Height of cone?",
+      "options": ["4r/3", "2r", "3r/2", "r"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "men44",
+      "language": "math",
+      "type": "mcq",
+      "title": "Solid hemisphere radius 7 cm. Total surface area?",
+      "options": ["462π", "294π", "308π", "196π"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men45",
+      "language": "math",
+      "type": "mcq",
+      "title": "Water flows into cubical tank side 10 m at 5 m³/min. Time to fill?",
+      "options": ["200 min", "100 min", "50 min", "500 min"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men46",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sphere radius doubled. Surface area increases by",
+      "options": ["4 times", "2 times", "8 times", "3 times"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men47",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cylinder volume constant, height halved. Radius becomes",
+      "options": ["√3 times", "2 times", "Half", "√2 times"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "men48",
+      "language": "math",
+      "type": "mcq",
+      "title": "Cone height increased 3 times radius doubled. Volume becomes",
+      "options": ["12 times", "6 times", "3 times", "9 times"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "men49",
+      "language": "math",
+      "type": "mcq",
+      "title": "A solid cube melted to 27 identical smaller cubes. Side ratio?",
+      "options": ["9:1", "1:3", "3:1", "1:9"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "men50",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sphere volume equals cylinder radius same and height 6r. Ratio sphere:cylinder?",
+      "options": ["2:9", "1:3", "3:2", "1:2"],
+      "correctAnswer": 0
+    }
+  ]
+}
+
+  

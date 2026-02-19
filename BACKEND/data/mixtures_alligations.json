@@ -1,0 +1,406 @@
+{
+  "category": "Mixtures & Alligations",
+  "questions": [
+    {
+      "id": "ma1",
+      "language": "math",
+      "type": "mcq",
+      "title": "In what ratio must rice costing ₹48/kg be mixed with rice costing ₹72/kg to get a mixture costing ₹60/kg?",
+      "options": ["1:1", "2:1", "3:1", "1:2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma2",
+      "language": "math",
+      "type": "mcq",
+      "title": "A 40L mixture contains milk and water in ratio 7:3. How much water should be added to make ratio 7:5?",
+      "options": ["10L", "8L", "6L", "12L"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma3",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk at ₹32/L mixed with water. Sold at ₹32/L gives 20% profit. Find ratio milk:water.",
+      "options": ["5:1", "6:1", "4:1", "3:1"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma4",
+      "language": "math",
+      "type": "mcq",
+      "title": "In a 60L mixture, 12L removed and replaced with water. Ratio becomes 3:2. Original milk quantity?",
+      "options": ["36L", "40L", "45L", "48L"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma5",
+      "language": "math",
+      "type": "mcq",
+      "title": "Tea worth ₹120/kg and ₹150/kg mixed to get ₹135/kg. Ratio?",
+      "options": ["1:4", "2:2", "3:2", "4:3"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma6",
+      "language": "math",
+      "type": "mcq",
+      "title": "20L milk, 5L removed and replaced with water thrice. Remaining milk?",
+      "options": ["8.59L", "9.22L", "10L", "7.81L"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma7",
+      "language": "math",
+      "type": "mcq",
+      "title": "Alcohol 30% in 50L solution. How much water add to make 20%?",
+      "options": ["25.5L", "20L", "30L", "25L"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma8",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two alloys: 40% copper and 60% copper. Mix to get 50% copper. Ratio?",
+      "options": ["1:4", "3:2", "3:3", "4:1"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma9",
+      "language": "math",
+      "type": "mcq",
+      "title": "A container has 80L mixture 5:3 milk:water. How much water add to make 1:1?",
+      "options": ["20L", "30L", "25L", "40L"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma10",
+      "language": "math",
+      "type": "mcq",
+      "title": "Sugar solution 25% in 80kg. How much sugar add to make 40%?",
+      "options": ["40kg", "16kg", "18kg", "20kg"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Rice A ₹60/kg and B ₹80/kg. Mix 20kg A & 30kg B. Mean price?",
+      "options": ["72", "70", "68", "75"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma12",
+      "language": "math",
+      "type": "mcq",
+      "title": "30L mixture 2:1 milk:water. How much water add to make 1:2?",
+      "options": ["30L", "45L", "20L", "40L"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Mixture worth ₹100/kg sold ₹120/kg gives 25% profit. Water percentage?",
+      "options": ["20%", "25%", "16.67%", "33.33%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma14",
+      "language": "math",
+      "type": "mcq",
+      "title": "15L alcohol 40% add water to make 25%. Water added?",
+      "options": ["19L", "10L", "8L", "9L"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Gold 18K mixed with 24K to make 21K. Ratio?",
+      "options": ["1:1", "2:1", "1:2", "3:1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma16",
+      "language": "math",
+      "type": "mcq",
+      "title": "40L mixture, 25% water. How much water remove to make 20%?",
+      "options": ["5L", "8L", "10L", "6L"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "ma17",
+      "language": "math",
+      "type": "mcq",
+      "title": "₹50/kg and ₹70/kg rice mixed to get ₹60/kg. Ratio?",
+      "options": ["1:1", "2:1", "1:2", "3:2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk sold at cost price after adding 25% water. Profit?",
+      "options": ["25%", "20%", "33.33%", "30%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma19",
+      "language": "math",
+      "type": "mcq",
+      "title": "60L solution 20% acid. Add water to make 15%. Water added?",
+      "options": ["10L", "15L", "25L", "20L"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "ma20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Two sugar solutions 10% & 30%. Mix equal qty. Result?",
+      "options": ["30%", "25%", "20%", "22%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma21",
+      "language": "math",
+      "type": "mcq",
+      "title": "A man mixes 80kg wheat ₹20/kg with 40kg ₹30/kg. Mean price?",
+      "options": ["23.33", "24", "22.5", "25"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma22",
+      "language": "math",
+      "type": "mcq",
+      "title": "25% alcohol solution 80L. Remove 20L & add water. % alcohol?",
+      "options": ["18.25%", "20%", "18.75%", "15%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma23",
+      "language": "math",
+      "type": "mcq",
+      "title": "Milk water 3:1. Add 8L water makes 1:1. Initial milk?",
+      "options": ["6L", "24L", "16L", "18L"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "ma24",
+      "language": "math",
+      "type": "mcq",
+      "title": "Tea ₹200/kg mixed with ₹300/kg to make ₹240/kg. Ratio?",
+      "options": ["3:2", "2:3", "1:2", "2:1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "ma25",
+      "language": "math",
+      "type": "mcq",
+      "title": "20% salt in 40kg solution. Add water to make 10%. Water?",
+      "options": ["20kg", "30kg", "40kg", "50kg"],
+      "correctAnswer": 2
+    },
+
+  {
+    "id": "ma26",
+    "language": "math",
+    "type": "mcq",
+    "title": "40L mixture contains milk and water in ratio 3:2. 8L mixture removed and replaced with water. New ratio?",
+    "options": ["21:19", "3:2", "5:4", "4:3"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma27",
+    "language": "math",
+    "type": "mcq",
+    "title": "A container full of milk. 10% removed and replaced with water twice. Milk remaining percentage?",
+    "options": ["88%", "80%", "81%", "79%"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ma28",
+    "language": "math",
+    "type": "mcq",
+    "title": "Acid 60% in 30L solution. How much water add to make 40%?",
+    "options": ["25L", "20L", "10L", "15L"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ma29",
+    "language": "math",
+    "type": "mcq",
+    "title": "Rice ₹40/kg and ₹64/kg mixed in 5:3 ratio. Mean price?",
+    "options": ["52", "49", "50", "48"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ma30",
+    "language": "math",
+    "type": "mcq",
+    "title": "Milk adulterated with 20% water and sold at cost price. Profit?",
+    "options": ["25%", "20%", "18%", "30%"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma31",
+    "language": "math",
+    "type": "mcq",
+    "title": "60L mixture 4:1 milk:water. How much water add to make 1:1?",
+    "options": ["66L", "40L", "36L", "24L"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ma32",
+    "language": "math",
+    "type": "mcq",
+    "title": "Successively 20% then 25% of mixture removed. Remaining fraction?",
+    "options": ["3/5", "2/5", "1/2", "4/5"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma33",
+    "language": "math",
+    "type": "mcq",
+    "title": "Gold 22K and 18K mixed to get 20K. Ratio?",
+    "options": ["5:1", "2:1", "3:2", "4:4"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ma34",
+    "language": "math",
+    "type": "mcq",
+    "title": "Sugar 30% in 50kg solution. Add 10kg sugar. New percentage?",
+    "options": ["41.67%", "40%", "38%", "42%"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma35",
+    "language": "math",
+    "type": "mcq",
+    "title": "Alcohol solution 25L, 40% alcohol. Remove 5L and add water. New % alcohol?",
+    "options": ["32%", "30%", "35%", "28%"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma36",
+    "language": "math",
+    "type": "mcq",
+    "title": "Tea ₹120/kg mixed with ₹180/kg to get ₹150/kg. Ratio?",
+    "options": ["5:1", "1:1", "3:1", "1:2"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ma37",
+    "language": "math",
+    "type": "mcq",
+    "title": "A vessel contains 100L. 20L removed and replaced 3 times. Remaining fraction?",
+    "options": ["0.512", "0.64", "0.729", "0.8"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma38",
+    "language": "math",
+    "type": "mcq",
+    "title": "Acid solutions 20% & 50% mixed equal quantities. Result?",
+    "options": ["15%", "30%", "40%", "35%"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ma39",
+    "language": "math",
+    "type": "mcq",
+    "title": "A mixture sold 20% above cost. 25% water added. Profit?",
+    "options": ["50%", "40%", "45%", "44%"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma40",
+    "language": "math",
+    "type": "mcq",
+    "title": "60L milk. 12L replaced with water twice. Milk left?",
+    "options": ["38.4L", "36L", "34.8", "42L"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma41",
+    "language": "math",
+    "type": "mcq",
+    "title": "Rice ₹25/kg and ₹35/kg mixed to get ₹30/kg. Ratio?",
+    "options": ["1:1", "3:2", "2:1", "4:1"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma42",
+    "language": "math",
+    "type": "mcq",
+    "title": "40% alcohol in 80L solution. Add water to make 25%. Water added?",
+    "options": ["68L", "48L", "50L", "32L"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ma43",
+    "language": "math",
+    "type": "mcq",
+    "title": "Mixture contains 30% water. Remove 20% mixture. New water %?",
+    "options": ["30%", "24%", "20%", "36%"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma44",
+    "language": "math",
+    "type": "mcq",
+    "title": "Tea ₹400/kg & ₹500/kg mixed 3:2. Mean price?",
+    "options": ["440", "450", "460", "420"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma45",
+    "language": "math",
+    "type": "mcq",
+    "title": "Milk 20L. 4L removed and replaced 4 times. Milk left?",
+    "options": ["8.19L", "7.5L", "8.29L", "6.55L"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma46",
+    "language": "math",
+    "type": "mcq",
+    "title": "Sugar solution 15% mixed with 35% to get 25%. Ratio?",
+    "options": ["4:1", "2:1", "3:2", "2:2"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ma47",
+    "language": "math",
+    "type": "mcq",
+    "title": "Alloy 30% copper and 70% copper mixed 2:3. Copper %?",
+    "options": ["54%", "52%", "56%", "50%"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma48",
+    "language": "math",
+    "type": "mcq",
+    "title": "Container 90L, 30L replaced thrice. Remaining fraction?",
+    "options": ["8/27", "1/3", "1/9", "2/3"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ma49",
+    "language": "math",
+    "type": "mcq",
+    "title": "Mixture 25% alcohol. Add 20L water makes 20%. Initial quantity?",
+    "options": ["84L", "80L", "100L", "120L"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ma50",
+    "language": "math",
+    "type": "mcq",
+    "title": "Milk:Water = 5:3 in 64L. Add water to make 1:1. Water added?",
+    "options": ["36L", "20L", "24L", "16L"],
+    "correctAnswer": 3
+  }
+]
+}

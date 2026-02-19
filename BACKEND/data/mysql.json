@@ -1,0 +1,442 @@
+{
+  "category": "MYSQL",
+  "questions": [
+    {
+      "id": "mysql-1",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "MySQL is a ____ ?",
+      "options": [
+        "Programming Language",
+        "Operating System",
+        "Relational Database",
+        "Web Server"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-2",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL command retrieves data from a table?",
+      "options": ["GET", "SELECT", "FETCH", "RETRIEVE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-3",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which statement inserts new data?",
+      "options": ["INSERT INTO", "ADD", "PUT", "APPEND"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-4",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which clause filters rows?",
+      "options": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-5",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL keyword sorts result?",
+      "options": ["SORT", "ORDER BY", "ARRANGE", "GROUP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-6",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "What does CRUD stand for?",
+      "options": [
+        "Create Read Update Delete",
+        "Copy Run Update Delete",
+        "Create Run Upload Delete",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-7",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which operator performs pattern matching?",
+      "options": ["=", "LIKE", "IN", "MATCH"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-8",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which character is used for single-line comments?",
+      "options": ["#", "--", "/* */", "Either option 1 or 2"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "mysql-9",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL clause groups rows?",
+      "options": ["ORDER BY", "GROUP BY", "SORT", "MERGE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-10",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function returns number of rows?",
+      "options": ["SUM()", "COUNT()", "TOTAL()", "NUMBER()"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "mysql-11",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which command removes a table?",
+      "options": [
+        "DELETE TABLE",
+        "REMOVE TABLE",
+        "DROP TABLE",
+        "TRUNCATE TABLE"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-12",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function returns the current date?",
+      "options": ["DATE()", "NOW()", "CURDATE()", "TODAY()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-13",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which of these is a numeric data type?",
+      "options": ["VARCHAR", "INT", "TEXT", "DATE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-14",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which constraint ensures unique values?",
+      "options": ["PRIMARY KEY", "FOREIGN KEY", "CHECK", "DEFAULT"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-15",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which JOIN returns all matching rows?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-16",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "To remove all rows from a table but keep structure?",
+      "options": ["DELETE", "TRUNCATE", "DROP", "REMOVE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-17",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Foreign key is used to:",
+      "options": [
+        "Index performance",
+        "Link two tables",
+        "Encrypt data",
+        "Store metadata"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-18",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which engine is default in MySQL?",
+      "options": ["MyISAM", "InnoDB", "ISAM", "BerkeleyDB"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-19",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL keyword prevents duplicate output?",
+      "options": ["UNIQUE", "DISTINCT", "NODUP", "FILTER"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-20",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function returns the maximum value?",
+      "options": ["TOP()", "HIGH()", "MAX()", "LARGEST()"],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "mysql-21",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which operator selects values in a range?",
+      "options": ["IN", "BETWEEN", "LIKE", "RANGE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-22",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which statement modifies existing rows?",
+      "options": ["UPDATE", "INSERT", "ALTER", "CHANGE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-23",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL keyword renames a table?",
+      "options": ["CHANGE", "RENAME", "ALTER", "MODIFY"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-24",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL statement adds a new column?",
+      "options": ["MODIFY COLUMN", "CHANGE COLUMN", "ADD COLUMN", "NEW COLUMN"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-25",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which return type does COUNT(*) produce?",
+      "options": ["INT", "FLOAT", "DOUBLE", "TEXT"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "mysql-26",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which operator combines conditions?",
+      "options": ["AND / OR", "ADD / OR", "IF / ELSE", "JOIN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-27",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which constraint ensures NULL is NOT allowed?",
+      "options": ["NULLABLE", "NOT NULL", "CHECK", "DEFAULT"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-28",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which clause filters group results?",
+      "options": ["WHERE", "HAVING", "ORDER BY", "GROUP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-29",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function returns average?",
+      "options": ["AVERAGE()", "AVG()", "MEAN()", "COUNTAVG()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-30",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "What is the default port of MySQL?",
+      "options": ["3306", "8080", "1521", "1526"],
+      "correctAnswer": 0
+    },
+
+    {
+      "id": "mysql-31",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which index improves search speed?",
+      "options": ["PRIMARY KEY", "UNIQUE", "INDEX", "FOREIGN"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-32",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which statement creates a database?",
+      "options": ["MAKE DATABASE", "NEW DATABASE", "CREATE DATABASE", "ADD DATABASE"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-33",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL clause limits output?",
+      "options": ["STOP", "LIMIT", "MAX", "END"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-34",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which JOIN returns unmatched left rows?",
+      "options": ["RIGHT", "LEFT", "INNER", "CROSS"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-35",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which acronym refers to atomic transactions?",
+      "options": ["SOLID", "ACID", "SALT", "BASE"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "mysql-36",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which clause renames a column?",
+      "options": ["AS", "ALIAS", "RENAME", "MODIFY"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-37",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function concatenates strings?",
+      "options": ["MERGE()", "JOIN()", "CONCAT()", "TEXTCOMBINE()"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-38",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which command deletes database?",
+      "options": ["REMOVE DATABASE", "DROP DATABASE", "DELETE DATABASE", "CLEAR DATABASE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-39",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which statement copies table structure only?",
+      "options": ["CREATE TABLE X LIKE Y", "DUPLICATE TABLE", "COPY STRUCTURE", "STRUCT ONLY"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-40",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which statement changes table structure?",
+      "options": ["UPDATE", "ALTER", "MODIFY", "CHANGE"],
+      "correctAnswer": 1
+    },
+
+    {
+      "id": "mysql-41",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function extracts year from date?",
+      "options": ["GETYEAR()", "YEAR()", "DATEYEAR()", "EXYEAR()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-42",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which command rolls back a transaction?",
+      "options": ["UNDO", "ROLLBACK", "REVERT", "STOP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-43",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function finds string length?",
+      "options": ["SIZE()", "LENGTH()", "STRLEN()", "TEXTLEN()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-44",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which operator performs wildcard matching?",
+      "options": ["LIKE", "MATCH", "SEARCH", "SCAN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-45",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which statement defines a primary key?",
+      "options": [
+        "PRIMARY KEY()",
+        "SET PRIMARY()",
+        "ADD PRIMARY KEY()",
+        "CREATE PRIMARY"
+      ],
+      "correctAnswer": 2
+    },
+
+    {
+      "id": "mysql-46",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which function finds the smallest value?",
+      "options": ["LOW()", "MIN()", "BOTTOM()", "LEAST()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-47",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL mode controls strict validation?",
+      "options": [
+        "STRICT_MODE",
+        "STRICT_TRANS_TABLES",
+        "VALIDATION_MODE",
+        "HARD_MODE"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mysql-48",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which JOIN returns Cartesian product?",
+      "options": ["CROSS JOIN", "INNER JOIN", "FULL JOIN", "RIGHT JOIN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mysql-49",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which SQL keyword creates a view?",
+      "options": ["MAKE VIEW", "NEW VIEW", "CREATE VIEW", "ADD VIEW"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mysql-50",
+      "language": "mysql",
+      "type": "mcq",
+      "title": "Which keyword removes duplicate rows in aggregation?",
+      "options": ["UNIQUE", "DISTINCT", "ONLY", "FILTER"],
+      "correctAnswer": 1
+    }
+  ]
+}

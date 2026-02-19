@@ -1,0 +1,755 @@
+{
+    "category": "CSS3",
+    "questions": [
+        {
+            "id": "c1",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property controls text size?",
+            "options": [
+                "font-style",
+                "font-size",
+                "text-size",
+                "size"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c2",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which is used for rounded corners?",
+            "options": [
+                "border-round",
+                "round-corner",
+                "border-radius",
+                "radius"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c3",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which unit is relative to root font size?",
+            "options": [
+                "px",
+                "em",
+                "rem",
+                "%"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c4",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property sets background image size?",
+            "options": [
+                "bg-size",
+                "background-size",
+                "image-size",
+                "background-scale"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c5",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which is correct CSS3 animation syntax?",
+            "options": [
+                "@transition",
+                "@keyframes",
+                "@frames",
+                "@css3"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c6",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property makes text bold?",
+            "options": [
+                "font-weight",
+                "font-style",
+                "font-bold",
+                "text-weight"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c7",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property sets space inside an element?",
+            "options": [
+                "margin",
+                "padding",
+                "gap",
+                "inner-space"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c8",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which is NOT a display value?",
+            "options": [
+                "block",
+                "flex",
+                "grid",
+                "align"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "c9",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property sets element transparency?",
+            "options": [
+                "opacity",
+                "visibility",
+                "alpha",
+                "transparent"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c10",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which CSS selector selects all p inside div?",
+            "options": [
+                "div+p",
+                "div>p",
+                "div p",
+                "p div"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c11",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which CSS3 feature allows multiple backgrounds?",
+            "options": [
+                "background-stack",
+                "bg-multiple",
+                "background",
+                "background-image"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "c12",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which is correct flexbox direction?",
+            "options": [
+                "flex-row",
+                "flex-direction",
+                "flex-flow",
+                "display-flex"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c13",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property sets shadow?",
+            "options": [
+                "shadow",
+                "box-shadow",
+                "element-shadow",
+                "css-shadow"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c14",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which pseudo-element selects first letter?",
+            "options": [
+                "::letter",
+                "::first",
+                "::first-letter",
+                "::start"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c15",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which value makes element disappear but keep space?",
+            "options": [
+                "none",
+                "hidden",
+                "collapse",
+                "block"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c16",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which unit is responsive?",
+            "options": [
+                "px",
+                "pt",
+                "vh/vw",
+                "in"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c17",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which CSS variable syntax is correct?",
+            "options": [
+                "var(--x)",
+                "--x",
+                "$x",
+                "css(x)"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c18",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which property sets line height?",
+            "options": [
+                "line-gap",
+                "line-height",
+                "text-height",
+                "height"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c19",
+            "language": "css",
+            "type": "mcq",
+            "title": "What is the default position value?",
+            "options": [
+                "relative",
+                "static",
+                "absolute",
+                "fixed"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c20",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which defines transition duration?",
+            "options": [
+                "transition-time",
+                "duration",
+                "transition-duration",
+                "timing"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c21",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which defines grid columns?",
+            "options": [
+                "grid-cols",
+                "grid-template-columns",
+                "grid-columns",
+                "grid-size"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c22",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which value is valid for justify-content?",
+            "options": [
+                "center",
+                "evenly",
+                "around",
+                "all"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c23",
+            "language": "css",
+            "type": "mcq",
+            "title": "Z-index works only on?",
+            "options": [
+                "static",
+                "fixed",
+                "positioned elements",
+                "relative only"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c24",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which gradient is valid?",
+            "options": [
+                "linear-gradient()",
+                "css-gradient()",
+                "bg-gradient()",
+                "gradient-css()"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c25",
+            "language": "css",
+            "type": "mcq",
+            "title": "Which is a valid media query?",
+            "options": [
+                "@media-size",
+                "@media()",
+                "@screen()",
+                "@query"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c26",
+            "language": "css",
+            "type": "output",
+            "title": "Output color?",
+            "code": {
+                "content": ".box{ color: red; }\n.box{ color: blue; }",
+                "language": "css"
+            },
+            "options": [
+                "red",
+                "blue",
+                "error",
+                "none"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c27",
+            "language": "css",
+            "type": "output",
+            "title": "Final width?",
+            "code": {
+                "content": "<div class='b'></div>\n.b{ width:100px; padding:10px; border:5px solid; box-sizing:content-box; }",
+                "language": "css"
+            },
+            "options": [
+                "100px",
+                "120px",
+                "130px",
+                "150px"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "c28",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ margin:10px 5px; }",
+                "language": "css"
+            },
+            "options": [
+                "10 top-bottom, 5 left-right",
+                "10 left-right, 5 top-bottom",
+                "all 10",
+                "all 5"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c29",
+            "language": "css",
+            "type": "output",
+            "title": "Output stack?",
+            "code": {
+                "content": ".position{ position:absolute; z-index:10; }\n.other{ position:absolute; z-index:5; }",
+                "language": "css"
+            },
+            "options": [
+                "other on top",
+                "position on top",
+                "same level",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c30",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ display:none; visibility:visible; }",
+                "language": "css"
+            },
+            "options": [
+                "element hidden",
+                "element visible",
+                "invisible but space shown",
+                "error"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c31",
+            "language": "css",
+            "type": "output",
+            "title": "Computed width?",
+            "code": {
+                "content": ".box{ width:50%; padding:20px; box-sizing:border-box; }",
+                "language": "css"
+            },
+            "options": [
+                "50% + padding",
+                "50% only",
+                "50% - padding",
+                "auto"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c32",
+            "language": "css",
+            "type": "output",
+            "title": "Output flex align?",
+            "code": {
+                "content": ".container{ display:flex; justify-content:center; }",
+                "language": "css"
+            },
+            "options": [
+                "left",
+                "right",
+                "center",
+                "space-between"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c33",
+            "language": "css",
+            "type": "output",
+            "title": "Which wins?",
+            "code": {
+                "content": "#id{color:red;}\n.box{color:blue;}\n<div id='id' class='box'></div>",
+                "language": "css"
+            },
+            "options": [
+                "blue",
+                "red",
+                "both",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c34",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ width:100px; max-width:50px; }",
+                "language": "css"
+            },
+            "options": [
+                "100px",
+                "50px",
+                "auto",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c35",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ padding:10px 20px 30px; }",
+                "language": "css"
+            },
+            "options": [
+                "10 top, 20 left-right, 30 bottom",
+                "top=20",
+                "all=10",
+                "all=30"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c36",
+            "language": "css",
+            "type": "output",
+            "title": "Final color?",
+            "code": {
+                "content": ".box{color:red;}\n.box:hover{color:green;}",
+                "language": "css"
+            },
+            "options": [
+                "red",
+                "green on hover",
+                "blue",
+                "none"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c37",
+            "language": "css",
+            "type": "output",
+            "title": "Output display?",
+            "code": {
+                "content": ".box{display:inline-block;}",
+                "language": "css"
+            },
+            "options": [
+                "block",
+                "inline",
+                "inline-block",
+                "none"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "c38",
+            "language": "css",
+            "type": "output",
+            "title": "Which wins?",
+            "code": {
+                "content": ".box{font-size:20px;}\n.box.big{font-size:30px;}",
+                "language": "css"
+            },
+            "options": [
+                "20px",
+                "30px",
+                "inherit",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c39",
+            "language": "css",
+            "type": "output",
+            "title": "Output border?",
+            "code": {
+                "content": ".box{ border:10px solid red; border-width:2px; }",
+                "language": "css"
+            },
+            "options": [
+                "10px",
+                "2px",
+                "0",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c40",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{height:0; padding:20px;}",
+                "language": "css"
+            },
+            "options": [
+                "20px height",
+                "40px height",
+                "auto",
+                "0px"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c41",
+            "language": "css",
+            "type": "output",
+            "title": "Final margin?",
+            "code": {
+                "content": ".box{ margin:10px; margin-left:40px; }",
+                "language": "css"
+            },
+            "options": [
+                "10px",
+                "40px",
+                "50px",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c42",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{overflow:hidden;}",
+                "language": "css"
+            },
+            "options": [
+                "scroll",
+                "clip content",
+                "no effect",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c43",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ position:relative; top:20px; }",
+                "language": "css"
+            },
+            "options": [
+                "moves 20px down",
+                "moves 20px up",
+                "moves left",
+                "no move"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c44",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ transform:scale(2); }",
+                "language": "css"
+            },
+            "options": [
+                "bigger",
+                "smaller",
+                "rotated",
+                "no change"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "c45",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ background-repeat:no-repeat; }",
+                "language": "css"
+            },
+            "options": [
+                "normal repeat",
+                "no repeat",
+                "repeat only x",
+                "repeat only y"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c46",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ cursor:pointer; }",
+                "language": "css"
+            },
+            "options": [
+                "default cursor",
+                "hand cursor",
+                "text cursor",
+                "none"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c47",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{ white-space:nowrap; }",
+                "language": "css"
+            },
+            "options": [
+                "wrap text",
+                "no wrap",
+                "clip",
+                "scroll"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c48",
+            "language": "css",
+            "type": "output",
+            "title": "Output border?",
+            "code": {
+                "content": ".box{border:5px dotted blue;}",
+                "language": "css"
+            },
+            "options": [
+                "solid",
+                "dotted",
+                "dashed",
+                "none"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c49",
+            "language": "css",
+            "type": "output",
+            "title": "Output?",
+            "code": {
+                "content": ".box{transition:all 0.5s;}",
+                "language": "css"
+            },
+            "options": [
+                "instant change",
+                "smooth change",
+                "no effect",
+                "error"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "c50",
+            "language": "css",
+            "type": "output",
+            "title": "What will be the output of the following code?",
+            "code": {
+                "content": ".box{ background-position:center; }",
+                "language": "css"
+            },
+            "options": [
+                "top left",
+                "center",
+                "bottom",
+                "repeat"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

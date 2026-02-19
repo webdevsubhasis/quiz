@@ -1,0 +1,605 @@
+{
+  "category": "MongoDB",
+  "questions": [
+    {
+      "id": "mdb1",
+      "type": "mcq",
+      "title": "MongoDB is a ____ database.",
+      "options": [
+        "Relational",
+        "NoSQL",
+        "Graph",
+        "In-memory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb2",
+      "type": "mcq",
+      "title": "MongoDB stores data in:",
+      "options": [
+        "Tables",
+        "Collections & documents",
+        "Rows & columns",
+        "XML files"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb3",
+      "type": "mcq",
+      "title": "JSON-like documents in MongoDB are called:",
+      "options": [
+        "JSON",
+        "BSON",
+        "XML",
+        "Schema"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb4",
+      "type": "mcq",
+      "title": "Which command shows all databases?",
+      "options": [
+        "show dbs",
+        "list databases",
+        "db.show()",
+        "db.list()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb5",
+      "type": "mcq",
+      "title": "Which command selects a database?",
+      "options": [
+        "use <dbname>",
+        "select db",
+        "db:<dbname>",
+        "open db"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb6",
+      "type": "mcq",
+      "title": "Which command inserts a document?",
+      "options": [
+        "insert()",
+        "add()",
+        "db.collection.insertOne()",
+        "insertDoc()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb7",
+      "type": "mcq",
+      "title": "The default unique identifier for MongoDB documents is:",
+      "options": [
+        "_uid",
+        "_id",
+        "id",
+        "mongoId"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb8",
+      "type": "mcq",
+      "title": "Which operator is used for AND condition?",
+      "options": [
+        "$and",
+        "&",
+        "AND()",
+        "$all"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb9",
+      "type": "mcq",
+      "title": "Which command finds all documents?",
+      "options": [
+        "db.collection.get()",
+        "db.collection.find()",
+        "find.all()",
+        "db.collection.select()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb10",
+      "type": "mcq",
+      "title": "Which command updates one document?",
+      "options": [
+        "db.collection.updateOne()",
+        "db.update()",
+        "db.changeOne()",
+        "db.edit()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb11",
+      "type": "mcq",
+      "title": "Which operator checks greater-than?",
+      "options": [
+        "$gt",
+        ">",
+        "$greater",
+        "$more"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb12",
+      "type": "mcq",
+      "title": "Which operator checks pattern matching?",
+      "options": [
+        "$regex",
+        "$pattern",
+        "$match",
+        "$like"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb13",
+      "type": "mcq",
+      "title": "Which method deletes multiple documents?",
+      "options": [
+        "db.collection.deleteAll()",
+        "db.collection.removeMany()",
+        "db.collection.deleteMany()",
+        "db.collection.drop()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb14",
+      "type": "mcq",
+      "title": "Which command removes a collection?",
+      "options": [
+        "db.collection.delete()",
+        "db.collection.drop()",
+        "delete collection",
+        "db.collection.remove()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb15",
+      "type": "mcq",
+      "title": "Which command drops a database?",
+      "options": [
+        "delete db",
+        "db.remove()",
+        "db.dropDatabase()",
+        "drop db"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb16",
+      "type": "mcq",
+      "title": "MongoDB stores documents internally in which format?",
+      "options": [
+        "JSON",
+        "XML",
+        "BSON",
+        "YAML"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb17",
+      "type": "mcq",
+      "title": "Which shell is used to interact with MongoDB?",
+      "options": [
+        "mongo shell",
+        "sql shell",
+        "node shell",
+        "python shell"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb18",
+      "type": "mcq",
+      "title": "Which index speeds up search?",
+      "options": [
+        "Text index",
+        "Hash index",
+        "Primary index",
+        "B-tree index"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "mdb19",
+      "type": "mcq",
+      "title": "Which method creates an index?",
+      "options": [
+        "db.createIndex()",
+        "db.collection.createIndex()",
+        "db.index()",
+        "collection.index()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb20",
+      "type": "mcq",
+      "title": "Which command shows all collections?",
+      "options": [
+        "show collections",
+        "list collections",
+        "db.collections()",
+        "db.showCollections()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb21",
+      "type": "mcq",
+      "title": "MongoDB aggregation is used for:",
+      "options": [
+        "Schema design",
+        "Data analysis and transformation",
+        "Authentication",
+        "Backup"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb22",
+      "type": "mcq",
+      "title": "Which aggregation stage groups documents?",
+      "options": [
+        "$sum",
+        "$group",
+        "$match",
+        "$sort"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb23",
+      "type": "mcq",
+      "title": "Which method sorts results?",
+      "options": [
+        "db.sort()",
+        "result.sort()",
+        "db.collection.sort()",
+        "db.collection.find().sort()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "mdb24",
+      "type": "mcq",
+      "title": "What does $set do?",
+      "options": [
+        "Deletes fields",
+        "Updates or adds fields",
+        "Sorts values",
+        "Groups fields"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb25",
+      "type": "mcq",
+      "title": "Which operator deletes a field?",
+      "options": [
+        "$remove",
+        "$unset",
+        "$delete",
+        "$drop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb26",
+      "type": "mcq",
+      "title": "Which command limits the result?",
+      "options": [
+        "limit()",
+        "db.limit()",
+        "db.collection.limit()",
+        "db.collection.find().limit()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "mdb27",
+      "type": "mcq",
+      "title": "Which method skips records?",
+      "options": [
+        "ignore()",
+        "skip()",
+        "omit()",
+        "next()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb28",
+      "type": "mcq",
+      "title": "Which feature ensures high availability?",
+      "options": [
+        "Sharding",
+        "Replication",
+        "Indexing",
+        "Aggregation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb29",
+      "type": "mcq",
+      "title": "Which feature allows horizontal scaling?",
+      "options": [
+        "Replication",
+        "Sharding",
+        "Caching",
+        "Partitioning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb30",
+      "type": "mcq",
+      "title": "Which tool provides MongoDB GUI?",
+      "options": [
+        "Mongo Atlas",
+        "MongoDB Compass",
+        "MongoViewer",
+        "SQL Browser"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb31",
+      "type": "mcq",
+      "title": "Which command counts documents?",
+      "options": [
+        "count()",
+        "db.collection.countDocuments()",
+        "db.collection.total()",
+        "db.count()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb32",
+      "type": "mcq",
+      "title": "Which method updates multiple documents?",
+      "options": [
+        "update()",
+        "updateMany()",
+        "modifyAll()",
+        "editMany()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb33",
+      "type": "mcq",
+      "title": "Which command validates schema?",
+      "options": [
+        "SchemaCheck()",
+        "validateSchema()",
+        "db.validate()",
+        "MongoDB has no fixed schema"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "mdb34",
+      "type": "mcq",
+      "title": "MongoDB is written in:",
+      "options": [
+        "Java",
+        "C++",
+        "Python",
+        "Node.js"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb35",
+      "type": "mcq",
+      "title": "Which operator checks for equality?",
+      "options": [
+        "$eq",
+        "==",
+        "$equal",
+        "$match"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb36",
+      "type": "mcq",
+      "title": "Which operator checks if a field exists?",
+      "options": [
+        "$exists",
+        "$has",
+        "$present",
+        "$check"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb37",
+      "type": "mcq",
+      "title": "Which method finds one document?",
+      "options": [
+        "findSingle()",
+        "db.collection.findOne()",
+        "findUnique()",
+        "db.find()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb38",
+      "type": "mcq",
+      "title": "Which aggregation stage filters data?",
+      "options": [
+        "$match",
+        "$sort",
+        "$group",
+        "$limit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb39",
+      "type": "mcq",
+      "title": "Which aggregation stage sorts results?",
+      "options": [
+        "$order",
+        "$sort",
+        "$group",
+        "$match"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb40",
+      "type": "mcq",
+      "title": "Which index is created automatically on _id?",
+      "options": [
+        "Unique index",
+        "B-tree index",
+        "Primary index",
+        "Text index"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb41",
+      "type": "mcq",
+      "title": "Which operator returns documents containing any value from a list?",
+      "options": [
+        "$all",
+        "$in",
+        "$any",
+        "$matchAny"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb42",
+      "type": "mcq",
+      "title": "Which is used to run MongoDB server?",
+      "options": [
+        "mongo",
+        "mongod",
+        "mongo-start",
+        "mongodb-server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb43",
+      "type": "mcq",
+      "title": "Which command connects to MongoDB shell?",
+      "options": [
+        "connect mongo",
+        "mongo",
+        "start mongo",
+        "shell mongo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mdb44",
+      "type": "mcq",
+      "title": "Which command returns distinct values of a field?",
+      "options": [
+        "unique()",
+        "distinct()",
+        "db.collection.distinct()",
+        "db.collection.unique()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb45",
+      "type": "mcq",
+      "title": "Which method renames a collection?",
+      "options": [
+        "db.collection.renameCollection()",
+        "renameCollection()",
+        "db.rename()",
+        "collection.renameTo()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb46",
+      "type": "mcq",
+      "title": "Which type of database is MongoDB?",
+      "options": [
+        "Document database",
+        "Relational DB",
+        "Column DB",
+        "Graph DB"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "mdb47",
+      "type": "mcq",
+      "title": "What is the default port of MongoDB?",
+      "options": [
+        "8080",
+        "3000",
+        "27017",
+        "5000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb48",
+      "type": "mcq",
+      "title": "Which command is used to backup MongoDB?",
+      "options": [
+        "mongoexport",
+        "dumpmongo",
+        "mongodump",
+        "backupmongo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb49",
+      "type": "mcq",
+      "title": "Which command is used to restore backup?",
+      "options": [
+        "mongoimport",
+        "restoremongo",
+        "mongorestore",
+        "backuprestore"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "mdb50",
+      "type": "mcq",
+      "title": "Which command imports JSON or CSV into MongoDB?",
+      "options": [
+        "mongodump",
+        "mongoexport",
+        "mongoimport",
+        "mongoload"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

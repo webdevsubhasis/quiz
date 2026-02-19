@@ -1,0 +1,655 @@
+{
+  "category": "Profit & Loss",
+  "questions": [
+    {
+      "id": "plv1",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 582/kg but sells at 518/kg using 800g as 1kg. Profit %?",
+      "options": [
+        "11.25",
+        "11.59",
+        "10.91",
+        "16.36"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv2",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 224/kg but sells at 534/kg using 939g as 1kg. Profit %?",
+      "options": [
+        "153.88",
+        "158.5",
+        "149.26",
+        "161.55"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv3",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 412/kg but sells at 662/kg using 910g as 1kg. Profit %?",
+      "options": [
+        "76.57",
+        "78.87",
+        "74.27",
+        "84.13"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv4",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 351/kg but sells at 609/kg using 836g as 1kg. Profit %?",
+      "options": [
+        "107.54",
+        "110.77",
+        "104.31",
+        "114.61"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv5",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 258/kg but sells at 763/kg using 834g as 1kg. Profit %?",
+      "options": [
+        "254.6",
+        "262.24",
+        "246.96",
+        "259.36"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv6",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 417/kg but sells at 777/kg using 836g as 1kg. Profit %?",
+      "options": [
+        "122.88",
+        "126.57",
+        "119.19",
+        "128.21"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv7",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 528/kg but sells at 284/kg using 856g as 1kg. Profit %?",
+      "options": [
+        "-37.16",
+        "-38.27",
+        "-36.05",
+        "-31.06"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv8",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 226/kg but sells at 366/kg using 851g as 1kg. Profit %?",
+      "options": [
+        "90.3",
+        "93.01",
+        "87.59",
+        "98.88"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv9",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 433/kg but sells at 544/kg using 824g as 1kg. Profit %?",
+      "options": [
+        "52.47",
+        "54.04",
+        "50.9",
+        "60.22"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv10",
+      "language": "math",
+      "type": "mcq",
+      "title": "A shopkeeper buys at 442/kg but sells at 626/kg using 852g as 1kg. Profit %?",
+      "options": [
+        "66.23",
+        "68.22",
+        "64.24",
+        "71.76"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv11",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=310 sold at 40% profit. If item B CP=461 sold at same profit amount, profit % on B?",
+      "options": [
+        "26.9",
+        "27.71",
+        "26.09",
+        "30.76"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv12",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=480 sold at 27% profit. If item B CP=224 sold at same profit amount, profit % on B?",
+      "options": [
+        "57.86",
+        "59.6",
+        "56.12",
+        "65.76"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv13",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=421 sold at 24% profit. If item B CP=498 sold at same profit amount, profit % on B?",
+      "options": [
+        "20.29",
+        "20.9",
+        "19.68",
+        "24.9"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv14",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=341 sold at 37% profit. If item B CP=202 sold at same profit amount, profit % on B?",
+      "options": [
+        "62.46",
+        "64.33",
+        "60.59",
+        "66.3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv15",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=439 sold at 27% profit. If item B CP=372 sold at same profit amount, profit % on B?",
+      "options": [
+        "31.86",
+        "32.82",
+        "30.9",
+        "36.46"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv16",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=227 sold at 31% profit. If item B CP=487 sold at same profit amount, profit % on B?",
+      "options": [
+        "14.45",
+        "14.88",
+        "14.02",
+        "21.61"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv17",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=272 sold at 25% profit. If item B CP=407 sold at same profit amount, profit % on B?",
+      "options": [
+        "16.71",
+        "17.21",
+        "16.21",
+        "24.23"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv18",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=425 sold at 39% profit. If item B CP=420 sold at same profit amount, profit % on B?",
+      "options": [
+        "39.46",
+        "40.64",
+        "38.28",
+        "48.13"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv19",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=353 sold at 38% profit. If item B CP=294 sold at same profit amount, profit % on B?",
+      "options": [
+        "45.63",
+        "47.0",
+        "44.26",
+        "50.57"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv20",
+      "language": "math",
+      "type": "mcq",
+      "title": "Item A CP=397 sold at 17% profit. If item B CP=212 sold at same profit amount, profit % on B?",
+      "options": [
+        "31.83",
+        "32.78",
+        "30.88",
+        "40.08"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv21",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 709. After 29% gain then 11% loss, final selling price?",
+      "options": [
+        "814.0",
+        "838.42",
+        "789.58",
+        "817.13"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv22",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 753. After 16% gain then 17% loss, final selling price?",
+      "options": [
+        "724.99",
+        "746.74",
+        "703.24",
+        "729.71"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv23",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 787. After 22% gain then 15% loss, final selling price?",
+      "options": [
+        "816.12",
+        "840.6",
+        "791.64",
+        "821.47"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv24",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 420. After 15% gain then 10% loss, final selling price?",
+      "options": [
+        "434.7",
+        "447.74",
+        "421.66",
+        "439.05"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv25",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 407. After 29% gain then 5% loss, final selling price?",
+      "options": [
+        "498.78",
+        "513.74",
+        "483.82",
+        "507.18"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv26",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 417. After 24% gain then 17% loss, final selling price?",
+      "options": [
+        "429.18",
+        "442.06",
+        "416.3",
+        "433.79"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv27",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 506. After 29% gain then 6% loss, final selling price?",
+      "options": [
+        "613.58",
+        "631.99",
+        "595.17",
+        "619.07"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv28",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 433. After 14% gain then 12% loss, final selling price?",
+      "options": [
+        "434.39",
+        "447.42",
+        "421.36",
+        "440.01"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv29",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 674. After 25% gain then 13% loss, final selling price?",
+      "options": [
+        "732.98",
+        "754.97",
+        "710.99",
+        "736.65"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv30",
+      "language": "math",
+      "type": "mcq",
+      "title": "An article costs 467. After 29% gain then 19% loss, final selling price?",
+      "options": [
+        "487.97",
+        "502.61",
+        "473.33",
+        "492.05"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv31",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 2399 for 8 months, B invests 2590 for 8 months. Total profit 3448. A's share?",
+      "options": [
+        "1658.0",
+        "1707.74",
+        "1608.26",
+        "1665.8"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv32",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 3773 for 8 months, B invests 4332 for 9 months. Total profit 4726. A's share?",
+      "options": [
+        "2062.24",
+        "2124.11",
+        "2000.37",
+        "2069.72"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv33",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 4914 for 4 months, B invests 2743 for 7 months. Total profit 3671. A's share?",
+      "options": [
+        "1856.99",
+        "1912.7",
+        "1801.28",
+        "1862.55"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv34",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 2563 for 4 months, B invests 4954 for 4 months. Total profit 3306. A's share?",
+      "options": [
+        "1127.22",
+        "1161.04",
+        "1093.4",
+        "1131.09"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv35",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 3096 for 7 months, B invests 3173 for 4 months. Total profit 5725. A's share?",
+      "options": [
+        "3610.53",
+        "3718.85",
+        "3502.21",
+        "3615.59"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv36",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 4638 for 6 months, B invests 4736 for 9 months. Total profit 3596. A's share?",
+      "options": [
+        "1420.39",
+        "1463.0",
+        "1377.78",
+        "1424.41"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv37",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 4118 for 6 months, B invests 4860 for 5 months. Total profit 5190. A's share?",
+      "options": [
+        "2616.6",
+        "2695.1",
+        "2538.1",
+        "2620.19"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv38",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 2974 for 4 months, B invests 4974 for 7 months. Total profit 2134. A's share?",
+      "options": [
+        "543.44",
+        "559.74",
+        "527.14",
+        "551.16"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv39",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 4679 for 8 months, B invests 3997 for 9 months. Total profit 5317. A's share?",
+      "options": [
+        "2711.34",
+        "2792.68",
+        "2630.0",
+        "2715.1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv40",
+      "language": "math",
+      "type": "mcq",
+      "title": "A invests 4714 for 9 months, B invests 3495 for 8 months. Total profit 5844. A's share?",
+      "options": [
+        "3522.54",
+        "3628.22",
+        "3416.86",
+        "3531.15"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv41",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 897. Marked up 25%, discount 16%, GST 6%. Final price?",
+      "options": [
+        "998.36",
+        "1028.31",
+        "968.41",
+        "1005.22"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv42",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 831. Marked up 58%, discount 37%, GST 16%. Final price?",
+      "options": [
+        "959.53",
+        "988.32",
+        "930.74",
+        "964.94"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv43",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 882. Marked up 33%, discount 29%, GST 15%. Final price?",
+      "options": [
+        "957.8",
+        "986.53",
+        "929.07",
+        "966.39"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv44",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 346. Marked up 50%, discount 15%, GST 14%. Final price?",
+      "options": [
+        "502.91",
+        "518.0",
+        "487.82",
+        "510.9"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv45",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 834. Marked up 60%, discount 25%, GST 17%. Final price?",
+      "options": [
+        "1170.94",
+        "1206.07",
+        "1135.81",
+        "1178.1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv46",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 463. Marked up 33%, discount 33%, GST 5%. Final price?",
+      "options": [
+        "433.21",
+        "446.21",
+        "420.21",
+        "441.91"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv47",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 433. Marked up 59%, discount 29%, GST 9%. Final price?",
+      "options": [
+        "532.81",
+        "548.79",
+        "516.83",
+        "538.05"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv48",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 835. Marked up 47%, discount 11%, GST 5%. Final price?",
+      "options": [
+        "1147.05",
+        "1181.46",
+        "1112.64",
+        "1154.47"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv49",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 300. Marked up 47%, discount 36%, GST 14%. Final price?",
+      "options": [
+        "321.75",
+        "331.4",
+        "312.1",
+        "324.83"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "plv50",
+      "language": "math",
+      "type": "mcq",
+      "title": "CP 489. Marked up 59%, discount 13%, GST 11%. Final price?",
+      "options": [
+        "750.84",
+        "773.37",
+        "728.31",
+        "758.75"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
