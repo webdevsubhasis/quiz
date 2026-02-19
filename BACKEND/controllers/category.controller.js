@@ -11,7 +11,7 @@ exports.createCategory = async (req, res, next) => {
 
     if (!name || !displayName) {
       return res.status(400).json({
-        message: "name and displayName required.",
+        message: "name and displayName required",
       });
     }
 
