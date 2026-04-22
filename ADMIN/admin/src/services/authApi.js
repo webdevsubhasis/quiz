@@ -1,6 +1,6 @@
 // src/services/authApi.js
 
-const API_URL = "http://127.0.0.1:8081/api";
+const API_URL = "http://localhost:8081/api";
 
 
 /* ================= TOKEN HELPERS ================= */

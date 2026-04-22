@@ -41,8 +41,8 @@ const QuestionSchema = new mongoose.Schema({
   },
 
   code: {
-    type: String,
-    default: null,
+    content: String,
+    language: String,
   },
 
   options: {
@@ -84,11 +84,11 @@ const QuestionSchema = new mongoose.Schema({
     default: 0,
   },
 
-  difficulty: {
-    type: String,
-    enum: ["easy", "medium", "hard"],
-    default: "medium",
-  },
+  // difficulty: {
+  //   type: String,
+  //   enum: ["easy", "medium", "hard"],
+  //   default: "medium",
+  // },
 
   tags: [String],
 
@@ -114,7 +114,7 @@ const QuestionSchema = new mongoose.Schema({
    BACKWARD COMPATIBILITY HANDLER
    Converts old question format → new format automatically
 ===================================================== */
-QuestionSchema.pre("save", function (next) {
+QuestionSchema.pre("save", function () {
 
   // OLD q -> title
   if (!this.title && this.q) {
@@ -127,7 +127,7 @@ QuestionSchema.pre("save", function (next) {
   }
 
   this.updatedAt = new Date();
-  next();
+
 });
 
 /* =====================================================
@@ -137,4 +137,4 @@ QuestionSchema.index({ setId: 1 });
 QuestionSchema.index({ subjectId: 1 });
 QuestionSchema.index({ difficulty: 1 });
 
-module.exports = mongoose.model("Question", QuestionSchema);
+module.exports = mongoose.models.Question || mongoose.model("Question", QuestionSchema);

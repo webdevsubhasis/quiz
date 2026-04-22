@@ -1,0 +1,838 @@
+{
+    "category": "core Programming",
+    "subjectId": "java",
+    "subjectName": "Java Programming",
+    "set": "medium",
+    "questions": [
+        {
+            "id": "jm1",
+            "question": "Which concept allows a class to have multiple constructors?",
+            "type": "mcq",
+            "options": [
+                "Inheritance",
+                "Constructor Overloading",
+                "Encapsulation",
+                "Abstraction"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Constructor overloading allows multiple constructors.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm2",
+            "question": "Which keyword is used to call current class constructor?",
+            "type": "mcq",
+            "options": [
+                "super",
+                "this",
+                "base",
+                "self"
+            ],
+            "correctAnswer": 1,
+            "explanation": "this() calls constructor of same class.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm3",
+            "question": "Which method compares string values?",
+            "type": "mcq",
+            "options": [
+                "==",
+                "equals()",
+                "compare()",
+                "match()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "equals() compares content.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm4",
+            "question": "Which collection allows duplicates and maintains order?",
+            "type": "mcq",
+            "options": [
+                "HashSet",
+                "TreeSet",
+                "ArrayList",
+                "HashMap"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ArrayList preserves order and allows duplicates.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm5",
+            "question": "Which keyword defines interface?",
+            "type": "mcq",
+            "options": [
+                "class",
+                "abstract",
+                "interface",
+                "implements"
+            ],
+            "correctAnswer": 2,
+            "explanation": "interface keyword defines interface.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm6",
+            "question": "Which exception occurs when accessing null reference?",
+            "type": "mcq",
+            "options": [
+                "IOException",
+                "NullPointerException",
+                "ArithmeticException",
+                "ClassCastException"
+            ],
+            "correctAnswer": 1,
+            "explanation": "NullPointerException occurs on null access.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm7",
+            "question": "Which keyword throws exception manually?",
+            "type": "mcq",
+            "options": [
+                "throws",
+                "throw",
+                "try",
+                "catch"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'throw' is used manually.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm8",
+            "question": "Which is not thread-safe?",
+            "type": "mcq",
+            "options": [
+                "Vector",
+                "Hashtable",
+                "StringBuffer",
+                "ArrayList"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ArrayList is not synchronized.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm9",
+            "question": "Which method interrupts thread?",
+            "type": "mcq",
+            "options": [
+                "stop()",
+                "interrupt()",
+                "destroy()",
+                "pause()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "interrupt() is correct way.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm10",
+            "question": "Which class is used for input?",
+            "type": "mcq",
+            "options": [
+                "Scanner",
+                "Stream",
+                "Reader",
+                "ConsoleReader"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Scanner is used for input.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm11",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "String s=\"Java\";\ns=s.concat(\"X\");\nSystem.out.println(s);",
+                "language": "java"
+            },
+            "options": [
+                "Java",
+                "JavaX",
+                "Error",
+                "null"
+            ],
+            "correctAnswer": 1,
+            "explanation": "concat returns new string.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm12",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=5;\nSystem.out.println(x++ + ++x);",
+                "language": "java"
+            },
+            "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "correctAnswer": 2,
+            "explanation": "5 + 7 = 12.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm13",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "String s=null;\nSystem.out.println(s);",
+                "language": "java"
+            },
+            "options": [
+                "null",
+                "Error",
+                "Exception",
+                "0"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Printing null prints 'null'.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm14",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int[] a=new int[2];\nSystem.out.println(a.length);",
+                "language": "java"
+            },
+            "options": [
+                "0",
+                "1",
+                "2",
+                "Error"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Array length is 2.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm15",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"A\"+2*3);",
+                "language": "java"
+            },
+            "options": [
+                "A6",
+                "A23",
+                "A5",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "2*3=6 → A6.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm16",
+            "question": "Which modifier makes variable constant?",
+            "type": "mcq",
+            "options": [
+                "static",
+                "final",
+                "const",
+                "fixed"
+            ],
+            "correctAnswer": 1,
+            "explanation": "final makes constant.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm17",
+            "question": "Which loop executes at least once?",
+            "type": "mcq",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "foreach"
+            ],
+            "correctAnswer": 2,
+            "explanation": "do-while executes once.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm18",
+            "question": "Which keyword is used for package creation?",
+            "type": "mcq",
+            "options": [
+                "package",
+                "import",
+                "class",
+                "namespace"
+            ],
+            "correctAnswer": 0,
+            "explanation": "package defines package.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm19",
+            "question": "Which operator checks reference equality?",
+            "type": "mcq",
+            "options": [
+                "equals()",
+                "==",
+                "!=",
+                "compareTo()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "== compares references.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm20",
+            "question": "Which keyword is used for inheritance in interfaces?",
+            "type": "mcq",
+            "options": [
+                "implements",
+                "extends",
+                "inherits",
+                "super"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Interfaces extend interfaces.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm21",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(5+\"5\"+5);",
+                "language": "java"
+            },
+            "options": [
+                "55 5",
+                "555",
+                "105",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "5+\"5\"=55 → 55+5=555.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm22",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=3;\nSystem.out.println(x<<2);",
+                "language": "java"
+            },
+            "options": [
+                "6",
+                "12",
+                "9",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "3<<2 = 12.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm23",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".charAt(2));",
+                "language": "java"
+            },
+            "options": [
+                "J",
+                "a",
+                "v",
+                "Error"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Index 2 is 'v'.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm24",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=10;\nSystem.out.println(x>>>1);",
+                "language": "java"
+            },
+            "options": [
+                "5",
+                "10",
+                "20",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Unsigned shift divides by 2.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm25",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(Math.max(5,9));",
+                "language": "java"
+            },
+            "options": [
+                "5",
+                "9",
+                "Error",
+                "0"
+            ],
+            "correctAnswer": 1,
+            "explanation": "max returns larger value.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm26",
+            "question": "Which class is immutable?",
+            "type": "mcq",
+            "options": [
+                "String",
+                "StringBuilder",
+                "ArrayList",
+                "Vector"
+            ],
+            "correctAnswer": 0,
+            "explanation": "String is immutable.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm27",
+            "question": "Which method returns string length?",
+            "type": "mcq",
+            "options": [
+                "length()",
+                "size()",
+                "getLength()",
+                "len()"
+            ],
+            "correctAnswer": 0,
+            "explanation": "length() returns size of string.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm28",
+            "question": "Which keyword is used to exit loop?",
+            "type": "mcq",
+            "options": [
+                "stop",
+                "exit",
+                "break",
+                "continue"
+            ],
+            "correctAnswer": 2,
+            "explanation": "break exits loop.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm29",
+            "question": "Which keyword skips current iteration?",
+            "type": "mcq",
+            "options": [
+                "skip",
+                "pass",
+                "continue",
+                "next"
+            ],
+            "correctAnswer": 2,
+            "explanation": "continue skips iteration.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm30",
+            "question": "Which keyword is used for exception handling block?",
+            "type": "mcq",
+            "options": [
+                "try",
+                "throw",
+                "throws",
+                "error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "try block handles exceptions.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm31",
+            "question": "Which method is used to convert a string into integer?",
+            "type": "mcq",
+            "options": [
+                "Integer.parseInt()",
+                "String.toInt()",
+                "parse()",
+                "convertInt()"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Integer.parseInt() converts string to int.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm32",
+            "question": "Which method is used to get ASCII value of a character?",
+            "type": "mcq",
+            "options": [
+                "charAt()",
+                "getAscii()",
+                "type casting",
+                "toAscii()"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Casting char to int gives ASCII value.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm33",
+            "question": "Which keyword prevents class inheritance?",
+            "type": "mcq",
+            "options": [
+                "static",
+                "final",
+                "abstract",
+                "private"
+            ],
+            "correctAnswer": 1,
+            "explanation": "final class cannot be extended.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm34",
+            "question": "Which method removes all elements from ArrayList?",
+            "type": "mcq",
+            "options": [
+                "delete()",
+                "clear()",
+                "removeAll()",
+                "empty()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "clear() removes all elements.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm35",
+            "question": "Which class is used for mutable string operations?",
+            "type": "mcq",
+            "options": [
+                "String",
+                "StringBuffer",
+                "Character",
+                "ArrayList"
+            ],
+            "correctAnswer": 1,
+            "explanation": "StringBuffer is mutable.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm36",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(10 + 20 + \"Java\");",
+                "language": "java"
+            },
+            "options": [
+                "30Java",
+                "1020Java",
+                "Java30",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "10+20=30 → 30Java.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm37",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\" + 10 + 20);",
+                "language": "java"
+            },
+            "options": [
+                "Java30",
+                "Java1020",
+                "30Java",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Left to right → Java1020.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm38",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int a=1;\nint b=2;\nint c=3;\nSystem.out.println(a+b+c+\"Java\");",
+                "language": "java"
+            },
+            "options": [
+                "6Java",
+                "123Java",
+                "Java6",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Sum first → 6Java.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm39",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".substring(1,3));",
+                "language": "java"
+            },
+            "options": [
+                "Ja",
+                "av",
+                "va",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Substring index 1 to 3 → 'av'.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm40",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".length());",
+                "language": "java"
+            },
+            "options": [
+                "3",
+                "4",
+                "5",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Length is 4.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm41",
+            "question": "Which method adds element to ArrayList?",
+            "type": "mcq",
+            "options": [
+                "insert()",
+                "add()",
+                "push()",
+                "put()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "add() inserts element.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm42",
+            "question": "Which method retrieves element from ArrayList?",
+            "type": "mcq",
+            "options": [
+                "get()",
+                "fetch()",
+                "read()",
+                "retrieve()"
+            ],
+            "correctAnswer": 0,
+            "explanation": "get(index) retrieves element.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm43",
+            "question": "Which class provides dynamic array?",
+            "type": "mcq",
+            "options": [
+                "Array",
+                "ArrayList",
+                "Vector",
+                "List"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ArrayList is dynamic.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm44",
+            "question": "Which method checks if string contains substring?",
+            "type": "mcq",
+            "options": [
+                "has()",
+                "contains()",
+                "find()",
+                "search()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "contains() checks substring.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm45",
+            "question": "Which keyword is used to create object?",
+            "type": "mcq",
+            "options": [
+                "create",
+                "make",
+                "new",
+                "init"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'new' creates object.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm46",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=5;\nSystem.out.println(x>3 && x<10);",
+                "language": "java"
+            },
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "0"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Both conditions true.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm47",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(5>10 || 10>5);",
+                "language": "java"
+            },
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "Runtime Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Second condition true.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm48",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=5;\nSystem.out.println(x==5 ? \"Yes\" : \"No\");",
+                "language": "java"
+            },
+            "options": [
+                "Yes",
+                "No",
+                "Error",
+                "5"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Condition true.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm49",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(Math.min(10,5));",
+                "language": "java"
+            },
+            "options": [
+                "10",
+                "5",
+                "0",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "min returns smaller value.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jm50",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=2;\nSystem.out.println(x* x* x);",
+                "language": "java"
+            },
+            "options": [
+                "6",
+                "8",
+                "4",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "2*2*2 = 8.",
+            "marks": 1,
+            "negativeMarks": 0
+        }
+    ]
+}

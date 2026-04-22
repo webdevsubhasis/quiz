@@ -1,0 +1,838 @@
+{
+    "category": "core Programming",
+    "subjectId": "java",
+    "subjectName": "Java Programming",
+    "set": "hard",
+    "questions": [
+        {
+            "id": "jh1",
+            "question": "Which part of JVM is responsible for runtime constant pool?",
+            "type": "mcq",
+            "options": [
+                "Heap",
+                "Stack",
+                "Method Area",
+                "Native Method Stack"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Runtime constant pool resides in Method Area.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh2",
+            "question": "Which situation leads to memory leak in Java?",
+            "type": "mcq",
+            "options": [
+                "Unreferenced objects",
+                "Static references holding objects",
+                "Garbage collection",
+                "Primitive variables"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Static references prevent GC → memory leak.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh3",
+            "question": "Which type of reference has highest priority in GC?",
+            "type": "mcq",
+            "options": [
+                "Weak",
+                "Soft",
+                "Strong",
+                "Phantom"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Strong references are never GC'ed unless removed.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh4",
+            "question": "Which of the following is not allowed in Java Generics?",
+            "type": "mcq",
+            "options": [
+                "Generic class",
+                "Generic method",
+                "Generic array creation",
+                "Bounded types"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Java does not allow generic array creation.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh5",
+            "question": "Which keyword ensures atomicity in multithreading?",
+            "type": "mcq",
+            "options": [
+                "volatile",
+                "final",
+                "synchronized",
+                "static"
+            ],
+            "correctAnswer": 2,
+            "explanation": "synchronized ensures atomicity.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh6",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int a = 10;\nint b = 0;\nSystem.out.println(a/b);",
+                "language": "java"
+            },
+            "options": [
+                "Infinity",
+                "0",
+                "Exception",
+                "NaN"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Integer division by zero → ArithmeticException.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh7",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "String s = \"abc\";\nSystem.out.println(s.charAt(3));",
+                "language": "java"
+            },
+            "options": [
+                "c",
+                "Error",
+                "Exception",
+                "null"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Index 3 out of bounds → exception.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh8",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(10 + (5 * 2) + \"Java\" + 3);",
+                "language": "java"
+            },
+            "options": [
+                "20Java3",
+                "15Java3",
+                "10Java10",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "10 + 10 = 20 → 20Java3.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh9",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(1 + 2 + \"3\" + 4 + 5);",
+                "language": "java"
+            },
+            "options": [
+                "33 45",
+                "3345",
+                "12345",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "1+2=3 → \"3\"+3=33 → 334 → 3345.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh10",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "String s = \"abc\";\nSystem.out.println(s.substring(1, 1));",
+                "language": "java"
+            },
+            "options": [
+                "",
+                "a",
+                "b",
+                "Exception"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Start == end → empty string.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh11",
+            "question": "Which scenario causes deadlock?",
+            "type": "mcq",
+            "options": [
+                "Single thread",
+                "Two threads waiting for each other",
+                "Thread sleeping",
+                "Thread interrupt"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Circular waiting → deadlock.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh12",
+            "question": "Which class is immutable?",
+            "type": "mcq",
+            "options": [
+                "Date",
+                "String",
+                "StringBuilder",
+                "ArrayList"
+            ],
+            "correctAnswer": 1,
+            "explanation": "String is immutable.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh13",
+            "question": "Which method is terminal in Stream API?",
+            "type": "mcq",
+            "options": [
+                "map()",
+                "filter()",
+                "collect()",
+                "peek()"
+            ],
+            "correctAnswer": 2,
+            "explanation": "collect() is terminal operation.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh14",
+            "question": "Which keyword is used for dynamic binding?",
+            "type": "mcq",
+            "options": [
+                "final",
+                "static",
+                "override",
+                "none"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dynamic binding happens automatically via overriding.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh15",
+            "question": "Which collection is fastest for retrieval?",
+            "type": "mcq",
+            "options": [
+                "ArrayList",
+                "HashMap",
+                "TreeMap",
+                "LinkedList"
+            ],
+            "correctAnswer": 1,
+            "explanation": "HashMap provides O(1) access.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh16",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".substring(0, 0));",
+                "language": "java"
+            },
+            "options": [
+                "J",
+                "",
+                "Error",
+                "null"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Empty substring.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh17",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x = 5;\nSystem.out.println(x += x -= x * x);",
+                "language": "java"
+            },
+            "options": [
+                "-20",
+                "0",
+                "5",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Complex operator evaluation → -20.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh18",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(Math.pow(2,3));",
+                "language": "java"
+            },
+            "options": [
+                "8.0",
+                "8",
+                "6",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Returns double → 8.0.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh19",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".replace(\"a\",\"\"));",
+                "language": "java"
+            },
+            "options": [
+                "Jv",
+                "Ja",
+                "Error",
+                "null"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Removes all 'a'.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh20",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(5 | 3);",
+                "language": "java"
+            },
+            "options": [
+                "7",
+                "6",
+                "5",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Bitwise OR → 7.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh21",
+            "question": "Which type of exception must be handled at compile time?",
+            "type": "mcq",
+            "options": [
+                "Runtime",
+                "Checked",
+                "Error",
+                "Logical"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Checked exceptions must be handled.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh22",
+            "question": "Which keyword restricts inheritance and overriding?",
+            "type": "mcq",
+            "options": [
+                "final",
+                "static",
+                "private",
+                "abstract"
+            ],
+            "correctAnswer": 0,
+            "explanation": "final prevents inheritance and overriding.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh23",
+            "question": "Which collection uses Red-Black tree internally?",
+            "type": "mcq",
+            "options": [
+                "HashMap",
+                "TreeMap",
+                "ArrayList",
+                "LinkedList"
+            ],
+            "correctAnswer": 1,
+            "explanation": "TreeMap uses Red-Black tree.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh24",
+            "question": "Which feature improves performance by delaying execution?",
+            "type": "mcq",
+            "options": [
+                "Lazy evaluation",
+                "Encapsulation",
+                "Inheritance",
+                "Polymorphism"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Streams use lazy evaluation.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh25",
+            "question": "Which JVM component converts bytecode to machine code?",
+            "type": "mcq",
+            "options": [
+                "JRE",
+                "JIT Compiler",
+                "ClassLoader",
+                "GC"
+            ],
+            "correctAnswer": 1,
+            "explanation": "JIT compiles bytecode to native code.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh26",
+            "question": "What happens if finalize() method throws an exception?",
+            "type": "mcq",
+            "options": [
+                "Program crashes",
+                "Exception ignored",
+                "GC stops",
+                "Runtime error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Exceptions in finalize() are ignored by JVM.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh27",
+            "question": "Which method is used to compare content in StringBuilder?",
+            "type": "mcq",
+            "options": [
+                "equals()",
+                "==",
+                "compareTo()",
+                "No direct method"
+            ],
+            "correctAnswer": 3,
+            "explanation": "StringBuilder does not override equals().",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh28",
+            "question": "Which exception is thrown when accessing index out of bounds in ArrayList?",
+            "type": "mcq",
+            "options": [
+                "ArrayIndexOutOfBoundsException",
+                "IndexOutOfBoundsException",
+                "NullPointerException",
+                "RuntimeException"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ArrayList throws IndexOutOfBoundsException.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh29",
+            "question": "Which keyword prevents method inheritance?",
+            "type": "mcq",
+            "options": [
+                "static",
+                "final",
+                "private",
+                "abstract"
+            ],
+            "correctAnswer": 2,
+            "explanation": "private methods are not inherited.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh30",
+            "question": "Which interface provides parallel stream capability?",
+            "type": "mcq",
+            "options": [
+                "Collection",
+                "Stream",
+                "ParallelStream",
+                "Iterable"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Stream API supports parallelStream().",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh31",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".equals(null));",
+                "language": "java"
+            },
+            "options": [
+                "true",
+                "false",
+                "Exception",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "equals(null) returns false.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh32",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(null==null);",
+                "language": "java"
+            },
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "Exception"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Both null references → true.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh33",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "int x=0;\nSystem.out.println(10/x);",
+                "language": "java"
+            },
+            "options": [
+                "Infinity",
+                "0",
+                "Exception",
+                "NaN"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Division by zero throws ArithmeticException.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh34",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"abc\".compareTo(\"abd\"));",
+                "language": "java"
+            },
+            "options": [
+                "-1",
+                "1",
+                "0",
+                "Error"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Lexicographically smaller → negative.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh35",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(Math.round(2.6));",
+                "language": "java"
+            },
+            "options": [
+                "2",
+                "3",
+                "2.6",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "round(2.6) = 3.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh36",
+            "question": "Which collection allows one null key?",
+            "type": "mcq",
+            "options": [
+                "Hashtable",
+                "HashMap",
+                "TreeMap",
+                "ConcurrentHashMap"
+            ],
+            "correctAnswer": 1,
+            "explanation": "HashMap allows one null key.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh37",
+            "question": "Which class provides thread pool?",
+            "type": "mcq",
+            "options": [
+                "Thread",
+                "ExecutorService",
+                "Runnable",
+                "Callable"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ExecutorService manages thread pools.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh38",
+            "question": "Which keyword prevents reordering in multithreading?",
+            "type": "mcq",
+            "options": [
+                "volatile",
+                "synchronized",
+                "final",
+                "static"
+            ],
+            "correctAnswer": 0,
+            "explanation": "volatile prevents instruction reordering.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh39",
+            "question": "Which exception occurs in invalid enum conversion?",
+            "type": "mcq",
+            "options": [
+                "IllegalArgumentException",
+                "NumberFormatException",
+                "ClassCastException",
+                "RuntimeException"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Invalid enum → IllegalArgumentException.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh40",
+            "question": "Which feature removes duplicate elements in stream?",
+            "type": "mcq",
+            "options": [
+                "filter()",
+                "distinct()",
+                "map()",
+                "reduce()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "distinct() removes duplicates.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh41",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".toLowerCase().toUpperCase());",
+                "language": "java"
+            },
+            "options": [
+                "JAVA",
+                "java",
+                "Error",
+                "null"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Converted twice → JAVA.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh42",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(5 + 2 * 3);",
+                "language": "java"
+            },
+            "options": [
+                "21",
+                "11",
+                "15",
+                "Error"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Operator precedence → 5+6=11.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh43",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".indexOf('a'));",
+                "language": "java"
+            },
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctAnswer": 1,
+            "explanation": "First 'a' at index 1.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh44",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".lastIndexOf('a'));",
+                "language": "java"
+            },
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Last 'a' index = 3.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh45",
+            "type": "output",
+            "question": "Output?",
+            "code": {
+                "content": "System.out.println(\"Java\".startsWith(\"Ja\"));",
+                "language": "java"
+            },
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "null"
+            ],
+            "correctAnswer": 0,
+            "explanation": "String starts with 'Ja'.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh46",
+            "question": "Which method converts stream to list?",
+            "type": "mcq",
+            "options": [
+                "collect()",
+                "toList()",
+                "map()",
+                "reduce()"
+            ],
+            "correctAnswer": 0,
+            "explanation": "collect(Collectors.toList()).",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh47",
+            "question": "Which class handles file reading?",
+            "type": "mcq",
+            "options": [
+                "FileReader",
+                "Scanner",
+                "BufferedReader",
+                "All of the above"
+            ],
+            "correctAnswer": 3,
+            "explanation": "All can read files.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh48",
+            "question": "Which feature supports runtime method binding?",
+            "type": "mcq",
+            "options": [
+                "Overloading",
+                "Overriding",
+                "Encapsulation",
+                "Abstraction"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Overriding enables runtime binding.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh49",
+            "question": "Which exception is thrown for invalid number parsing?",
+            "type": "mcq",
+            "options": [
+                "NumberFormatException",
+                "IOException",
+                "NullPointerException",
+                "ArithmeticException"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Invalid number format.",
+            "marks": 1,
+            "negativeMarks": 0
+        },
+        {
+            "id": "jh50",
+            "question": "Which keyword ensures only one instance of a class?",
+            "type": "mcq",
+            "options": [
+                "final",
+                "static",
+                "private constructor",
+                "singleton"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Private constructor used in Singleton pattern.",
+            "marks": 1,
+            "negativeMarks": 0
+        }
+    ]
+}

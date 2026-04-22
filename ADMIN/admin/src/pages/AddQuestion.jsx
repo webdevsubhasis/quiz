@@ -4,54 +4,60 @@ import Sidebar from "../components/Sidebar";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
-/* 🔹 Capitalize helper */
 const toTitleCase = (str = "") =>
   str
     .toLowerCase()
     .split(" ")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 
 export default function AddQuestion() {
+  const navigate = useNavigate();
+
   const [subjects, setSubjects] = useState([]);
+  const [sets, setSets] = useState([]);
+
   const [subjectId, setSubjectId] = useState("");
+  const [setId, setSetId] = useState("");
 
   const [title, setTitle] = useState("");
   const [type, setType] = useState("mcq");
 
   const [codeContent, setCodeContent] = useState("");
+  const [codeLanguage, setCodeLanguage] = useState("java");
 
   const [options, setOptions] = useState(["", "", "", ""]);
   const [correctAnswer, setCorrectAnswer] = useState("0");
 
-  const navigate = useNavigate();
+  const [explanation, setExplanation] = useState("");
+  const [difficulty, setDifficulty] = useState("easy");
+  const [marks, setMarks] = useState(1);
+  const [negativeMarks, setNegativeMarks] = useState(0);
 
   /* ================= LOAD SUBJECTS ================= */
   useEffect(() => {
-    const loadSubjects = async () => {
-      try {
-        const res = await fetch("https://quiz-backend-gamma.vercel.app/api/admin/subjects", {
-          headers: {
-            Authorization: `Bearer ${sessionStorage.getItem("admin_token")}`,
-          },
-        });
-        const data = await res.json();
-        if (Array.isArray(data.subjects)) setSubjects(data.subjects);
-      } catch (err) {
-        console.error("Subjects fetch error:", err);
-      }
-    };
-
-    loadSubjects();
+    fetch("http://localhost:8081/api/admin/subjects")
+      .then((res) => res.json())
+      .then((data) => setSubjects(data?.subjects || []))
+      .catch(() => toast.error("Failed to load subjects"));
   }, []);
+  console.log("subject", subjects);
 
-  /* ================= OPTIONS HANDLER ================= */
-  const setOpt = (index, value) => {
-    setOptions((prev) => {
-      const copy = [...prev];
-      copy[index] = value;
-      return copy;
-    });
+  /* ================= LOAD SETS ================= */
+  useEffect(() => {
+    if (!subjectId) return;
+
+    fetch(`http://localhost:8081/api/sets/${subjectId}`)
+      .then((res) => res.json())
+      .then(setSets)
+      .catch(() => toast.error("Failed to load sets"));
+  }, [subjectId]);
+
+  /* ================= OPTIONS ================= */
+  const setOpt = (i, val) => {
+    const copy = [...options];
+    copy[i] = val;
+    setOptions(copy);
   };
 
   /* ================= SUBMIT ================= */
@@ -59,43 +65,51 @@ export default function AddQuestion() {
     e.preventDefault();
 
     if (!subjectId) return toast.error("Select subject");
-    if (!title.trim()) return toast.error("Enter question title");
+    if (!setId) return toast.error("Select set");
+    if (!title.trim()) return toast.error("Enter question");
+
     if (options.some((o) => !o.trim()))
-      return toast.error("All 4 options required");
+      return toast.error("All options required");
 
     if (type === "output" && !codeContent.trim())
-      return toast.error("Code is required for output question");
+      return toast.error("Code required");
 
     const payload = {
       subjectId,
+      setId,
       title,
       type,
-      code: type === "output" ? { content: codeContent } : null,
+      code:
+        type === "output"
+          ? { content: codeContent, language: codeLanguage }
+          : null,
       options,
       correctAnswer: Number(correctAnswer),
+      explanation,
+      difficulty,
+      marks: Number(marks),
+      negativeMarks: Number(negativeMarks),
     };
 
-    console.log("ADD QUESTION PAYLOAD:", payload);
-
     try {
-      const res = await fetch("https://quiz-backend-gamma.vercel.app/api/admin/questions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${sessionStorage.getItem("admin_token")}`,
-        },
-        body: JSON.stringify(payload),
-      });
+      const res = await fetch(
+        "http://localhost:8081/api/admin/questions",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
 
       const data = await res.json();
-
       if (!res.ok) throw new Error(data.message);
 
-      toast.success("Question added successfully");
+      toast.success("✅ Question added");
       navigate("/questions");
     } catch (err) {
-      console.error("Add question error:", err);
-      toast.error(err.message || "Failed to add question");
+      toast.error(err.message || "Error");
     }
   };
 
@@ -111,29 +125,48 @@ export default function AddQuestion() {
             <form onSubmit={submit}>
               {/* SUBJECT */}
               <div className="mb-3">
-                <label className="form-label">Subject</label>
+                <label>Subject</label>
                 <select
-                  className="form-select"
                   value={subjectId}
-                  onChange={(e) => setSubjectId(e.target.value)}
-                  required
+                  onChange={(e) => {
+                    setSubjectId(e.target.value);
+                    setSetId("");
+                  }}
+                  className="form-select"
                 >
                   <option value="">Select Subject</option>
-                  {subjects.map((sub) => (
-                    <option key={sub._id} value={sub._id}>
-                      {toTitleCase(sub.displayName || sub.name)}
+                  {subjects.map((s) => (
+                    <option key={s._id} value={s._id}>
+                      {toTitleCase(s.displayName || s.name)}
                     </option>
                   ))}
                 </select>
               </div>
 
-              {/* QUESTION TYPE */}
+              {/* SET */}
               <div className="mb-3">
-                <label className="form-label">Question Type</label>
+                <label>Set (Difficulty)</label>
                 <select
+                  value={setId}
+                  onChange={(e) => setSetId(e.target.value)}
                   className="form-select"
+                >
+                  <option value="">Select Set</option>
+                  {sets.map((set) => (
+                    <option key={set._id} value={set._id}>
+                      {toTitleCase(set.displayName || set.name)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* TYPE */}
+              <div className="mb-3">
+                <label>Type</label>
+                <select
                   value={type}
                   onChange={(e) => setType(e.target.value)}
+                  className="form-select"
                 >
                   <option value="mcq">MCQ</option>
                   <option value="output">Output</option>
@@ -142,54 +175,61 @@ export default function AddQuestion() {
 
               {/* TITLE */}
               <div className="mb-3">
-                <label className="form-label">Question Title</label>
+                <label>Question</label>
                 <textarea
-                  className="form-control"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
-                  required
+                  className="form-control"
                 />
               </div>
 
-              {/* CODE (OUTPUT ONLY) */}
+              {/* CODE */}
               {type === "output" && (
-                <div className="mb-3">
-                  <label className="form-label">Code</label>
-                  <textarea
-                    className="form-control"
-                    rows="6"
-                    value={codeContent}
-                    onChange={(e) => setCodeContent(e.target.value)}
-                    style={{
-                      fontFamily: "monospace",
-                      background: "#111",
-                      color: "#0f0",
-                    }}
-                    required
-                  />
-                </div>
+                <>
+                  <div className="mb-3">
+                    <label>Language</label>
+                    <select
+                      value={codeLanguage}
+                      onChange={(e) => setCodeLanguage(e.target.value)}
+                      className="form-select"
+                    >
+                      <option value="java">Java</option>
+                      <option value="cpp">C++</option>
+                      <option value="python">Python</option>
+                    </select>
+                  </div>
+
+                  <div className="mb-3">
+                    <label>Code</label>
+                    <textarea
+                      value={codeContent}
+                      onChange={(e) => setCodeContent(e.target.value)}
+                      className="form-control"
+                      rows="6"
+                    />
+                  </div>
+                </>
               )}
 
               {/* OPTIONS */}
               {options.map((opt, i) => (
-                <div className="mb-3" key={i}>
-                  <label className="form-label">Option {i + 1}</label>
+                <div key={i} className="mb-2">
                   <input
-                    className="form-control"
                     value={opt}
                     onChange={(e) => setOpt(i, e.target.value)}
-                    required
+                    className="form-control"
+                    placeholder={`Option ${i + 1}`}
                   />
                 </div>
               ))}
 
-              {/* CORRECT ANSWER */}
+              {/* CORRECT */}
               <div className="mb-3">
-                <label className="form-label">Correct Answer</label>
+                <label>Correct Answer</label>
                 <select
-                  className="form-select"
                   value={correctAnswer}
                   onChange={(e) => setCorrectAnswer(e.target.value)}
+                  className="form-select"
                 >
                   <option value="0">Option 1</option>
                   <option value="1">Option 2</option>
@@ -198,7 +238,52 @@ export default function AddQuestion() {
                 </select>
               </div>
 
-              <button className="btn btn-primary">Add Question</button>
+              {/* EXTRA */}
+              <div className="mb-3">
+                <label>Explanation</label>
+                <textarea
+                  value={explanation}
+                  onChange={(e) => setExplanation(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+
+              {/* <div className="mb-3">
+                <label>Difficulty</label>
+                <select
+                  value={difficulty}
+                  onChange={(e) => setDifficulty(e.target.value)}
+                  className="form-select"
+                >
+                  <option value="easy">Easy</option>
+                  <option value="medium">Medium</option>
+                  <option value="hard">Hard</option>
+                </select>
+              </div> */}
+
+              <div className="mb-3">
+                <label>Marks</label>
+                <input
+                  type="number"
+                  value={marks}
+                  onChange={(e) => setMarks(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+
+              <div className="mb-3">
+                <label>Negative Marks</label>
+                <input
+                  type="number"
+                  value={negativeMarks}
+                  onChange={(e) => setNegativeMarks(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+
+              <button className="btn btn-primary w-100">
+                Add Question
+              </button>
             </form>
           </div>
         </div>

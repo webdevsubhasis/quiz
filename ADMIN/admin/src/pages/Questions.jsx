@@ -128,7 +128,7 @@ export default function Questions() {
 
     try {
       const res = await fetch(
-        "http://127.0.0.1:8081/api/admin/questions/import",
+        "http://localhost:8081/api/admin/questions/import",
         { method: "POST", body: formData }
       );
 
@@ -256,7 +256,7 @@ export default function Questions() {
                 <div style={{ flex: 1 }}>
                   <strong>{capitalizeFirst(q.title)}</strong>
                   <div className="muted">
-                    Subject: {toTitleCase(q.subjectName)}
+                    Subject: {toTitleCase(q.hierarchy.subject)}
                   </div>
                 </div>
 

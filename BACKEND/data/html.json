@@ -1,370 +1,758 @@
 {
-  "category": "Html",
+  "category": "web development",
+  "subjectId": "html",
+  "subjectName": "HTML",
+  "set": "easy",
   "questions": [
     {
       "id": "h1",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for a paragraph in HTML?",
-      "options": ["<para>", "<p>", "<text>", "<pg>"],
-      "correctAnswer": 1
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyperlinks Text Markup Language",
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Transfer Markup Logic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTML stands for Hyper Text Markup Language."
     },
     {
       "id": "h2",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which attribute specifies an image source?",
-      "options": ["href", "source", "src", "img"],
-      "correctAnswer": 2
+      "question": "Which tag is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<nav>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<a> tag is used to create hyperlinks."
     },
     {
       "id": "h3",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines the largest heading?",
-      "options": ["<h6>", "<heading>", "<h1>", "<head>"],
-      "correctAnswer": 2
+      "question": "Which tag is used to display an image?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<pic>",
+        "<src>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<img> tag is used to embed images."
     },
     {
       "id": "h4",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used to insert a line break?",
-      "options": ["<lb>", "<break>", "<br>", "<hr>"],
-      "correctAnswer": 2
+      "question": "Which attribute is required in <img> tag?",
+      "options": [
+        "src",
+        "href",
+        "link",
+        "alt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "src attribute specifies the image source."
     },
     {
       "id": "h5",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "HTML stands for?",
+      "question": "Which tag defines a paragraph?",
       "options": [
-        "Hyperlinks Text Markup Language",
-        "Home Tool Markup Language",
-        "Hyper Text Markup Language",
-        "Hyper Transfer Markup Logic"
+        "<para>",
+        "<p>",
+        "<text>",
+        "<pg>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 1,
+      "explanation": "<p> tag defines a paragraph."
     },
     {
       "id": "h6",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for creating a hyperlink?",
-      "options": ["<a>", "<link>", "<href>", "<hyper>"],
-      "correctAnswer": 0
+      "question": "Which tag is used for line break?",
+      "options": [
+        "<br>",
+        "<lb>",
+        "<break>",
+        "<hr>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<br> inserts a line break."
     },
     {
       "id": "h7",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used to display an image?",
-      "options": ["<img>", "<image>", "<pic>", "<src>"],
-      "correctAnswer": 0
+      "question": "Which tag defines the largest heading?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<heading>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<h1> is the largest heading tag."
     },
     {
       "id": "h8",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which HTML5 element is used for navigation links?",
-      "options": ["<navigate>", "<nav>", "<links>", "<menu>"],
-      "correctAnswer": 1
+      "question": "Which tag is used to create a table?",
+      "options": [
+        "<table>",
+        "<tbl>",
+        "<grid>",
+        "<t>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<table> is used to create tables."
     },
     {
       "id": "h9",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a horizontal line?",
-      "options": ["<line>", "<hr>", "<hl>", "<horizontal>"],
-      "correctAnswer": 1
+      "question": "Which tag defines a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<row>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<tr> defines a table row."
     },
     {
       "id": "h10",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element represents an independent piece of content?",
-      "options": ["<part>", "<section>", "<article>", "<aside>"],
-      "correctAnswer": 2
+      "question": "Which tag defines a table cell?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<cell>",
+        "<th>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<td> defines a table data cell."
     },
     {
       "id": "h11",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for bold text?",
-      "options": ["<strong>", "<bold>", "<b>", "<heavy>"],
-      "correctAnswer": 2
+      "question": "Which tag is used for bold text?",
+      "options": [
+        "<b>",
+        "<strong>",
+        "<bold>",
+        "<heavy>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b> makes text bold."
     },
     {
       "id": "h12",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines emphasized text?",
-      "options": ["<emp>", "<i>", "<italic>", "<em>"],
-      "correctAnswer": 3
+      "question": "Which tag is used for emphasized text?",
+      "options": [
+        "<em>",
+        "<i>",
+        "<italic>",
+        "<emp>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<em> represents emphasized text."
     },
     {
       "id": "h13",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag displays a table?",
-      "options": ["<tbl>", "<table>", "<t>", "<grid>"],
-      "correctAnswer": 1
+      "question": "Which tag creates an unordered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<ul> creates unordered lists."
     },
     {
       "id": "h14",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a table row?",
-      "options": ["<tr>", "<td>", "<row>", "<th>"],
-      "correctAnswer": 0
+      "question": "Which tag creates an ordered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<ol> creates ordered lists."
     },
     {
       "id": "h15",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a table cell?",
-      "options": ["<cell>", "<td>", "<tc>", "<tr>"],
-      "correctAnswer": 1
+      "question": "Which tag defines list items?",
+      "options": [
+        "<li>",
+        "<ul>",
+        "<item>",
+        "<list>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<li> defines list items."
     },
     {
       "id": "h16",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines table header?",
-      "options": ["<th>", "<header>", "<thead>", "<hd>"],
-      "correctAnswer": 0
+      "question": "Which tag is used for forms?",
+      "options": [
+        "<form>",
+        "<input>",
+        "<forms>",
+        "<entry>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<form> is used to create forms."
     },
     {
       "id": "h17",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which attribute defines alternative text for images?",
-      "options": ["alt", "title", "description", "label"],
-      "correctAnswer": 0
+      "question": "Which tag is used for user input?",
+      "options": [
+        "<input>",
+        "<form>",
+        "<textbox>",
+        "<field>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<input> defines input controls."
     },
     {
       "id": "h18",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which HTML5 element is used for a footer?",
-      "options": ["<bottom>", "<end>", "<footer>", "<foot>"],
-      "correctAnswer": 2
+      "question": "Which input type is used for email?",
+      "options": [
+        "text",
+        "email",
+        "mail",
+        "input-email"
+      ],
+      "correctAnswer": 1,
+      "explanation": "type='email' validates email input."
     },
     {
       "id": "h19",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a list item?",
-      "options": ["<li>", "<item>", "<ul>", "<list>"],
-      "correctAnswer": 0
+      "question": "Which tag is used for navigation?",
+      "options": [
+        "<nav>",
+        "<menu>",
+        "<navigate>",
+        "<links>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<nav> defines navigation links."
     },
     {
       "id": "h20",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element creates an unordered list?",
-      "options": ["<ol>", "<ul>", "<list>", "<li>"],
-      "correctAnswer": 1
+      "question": "Which tag is used for main content?",
+      "options": [
+        "<main>",
+        "<body>",
+        "<section>",
+        "<content>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<main> represents main content."
     },
     {
       "id": "h21",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element creates an ordered list?",
-      "options": ["<ul>", "<numbers>", "<list>", "<ol>"],
-      "correctAnswer": 3
+      "question": "Which tag defines a footer?",
+      "options": [
+        "<footer>",
+        "<bottom>",
+        "<end>",
+        "<foot>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<footer> defines page footer."
     },
     {
       "id": "h22",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines input controls?",
-      "options": ["<input>", "<textbox>", "<ctrl>", "<form-input>"],
-      "correctAnswer": 0
+      "question": "Which tag defines a header?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<top>",
+        "<heading>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<header> defines page header."
     },
     {
       "id": "h23",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a form?",
-      "options": ["<forms>", "<input-group>", "<form>", "<entry>"],
-      "correctAnswer": 2
+      "question": "Which tag is used for scripts?",
+      "options": [
+        "<script>",
+        "<js>",
+        "<javascript>",
+        "<code>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<script> is used for JavaScript."
     },
     {
       "id": "h24",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Placeholder attribute is used in?",
-      "options": ["<option>", "<textarea>", "<input>", "Both textarea & input"],
-      "correctAnswer": 3
+      "question": "Which tag defines metadata?",
+      "options": [
+        "<meta>",
+        "<data>",
+        "<info>",
+        "<head>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<meta> provides metadata."
     },
     {
       "id": "h25",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which type is used for email input?",
-      "options": ["text", "mail", "email", "input-email"],
-      "correctAnswer": 2
+      "question": "Which attribute is used for inline CSS?",
+      "options": [
+        "style",
+        "css",
+        "design",
+        "styles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "style attribute applies inline CSS."
     },
     {
       "id": "h26",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for video?",
-      "options": ["<media>", "<movie>", "<video>", "<vid>"],
-      "correctAnswer": 2
+      "question": "Which tag is used to define a dropdown list?",
+      "options": [
+        "<dropdown>",
+        "<select>",
+        "<list>",
+        "<input-list>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<select> is used to create dropdown lists."
     },
     {
       "id": "h27",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for audio?",
-      "options": ["<sound>", "<audio>", "<voice>", "<media>"],
-      "correctAnswer": 1
+      "question": "Which tag defines options inside a dropdown?",
+      "options": [
+        "<item>",
+        "<option>",
+        "<select-item>",
+        "<choice>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<option> defines items in a dropdown."
     },
     {
       "id": "h28",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a dropdown list?",
-      "options": ["<select>", "<dropdown>", "<options>", "<choose>"],
-      "correctAnswer": 0
+      "question": "Which attribute is used to provide alternate text for images?",
+      "options": [
+        "title",
+        "alt",
+        "description",
+        "label"
+      ],
+      "correctAnswer": 1,
+      "explanation": "alt attribute provides alternate text for accessibility."
     },
     {
       "id": "h29",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines options inside a dropdown?",
-      "options": ["<item>", "<option>", "<select-item>", "<choose>"],
-      "correctAnswer": 1
+      "question": "Which tag is used to embed video?",
+      "options": [
+        "<media>",
+        "<video>",
+        "<movie>",
+        "<vid>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<video> is used to embed video content."
     },
     {
       "id": "h30",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which HTML element is used for a progress bar?",
-      "options": ["<process>", "<progress>", "<loader>", "<meter>"],
-      "correctAnswer": 1
+      "question": "Which tag is used to embed audio?",
+      "options": [
+        "<sound>",
+        "<audio>",
+        "<voice>",
+        "<media>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<audio> is used to embed audio content."
     },
     {
       "id": "h31",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element is used to create a checkbox?",
+      "question": "Which tag is used for grouping block-level elements?",
       "options": [
-        "input type='check'",
-        "<checkbox>",
-        "<input type='checkbox'>",
-        "<input-checkbox>"
+        "<group>",
+        "<div>",
+        "<section>",
+        "<block>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 1,
+      "explanation": "<div> groups block-level elements."
     },
     {
       "id": "h32",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which HTMl5 element defines important text?",
-      "options": ["<important>", "<b>", "<strong>", "<em>"],
-      "correctAnswer": 2
+      "question": "Which tag is used for inline grouping?",
+      "options": [
+        "<span>",
+        "<inline>",
+        "<group>",
+        "<text>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<span> is used for inline grouping."
     },
     {
       "id": "h33",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used to group block-level elements?",
-      "options": ["<group>", "<div>", "<section>", "<block>"],
-      "correctAnswer": 1
+      "question": "Which element defines a section in a document?",
+      "options": [
+        "<div>",
+        "<section>",
+        "<part>",
+        "<block>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<section> defines a thematic grouping."
     },
     {
       "id": "h34",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for inline grouping?",
-      "options": ["<inline>", "<span>", "<sp>", "<small>"],
-      "correctAnswer": 1
+      "question": "Which element represents independent content?",
+      "options": [
+        "<section>",
+        "<article>",
+        "<div>",
+        "<aside>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<article> represents independent content."
     },
     {
       "id": "h35",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element provides additional information when hovered?",
-      "options": ["hover", "desc", "title", "alt"],
-      "correctAnswer": 2
+      "question": "Which element is used for side content?",
+      "options": [
+        "<aside>",
+        "<side>",
+        "<sidebar>",
+        "<extra>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<aside> defines side content."
     },
     {
       "id": "h36",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which HTML attribute is used for inline styling?",
-      "options": ["styles", "style", "css", "design"],
-      "correctAnswer": 1
+      "question": "Which attribute disables an input field?",
+      "options": [
+        "disable",
+        "disabled",
+        "readonly",
+        "stop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "disabled attribute disables input fields."
     },
     {
       "id": "h37",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for main content?",
-      "options": ["<body>", "<main>", "<section>", "<primary>"],
-      "correctAnswer": 1
+      "question": "Which attribute makes an input read-only?",
+      "options": [
+        "readonly",
+        "disabled",
+        "lock",
+        "fixed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "readonly allows viewing but not editing."
     },
     {
       "id": "h38",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which API allows drawing graphics?",
-      "options": ["Canvas API", "Graphics API", "HTMLPaint", "DrawJS"],
-      "correctAnswer": 0
+      "question": "Which attribute provides a tooltip on hover?",
+      "options": [
+        "alt",
+        "title",
+        "hover",
+        "desc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "title attribute shows tooltip text."
     },
     {
       "id": "h39",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element is used for drawing using JavaScript?",
-      "options": ["<paint>", "<canvas>", "<draw>", "<graphic>"],
-      "correctAnswer": 1
+      "question": "Which input type is used for passwords?",
+      "options": [
+        "text",
+        "password",
+        "secure",
+        "hidden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "type='password' hides input characters."
     },
     {
       "id": "h40",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for metadata?",
-      "options": ["<meta>", "<info>", "<data>", "<description>"],
-      "correctAnswer": 0
+      "question": "Which input type is used for numbers?",
+      "options": [
+        "numeric",
+        "number",
+        "int",
+        "digit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "type='number' accepts numeric input."
     },
     {
       "id": "h41",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag sets the page title?",
-      "options": ["<title>", "<head>", "<meta-title>", "<header>"],
-      "correctAnswer": 0
+      "question": "Which tag is used for progress bar?",
+      "options": [
+        "<progress>",
+        "<meter>",
+        "<bar>",
+        "<load>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<progress> shows task progress."
     },
     {
       "id": "h42",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element defines a sidebar?",
-      "options": ["<side>", "<leftbar>", "<aside>", "<sidenav>"],
-      "correctAnswer": 2
+      "question": "Which tag is used for measuring data?",
+      "options": [
+        "<meter>",
+        "<measure>",
+        "<progress>",
+        "<data>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<meter> represents scalar measurements."
     },
     {
       "id": "h43",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element defines a header?",
-      "options": ["<header>", "<top>", "<heading>", "<head>"],
-      "correctAnswer": 0
+      "question": "Which tag defines a caption for a figure?",
+      "options": [
+        "<figcaption>",
+        "<caption>",
+        "<label>",
+        "<desc>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<figcaption> defines figure caption."
     },
     {
       "id": "h44",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for marking up time?",
-      "options": ["<clock>", "<date>", "<time>", "<timestamp>"],
-      "correctAnswer": 2
+      "question": "Which tag wraps media content with caption?",
+      "options": [
+        "<figure>",
+        "<media>",
+        "<img-group>",
+        "<block>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<figure> groups media with caption."
     },
     {
       "id": "h45",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag is used for figure description?",
-      "options": ["<figcaption>", "<caption>", "<description>", "<label>"],
-      "correctAnswer": 0
+      "question": "Which tag is used to mark up time?",
+      "options": [
+        "<time>",
+        "<date>",
+        "<clock>",
+        "<timestamp>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<time> represents date/time."
     },
     {
       "id": "h46",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which tag defines a figure?",
-      "options": ["<art>", "<fig>", "<figure>", "<image-block>"],
-      "correctAnswer": 2
+      "question": "Which tag defines client-side script?",
+      "options": [
+        "<script>",
+        "<code>",
+        "<js>",
+        "<client>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<script> is used for JavaScript."
     },
     {
       "id": "h47",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which attribute is required in the <img> tag?",
-      "options": ["src", "href", "link", "ref"],
-      "correctAnswer": 0
+      "question": "Which tag is used to link external CSS?",
+      "options": [
+        "<style>",
+        "<css>",
+        "<link>",
+        "<script>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<link> is used to include external CSS."
     },
     {
       "id": "h48",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element defines client-side scripts?",
-      "options": ["<js>", "<javascript>", "<script>", "<code>"],
-      "correctAnswer": 2
+      "question": "Where is <title> placed?",
+      "options": [
+        "<body>",
+        "<head>",
+        "<footer>",
+        "<main>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<title> is placed inside <head>."
     },
     {
       "id": "h49",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which element is used for search input?",
+      "question": "Which tag defines document body?",
       "options": [
-        "<input type='text'>",
-        "<search>",
-        "<find>",
-        "<input type='search'>"
+        "<main>",
+        "<body>",
+        "<section>",
+        "<html>"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 1,
+      "explanation": "<body> contains visible content."
     },
     {
       "id": "h50",
+      "subjectId": "html",
+      "category": "web development",
       "type": "mcq",
-      "title": "Which attribute is used to disable an input?",
-      "options": ["stop", "disable", "disabled", "readonly"],
-      "correctAnswer": 2
+      "question": "Which tag is the root of HTML document?",
+      "options": [
+        "<root>",
+        "<html>",
+        "<head>",
+        "<body>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<html> is the root element."
     }
   ]
 }

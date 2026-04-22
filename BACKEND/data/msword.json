@@ -1,414 +1,758 @@
 {
-  "category": "MS-Word",
+  "category": "ms-office",
+  "subjectId": "ms-word",
+  "subjectName": "MS Word",
+  "set": "easy",
   "questions": [
-  {
-    "id": "WORD-1",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which file extension is used by MS Word?",
-    "options": [".docx", ".xls", ".ppt", ".pdf"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-2",
-    "language": "word",
-    "type": "mcq",
-    "title": "Shortcut for bold text is?",
-    "options": ["Ctrl+B", "Ctrl+I", "Ctrl+U", "Ctrl+S"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-3",
-    "language": "word",
-    "type": "mcq",
-    "title": "MS Word is a ____.",
-    "options": ["Spreadsheet", "Word Processor", "Database", "Browser"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-4",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which key is used to open the Save As dialog?",
-    "options": ["F1", "F5", "F12", "Shift+F1"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "WORD-5",
-    "language": "word",
-    "type": "mcq",
-    "title": "What does Ctrl+U do?",
-    "options": ["Underline", "Uppercase", "Undo", "Update"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-6",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which menu contains Page Setup?",
-    "options": ["File", "Insert", "Layout", "Home"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "WORD-7",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which feature checks spelling?",
-    "options": ["AutoFix", "AutoCheck", "Spell Check", "Review"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "WORD-8",
-    "language": "word",
-    "type": "mcq",
-    "title": "Shortcut for copy?",
-    "options": ["Ctrl+C", "Ctrl+K", "Ctrl+Shift+C", "Alt+C"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-9",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option inserts images?",
-    "options": ["Insert → Picture", "Home → Image", "View → Photo", "Design → Media"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-10",
-    "language": "word",
-    "type": "mcq",
-    "title": "What is the default file extension of Word 2007?",
-    "options": [".doc", ".docx", ".txt", ".rtf"],
-    "correctAnswer": 1
-  },
-
-  {
-    "id": "WORD-11",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which button increases font size?",
-    "options": ["A↑", "A↓", "Font+", "Text↑"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-12",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which alignment aligns text to the left?",
-    "options": ["Ctrl+L", "Ctrl+R", "Ctrl+E", "Ctrl+J"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-13",
-    "language": "word",
-    "type": "mcq",
-    "title": "Header appears at the ____.",
-    "options": ["Top", "Bottom", "Left", "Right"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-14",
-    "language": "word",
-    "type": "mcq",
-    "title": "Footer appears at the ____.",
-    "options": ["Top", "Bottom", "Left", "Right"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-15",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which tab contains Font group?",
-    "options": ["Insert", "Home", "Design", "View"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-16",
-    "language": "word",
-    "type": "mcq",
-    "title": "Shortcut for paste?",
-    "options": ["Ctrl+P", "Ctrl+V", "Ctrl+Shift+V", "Alt+V"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-17",
-    "language": "word",
-    "type": "mcq",
-    "title": "What is a tab stop?",
-    "options": ["Cursor", "Indent marker", "Formatting option", "Predefined stop position"],
-    "correctAnswer": 3
-  },
-  {
-    "id": "WORD-18",
-    "language": "word",
-    "type": "mcq",
-    "title": "Track Changes is found under?",
-    "options": ["Home", "Review", "Insert", "Design"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-19",
-    "language": "word",
-    "type": "mcq",
-    "title": "Mail Merge is used for?",
-    "options": ["Graphics", "Address labels", "Tables", "Charts"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-20",
-    "language": "word",
-    "type": "mcq",
-    "title": "Shortcut for Select All?",
-    "options": ["Ctrl+S", "Ctrl+A", "Ctrl+Shift+A", "Alt+A"],
-    "correctAnswer": 1
-  },
-
-  {
-    "id": "WORD-21",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which key is used for Undo?",
-    "options": ["Ctrl+U", "Ctrl+Z", "Ctrl+X", "Ctrl+R"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-22",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which key is used for Redo?",
-    "options": ["Ctrl+Y", "Ctrl+T", "Ctrl+R", "Ctrl+Shift+Y"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-23",
-    "language": "word",
-    "type": "mcq",
-    "title": "Bullets are used for?",
-    "options": ["Tables", "Lists", "Styles", "Themes"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-24",
-    "language": "word",
-    "type": "mcq",
-    "title": "What does Ctrl+Shift+L apply?",
-    "options": ["Left align", "List style", "Indent", "Underline"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-25",
-    "language": "word",
-    "type": "mcq",
-    "title": "Watermark can be added from?",
-    "options": ["Design", "Insert", "Layout", "Home"],
-    "correctAnswer": 0
-  },
-
-  {
-    "id": "WORD-26",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option inserts a table?",
-    "options": ["Insert → Table", "Home → Table", "Layout → Table", "Design → Table"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-27",
-    "language": "word",
-    "type": "mcq",
-    "title": "Shortcut for print?",
-    "options": ["Ctrl+P", "Ctrl+Shift+P", "Alt+P", "Ctrl+Alt+P"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-28",
-    "language": "word",
-    "type": "mcq",
-    "title": "The ruler is used for?",
-    "options": ["Font size", "Page layout", "Indents and tabs", "Zoom"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "WORD-29",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which view shows how the document will look when printed?",
-    "options": ["Web Layout", "Print Layout", "Draft", "Read Mode"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-30",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which tab contains Themes?",
-    "options": ["Home", "Insert", "Design", "Review"],
-    "correctAnswer": 2
-  },
-
-  {
-    "id": "WORD-31",
-    "language": "word",
-    "type": "mcq",
-    "title": "Header & Footer tools appear under?",
-    "options": ["Insert", "View", "Design", "Home"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "WORD-32",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option changes page size?",
-    "options": ["Home", "Layout", "Insert", "Tools"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-33",
-    "language": "word",
-    "type": "mcq",
-    "title": "Shortcut for Center alignment?",
-    "options": ["Ctrl+E", "Ctrl+L", "Ctrl+J", "Ctrl+R"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-34",
-    "language": "word",
-    "type": "mcq",
-    "title": "WordArt is available under?",
-    "options": ["Home", "Insert", "Review", "Layout"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-35",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option adjusts line spacing?",
-    "options": ["Paragraph", "Font", "Insert", "Design"],
-    "correctAnswer": 0
-  },
-
-  {
-    "id": "WORD-36",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option finds and replaces text?",
-    "options": ["Ctrl+R", "Ctrl+H", "Ctrl+Shift+R", "Ctrl+Shift+H"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-37",
-    "language": "word",
-    "type": "mcq",
-    "title": "What is the default font in Word?",
-    "options": ["Calibri", "Times New Roman", "Cambria", "Arial"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-38",
-    "language": "word",
-    "type": "mcq",
-    "title": "What is a paragraph?",
-    "options": ["Text style", "Block of text separated by Enter", "Page area", "Section break"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-39",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which key deletes one character to the right?",
-    "options": ["Backspace", "Delete", "Ctrl+D", "Shift+Delete"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-40",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which feature increases the space between characters?",
-    "options": ["Kerning", "Leading", "Indent", "Tracking"],
-    "correctAnswer": 0
-  },
-
-  {
-    "id": "WORD-41",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which key creates a new line?",
-    "options": ["Shift", "Enter", "Tab", "Space"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-42",
-    "language": "word",
-    "type": "mcq",
-    "title": "Superscript shortcut?",
-    "options": ["Ctrl+Shift+=", "Ctrl+Shift+P", "Ctrl++", "Alt+Shift+="],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-43",
-    "language": "word",
-    "type": "mcq",
-    "title": "Subscript shortcut?",
-    "options": ["Ctrl+=", "Ctrl+Shift+=", "Ctrl+Shift+Minus", "Ctrl+Alt+="],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-44",
-    "language": "word",
-    "type": "mcq",
-    "title": "Page break shortcut?",
-    "options": ["Ctrl+Enter", "Ctrl+Shift+Enter", "Alt+Enter", "Shift+Enter"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-45",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option adds page numbers?",
-    "options": ["Insert", "Home", "Layout", "Tools"],
-    "correctAnswer": 0
-  },
-
-  {
-    "id": "WORD-46",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option shows document statistics?",
-    "options": ["Word Count", "Review", "Status Bar", "Tools"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-47",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which feature translates text?",
-    "options": ["Review → Translate", "Insert → Translate", "Home → Translate", "Tools → Translate"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-48",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which feature compares two documents?",
-    "options": ["Design", "Compare", "Insert", "File"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "WORD-49",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option creates columns?",
-    "options": ["Layout → Columns", "Insert → Columns", "Home → Columns", "Review → Columns"],
-    "correctAnswer": 0
-  },
-  {
-    "id": "WORD-50",
-    "language": "word",
-    "type": "mcq",
-    "title": "Which option inserts symbols?",
-    "options": ["Insert → Symbol", "Home → Symbol", "View → Symbol", "Layout → Symbol"],
-    "correctAnswer": 0
-  }
-
-
+    {
+      "id": "word1",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab is used to change font style?",
+      "options": [
+        "Insert",
+        "Home",
+        "Design",
+        "Layout"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Font style options are available in the Home tab."
+    },
+    {
+      "id": "word2",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to underline text?",
+      "options": [
+        "Ctrl+B",
+        "Ctrl+U",
+        "Ctrl+I",
+        "Ctrl+L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ctrl+U applies underline formatting."
+    },
+    {
+      "id": "word3",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to create a new document?",
+      "options": [
+        "Ctrl+N",
+        "Ctrl+O",
+        "Ctrl+S",
+        "Ctrl+P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+N creates a new document."
+    },
+    {
+      "id": "word4",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key opens an existing document?",
+      "options": [
+        "Ctrl+O",
+        "Ctrl+N",
+        "Ctrl+E",
+        "Ctrl+W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+O opens an existing document."
+    },
+    {
+      "id": "word5",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to italicize text?",
+      "options": [
+        "Ctrl+B",
+        "Ctrl+I",
+        "Ctrl+U",
+        "Ctrl+T"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ctrl+I applies italic formatting."
+    },
+    {
+      "id": "word6",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab contains clipboard tools?",
+      "options": [
+        "Insert",
+        "Home",
+        "View",
+        "Design"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clipboard tools (cut, copy, paste) are in the Home tab."
+    },
+    {
+      "id": "word7",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to cut text?",
+      "options": [
+        "Ctrl+X",
+        "Ctrl+C",
+        "Ctrl+V",
+        "Ctrl+Z"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+X cuts selected text."
+    },
+    {
+      "id": "word8",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key combination is used to redo an action?",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+R",
+        "Ctrl+Shift+Z"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ctrl+Y redoes the last undone action."
+    },
+    {
+      "id": "word9",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option changes text alignment to right?",
+      "options": [
+        "Ctrl+L",
+        "Ctrl+R",
+        "Ctrl+E",
+        "Ctrl+J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ctrl+R aligns text to the right."
+    },
+    {
+      "id": "word10",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option highlights text with color?",
+      "options": [
+        "Font Color",
+        "Highlight",
+        "Fill",
+        "Style"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Highlight is used to mark text with color."
+    },
+    {
+      "id": "word11",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab is used to insert shapes?",
+      "options": [
+        "Home",
+        "Insert",
+        "Layout",
+        "Review"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shapes are inserted from the Insert tab."
+    },
+    {
+      "id": "word12",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to close a document?",
+      "options": [
+        "Ctrl+W",
+        "Ctrl+Q",
+        "Ctrl+E",
+        "Ctrl+Shift+W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+W closes the current document."
+    },
+    {
+      "id": "word13",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option inserts a page break?",
+      "options": [
+        "Ctrl+Enter",
+        "Ctrl+Shift+Enter",
+        "Alt+Enter",
+        "Shift+Enter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+Enter inserts a page break."
+    },
+    {
+      "id": "word14",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab contains spelling and grammar check?",
+      "options": [
+        "Home",
+        "Insert",
+        "Review",
+        "Layout"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spelling & grammar tools are in the Review tab."
+    },
+    {
+      "id": "word15",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert a header?",
+      "options": [
+        "Insert → Header",
+        "Layout → Header",
+        "Home → Header",
+        "Review → Header"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Headers are inserted from the Insert tab."
+    },
+    {
+      "id": "word16",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert a footer?",
+      "options": [
+        "Insert → Footer",
+        "Home → Footer",
+        "Layout → Footer",
+        "Review → Footer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Footers are inserted via Insert tab."
+    },
+    {
+      "id": "word17",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option changes text case?",
+      "options": [
+        "Font Size",
+        "Change Case",
+        "Format",
+        "Style"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Change Case converts text between uppercase/lowercase."
+    },
+    {
+      "id": "word18",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to zoom in/out?",
+      "options": [
+        "View → Zoom",
+        "Layout → Zoom",
+        "Insert → Zoom",
+        "Home → Zoom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zoom controls are available in the View tab."
+    },
+    {
+      "id": "word19",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key moves cursor to next line?",
+      "options": [
+        "Tab",
+        "Enter",
+        "Shift",
+        "Ctrl"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enter moves cursor to next line."
+    },
+    {
+      "id": "word20",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert date and time?",
+      "options": [
+        "Insert → Date & Time",
+        "Home → Date",
+        "Layout → Time",
+        "Review → Date"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Date & Time is inserted from Insert tab."
+    },
+    {
+      "id": "word21",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key deletes text to the left?",
+      "options": [
+        "Delete",
+        "Backspace",
+        "Ctrl+Delete",
+        "Shift+Delete"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Backspace deletes characters to the left."
+    },
+    {
+      "id": "word22",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option changes font size?",
+      "options": [
+        "Font Size",
+        "Style",
+        "Format",
+        "Design"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Font Size adjusts text size."
+    },
+    {
+      "id": "word23",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab contains page setup options?",
+      "options": [
+        "Layout",
+        "Insert",
+        "Home",
+        "Review"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Page setup is under Layout tab."
+    },
+    {
+      "id": "word24",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option inserts a textbox?",
+      "options": [
+        "Insert → Text Box",
+        "Home → Text",
+        "Layout → Box",
+        "Review → Text"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Text boxes are added from Insert tab."
+    },
+    {
+      "id": "word25",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to view ruler?",
+      "options": [
+        "View → Ruler",
+        "Insert → Ruler",
+        "Layout → Ruler",
+        "Home → Ruler"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ruler visibility is controlled in View tab."
+    },
+    {
+      "id": "word26",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab contains Word Count?",
+      "options": [
+        "Review",
+        "Insert",
+        "Home",
+        "Layout"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Word Count is available in Review tab."
+    },
+    {
+      "id": "word27",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert symbols?",
+      "options": [
+        "Insert → Symbol",
+        "Home → Symbol",
+        "Layout → Symbol",
+        "View → Symbol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Symbols are inserted from Insert tab."
+    },
+    {
+      "id": "word28",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to create a bulleted list?",
+      "options": [
+        "Bullets",
+        "Numbering",
+        "List",
+        "Format"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bullets create unordered lists."
+    },
+    {
+      "id": "word29",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to create numbered list?",
+      "options": [
+        "Bullets",
+        "Numbering",
+        "List Style",
+        "Indent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Numbering creates ordered lists."
+    },
+    {
+      "id": "word30",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option increases indentation?",
+      "options": [
+        "Increase Indent",
+        "Decrease Indent",
+        "Align Right",
+        "Justify"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increase Indent moves text further from margin."
+    },
+    {
+      "id": "word31",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to open Print dialog?",
+      "options": [
+        "Ctrl+P",
+        "Ctrl+Shift+P",
+        "Alt+P",
+        "Ctrl+Alt+P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+P opens the Print dialog."
+    },
+    {
+      "id": "word32",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab is used to insert tables?",
+      "options": [
+        "Home",
+        "Insert",
+        "Layout",
+        "Design"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tables are inserted from the Insert tab."
+    },
+    {
+      "id": "word33",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to change page orientation?",
+      "options": [
+        "Insert",
+        "Home",
+        "Layout",
+        "View"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Page orientation is changed from the Layout tab."
+    },
+    {
+      "id": "word34",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to save document with a new name?",
+      "options": [
+        "Ctrl+S",
+        "F12",
+        "Ctrl+Shift+S",
+        "Alt+S"
+      ],
+      "correctAnswer": 1,
+      "explanation": "F12 opens Save As dialog."
+    },
+    {
+      "id": "word35",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to change page margins?",
+      "options": [
+        "Insert",
+        "Layout",
+        "Home",
+        "View"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Margins are adjusted in the Layout tab."
+    },
+    {
+      "id": "word36",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to select entire document?",
+      "options": [
+        "Ctrl+A",
+        "Ctrl+S",
+        "Ctrl+E",
+        "Ctrl+Shift+A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+A selects all content."
+    },
+    {
+      "id": "word37",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert page numbers?",
+      "options": [
+        "Insert",
+        "Home",
+        "Layout",
+        "Review"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Page numbers are inserted from Insert tab."
+    },
+    {
+      "id": "word38",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to undo an action?",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+U",
+        "Ctrl+X"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+Z undoes the last action."
+    },
+    {
+      "id": "word39",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert a picture?",
+      "options": [
+        "Insert",
+        "Home",
+        "View",
+        "Design"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pictures are inserted via Insert tab."
+    },
+    {
+      "id": "word40",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab contains paragraph settings?",
+      "options": [
+        "Home",
+        "Insert",
+        "Layout",
+        "Review"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paragraph settings are in Home tab."
+    },
+    {
+      "id": "word41",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to align text center?",
+      "options": [
+        "Ctrl+L",
+        "Ctrl+E",
+        "Ctrl+R",
+        "Ctrl+J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ctrl+E aligns text to center."
+    },
+    {
+      "id": "word42",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert a hyperlink?",
+      "options": [
+        "Insert",
+        "Home",
+        "Layout",
+        "View"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hyperlinks are inserted via Insert tab."
+    },
+    {
+      "id": "word43",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to find text?",
+      "options": [
+        "Ctrl+F",
+        "Ctrl+H",
+        "Ctrl+G",
+        "Ctrl+Shift+F"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ctrl+F opens find dialog."
+    },
+    {
+      "id": "word44",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to replace text?",
+      "options": [
+        "Ctrl+R",
+        "Ctrl+H",
+        "Ctrl+F",
+        "Ctrl+Shift+R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ctrl+H opens find and replace."
+    },
+    {
+      "id": "word45",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key is used to insert a new line without paragraph break?",
+      "options": [
+        "Enter",
+        "Shift+Enter",
+        "Ctrl+Enter",
+        "Alt+Enter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shift+Enter inserts line break."
+    },
+    {
+      "id": "word46",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which tab is used to change themes?",
+      "options": [
+        "Design",
+        "Home",
+        "Insert",
+        "View"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Themes are applied from Design tab."
+    },
+    {
+      "id": "word47",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to view document in full screen?",
+      "options": [
+        "Read Mode",
+        "Print Layout",
+        "Draft",
+        "Web Layout"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Read Mode provides full-screen view."
+    },
+    {
+      "id": "word48",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert shapes?",
+      "options": [
+        "Insert",
+        "Home",
+        "Layout",
+        "Review"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shapes are added via Insert tab."
+    },
+    {
+      "id": "word49",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which key moves cursor to next tab space?",
+      "options": [
+        "Tab",
+        "Enter",
+        "Shift",
+        "Ctrl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tab key moves cursor forward."
+    },
+    {
+      "id": "word50",
+      "subjectId": "ms-word",
+      "category": "ms-office",
+      "type": "mcq",
+      "question": "Which option is used to insert a watermark?",
+      "options": [
+        "Design",
+        "Insert",
+        "Layout",
+        "Home"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Watermarks are added via Design tab."
+    }
   ]
 }

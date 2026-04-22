@@ -65,7 +65,7 @@ export default function OtpVerification() {
       setLoading(true);
 
       const res = await fetch(
-        "http://127.0.0.1:8081/api/auth/verify-otp", // ✅ USER API
+        "http://localhost:8081/api/auth/verify-otp", // ✅ USER API
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

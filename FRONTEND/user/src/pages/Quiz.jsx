@@ -22,7 +22,9 @@ const MAX_WARNINGS = 3;
 const NEGATIVE_MARK = 1 / 3;
 
 export default function Quiz() {
-  const { subjectId } = useParams();
+  const { setId } = useParams();
+  console.log("setid", setId);
+
   const navigate = useNavigate();
   const submittedRef = useRef(false);
 
@@ -43,20 +45,20 @@ export default function Quiz() {
   /* 🔥 SUBMIT MODAL */
   const [showSubmitModal, setShowSubmitModal] = useState(false);
   // Convert any string to Title Case
-const toTitleCase = (text) => {
-  if (!text) return "";
+  const toTitleCase = (text) => {
+    if (!text) return "";
 
-  return text
-    .toLowerCase()
-    .split(" ")
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-};
+    return text
+      .toLowerCase()
+      .split(" ")
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
 
 
   /* ================= FETCH QUESTIONS ================= */
   useEffect(() => {
-    fetch(`http://127.0.0.1:8081/api/questions-public?subjectId=${subjectId}`)
+    fetch(`http://localhost:8081/api/questions/public?setId=${setId}`)
       .then((res) => res.json())
       .then((data) => {
         const mapped = data.questions.map((q) => ({
@@ -67,12 +69,13 @@ const toTitleCase = (text) => {
 
         setQuestions(mapped);
         setTimeLeft(Math.ceil(mapped.length * 0.7 * 60));
+        console.log("checking....", data);
 
         // ✅ SUBJECT NAME FROM BACKEND
         setSubjectName(data.subjectName || mapped[0]?.subjectName || "Subject");
       })
       .catch(() => toast.error("Failed to load exam"));
-  }, [subjectId]);
+  }, [setId]);
 
   useEffect(() => {
     if (!submittedRef.current) {
@@ -199,7 +202,7 @@ const toTitleCase = (text) => {
     const score = Math.max(0, +(correct - wrong * NEGATIVE_MARK).toFixed(2));
     const finalScore = Math.max(0, Number(score.toFixed(2)));
 
-        const percentage = +((score / total) * 100).toFixed(2);
+    const percentage = +((score / total) * 100).toFixed(2);
 
     const timeTakenSec =
       Math.ceil(questions.length * 0.7 * 60) - timeLeft;
@@ -210,7 +213,7 @@ const toTitleCase = (text) => {
     /* ===== NAVIGATE TO RESULT PAGE ===== */
     navigate("/result", {
       state: {
-        subjectId,
+
         subjectName,
         questions,
         answers,
@@ -228,27 +231,22 @@ const toTitleCase = (text) => {
     });
 
 
-    
+
     /* ===== SAVE RESULT TO BACKEND ===== */
     try {
-      await fetch("http://127.0.0.1:8081/api/result/email", {
+      const token = sessionStorage.getItem("user_token");
+
+      // ✅ 1. SAVE ATTEMPT (IMPORTANT)
+      await fetch("http://localhost:8081/api/sets/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(token && { Authorization: `Bearer ${token}` }),
+        },
         body: JSON.stringify({
-          userId: localStorage.getItem("user_id"),
-          userName: localStorage.getItem("user_name"),
-          email: localStorage.getItem("user_email"),
-          subjectId,
-          subjectName: questions[0]?.subjectName || "Exam",
-          questions,
-          answers,
-          total,
-          attempted,
-          correct,
-          wrong,
+          setId,
           score: finalScore,
-          percentage,
-          timeTakenSec,
+          total,
         }),
       });
     } catch (err) {
@@ -331,7 +329,7 @@ const toTitleCase = (text) => {
           <p className="question-text">{formatted.questionPart}</p>
 
           {q?.type === "output" && q?.code?.content && (
-            <pre className="code-block">
+            <pre key={q._id} className="code-block">
               <code className={`language-${q.code.language || "css"}`}>
                 {q.code.content}
               </code>
@@ -351,7 +349,7 @@ const toTitleCase = (text) => {
           </div>
 
           <div className="cbt-actions">
-                     <button
+            <button
               disabled={isFirst}
               className={isFirst ? "disabled-btn" : ""}
               onClick={() => !isFirst && setCurrent(c => c - 1)}
@@ -365,7 +363,7 @@ const toTitleCase = (text) => {
               {review[current] ? "Un-Review" : "Review"}
             </button>
 
-               <button
+            <button
               disabled={isLast}
               className={isLast ? "disabled-btn" : ""}
               onClick={() => !isLast && setCurrent(c => c + 1)}

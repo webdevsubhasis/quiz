@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* ================= ROOT THEME ================= */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -48,14 +50,17 @@ body {
 /* Controls max width for ALL screens */
 .page-wrapper {
   width: 100%;
-  max-width: 1400px; /* Desktop / Mac / TV */
-  padding: 0 16px;   /* Mobile safe padding */
+  max-width: 1400px;
+  /* Desktop / Mac / TV */
+  padding: 0 16px;
+  /* Mobile safe padding */
 }
 
 /* ================= BODY BACKGROUND ================= */
 body {
   background: radial-gradient(circle at top, #0f172a, #020617);
-  overflow-x: hidden; /* Prevent horizontal scroll bugs */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll bugs */
 }
 
 /* ================= LINKS ================= */

@@ -1,224 +1,180 @@
-const { ObjectId } = require("mongodb");
-const Set = require("../models/Set");
-const Question = require("../models/Question");
+const SetModel = require("../models/set"); // ✅ FIXED NAME
+const Attempt = require("../models/Attempt");
 
-/* ======================================================
-   CREATE SET (ADMIN)
-   POST /api/admin/sets
-====================================================== */
-exports.createSet = async (req, res, next) => {
+
+// ================= GET SETS BY SUBJECT =================
+exports.getSetsBySubject = async (req, res) => {
   try {
-    const {
-      subjectId,
-      setName,
-      duration,
-      totalMarks,
-      negativeMark,
-      instructions,
-    } = req.body;
+    const sets = await SetModel.find({
+      subjectId: req.params.subjectId,
+    })
+      .sort({ order: 1 })
+      .lean();
 
-    if (!subjectId || !setName || !duration) {
-      return res.status(400).json({
-        message: "subjectId, setName and duration required",
-      });
+    res.json(sets);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+
+// ================= SUBMIT TEST =================
+exports.submitSet = async (req, res) => {
+  try {
+    const { setId, score, total } = req.body;
+
+    const userId = req.user?.id || "000000000000000000000001";
+
+    // save attempt
+    await Attempt.create({
+      userId,
+      setId,
+      score,
+      total,
+    });
+
+    // increase popularity
+    await SetModel.findByIdAndUpdate(setId, {
+      $inc: { attemptCount: 1 },
+    });
+
+    res.json({ message: "Submitted" });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: err.message });
+  }
+};
+
+
+// ================= RECENT (NO DUPLICATES) =================
+exports.getRecentSets = async (req, res) => {
+  try {
+    const userId = req.user?.id || "000000000000000000000001";
+
+    const attempts = await Attempt.find({ userId })
+      .sort({ createdAt: -1 })
+      .populate("setId", "displayName name") // ✅ FIXED
+      .lean();
+
+    const seen = new Set();   // ✅ NOW WORKS
+    const result = [];
+
+    for (const a of attempts) {
+      if (!a.setId) continue;
+
+      const id = a.setId._id.toString();
+
+      if (!seen.has(id)) {
+        seen.add(id);
+
+        result.push({
+          setId: a.setId._id,
+          title: a.setId.displayName || a.setId.name || "Untitled", // ✅ FIXED
+          score: a.score,
+          total: a.total,
+        });
+      }
+
+      if (result.length === 5) break;
     }
 
-    const set = await Set.create({
-      subjectId,
-      setName,
-      duration,
-      totalMarks: totalMarks || 0,
-      negativeMark: negativeMark || 0,
-      instructions: instructions || [],
-    });
-
-    res.status(201).json({
-      message: "✅ Set created successfully",
-      set,
-    });
+    res.json(result);
   } catch (err) {
-    next(err);
+    res.status(500).json({ message: err.message });
   }
 };
 
-/* ======================================================
-   UPDATE SET
-   PUT /api/admin/sets/:id
-====================================================== */
-exports.updateSet = async (req, res, next) => {
+
+// ================= POPULAR (ONLY REAL DATA) =================
+exports.getPopularSets = async (req, res) => {
   try {
-    const { id } = req.params;
+    const sets = await SetModel.find({
+      attemptCount: { $gt: 0 },   // ✅ FIXED
+    })
+      .sort({ attemptCount: -1 })
+      .limit(5)
+      .select("displayName name attemptCount") // ✅ FIXED
+      .lean();
 
-    const updated = await Set.findByIdAndUpdate(
-      id,
-      { ...req.body, updatedAt: new Date() },
-      { new: true }
-    );
+    const result = sets.map((s) => ({
+      setId: s._id,
+      title: s.displayName || s.name || "Untitled", // ✅ FIXED
+      students: s.attemptCount,
+    }));
 
-    if (!updated)
-      return res.status(404).json({ message: "Set not found" });
-
-    res.json({
-      message: "Set updated successfully",
-      set: updated,
-    });
+    res.json(result);
   } catch (err) {
-    next(err);
+    res.status(500).json({ message: err.message });
   }
 };
 
-/* ======================================================
-   DELETE SET
-   DELETE /api/admin/sets/:id
-====================================================== */
-exports.deleteSet = async (req, res, next) => {
+
+// ================= DASHBOARD =================
+exports.getDashboard = async (req, res) => {
   try {
-    const { id } = req.params;
+    const userId = req.user?.id || "000000000000000000000001";
 
-    await Question.deleteMany({ setId: id });
-    await Set.findByIdAndDelete(id);
+    // ---------- RECENT ----------
+    const attempts = await Attempt.find({ userId })
+      .sort({ createdAt: -1 })
+      .populate({
+        path: "setId",
+        select: "displayName name subjectId",
+        populate: {
+          path: "subjectId",
+          select: "displayName",
+        },
+      })
+      .lean();
 
-    res.json({ message: "🗑️ Set and related questions deleted" });
-  } catch (err) {
-    next(err);
-  }
-};
+    const seen = new Set();
+    const recentExams = [];
 
-/* ======================================================
-   PUBLISH / UNPUBLISH SET
-   PATCH /api/admin/sets/:id/publish
-====================================================== */
-exports.togglePublishSet = async (req, res, next) => {
-  try {
-    const set = await Set.findById(req.params.id);
-    if (!set) return res.status(404).json({ message: "Set not found" });
+    for (const a of attempts) {
+      if (!a.setId) continue;
+      console.log("check subject name", a);
 
-    set.isPublished = !set.isPublished;
-    await set.save();
+      const id = a.setId._id.toString();
 
-    res.json({
-      message: set.isPublished ? "Set published" : "Set unpublished",
-      isPublished: set.isPublished,
-    });
-  } catch (err) {
-    next(err);
-  }
-};
+      if (!seen.has(id)) {
+        seen.add(id);
 
-/* ======================================================
-   GET SETS BY SUBJECT (Student Page)
-   GET /api/sets?subjectId=
-====================================================== */
-exports.getSetsBySubject = async (req, res, next) => {
-  try {
-    const { subjectId } = req.query;
-
-    if (!subjectId)
-      return res.status(400).json({ message: "subjectId required" });
-
-    const sets = await Set.find({
-      subjectId,
-      isPublished: true,
-    }).sort({ createdAt: -1 });
-
-    res.json({ sets });
-  } catch (err) {
-    next(err);
-  }
-};
-
-/* ======================================================
-   GET SET DETAILS (Instruction Modal)
-   GET /api/sets/:id
-====================================================== */
-exports.getSetDetails = async (req, res, next) => {
-  try {
-    const set = await Set.findById(req.params.id);
-
-    if (!set)
-      return res.status(404).json({ message: "Set not found" });
-
-    const totalQuestions = await Question.countDocuments({
-      setId: set._id,
-    });
-
-    res.json({
-      ...set.toObject(),
-      totalQuestions,
-    });
-  } catch (err) {
-    next(err);
-  }
-};
-
-/* ======================================================
-   START EXAM (Load Questions)
-   GET /api/sets/:id/start
-====================================================== */
-exports.startExam = async (req, res, next) => {
-  try {
-    const { id } = req.params;
-
-    const set = await Set.findById(id);
-    if (!set || !set.isPublished)
-      return res.status(404).json({ message: "Exam not available" });
-
-    const questions = await Question.find({ setId: id })
-      .select("-correctAnswer -answerIndex") // hide answers
-      .sort({ _id: 1 });
-
-    res.json({
-      set: {
-        id: set._id,
-        setName: set.setName,
-        duration: set.duration,
-        negativeMark: set.negativeMark,
-      },
-      questions,
-    });
-  } catch (err) {
-    next(err);
-  }
-};
-
-/* ======================================================
-   SUBMIT EXAM (Calculate Score)
-   POST /api/sets/:id/submit
-====================================================== */
-exports.submitExam = async (req, res, next) => {
-  try {
-    const { answers } = req.body; 
-    // answers = { questionId: selectedIndex }
-
-    const questions = await Question.find({ setId: req.params.id });
-
-    let score = 0;
-    let correct = 0;
-    let wrong = 0;
-
-    questions.forEach(q => {
-      const userAns = answers[q._id];
-
-      if (userAns === undefined) return;
-
-      const actual = q.correctAnswer ?? q.answerIndex;
-
-      if (userAns == actual) {
-        score += q.marks;
-        correct++;
-      } else {
-        score -= q.negativeMarks || 0;
-        wrong++;
+        recentExams.push({
+          setId: a.setId._id,
+          setType: a.setId.displayName || a.setId.name || "Untitled",
+          subject: a.setId.subjectId?.displayName || "Unknown",
+          score: a.score,
+          total: a.total,
+        });
       }
-    });
+
+      if (recentExams.length === 5) break;
+    }
+
+    // ---------- POPULAR ----------
+    const sets = await SetModel.find({
+      attemptCount: { $gt: 0 },
+    })
+      .sort({ attemptCount: -1 })
+      .limit(5)
+      .populate("subjectId", "displayName")
+      .select("displayName name attemptCount subjectId")
+      .lean();
+
+    const popularExams = sets.map((s) => ({
+      setId: s._id,
+      setType: s.displayName || s.name || "Untitled",
+      subject: s.subjectId?.displayName || "Unknown",
+      students: s.attemptCount,
+    }));
 
     res.json({
-      score,
-      correct,
-      wrong,
-      total: questions.length,
+      recentExams,
+      popularExams,
     });
+
   } catch (err) {
-    next(err);
+    console.error(err);
+    res.status(500).json({ message: err.message });
   }
 };

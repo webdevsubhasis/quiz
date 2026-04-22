@@ -4,10 +4,18 @@ const path = require("path");
 const storage = multer.memoryStorage();
 
 const fileFilter = (req, file, cb) => {
-  if (path.extname(file.originalname) !== ".json") {
-    return cb(new Error("Only JSON files allowed"), false);
+  if (path.extname(file.originalname).toLowerCase() !== ".json") {
+    return cb(new multer.MulterError("LIMIT_UNEXPECTED_FILE", "Only JSON files allowed"));
   }
   cb(null, true);
 };
 
-module.exports = multer({ storage, fileFilter });
+const upload = multer({
+  storage,
+  fileFilter,
+  limits: {
+    fileSize: 5 * 1024 * 1024, // 5MB
+  },
+});
+
+module.exports = upload;

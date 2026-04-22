@@ -1,145 +1,120 @@
-import React, { useEffect, useRef, useState } from "react";
-import SubjectCard from "../components/SubjectCard";
+import { useEffect, useState } from "react";
 import Header from "../components/Header";
-import toast from "react-hot-toast";
-import "../styles/Home.css";
-import { FiArrowUp } from "react-icons/fi";
+import HeroSlider from "../components/HeroSlider";
+import CategorySection from "../components/CategorySection";
+import ExamSection from "../components/ExamSection";
 
-const LIMIT = 8;
+import { fetchCategories } from "../services/category.service";
+import { getDashboard } from "../services/set.service";
+
+import "../styles/Home.css";
 
 export default function Home() {
-  const [subjects, setSubjects] = useState([]);
   const [search, setSearch] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [hasMore, setHasMore] = useState(true);
-  const [showTop, setShowTop] = useState(false);
 
-  const pageRef = useRef(1);
-  const fetchingRef = useRef(false);
-  const observerRef = useRef(null);
-  const isSearchingRef = useRef(false);
+  const [categories, setCategories] = useState([]);
+  const [recentExams, setRecentExams] = useState([]);
+  const [popularExams, setPopularExams] = useState([]);
 
-  /* 🔍 Detect search mode */
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
   useEffect(() => {
-    isSearchingRef.current = search.trim().length > 0;
-  }, [search]);
+    const loadData = async () => {
+      try {
+        const [categoryData, dashboardData] = await Promise.all([
+          fetchCategories(),
+          getDashboard(),
+        ]);
 
-  /* 📡 Fetch subjects */
-  const fetchSubjects = async ({ reset = false } = {}) => {
-    if (fetchingRef.current || (!hasMore && !reset)) return;
-
-    fetchingRef.current = true;
-    setLoading(true);
-
-    try {
-      const page = reset ? 1 : pageRef.current;
-
-      const res = await fetch(
-        `http://127.0.0.1:8081/api/admin/subjects?page=${page}&limit=${LIMIT}&search=${encodeURIComponent(
-          search
-        )}`
-      );
-
-      if (!res.ok) throw new Error("Fetch failed");
-
-      const data = await res.json();
-
-      setSubjects(prev =>
-        reset ? data.subjects : [...prev, ...data.subjects]
-      );
-
-      if (page >= data.totalPages) {
-        setHasMore(false);
-      } else {
-        pageRef.current = page + 1;
+        setCategories(categoryData);
+        setRecentExams(dashboardData.recentExams || []);
+        setPopularExams(dashboardData.popularExams || []);
+      } catch (err) {
+        console.error(err);
+        setError("Failed to load data");
+      } finally {
+        setLoading(false);
       }
-    } catch {
-      toast.error("Failed to load subjects");
-    } finally {
-      fetchingRef.current = false;
-      setLoading(false);
-    }
-  };
+    };
 
-  /* 🚀 Initial load */
-  useEffect(() => {
-    fetchSubjects({ reset: true });
-  }, []);
-
-  /* 🔍 Search handler (IMPORTANT FIX) */
-  useEffect(() => {
-    pageRef.current = 1;
-    setHasMore(true);
-    setSubjects([]); // 🔥 CLEAR OLD DATA
-
-    const delay = setTimeout(() => {
-      fetchSubjects({ reset: true });
-    }, 400);
-
-    return () => clearTimeout(delay);
-  }, [search]);
-
-  /* ♾ Infinite scroll (DISABLED during search) */
-  useEffect(() => {
-    if (!hasMore) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) return;
-        if (isSearchingRef.current) return; // 🔥 BLOCK APPEND
-        fetchSubjects();
-      },
-      { threshold: 0.25 }
-    );
-
-    if (observerRef.current) observer.observe(observerRef.current);
-    return () => observer.disconnect();
-  }, [hasMore]);
-
-  /* ⬆ Back to top */
-  useEffect(() => {
-    const onScroll = () => setShowTop(window.scrollY > 300);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    loadData();
   }, []);
 
   return (
     <>
       <Header onSearch={setSearch} />
 
-      <main className="home-page">
-        <div className="home-container">
-          <div className="home-hero">
-            <h1>Choose Your Subject</h1>
-            <p>Practice, improve & crack your exams 🚀</p>
+      <div className="bg-slate-950 min-h-screen text-white">
+        <div className="max-w-7xl mx-auto px-4 py-6 space-y-10">
+
+          {/* HERO */}
+          <HeroSlider />
+
+          {/* ================= CONTINUE JOURNEY ================= */}
+          {recentExams.length > 0 ? (
+            <ExamSection
+              title="Continue Your Journey"
+              exams={recentExams}
+              type="recent"
+            />
+          ) : (
+            <div className="bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-700 rounded-2xl p-10 text-center shadow-lg">
+
+              <h2 className="text-3xl font-bold mb-3">
+                🚀 Start Your First Exam
+              </h2>
+
+              <p className="text-slate-400 mb-6 max-w-md mx-auto">
+                You haven’t attempted any tests yet. Explore categories and begin your learning journey.
+              </p>
+
+              {/* CTA BUTTON */}
+              <button
+                onClick={() => {
+                  document.getElementById("category-section")?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl font-semibold transition"
+              >
+                Explore Categories
+              </button>
+            </div>
+          )}
+
+          {/* ================= POPULAR EXAMS ================= */}
+          {popularExams.length > 0 ? (
+            <ExamSection
+              title="🔥 Popular Exams"
+              exams={popularExams}
+              type="popular"
+            />
+          ) : (
+            <div className="flex items-center justify-center py-6">
+              <p className="text-slate-500 text-sm">
+                No popular exams yet — your attempt will be the first 🔥
+              </p>
+            </div>
+          )}
+
+          {/* ================= CATEGORY ================= */}
+          <div id="category-section">
+            {loading ? (
+              <div className="text-center text-slate-400">
+                Loading categories...
+              </div>
+            ) : error ? (
+              <div className="text-center text-red-400">
+                {error}
+              </div>
+            ) : (
+              <CategorySection categories={categories} />
+            )}
           </div>
 
-          <section className="subjects-grid">
-            {subjects.map(sub => (
-              <SubjectCard key={sub._id} subject={sub} search={search} />
-            ))}
-          </section>
-
-          {loading && <div className="home-loading">Loading...</div>}
-
-          {!loading && subjects.length === 0 && (
-            <div className="home-loading">No subject found</div>
-          )}
-
-          {hasMore && !isSearchingRef.current && (
-            <div ref={observerRef} className="scroll-sentinel" />
-          )}
         </div>
-      </main>
-
-      {showTop && (
-        <button
-          className="back-to-top"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        >
-          <FiArrowUp size={22} />
-        </button>
-      )}
+      </div>
     </>
   );
 }

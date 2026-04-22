@@ -16,6 +16,7 @@ import ResetPassword from "./pages/ResetPassword";
 /* ================= COMPONENTS ================= */
 import Footer from "./components/Footer";
 import ProtectedRoute from "./routes/ProtectedRoute";
+import SubjectSets from "./pages/SubjectSets";
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/subject/:subjectId" element={<SubjectSets />} />
 
             {/* ===== PASSWORD RECOVERY ===== */}
             <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -49,7 +51,7 @@ export default function App() {
 
             {/* ===== PROTECTED ROUTES ===== */}
             <Route
-              path="/quiz/:subjectId"
+              path="/quiz/:setId"
               element={
                 <ProtectedRoute>
                   <Quiz />

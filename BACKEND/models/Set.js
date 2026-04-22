@@ -6,44 +6,30 @@ const SetSchema = new mongoose.Schema({
     ref: "Subject",
     required: true,
   },
-
-  setName: {
+  name: {
     type: String,
     required: true,
+    lowercase: true,
   },
-
-  duration: {
-    type: Number,
-    required: true,
-  },
-
-  totalMarks: {
-    type: Number,
-    default: 0,
-  },
-
-  negativeMark: {
-    type: Number,
-    default: 0,
-  },
-
-  instructions: [
-    {
-      type: String,
-    },
-  ],
-
+  displayName: String,
   isPublished: {
     type: Boolean,
     default: true,
   },
-
+  order: {
+    type: Number,
+    default: 0,
+  },
+  attemptCount: {
+    type: Number,
+    default: 0
+  },
   createdAt: {
     type: Date,
     default: Date.now,
   },
-
-  updatedAt: Date,
 });
 
-module.exports = mongoose.model("Set", SetSchema);
+SetSchema.index({ subjectId: 1, name: 1 }, { unique: true });
+
+module.exports = mongoose.models.Set || mongoose.model("Set", SetSchema);

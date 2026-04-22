@@ -3,10 +3,10 @@ const router = express.Router();
 const subjectCtrl = require("../controllers/subject.controller");
 
 /* SUBJECT MANAGEMENT (ADMIN) */
-router.post("/subjects", subjectCtrl.addSubject);
-router.put("/subjects/:id", subjectCtrl.editSubject);
-router.get("/subjects/:id", subjectCtrl.getSingleSubject);
-router.get("/subjects", subjectCtrl.getAllSubjects);
-router.delete("/subjects/:id", subjectCtrl.deleteSubject);
+router.get("/", subjectCtrl.getAllSubjects);
+router.get("/:id", subjectCtrl.getSingleSubject);
+router.post("/", subjectCtrl.addSubject);
+router.put("/:id", subjectCtrl.editSubject);
+router.delete("/:id", subjectCtrl.deleteSubject);
 
 module.exports = router;

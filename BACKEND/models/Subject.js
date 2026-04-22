@@ -3,12 +3,12 @@ const mongoose = require("mongoose");
 const SubjectSchema = new mongoose.Schema({
   /* ================= RELATIONS ================= */
 
-  // NEW: subject belongs to section
-  sectionId: {
+  // ✅ UPDATED: subject belongs to category
+  categoryId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Section",
-    default: null, // keeps old data working
+    ref: "Category",
     index: true,
+    required: true,
   },
 
   /* ================= BASIC INFO ================= */
@@ -32,12 +32,6 @@ const SubjectSchema = new mongoose.Schema({
 
   /* ================= META ================= */
 
-  difficulty: {
-    type: String,
-    enum: ["easy", "medium", "hard"],
-    default: "medium",
-  },
-
   icon: {
     type: String,
     default: "📘",
@@ -54,7 +48,7 @@ const SubjectSchema = new mongoose.Schema({
   },
 
   /* ================= LEGACY SUPPORT ================= */
-  // for old questions already linked only by subject name
+
   legacyId: {
     type: String,
     default: null,
@@ -74,18 +68,17 @@ const SubjectSchema = new mongoose.Schema({
 });
 
 /* =====================================================
-   UNIQUE PER SECTION (NOT GLOBAL UNIQUE ANYMORE)
-   Same subject allowed in different exams
+   UNIQUE PER CATEGORY
 ===================================================== */
 SubjectSchema.index(
-  { sectionId: 1, name: 1 },
-  { unique: true, partialFilterExpression: { sectionId: { $type: "objectId" } } }
+  { categoryId: 1, name: 1 },
+  { unique: true }
 );
 
 /* =====================================================
    AUTO displayName generator
 ===================================================== */
-SubjectSchema.pre("save", function (next) {
+SubjectSchema.pre("save", function () {
   if (!this.displayName) {
     this.displayName = this.name
       .split("_")
@@ -94,7 +87,7 @@ SubjectSchema.pre("save", function (next) {
   }
 
   this.updatedAt = new Date();
-  next();
 });
 
-module.exports = mongoose.model("Subject", SubjectSchema);
+module.exports =
+  mongoose.models.Subject || mongoose.model("Subject", SubjectSchema);

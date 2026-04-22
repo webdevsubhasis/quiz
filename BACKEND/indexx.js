@@ -1,3 +1,14 @@
+const dns = require("dns");
+dns.setServers(["8.8.8.8", "1.1.1.1"]); // Google + Cloudflare DNS
+
+// OPTIONAL DEBUG
+dns.resolve("cluster0.ytyq8p5.mongodb.net", (err) => {
+  if (err) console.error("DNS ERROR:", err);
+  else console.log("DNS OK");
+});
+
+
+
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");

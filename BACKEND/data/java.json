@@ -1,336 +1,390 @@
 {
-  "category": "Java Programming",
+  "category": "core Programming ",
+  "subjectId": "java",
+  "subjectName": "Java Programming",
+  "set": "easy",
   "questions": [
     {
       "id": "j1",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Which of the following is not a Java feature?",
+      "question": "Which of the following is not a Java feature?",
       "options": [
         "Object-Oriented",
         "Platform Independent",
         "Memory Management",
         "Pointer Arithmetic"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "Java does not support pointer arithmetic."
     },
     {
       "id": "j2",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Java compiler converts source code into?",
+      "question": "Java compiler converts source code into?",
       "options": [
         "Machine Code",
         "Bytecode",
         "Assembly Code",
         "Object Code"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Java compiler converts code into bytecode."
     },
     {
       "id": "j3",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Which keyword is used to inherit a class in Java?",
+      "question": "Which keyword is used to inherit a class in Java?",
       "options": [
         "inherit",
         "extends",
         "implements",
         "super"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'extends' is used for inheritance."
     },
     {
       "id": "j4",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Which method is the entry point of a Java program?",
+      "question": "Which method is the entry point of a Java program?",
       "options": [
         "start()",
         "run()",
         "main()",
         "init()"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Execution starts from main()."
     },
     {
       "id": "j5",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Java is developed by?",
+      "question": "Java is developed by?",
       "options": [
         "Microsoft",
         "Sun Microsystems",
         "Google",
         "IBM"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Java was developed by Sun Microsystems."
     },
     {
       "id": "j6",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Which of the following is not a Java primitive data type?",
+      "question": "Which of the following is not a Java primitive data type?",
       "options": [
         "int",
         "float",
         "boolean",
         "String"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "String is not primitive."
     },
     {
       "id": "j7",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "What is the size of an int in Java?",
+      "question": "What is the size of an int in Java?",
       "options": [
         "2 bytes",
         "4 bytes",
         "8 bytes",
         "Depends on OS"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "int is always 4 bytes."
     },
     {
       "id": "j8",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Which keyword prevents method overriding?",
+      "question": "Which keyword prevents method overriding?",
       "options": [
         "static",
         "super",
         "sealed",
         "final"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "final prevents overriding."
     },
     {
       "id": "j9",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "mcq",
-      "title": "Which concept allows multiple methods with same name?",
+      "question": "Which concept allows multiple methods with same name?",
       "options": [
         "Overriding",
         "Overloading",
         "Encapsulation",
         "Abstraction"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Overloading allows same method name."
     },
     {
       "id": "j10",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "What is JVM?",
+      "question": "What is JVM?",
       "options": [
         "Java Variable Machine",
         "Java Virtual Machine",
         "Joint Virtual Module",
         "Java Version Manager"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "JVM stands for Java Virtual Machine."
     },
     {
       "id": "j11",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which package is imported by default?",
+      "question": "Which package is imported by default?",
       "options": [
         "java.io",
         "java.util",
         "java.lang",
         "java.net"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "java.lang package is imported automatically in every Java program."
     },
     {
       "id": "j12",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which OOP concept hides internal details?",
+      "question": "Which OOP concept hides internal details?",
       "options": [
         "Inheritance",
         "Abstraction",
         "Encapsulation",
         "Polymorphism"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Encapsulation hides internal data using access modifiers."
     },
     {
       "id": "j13",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which exception is unchecked?",
+      "question": "Which exception is unchecked?",
       "options": [
         "IOException",
         "SQLException",
         "ArithmeticException",
         "ClassNotFoundException"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "ArithmeticException is an unchecked (runtime) exception."
     },
     {
       "id": "j14",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which keyword is used to handle exceptions?",
+      "question": "Which keyword is used to handle exceptions?",
       "options": [
         "throw",
         "try",
         "finally",
         "catch"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The try block is used to handle exceptions."
     },
     {
       "id": "j15",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Wrapper class for int is?",
+      "question": "Wrapper class for int is?",
       "options": [
         "Integer",
         "Int",
         "Number",
         "WrapperInt"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Integer is the wrapper class for int."
     },
     {
       "id": "j16",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which collection stores unique elements?",
+      "question": "Which collection stores unique elements?",
       "options": [
         "ArrayList",
         "LinkedList",
         "HashSet",
         "Vector"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "HashSet does not allow duplicate elements."
     },
     {
       "id": "j17",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "What is the default value of a boolean?",
+      "question": "What is the default value of a boolean?",
       "options": [
         "true",
         "false",
         "0",
         "null"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The default value of boolean is false."
     },
     {
       "id": "j18",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which method is used to start a thread?",
+      "question": "Which method is used to start a thread?",
       "options": [
         "begin()",
         "start()",
         "run()",
         "execute()"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "start() is used to begin thread execution."
     },
     {
       "id": "j19",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which keyword is used to allocate memory?",
+      "question": "Which keyword is used to allocate memory?",
       "options": [
         "malloc",
         "alloc",
         "new",
         "memory"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The 'new' keyword allocates memory in Java."
     },
     {
       "id": "j20",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which of the following is synchronized by default?",
+      "question": "Which of the following is synchronized by default?",
       "options": [
         "ArrayList",
         "HashMap",
         "Vector",
         "HashSet"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Vector is synchronized by default."
     },
     {
       "id": "j21",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which is not part of Java?",
+      "question": "Which is not part of Java?",
       "options": [
         "JDK",
         "JVM",
         "JRE",
         "IDE"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "IDE is a development tool, not a core Programming part of Java."
     },
     {
       "id": "j22",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which file contains bytecode?",
+      "question": "Which file contains bytecode?",
       "options": [
         ".java",
         ".class",
         ".exe",
         ".jar"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": ".class files contain Java bytecode."
     },
     {
       "id": "j23",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which access modifier is most restrictive?",
+      "question": "Which access modifier is most restrictive?",
       "options": [
         "public",
         "private",
         "protected",
         "default"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "private is the most restrictive access modifier."
     },
     {
       "id": "j24",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which keyword is used to inherit an interface?",
+      "question": "Which keyword is used to inherit an interface?",
       "options": [
         "extends",
         "implements",
         "super",
         "interface"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Classes implement interfaces using 'implements'."
     },
     {
       "id": "j25",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "mcq",
-      "title": "Which method is always executed?",
+      "question": "Which method is always executed?",
       "options": [
         "catch()",
         "throw()",
         "finally()",
         "try()"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The finally block is always executed."
     },
     {
       "id": "j26",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "What is the output?",
+      "question": "What is the output?",
       "code": {
         "content": "int a = 5;\nSystem.out.println(a++);",
         "language": "java"
@@ -341,13 +395,15 @@
         "Error",
         "0"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Post-increment prints the current value first, then increments."
     },
     {
       "id": "j27",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "What is the output?",
+      "question": "What is the output?",
       "code": {
         "content": "int a = 5;\nSystem.out.println(++a);",
         "language": "java"
@@ -358,13 +414,15 @@
         "Error",
         "0"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Pre-increment increases the value before printing."
     },
     {
       "id": "j28",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println(10/3);",
         "language": "java"
@@ -375,13 +433,15 @@
         "3.0",
         "Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Integer division results in 3."
     },
     {
       "id": "j29",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println(10.0/3);",
         "language": "java"
@@ -392,13 +452,15 @@
         "3.0",
         "Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Floating-point division results in 3.33."
     },
     {
       "id": "j30",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println('A' + 1);",
         "language": "java"
@@ -409,13 +471,15 @@
         "Error",
         "B"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'A' has ASCII value 65, so 65 + 1 = 66."
     },
     {
       "id": "j31",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println(true && false);",
         "language": "java"
@@ -426,13 +490,15 @@
         "Error",
         "Runtime Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Logical AND returns true only if both are true. Here it is false."
     },
     {
       "id": "j32",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println(true || false);",
         "language": "java"
@@ -443,13 +509,15 @@
         "Error",
         "Runtime Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Logical OR returns true if at least one operand is true."
     },
     {
       "id": "j33",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "String s1 = \"Hello\";\nString s2 = \"Hello\";\nSystem.out.println(s1==s2);",
         "language": "java"
@@ -460,13 +528,15 @@
         "Error",
         "Depends"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "String literals share the same memory (string pool), so references are equal."
     },
     {
       "id": "j34",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "String s1 = new String(\"Hello\");\nString s2 = new String(\"Hello\");\nSystem.out.println(s1==s2);",
         "language": "java"
@@ -477,13 +547,15 @@
         "Error",
         "Depends"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "new String creates separate objects, so references are different."
     },
     {
       "id": "j35",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int[] arr = {1,2,3};\nSystem.out.println(arr[1]);",
         "language": "java"
@@ -494,13 +566,15 @@
         "3",
         "Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Array indexing starts from 0, so arr[1] = 2."
     },
     {
       "id": "j36",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "for(int i=0;i<3;i++) {System.out.print(i);}",
         "language": "java"
@@ -511,13 +585,15 @@
         "0123",
         "Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Loop runs from 0 to 2 → prints 012."
     },
     {
       "id": "j37",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int x = 10;\nSystem.out.println(x>5 ? 100 : 200);",
         "language": "java"
@@ -528,13 +604,15 @@
         "200",
         "Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Condition is true, so 100 is printed."
     },
     {
       "id": "j38",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int x = 10;\nint y = 20;\nSystem.out.println(x+y);",
         "language": "java"
@@ -545,13 +623,15 @@
         "30",
         "200"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "10 + 20 = 30."
     },
     {
       "id": "j39",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int a = 5;\nint b = a++ + ++a;\nSystem.out.println(b);",
         "language": "java"
@@ -562,13 +642,15 @@
         "10",
         "13"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "a++ = 5, then ++a = 7 → 5 + 7 = 12."
     },
     {
       "id": "j40",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "char c = 'A';\nc++;\nSystem.out.println(c);",
         "language": "java"
@@ -579,13 +661,15 @@
         "66",
         "Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'A' increments to 'B' in ASCII sequence."
     },
     {
       "id": "j41",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println(\"Hello\" + null);",
         "language": "java"
@@ -596,13 +680,15 @@
         "Error",
         "Helllonull"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "String concatenation with null results in 'Hellonull'."
     },
     {
       "id": "j42",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int a = 10;\na -= 5;\nSystem.out.println(a);",
         "language": "java"
@@ -613,13 +699,15 @@
         "15",
         "Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "a = 10 - 5 = 5."
     },
     {
       "id": "j43",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int x = 5;\nSystem.out.println(x<<1);",
         "language": "java"
@@ -630,13 +718,15 @@
         "20",
         "Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Left shift multiplies by 2 → 5 << 1 = 10."
     },
     {
       "id": "j44",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int x = 10;\nSystem.out.println(x%3);",
         "language": "java"
@@ -647,13 +737,15 @@
         "0",
         "Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "10 % 3 = 1."
     },
     {
       "id": "j45",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "boolean flag = false;\nSystem.out.println(!flag);",
         "language": "java"
@@ -664,13 +756,15 @@
         "Error",
         "Runtime Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Negation of false is true."
     },
     {
       "id": "j46",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int a = 5;\nint b = 2;\nSystem.out.println(a/b);",
         "language": "java"
@@ -681,13 +775,15 @@
         "3",
         "Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Integer division gives 2."
     },
     {
       "id": "j47",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int x=5;\nSystem.out.println(x!=5);",
         "language": "java"
@@ -698,13 +794,15 @@
         "Error",
         "Runtime Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "5 is equal to 5, so condition is false."
     },
     {
       "id": "j48",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int a=0;\nif(a=1) System.out.println(a);",
         "language": "java"
@@ -715,13 +813,15 @@
         "0",
         "Runtime Error"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Assignment inside if condition is invalid (expects boolean), causing compile-time error."
     },
     {
       "id": "j49",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "int a=5;\nSystem.out.println(a--);",
         "language": "java"
@@ -732,13 +832,15 @@
         "6",
         "Undefined"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Post-decrement prints current value first → 5."
     },
     {
       "id": "j50",
-      "language": "java",
+      "subjectId": "java",
+      "category": "core Programming ",
       "type": "output",
-      "title": "Output?",
+      "question": "Output?",
       "code": {
         "content": "System.out.println(\"Hello\"+5+5);",
         "language": "java"
@@ -749,7 +851,8 @@
         "10Hello5",
         "Error"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "String concatenation is left-to-right → \"Hello5\" + 5 = \"Hello55\"."
     }
   ]
 }

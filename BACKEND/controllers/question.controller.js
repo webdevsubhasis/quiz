@@ -1,12 +1,11 @@
 const { ObjectId } = require("mongodb");
 const logActivity = require("../utils/activityLogger");
 const ACTIVITY = require("../utils/activityTypes");
-const Subject = require("../models/Subject");
-const Question = require("../models/Question");
-const SetModel = require("../models/Set");
 const Section = require("../models/Section");
-const Subcategory = require("../models/Subcategory");
-const Category = require("../models/Category");
+const Category = require("../models/category");
+const Subject = require("../models/subject");
+const Set = require("../models/set");
+const Question = require("../models/question");
 /* =========================================================
    ADD QUESTION (ALL TYPES SUPPORTED + LOG)
    POST /api/admin/questions
@@ -36,7 +35,7 @@ exports.addQuestion = async (req, res, next) => {
     if (!setId || !title)
       return res.status(400).json({ message: "setId and title required" });
 
-    const set = await SetModel.findById(setId);
+    const set = await Set.findById(setId);
     if (!set)
       return res.status(404).json({ message: "Set not found" });
 
@@ -83,7 +82,13 @@ exports.addQuestion = async (req, res, next) => {
 
       type,
       title,
-      code: type === "output" ? code : null,
+      code:
+        type === "output"
+          ? {
+            ...code,
+            content: code.content.replace(/\\n/g, "\n"),
+          }
+          : null,
 
       options: options || [],
       correctAnswer,
@@ -125,213 +130,172 @@ exports.addQuestion = async (req, res, next) => {
 };
 
 /* ===================================================
-   IMPORT QUESTIONS FROM JSON (FULL SYSTEM IMPORT)
+/* ===================================================
+   IMPORT QUESTIONS (UPDATED STRUCTURE)
    POST /api/admin/questions/import
 =================================================== */
+
 exports.importQuestions = async (req, res, next) => {
   try {
-    const db = req.app.locals.db;
-
-  
-
-    const logActivity = require("../utils/activityLogger");
-    const ACTIVITY = require("../utils/activityTypes");
-
     /* ================= FILE CHECK ================= */
-    if (!req.file)
+    if (!req.file) {
       return res.status(400).json({ message: "JSON file required" });
+    }
 
     let parsed;
     try {
       parsed = JSON.parse(req.file.buffer.toString());
-    } catch {
+    } catch (err) {
       return res.status(400).json({ message: "Invalid JSON file" });
     }
 
-    /* ================= REQUIRED ROOT FIELDS ================= */
-    const required = ["category", "subcategory", "section", "subject", "set", "questions"];
-    for (const key of required) {
-      if (!parsed[key])
-        return res.status(400).json({ message: `Missing field: ${key}` });
+    /* ================= REQUIRED ROOT ================= */
+    if (!parsed.category || !parsed.subjectId || !parsed.subjectName || !parsed.questions) {
+      return res.status(400).json({
+        message: "Missing category / subjectId / subjectName / questions",
+      });
     }
 
     /* ================= CATEGORY ================= */
-    let category = await Category.findOne({ name: parsed.category.toLowerCase() });
+    let category = await Category.findOne({
+      name: parsed.category.toLowerCase(),
+    });
+
     if (!category) {
       category = await Category.create({
         name: parsed.category.toLowerCase(),
         displayName: parsed.category,
       });
-
-      await logActivity(db, {
-        actorType: "ADMIN",
-        action: ACTIVITY.CATEGORY_CREATED || "CATEGORY_CREATED",
-        entityType: "CATEGORY",
-        entityId: category._id,
-        message: `Auto created category: ${parsed.category}`,
-      });
-    }
-
-    /* ================= SUBCATEGORY ================= */
-    let subcategory = await Subcategory.findOne({
-      categoryId: category._id,
-      name: parsed.subcategory.toLowerCase(),
-    });
-
-    if (!subcategory) {
-      subcategory = await Subcategory.create({
-        categoryId: category._id,
-        name: parsed.subcategory.toLowerCase(),
-        displayName: parsed.subcategory,
-      });
-    }
-
-    /* ================= SECTION ================= */
-    let section = await Section.findOne({
-      subcategoryId: subcategory._id,
-      name: parsed.section.toLowerCase(),
-    });
-
-    if (!section) {
-      section = await Section.create({
-        subcategoryId: subcategory._id,
-        name: parsed.section.toLowerCase(),
-        displayName: parsed.section,
-      });
     }
 
     /* ================= SUBJECT ================= */
     let subject = await Subject.findOne({
-      sectionId: section._id,
-      name: parsed.subject.toLowerCase(),
+      name: parsed.subjectId.toLowerCase(),
     });
 
     if (!subject) {
       subject = await Subject.create({
-        sectionId: section._id,
-        name: parsed.subject.toLowerCase(),
-        displayName: parsed.subject,
-      });
-
-      await logActivity(db, {
-        actorType: "ADMIN",
-        action: ACTIVITY.SUBJECT.CREATED,
-        entityType: "SUBJECT",
-        entityId: subject._id,
-        message: `Auto created subject: ${parsed.subject}`,
+        categoryId: category._id,
+        name: parsed.subjectId.toLowerCase(),
+        displayName: parsed.subjectName,
       });
     }
 
-    /* ================= SET ================= */
-    let set = await SetModel.findOne({
-      subjectId: subject._id,
-      setName: parsed.set,
-    });
+    /* ================= ENSURE ALL SETS EXIST ================= */
+    const defaultSets = ["easy", "medium", "hard"];
+    const orderMap = { easy: 1, medium: 2, hard: 3 };
 
-    if (!set) {
-      set = await SetModel.create({
+    const setsMap = {};
+
+    for (const level of defaultSets) {
+      let set = await Set.findOne({
         subjectId: subject._id,
-        setName: parsed.set,
-        duration: parsed.duration || 15,
-        instructions: parsed.instructions || [
-          "Each question carries 1 mark",
-          "Negative marking applicable",
-          "Do not refresh the exam",
-        ],
+        name: level,
       });
+
+      if (!set) {
+        set = await Set.create({
+          subjectId: subject._id,
+          name: level,
+          displayName: level,
+          order: orderMap[level],
+          isPublished: true,
+        });
+      }
+
+      setsMap[level] = set;
     }
 
     /* ================= QUESTIONS VALIDATION ================= */
-    if (!Array.isArray(parsed.questions) || parsed.questions.length === 0)
+    if (!Array.isArray(parsed.questions) || parsed.questions.length === 0) {
       return res.status(400).json({ message: "No questions found" });
+    }
 
+    /* ================= SET RESOLUTION ================= */
+    let level = (parsed.set || "easy").toLowerCase();
+    const selectedSet = setsMap[level] || setsMap["easy"];
+
+    /* ================= PROCESS QUESTIONS ================= */
     const validDocs = [];
     const skipped = [];
 
-    parsed.questions.forEach((q, index) => {
-
-      if (!q.title) {
-        skipped.push({ index, reason: "Missing title" });
-        return;
+    for (const [index, q] of parsed.questions.entries()) {
+      if (!q.question) {
+        skipped.push({ index, reason: "Missing question" });
+        continue;
       }
 
-      /* ---------- TYPE VALIDATION ---------- */
       const type = q.type || "mcq";
 
+      /* ---------- VALIDATION ---------- */
       if (type === "mcq") {
-        if (!Array.isArray(q.options) || q.options.length !== 4 ||
-            typeof q.correctAnswer !== "number") {
-          skipped.push({ index, reason: "Invalid MCQ format" });
-          return;
+        if (
+          !Array.isArray(q.options) ||
+          q.options.length !== 4 ||
+          typeof q.correctAnswer !== "number"
+        ) {
+          skipped.push({ index, reason: "Invalid MCQ" });
+          continue;
         }
       }
 
       if (type === "output") {
-        if (!q.code || !q.code.content || !Array.isArray(q.options)) {
+        if (!q.code || !Array.isArray(q.options)) {
           skipped.push({ index, reason: "Invalid output question" });
-          return;
+          continue;
         }
       }
 
-      if (type === "integer") {
-        if (q.correctAnswer === undefined) {
-          skipped.push({ index, reason: "Invalid integer question" });
-          return;
-        }
-      }
-
+      /* ================= PUSH QUESTION ================= */
       validDocs.push({
-        setId: set._id,
+        setId: selectedSet._id,
         subjectId: subject._id,
-        questionId: q.id || null,
-        language: q.language || null,
+        categoryId: category._id,
+
+        title: q.question,
         type,
-        title: q.title,
-        code: type === "output" ? q.code : null,
+
         options: q.options || [],
         correctAnswer: q.correctAnswer,
+
         explanation: q.explanation || "",
+        code: q.code || null,
+
         marks: q.marks || 1,
         negativeMarks: q.negativeMarks || 0,
+
+        isActive: true,
       });
-    });
+    }
 
-    if (!validDocs.length)
-      return res.status(400).json({ message: "No valid questions to import" });
+    if (!validDocs.length) {
+      return res.status(400).json({
+        message: "No valid questions to import",
+        skipped,
+      });
+    }
 
-    /* ================= INSERT QUESTIONS ================= */
+    /* ================= INSERT ================= */
     const inserted = await Question.insertMany(validDocs);
-
-    /* ================= ACTIVITY LOG ================= */
-    await logActivity(db, {
-      actorType: "ADMIN",
-      action: ACTIVITY.QUESTION.BULK_IMPORT,
-      entityType: "QUESTION",
-      entityId: null,
-      message: `Imported ${inserted.length} questions into set "${set.setName}"`,
-      metadata: {
-        category: category.displayName,
-        subcategory: subcategory.displayName,
-        section: section.displayName,
-        subject: subject.displayName,
-        set: set.setName,
-      },
-    });
 
     /* ================= RESPONSE ================= */
     res.status(201).json({
       message: "✅ Questions imported successfully",
       category: category.displayName,
-      subcategory: subcategory.displayName,
-      section: section.displayName,
       subject: subject.displayName,
-      set: set.setName,
+      set: selectedSet.displayName,
       inserted: inserted.length,
       skipped: skipped.length,
     });
 
   } catch (err) {
-    next(err);
+    console.error("IMPORT ERROR:", err);
+
+    if (typeof next === "function") {
+      next(err);
+    } else {
+      res.status(500).json({ message: err.message });
+    }
   }
 };
 
@@ -341,10 +305,7 @@ exports.importQuestions = async (req, res, next) => {
 =================================================== */
 exports.updateQuestion = async (req, res, next) => {
   try {
-    const Question = require("../models/Question");
-    const SetModel = require("../models/Set");
-    const logActivity = require("../utils/activityLogger");
-    const ACTIVITY = require("../utils/activityTypes");
+
 
     const db = req.app.locals.db;
 
@@ -370,7 +331,7 @@ exports.updateQuestion = async (req, res, next) => {
 
     /* ================= SET CHANGE SUPPORT ================= */
     if (setId && setId !== String(question.setId)) {
-      const set = await SetModel.findById(setId);
+      const set = await Set.findById(setId);
       if (!set)
         return res.status(404).json({ message: "Target set not found" });
 
@@ -472,7 +433,7 @@ exports.updateQuestion = async (req, res, next) => {
 =================================================== */
 exports.getSingleQuestion = async (req, res, next) => {
   try {
-  
+
     const { id } = req.params;
 
     /* ================= FIND QUESTION ================= */
@@ -490,7 +451,7 @@ exports.getSingleQuestion = async (req, res, next) => {
 
     /* ================= NEW SYSTEM (SET BASED) ================= */
     if (question.setId) {
-      const set = await SetModel.findById(question.setId).lean();
+      const set = await Set.findById(question.setId).lean();
       if (set) {
         hierarchy.set = set.setName;
 
@@ -631,7 +592,7 @@ exports.getAdminQuestions = async (req, res, next) => {
       };
 
       if (q.setId) {
-        const set = await SetModel.findById(q.setId).lean();
+        const set = await Set.findById(q.setId).lean();
         if (set) {
           hierarchy.set = set.setName;
 
@@ -689,7 +650,7 @@ exports.getFrontendQuestions = async (req, res, next) => {
 
     // EXAM MODE (highest priority)
     if (setId) {
-      const set = await SetModel.findById(setId);
+      const set = await Set.findById(setId);
       if (!set || !set.isPublished)
         return res.status(404).json({ message: "Exam not available" });
 
@@ -723,7 +684,6 @@ exports.getFrontendQuestions = async (req, res, next) => {
         options: q.options || [],
         marks: q.marks || 1,
         negativeMarks: q.negativeMarks || 0,
-        difficulty: q.difficulty || "medium"
       };
     });
 
@@ -768,7 +728,7 @@ exports.deleteQuestion = async (req, res, next) => {
     let subjectName = null;
 
     if (question.setId) {
-      const set = await SetModel.findById(question.setId).lean();
+      const set = await Set.findById(question.setId).lean();
       setName = set?.setName || null;
 
       const subject = await Subject.findById(set?.subjectId).lean();

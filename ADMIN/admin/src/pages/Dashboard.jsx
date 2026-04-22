@@ -45,7 +45,7 @@ export default function Dashboard() {
     try {
       const token = localStorage.getItem("admin_token");
 
-      const res = await fetch("http://127.0.0.1:8081/api/admin/stats", {
+      const res = await fetch("http://localhost:8081/api/admin/stats", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
