@@ -1,9 +1,11 @@
-import {API_BASE_URL} from "../config/api";
+import { API_BASE_URL } from "../config/api";
 
-// ✅ common request handler
 const apiClient = async (endpoint, method = "GET", body = null) => {
     try {
-        const token = sessionStorage.getItem("user_token");
+        // 🔥 FIX: check BOTH storages
+        const token =
+            localStorage.getItem("user_token") ||
+            sessionStorage.getItem("user_token");
 
         const res = await fetch(`${API_BASE_URL}/api${endpoint}`, {
             method,
@@ -21,6 +23,7 @@ const apiClient = async (endpoint, method = "GET", body = null) => {
         }
 
         return data;
+
     } catch (error) {
         console.error("API ERROR:", error.message);
         throw error;

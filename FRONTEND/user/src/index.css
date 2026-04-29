@@ -63,6 +63,69 @@ body {
   /* Prevent horizontal scroll bugs */
 }
 
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+
+/* ================= loader ================= */
+/* TICKS */
+.tick {
+  position: absolute;
+  width: 2px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+/* HAND */
+.hand {
+  position: absolute;
+  width: 2px;
+  height: 32px;
+
+  background: linear-gradient(to top, #6366f1, transparent);
+
+  top: 50%;
+  left: 50%;
+
+  transform-origin: center bottom;
+  transform: translate(-50%, -100%) rotate(0deg);
+
+  border-radius: 2px;
+
+  animation: rotateHand 1.2s linear infinite;
+
+  box-shadow: 0 0 10px #6366f1;
+}
+
+/* CENTER */
+.center-dot {
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 0 0 6px white;
+}
+
+/* ROTATION */
+@keyframes rotateHand {
+  from {
+    transform: translate(-50%, -100%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -100%) rotate(360deg);
+  }
+}
+
 /* ================= LINKS ================= */
 a {
   font-weight: 500;
@@ -95,6 +158,16 @@ button:hover {
 button:focus {
   outline: none;
   border-color: #3b82f6;
+}
+
+/* smooth hidden scroll */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* ================= LARGE SCREENS / TV ================= */

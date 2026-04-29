@@ -52,7 +52,7 @@ exports.register = async (req, res, next) => {
       role: "student",
       createdAt: new Date(),
     });
-    sendWelcomeEmail(email, name);
+    // sendWelcomeEmail(email, name);
     await user.save();
 
     res.status(201).json({

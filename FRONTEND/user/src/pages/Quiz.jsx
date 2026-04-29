@@ -23,7 +23,6 @@ const NEGATIVE_MARK = 1 / 3;
 
 export default function Quiz() {
   const { setId } = useParams();
-  console.log("setid", setId);
 
   const navigate = useNavigate();
   const submittedRef = useRef(false);
@@ -61,15 +60,19 @@ export default function Quiz() {
     fetch(`http://localhost:8081/api/questions/public?setId=${setId}`)
       .then((res) => res.json())
       .then((data) => {
-        const mapped = data.questions.map((q) => ({
-          ...q,
-          question: q.title,
-          answer: q.correctAnswer,
-        }));
+        console.log("checking....", data)
+        const mapped = data.questions.map((q) => (
+
+          {
+
+            ...q,
+            question: q.title,
+            answer: q.correctAnswer,
+          }));
 
         setQuestions(mapped);
         setTimeLeft(Math.ceil(mapped.length * 0.7 * 60));
-        console.log("checking....", data);
+        // console.log("checking....", questions);
 
         // ✅ SUBJECT NAME FROM BACKEND
         setSubjectName(data.subjectName || mapped[0]?.subjectName || "Subject");
@@ -163,6 +166,7 @@ export default function Quiz() {
       setVisited((v) => ({ ...v, [current]: true }));
     }
   };
+  console.log("checkAnswer:", answers);
 
   const toggleReview = () => {
     if (!submittedRef.current) {
@@ -188,7 +192,7 @@ export default function Quiz() {
 
       if (userAnswer === undefined) return;
 
-      if (userAnswer === q.answer) {
+      if (userAnswer === q.correctAnswer) {
         correct++;
       } else {
         wrong++;
@@ -234,7 +238,9 @@ export default function Quiz() {
 
     /* ===== SAVE RESULT TO BACKEND ===== */
     try {
-      const token = sessionStorage.getItem("user_token");
+      const token =
+        localStorage.getItem("user_token") ||
+        sessionStorage.getItem("user_token");
 
       // ✅ 1. SAVE ATTEMPT (IMPORTANT)
       await fetch("http://localhost:8081/api/sets/submit", {
@@ -259,45 +265,79 @@ export default function Quiz() {
   /* ================= INSTRUCTIONS ================= */
   if (showInstructions) {
     return (
-      <div className="instructions-overlay">
-        <div className="instructions-card">
-          <h2>Exam Instructions</h2>
-          <h3>Subject Name: <span>{toTitleCase(subjectName)}</span></h3>
+      <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center px-4">
 
-          <ul>
+        <div className="w-full max-w-lg rounded-2xl bg-slate-900 border border-slate-700 shadow-2xl p-6 relative">
+
+          {/* 🔙 BACK BUTTON */}
+          <button
+            onClick={() => navigate(-1)}
+            className="absolute top-4 left-4 text-slate-400 hover:text-white transition text-sm flex items-center gap-1"
+          >
+            ← Back
+          </button>
+
+          {/* HEADER */}
+          <div className="text-center mb-5">
+            <h2 className="text-2xl font-semibold tracking-tight">
+              Exam Instructions
+            </h2>
+            <p className="text-sm text-slate-400 mt-1">
+              Please read carefully before starting
+            </p>
+          </div>
+
+          {/* SUBJECT */}
+          <div className="bg-slate-800/60 border border-slate-700 rounded-lg px-4 py-3 mb-5 text-center">
+            <span className="text-sm text-slate-400">Subject</span>
+            <div className="text-lg font-semibold">
+              {toTitleCase(subjectName)}
+            </div>
+          </div>
+
+          {/* RULES */}
+          <ul className="space-y-2 text-sm text-slate-300 mb-5">
             <li>⏱ Duration: {Math.ceil(questions.length * 0.7)} minutes</li>
             <li>❌ Negative marking: −1/3</li>
-            <li>🚫 No tab switching</li>
+            <li>🚫 No tab switching allowed</li>
             <li>⚠ Max {MAX_WARNINGS} warnings</li>
             <li>📱 Fullscreen mandatory</li>
             <li>📤 Auto-submit on timeout</li>
           </ul>
 
-          <label className="agree">
+          {/* AGREEMENT */}
+          <label className="flex items-center gap-2 text-sm text-slate-300 mb-5 cursor-pointer">
             <input
               type="checkbox"
               checked={acceptedRules}
               onChange={(e) => setAcceptedRules(e.target.checked)}
+              className="accent-indigo-500"
             />
             I agree to all instructions
           </label>
 
+          {/* ACTION */}
           <button
             disabled={!acceptedRules}
-            className="start-btn"
+            className={`
+            w-full py-3 rounded-lg font-medium transition
+            ${acceptedRules
+                ? "bg-indigo-600 hover:bg-indigo-700"
+                : "bg-slate-700 text-slate-400 cursor-not-allowed"}
+          `}
             onClick={() => {
               document.documentElement.requestFullscreen?.();
               setShowInstructions(false);
               setFullscreenStarted(true);
             }}
           >
-            Start Exam
+            Start Exam →
           </button>
+
         </div>
       </div>
     );
   }
-
   /* ================= EXAM UI ================= */
   const q = questions[current];
   const formatted = formatQuestion(q, current);

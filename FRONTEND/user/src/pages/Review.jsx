@@ -10,20 +10,21 @@ export default function Review() {
   if (!state || !state.questions || state.questions.length === 0) {
     return (
       <div className="review-error">
-  <div className="error-card">
-    <div className="error-icon">⚠️</div>
-    <h3>No Review Data Available</h3>
-    <p>Please complete the exam to view your answers.</p>
-    <button onClick={() => navigate(-1)}>⬅ Go Back</button>
-  </div>
-</div>
+        <div className="error-card">
+          <div className="error-icon">⚠️</div>
+          <h3>No Review Data Available</h3>
+          <p>Please complete the exam to view your answers.</p>
+          <button onClick={() => navigate(-1)}>⬅ Go Back</button>
+        </div>
+      </div>
 
     );
   }
 
   const { subjectName, questions, answers } = state;
 
-  
+  console.log("review check", questions);
+
 
   return (
     <div className="review-root">

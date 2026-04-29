@@ -641,30 +641,45 @@ exports.getAdminQuestions = async (req, res, next) => {
 =================================================== */
 exports.getFrontendQuestions = async (req, res, next) => {
   try {
-
     const { setId, subjectId, search } = req.query;
 
     const query = {};
+    let subjectName = null;
+    let finalSubjectId = null;
 
     /* ================= MODE SELECT ================= */
 
-    // EXAM MODE (highest priority)
+    // ✅ EXAM MODE
     if (setId) {
-      const set = await Set.findById(setId);
-      if (!set || !set.isPublished)
+      const set = await Set.findById(setId).lean();
+
+      if (!set || !set.isPublished) {
         return res.status(404).json({ message: "Exam not available" });
+      }
+
+      if (set.name.toLowerCase() === "hard" && !user.isPremium) {
+        return res.status(403).json({
+          message: "Upgrade required",
+        });
+      }
 
       query.setId = setId;
+
+      // 🔥 IMPORTANT: extract subjectId from set
+      finalSubjectId = set.subjectId;
     }
 
-    // PRACTICE MODE
+    // ✅ PRACTICE MODE
     else if (subjectId && subjectId !== "all") {
       query.subjectId = subjectId;
+      finalSubjectId = subjectId;
     }
 
-    // SEARCH
-    if (search)
+    /* ================= SEARCH ================= */
+
+    if (search) {
       query.title = { $regex: search, $options: "i" };
+    }
 
     /* ================= FETCH QUESTIONS ================= */
 
@@ -674,25 +689,28 @@ exports.getFrontendQuestions = async (req, res, next) => {
 
     /* ================= REMOVE ANSWERS ================= */
 
-    const sanitized = questions.map(q => {
-      return {
-        _id: q._id,
-        questionId: q.questionId || null,
-        type: q.type,
-        title: q.title,
-        code: q.code || null,
-        options: q.options || [],
-        marks: q.marks || 1,
-        negativeMarks: q.negativeMarks || 0,
-      };
-    });
+    const sanitized = questions.map((q) => ({
+      _id: q._id,
+      questionId: q.questionId || null,
+      type: q.type,
+      title: q.title,
+      code: q.code || null,
+      options: q.options || [],
+      marks: q.marks || 1,
+      negativeMarks: q.negativeMarks || 0,
+      correctAnswer: q.correctAnswer || 0,
+      explanation: q.explanation || null
+    }));
 
-    /* ================= SUBJECT NAME ================= */
+    /* ================= SUBJECT NAME (FIXED) ================= */
 
-    let subjectName = null;
-    if (subjectId) {
-      const subject = await Subject.findById(subjectId).lean();
-      subjectName = subject?.displayName || subject?.name || null;
+    if (finalSubjectId) {
+      const subject = await Subject.findById(finalSubjectId).lean();
+
+      subjectName =
+        subject?.displayName ||
+        subject?.name ||
+        null;
     }
 
     /* ================= RESPONSE ================= */
@@ -701,14 +719,13 @@ exports.getFrontendQuestions = async (req, res, next) => {
       mode: setId ? "exam" : "practice",
       subjectName,
       total: sanitized.length,
-      questions: sanitized
+      questions: sanitized,
     });
 
   } catch (err) {
     next(err);
   }
 };
-
 /* ===================================================
    DELETE QUESTION (SAFE + ACTIVITY LOG)
    DELETE /api/admin/questions/:id

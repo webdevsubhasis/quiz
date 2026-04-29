@@ -1,4 +1,6 @@
 import { useNavigate } from "react-router-dom";
+import { isLoggedIn, isPremiumUser } from "../utils/subscription";
+
 
 export default function ExamSection({ title, exams = [], type = "default" }) {
     const navigate = useNavigate();
@@ -30,7 +32,7 @@ export default function ExamSection({ title, exams = [], type = "default" }) {
                         {/* CONTENT */}
                         {type === "recent" ? (
                             <>
-                            {/* // <p className="text-sm text-gray-300 mb-3">
+                                {/* // <p className="text-sm text-gray-300 mb-3">
                             //     Score: {exam.score}/{exam.total}
                             // </p> */}
                             </>
@@ -42,7 +44,23 @@ export default function ExamSection({ title, exams = [], type = "default" }) {
 
                         {/* BUTTON */}
                         <button
-                            onClick={() => navigate(`/quiz/${exam.setId}`)}
+                            onClick={() => {
+                                if (!isLoggedIn()) {
+                                    navigate("/login");
+                                    return;
+                                }
+
+                                if (
+                                    exam.setType?.toLowerCase().includes("hard") &&
+                                    !isPremiumUser()
+                                ) {
+                                    alert("🔒 Premium required");
+                                    return;
+                                }
+
+                                navigate(`/quiz/${exam.setId}`);
+                            }}
+
                             className="w-full mt-2 py-2 rounded bg-black/30 hover:bg-black/50 text-white text-sm transition"
                         >
                             {type === "recent" ? "Reattempt" : "Start"}

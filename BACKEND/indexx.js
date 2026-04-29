@@ -50,6 +50,7 @@ const sectionRoutes = require("./routes/section.routes");
 const subjectRoutes = require("./routes/subject.routes");
 const questionRoutes = require("./routes/question.routes");
 const resultRoutes = require("./routes/result.routes");
+const Search = require("./routes/search.routes");
 
 // admin routes
 const adminRoutes = require("./routes/admin.routes");
@@ -65,7 +66,7 @@ app.use("/api/sets", setRoutes);
 app.use("/api/subjects", subjectRoutes);
 app.use("/api/questions", questionRoutes);
 app.use("/api/results", resultRoutes);
-
+app.use("/api/search", Search);
 /* ================= ADMIN ROUTES ================= */
 
 app.use("/api/admin", adminRoutes);

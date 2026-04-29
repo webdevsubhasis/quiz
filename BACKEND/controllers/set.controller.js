@@ -1,8 +1,10 @@
+const mongoose = require("mongoose");
 const SetModel = require("../models/set"); // ✅ FIXED NAME
 const Attempt = require("../models/Attempt");
-
+const Question = require("../models/Question"); // ✅ add this
 
 // ================= GET SETS BY SUBJECT =================
+
 exports.getSetsBySubject = async (req, res) => {
   try {
     const sets = await SetModel.find({
@@ -11,7 +13,21 @@ exports.getSetsBySubject = async (req, res) => {
       .sort({ order: 1 })
       .lean();
 
-    res.json(sets);
+    // 🔥 add question count
+    const setsWithCount = await Promise.all(
+      sets.map(async (set) => {
+        const count = await Question.countDocuments({
+          setId: set._id,
+        });
+
+        return {
+          ...set,
+          questionCount: count,
+        };
+      })
+    );
+
+    res.json(setsWithCount);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -85,73 +101,95 @@ exports.getRecentSets = async (req, res) => {
 };
 
 
-// ================= POPULAR (ONLY REAL DATA) =================
+
+
+/* =====================================================
+   GET POPULAR SETS
+===================================================== */
 exports.getPopularSets = async (req, res) => {
   try {
     const sets = await SetModel.find({
-      attemptCount: { $gt: 0 },   // ✅ FIXED
+      attemptCount: { $gt: 0 },
     })
       .sort({ attemptCount: -1 })
       .limit(5)
-      .select("displayName name attemptCount") // ✅ FIXED
+      .populate("subjectId", "displayName")
+      .select("displayName name attemptCount subjectId")
       .lean();
 
     const result = sets.map((s) => ({
       setId: s._id,
-      title: s.displayName || s.name || "Untitled", // ✅ FIXED
+      setType: s.displayName || s.name || "Untitled",
+      subject: s.subjectId?.displayName || "Unknown",
       students: s.attemptCount,
     }));
 
     res.json(result);
   } catch (err) {
+    console.error("❌ Popular Sets Error:", err);
     res.status(500).json({ message: err.message });
   }
 };
 
-
-// ================= DASHBOARD =================
+/* =====================================================
+   GET DASHBOARD (RECENT + POPULAR)
+===================================================== */
 exports.getDashboard = async (req, res) => {
   try {
-    const userId = req.user?.id || "000000000000000000000001";
+    const userId = req.user?.id;
 
-    // ---------- RECENT ----------
-    const attempts = await Attempt.find({ userId })
-      .sort({ createdAt: -1 })
-      .populate({
-        path: "setId",
-        select: "displayName name subjectId",
-        populate: {
-          path: "subjectId",
-          select: "displayName",
+    let recentExams = [];
+
+    /* ================= RECENT (ONLY IF LOGGED IN) ================= */
+    if (userId) {
+      recentExams = await Attempt.aggregate([
+        {
+          $match: {
+            userId: new mongoose.Types.ObjectId(userId),
+          },
         },
-      })
-      .lean();
-
-    const seen = new Set();
-    const recentExams = [];
-
-    for (const a of attempts) {
-      if (!a.setId) continue;
-      console.log("check subject name", a);
-
-      const id = a.setId._id.toString();
-
-      if (!seen.has(id)) {
-        seen.add(id);
-
-        recentExams.push({
-          setId: a.setId._id,
-          setType: a.setId.displayName || a.setId.name || "Untitled",
-          subject: a.setId.subjectId?.displayName || "Unknown",
-          score: a.score,
-          total: a.total,
-        });
-      }
-
-      if (recentExams.length === 5) break;
+        { $sort: { createdAt: -1 } },
+        {
+          $group: {
+            _id: "$setId",
+            latestAttempt: { $first: "$$ROOT" },
+          },
+        },
+        { $limit: 5 },
+        {
+          $lookup: {
+            from: "sets",
+            localField: "_id",
+            foreignField: "_id",
+            as: "set",
+          },
+        },
+        { $unwind: "$set" },
+        {
+          $lookup: {
+            from: "subjects",
+            localField: "set.subjectId",
+            foreignField: "_id",
+            as: "subject",
+          },
+        },
+        { $unwind: "$subject" },
+        {
+          $project: {
+            _id: 0,
+            setId: "$_id",
+            setType: {
+              $ifNull: ["$set.displayName", "$set.name"],
+            },
+            subject: "$subject.displayName",
+            score: "$latestAttempt.score",
+            total: "$latestAttempt.total",
+          },
+        },
+      ]);
     }
 
-    // ---------- POPULAR ----------
+    /* ================= POPULAR (ALWAYS) ================= */
     const sets = await SetModel.find({
       attemptCount: { $gt: 0 },
     })
@@ -174,7 +212,7 @@ exports.getDashboard = async (req, res) => {
     });
 
   } catch (err) {
-    console.error(err);
+    console.error("❌ Dashboard Error:", err);
     res.status(500).json({ message: err.message });
   }
 };

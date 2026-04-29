@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "../styles/Result.css";
+import { exitFullscreenSafe } from "../utils/fullscreen";
 
 export default function Result() {
   const { state } = useLocation();
@@ -75,11 +76,20 @@ export default function Result() {
 
         {/* ACTIONS */}
         <div className="result-actions">
-          <button onClick={() => navigate("/")}>Home</button>
+          <button
+            onClick={async () => {
+              await exitFullscreenSafe();
+              navigate("/");
+            }}
+          >
+            Home
+          </button>
 
           <button
             className="secondary"
-            onClick={() =>
+            onClick={async () => {
+              await exitFullscreenSafe();
+
               navigate("/review", {
                 state: {
                   subjectId,
@@ -87,8 +97,8 @@ export default function Result() {
                   questions,
                   answers,
                 },
-              })
-            }
+              });
+            }}
           >
             Review Answers
           </button>
